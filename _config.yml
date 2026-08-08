@@ -1,0 +1,45 @@
+title: enebin.log
+tagline: 배우고 만든 것을, 잊기 전에 씁니다.
+description: 개발하며 배운 것, 오래 기억하고 싶은 생각, 만드는 과정을 기록하는 enebin의 개인 블로그입니다.
+url: https://enebin.github.io
+baseurl: ""
+lang: ko_KR
+locale: ko_KR
+timezone: Asia/Seoul
+
+author:
+  name: enebin
+  url: https://github.com/enebin
+
+logo: /assets/og.png
+social:
+  name: enebin
+  links:
+    - https://github.com/enebin
+
+permalink: /posts/:title/
+excerpt_separator: <!--more-->
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      image: /assets/og.png
+  - scope:
+      path: ""
+    values:
+      image: /assets/og.png
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - work
+  - outputs

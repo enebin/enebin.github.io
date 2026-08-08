@@ -1,0 +1,17 @@
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="{{ '/' | relative_url }}" aria-label="enebin.log 홈">
+      <span>enebin.log</span>
+    </a>
+    <span class="header-status">2026 · SEOUL</span>
+    <nav class="site-nav" aria-label="주요 메뉴">
+      <a{% if page.nav == 'writing' %} class="active"{% endif %} href="{{ '/#writing' | relative_url }}">글</a>
+      <a{% if page.nav == 'about' %} class="active"{% endif %} href="{{ '/about/' | relative_url }}">소개</a>
+      <a href="https://github.com/enebin" rel="me">GitHub</a>
+      <button class="theme-toggle" type="button" aria-label="화면 테마 바꾸기">
+        <span aria-hidden="true">◐</span>
+        <span class="theme-label">테마</span>
+      </button>
+    </nav>
+  </div>
+</header>
