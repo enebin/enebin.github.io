@@ -1,11 +1,14 @@
 <footer class="site-footer">
-  <div class="footer-statement" aria-hidden="true">Keep writing.</div>
   <div class="shell footer-inner">
-    <p>© {{ 'now' | date: '%Y' }} enebin. 기록은 천천히, 꾸준히.</p>
+    <div>
+      <strong>enebin.log</strong>
+      <p>배우고 만든 것을, 잊기 전에 씁니다.</p>
+    </div>
     <div class="footer-links">
+      <a href="{{ '/about/' | relative_url }}">About</a>
       <a href="https://github.com/enebin">GitHub</a>
       <a href="{{ '/feed.xml' | relative_url }}">RSS</a>
-      <a href="#main">맨 위로 ↑</a>
     </div>
   </div>
+  <p class="shell copyright">© {{ 'now' | date: '%Y' }} enebin. All rights reserved.</p>
 </footer>

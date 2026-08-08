@@ -3,15 +3,11 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#f4f0e8" />
+    <meta name="theme-color" content="#ffffff" />
     {% seo %}
     {% feed_meta %}
     <link rel="icon" type="image/png" href="{{ '/assets/favicon.png' | relative_url }}" />
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}" />
-    <script>
-      document.documentElement.dataset.theme = localStorage.getItem("theme") || "auto";
-    </script>
-    <script src="{{ '/assets/js/theme.js' | relative_url }}" defer></script>
   </head>
   <body{% if page.body_class %} class="{{ page.body_class }}"{% endif %}>
     <a class="skip-link" href="#main">본문으로 바로가기</a>
