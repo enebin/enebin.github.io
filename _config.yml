@@ -20,6 +20,16 @@ social:
 permalink: /posts/:title/
 excerpt_separator: <!--more-->
 
+# 값이 비어 있으면 해당 기능이 렌더링되지 않는다.
+giscus:
+  repo: enebin/enebin.github.io
+  repo_id: "R_kgDOE57FQw"
+  category: Announcements
+  category_id: "DIC_kwDOE57FQ84DDAPL"
+
+# goatcounter.com 계정 코드 (예: enebin -> enebin.goatcounter.com)
+goatcounter: "enebin"
+
 defaults:
   - scope:
       path: ""

@@ -9,6 +9,7 @@ nav: writing
       <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: '%Y년 %m월 %d일' }}</time>
       <span aria-hidden="true">/</span>
       <span>{{ page.category | default: '기록' }}</span>
+      {% if site.goatcounter.size > 0 %}<span class="post-views" hidden></span>{% endif %}
     </div>
     {% if page.description %}<p class="article-lead">{{ page.description }}</p>{% endif %}
   </header>
@@ -18,7 +19,43 @@ nav: writing
   <div class="prose article-body">
     {{ content }}
   </div>
+  {% if site.giscus.repo_id.size > 0 and site.giscus.category_id.size > 0 %}
+  <section class="comments" aria-label="댓글">
+    <script
+      src="https://giscus.app/client.js"
+      data-repo="{{ site.giscus.repo }}"
+      data-repo-id="{{ site.giscus.repo_id }}"
+      data-category="{{ site.giscus.category }}"
+      data-category-id="{{ site.giscus.category_id }}"
+      data-mapping="pathname"
+      data-strict="1"
+      data-reactions-enabled="1"
+      data-input-position="top"
+      data-theme="light"
+      data-lang="ko"
+      data-loading="lazy"
+      crossorigin="anonymous"
+      async
+    ></script>
+  </section>
+  {% endif %}
   <footer class="article-footer">
     <a href="{{ '/#writing' | relative_url }}">← 모든 글 보기</a>
   </footer>
 </article>
+{% if site.goatcounter.size > 0 %}
+<script>
+  (function () {
+    var el = document.querySelector('.post-views');
+    if (!el) return;
+    fetch('https://{{ site.goatcounter }}.goatcounter.com/counter/' + encodeURIComponent(location.pathname) + '.json')
+      .then(function (res) { return res.ok ? res.json() : null; })
+      .then(function (data) {
+        if (!data) return;
+        el.textContent = '조회 ' + data.count;
+        el.hidden = false;
+      })
+      .catch(function () {});
+  })();
+</script>
+{% endif %}
