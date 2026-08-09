@@ -49,9 +49,8 @@ nav: writing
     var el = document.querySelector('.post-views');
     if (!el) return;
     fetch('https://{{ site.goatcounter }}.goatcounter.com/counter/' + encodeURIComponent(location.pathname) + '.json')
-      .then(function (res) { return res.ok ? res.json() : null; })
+      .then(function (res) { return res.json(); })
       .then(function (data) {
-        if (!data) return;
         el.textContent = '조회 ' + data.count;
         el.hidden = false;
       })
