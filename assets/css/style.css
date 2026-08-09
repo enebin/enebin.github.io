@@ -20,7 +20,7 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: var(--font);
-  line-height: 1.75;
+  line-height: 1.65;
   word-break: keep-all;
   text-rendering: optimizeLegibility;
 }
@@ -172,7 +172,7 @@ img {
   margin: 15px 0 0;
   color: #494949;
   font-size: 0.89rem;
-  line-height: 1.9;
+  line-height: 1.75;
 }
 
 .read-more {
@@ -250,7 +250,7 @@ img {
 .prose {
   color: #2b2b2b;
   font-size: 1rem;
-  line-height: 2;
+  line-height: 1.8;
 }
 
 .prose h1 {
