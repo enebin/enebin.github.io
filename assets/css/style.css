@@ -292,6 +292,23 @@ img {
   color: #4f4f4f;
 }
 
+.prose figure {
+  margin: 2.6em 0;
+}
+
+.prose figure img {
+  width: 100%;
+  border: 1px solid var(--line);
+}
+
+.prose figcaption {
+  margin-top: 12px;
+  color: var(--muted);
+  font-size: 0.8rem;
+  line-height: 1.7;
+  text-align: center;
+}
+
 .prose code {
   padding: 2px 5px;
   border-radius: 3px;

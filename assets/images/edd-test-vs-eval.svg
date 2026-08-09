@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 540" width="1200" height="540" role="img" aria-label="일반 소프트웨어 테스트와 GenAI 평가의 차이 비교">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="540" fill="#ffffff"/>
+
+  <!-- left panel -->
+  <rect x="48" y="48" width="512" height="444" fill="#fafafa"/>
+  <text class="t" x="88" y="112" font-size="17" font-weight="700" letter-spacing="2" fill="#6d6d6d">지금까지 하던 테스트</text>
+  <rect x="88" y="130" width="44" height="3" fill="#191919"/>
+
+  <text class="t" x="88" y="212" font-size="26" font-weight="700" fill="#191919">입력이 같으면 출력도 같다</text>
+  <text class="t" x="88" y="248" font-size="19" fill="#6d6d6d">그래서 한 번 통과하면 계속 통과한다</text>
+
+  <text class="t" x="88" y="322" font-size="26" font-weight="700" fill="#191919">정답이 하나로 정해져 있다</text>
+  <text class="t" x="88" y="358" font-size="19" fill="#6d6d6d">기댓값과 비교하면 끝난다</text>
+
+  <text class="t" x="88" y="432" font-size="26" font-weight="700" fill="#191919">통과 아니면 실패</text>
+
+  <!-- right panel -->
+  <rect x="640" y="48" width="512" height="444" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="680" y="112" font-size="17" font-weight="700" letter-spacing="2" fill="#e34f32">GenAI 기능의 평가</text>
+  <rect x="680" y="130" width="44" height="3" fill="#e34f32"/>
+
+  <text class="t" x="680" y="212" font-size="26" font-weight="700" fill="#191919">같은 입력에도 답이 달라진다</text>
+  <text class="t" x="680" y="248" font-size="19" fill="#6d6d6d">어제 통과한 케이스가 오늘 깨진다</text>
+
+  <text class="t" x="680" y="322" font-size="26" font-weight="700" fill="#191919">&#34;좋다&#34;의 기준이 주관적이다</text>
+  <text class="t" x="680" y="358" font-size="19" fill="#6d6d6d">사람마다 판정이 갈린다</text>
+
+  <text class="t" x="680" y="432" font-size="26" font-weight="700" fill="#191919">망가지는 지점이 여러 개다</text>
+  <text class="t" x="680" y="468" font-size="19" fill="#6d6d6d">검색 · 추론 · 도구 호출 · 생성이 따로 실패한다</text>
+</svg>

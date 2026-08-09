@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 458" width="1200" height="458" role="img" aria-label="에이전트의 검색, 추론, 도구 호출, 최종 답변 단계마다 무엇을 확인해야 하는지 보여주는 그림">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="458" fill="#ffffff"/>
+
+  <text class="t" x="46" y="62" font-size="16" font-weight="700" letter-spacing="2" fill="#6d6d6d">에이전트 한 번의 실행</text>
+
+  <!-- stage 1 -->
+  <rect x="46" y="86" width="244" height="86" fill="#fafafa"/>
+  <text class="t" x="168" y="138" text-anchor="middle" font-size="25" font-weight="700" fill="#191919">검색</text>
+  <path d="M302 129 L324 129" stroke="#191919" stroke-width="2"/>
+  <path d="M318 122 L326 129 L318 136" fill="none" stroke="#191919" stroke-width="2"/>
+
+  <!-- stage 2 -->
+  <rect x="334" y="86" width="244" height="86" fill="#fafafa"/>
+  <text class="t" x="456" y="138" text-anchor="middle" font-size="25" font-weight="700" fill="#191919">추론</text>
+  <path d="M590 129 L612 129" stroke="#191919" stroke-width="2"/>
+  <path d="M606 122 L614 129 L606 136" fill="none" stroke="#191919" stroke-width="2"/>
+
+  <!-- stage 3 -->
+  <rect x="622" y="86" width="244" height="86" fill="#fafafa"/>
+  <text class="t" x="744" y="138" text-anchor="middle" font-size="25" font-weight="700" fill="#191919">도구 호출</text>
+  <path d="M878 129 L900 129" stroke="#191919" stroke-width="2"/>
+  <path d="M894 122 L902 129 L894 136" fill="none" stroke="#191919" stroke-width="2"/>
+
+  <!-- stage 4 -->
+  <rect x="910" y="86" width="244" height="86" fill="#ffffff" stroke="#191919" stroke-width="2"/>
+  <text class="t" x="1032" y="138" text-anchor="middle" font-size="25" font-weight="700" fill="#191919">최종 답변</text>
+
+  <!-- dashed drops -->
+  <path d="M168 178 L168 214" stroke="#c9c9c9" stroke-width="2" stroke-dasharray="4 5"/>
+  <path d="M456 178 L456 214" stroke="#c9c9c9" stroke-width="2" stroke-dasharray="4 5"/>
+  <path d="M744 178 L744 214" stroke="#c9c9c9" stroke-width="2" stroke-dasharray="4 5"/>
+  <path d="M1032 178 L1032 214" stroke="#c9c9c9" stroke-width="2" stroke-dasharray="4 5"/>
+
+  <!-- checks -->
+  <text class="t" x="168" y="244" text-anchor="middle" font-size="17" fill="#6d6d6d">근거가 될 자료를</text>
+  <text class="t" x="168" y="270" text-anchor="middle" font-size="17" fill="#6d6d6d">제대로 가져왔나</text>
+
+  <text class="t" x="456" y="244" text-anchor="middle" font-size="17" fill="#6d6d6d">거쳐 간 경로가</text>
+  <text class="t" x="456" y="270" text-anchor="middle" font-size="17" fill="#6d6d6d">말이 되나</text>
+
+  <text class="t" x="744" y="244" text-anchor="middle" font-size="17" fill="#6d6d6d">맞는 도구를</text>
+  <text class="t" x="744" y="270" text-anchor="middle" font-size="17" fill="#6d6d6d">정확하게 골랐나</text>
+
+  <text class="t" x="1032" y="244" text-anchor="middle" font-size="17" fill="#6d6d6d">사실과 형식이</text>
+  <text class="t" x="1032" y="270" text-anchor="middle" font-size="17" fill="#6d6d6d">맞나</text>
+
+  <!-- bracket over first three -->
+  <path d="M46 342 L46 322 L866 322 L866 342" fill="none" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="456" y="378" text-anchor="middle" font-size="20" font-weight="700" fill="#e34f32">최종 답변만 채점하면 이 구간이 통째로 사각지대가 된다</text>
+  <text class="t" x="456" y="412" text-anchor="middle" font-size="17" fill="#6d6d6d">운 좋게 답만 맞은 경우와 제대로 풀어낸 경우가 같은 점수를 받는다</text>
+</svg>

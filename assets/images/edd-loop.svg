@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 560" width="1200" height="560" role="img" aria-label="탐색, 지표 만들기, 심판 보정, 확장과 모니터링으로 이어지는 순환 그림">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="560" fill="#ffffff"/>
+
+  <!-- step 1 -->
+  <rect x="46" y="90" width="244" height="200" fill="#fafafa"/>
+  <text class="t" x="74" y="140" font-size="15" font-weight="700" letter-spacing="2" fill="#e34f32">STEP 1</text>
+  <text class="t" x="74" y="186" font-size="25" font-weight="700" fill="#191919">직접 읽기</text>
+  <text class="t" x="74" y="224" font-size="17" fill="#6d6d6d">출력 100개를 눈으로</text>
+  <text class="t" x="74" y="250" font-size="17" fill="#6d6d6d">보고 실패를 분류한다</text>
+
+  <path d="M302 190 L324 190" stroke="#191919" stroke-width="2"/>
+  <path d="M318 183 L326 190 L318 197" fill="none" stroke="#191919" stroke-width="2"/>
+
+  <!-- step 2 -->
+  <rect x="334" y="90" width="244" height="200" fill="#fafafa"/>
+  <text class="t" x="362" y="140" font-size="15" font-weight="700" letter-spacing="2" fill="#e34f32">STEP 2</text>
+  <text class="t" x="362" y="186" font-size="25" font-weight="700" fill="#191919">지표 만들기</text>
+  <text class="t" x="362" y="224" font-size="17" fill="#6d6d6d">실제로 본 실패만</text>
+  <text class="t" x="362" y="250" font-size="17" fill="#6d6d6d">겨냥해 평가자를 짠다</text>
+
+  <path d="M590 190 L612 190" stroke="#191919" stroke-width="2"/>
+  <path d="M606 183 L614 190 L606 197" fill="none" stroke="#191919" stroke-width="2"/>
+
+  <!-- step 3 -->
+  <rect x="622" y="90" width="244" height="200" fill="#fafafa"/>
+  <text class="t" x="650" y="140" font-size="15" font-weight="700" letter-spacing="2" fill="#e34f32">STEP 3</text>
+  <text class="t" x="650" y="186" font-size="25" font-weight="700" fill="#191919">심판 보정</text>
+  <text class="t" x="650" y="224" font-size="17" fill="#6d6d6d">사람 판정과 80~90%대</text>
+  <text class="t" x="650" y="250" font-size="17" fill="#6d6d6d">일치할 때까지 맞춘다</text>
+
+  <path d="M878 190 L900 190" stroke="#191919" stroke-width="2"/>
+  <path d="M894 183 L902 190 L894 197" fill="none" stroke="#191919" stroke-width="2"/>
+
+  <!-- step 4 -->
+  <rect x="910" y="90" width="244" height="200" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="938" y="140" font-size="15" font-weight="700" letter-spacing="2" fill="#e34f32">STEP 4</text>
+  <text class="t" x="938" y="186" font-size="25" font-weight="700" fill="#191919">확장과 관찰</text>
+  <text class="t" x="938" y="224" font-size="17" fill="#6d6d6d">수천 건으로 늘리고</text>
+  <text class="t" x="938" y="250" font-size="17" fill="#6d6d6d">운영에서 계속 지켜본다</text>
+
+  <!-- loop back -->
+  <path d="M1032 306 L1032 392 L168 392 L168 306" fill="none" stroke="#c9c9c9" stroke-width="2"/>
+  <path d="M161 314 L168 304 L175 314" fill="none" stroke="#c9c9c9" stroke-width="2"/>
+  <text class="t" x="600" y="444" text-anchor="middle" font-size="19" fill="#6d6d6d">새로운 실패 유형이 보이면 다시 1번으로 돌아간다</text>
+  <text class="t" x="600" y="478" text-anchor="middle" font-size="17" fill="#9a9a9a">한 번 만들고 끝나는 작업이 아니다</text>
+</svg>

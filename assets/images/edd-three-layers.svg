@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="평가를 코드 규칙 검사, LLM 심판, 사람 평가 세 층으로 나눈 그림">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+
+  <!-- side axis -->
+  <text class="t" x="72" y="150" font-size="17" font-weight="700" fill="#6d6d6d">싸고 빠르다</text>
+  <path d="M92 176 L92 560" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="72" y="596" font-size="17" font-weight="700" fill="#6d6d6d">비싸고 느리다</text>
+
+  <!-- layer 1 -->
+  <rect x="180" y="90" width="900" height="140" fill="#fafafa"/>
+  <text class="t" x="220" y="140" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">1층</text>
+  <text class="t" x="220" y="180" font-size="30" font-weight="700" fill="#191919">코드 규칙 검사</text>
+  <text class="t" x="220" y="212" font-size="19" fill="#6d6d6d">JSON 스키마, 필수 항목, 금칙어처럼 기계가 딱 잘라 판정할 수 있는 것</text>
+
+  <path d="M630 236 L630 268" stroke="#c9c9c9" stroke-width="2"/>
+  <path d="M622 260 L630 270 L638 260" fill="none" stroke="#c9c9c9" stroke-width="2"/>
+  <text class="t" x="656" y="262" font-size="16" fill="#6d6d6d">여기서 걸러지면 뒤로 안 보낸다</text>
+
+  <!-- layer 2 -->
+  <rect x="180" y="278" width="900" height="140" fill="#fafafa"/>
+  <text class="t" x="220" y="328" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">2층</text>
+  <text class="t" x="220" y="368" font-size="30" font-weight="700" fill="#191919">LLM 심판</text>
+  <text class="t" x="220" y="400" font-size="19" fill="#6d6d6d">더 센 모델이 루브릭을 들고 톤, 일관성 같은 미묘한 품질을 채점한다</text>
+
+  <path d="M630 424 L630 456" stroke="#c9c9c9" stroke-width="2"/>
+  <path d="M622 448 L630 458 L638 448" fill="none" stroke="#c9c9c9" stroke-width="2"/>
+  <text class="t" x="656" y="450" font-size="16" fill="#6d6d6d">판단이 갈리는 것만 위로 올린다</text>
+
+  <!-- layer 3 -->
+  <rect x="180" y="466" width="900" height="140" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="220" y="516" font-size="15" font-weight="700" letter-spacing="2" fill="#e34f32">3층</text>
+  <text class="t" x="220" y="556" font-size="30" font-weight="700" fill="#191919">사람 평가</text>
+  <text class="t" x="220" y="588" font-size="19" fill="#6d6d6d">위험이 큰 영역과 최종 판정. 심판을 보정하는 기준점도 여기서 나온다</text>
+
+  <text class="t" x="1080" y="656" text-anchor="end" font-size="17" fill="#6d6d6d">아래로 갈수록 양은 줄고, 판단의 무게는 커진다</text>
+</svg>
