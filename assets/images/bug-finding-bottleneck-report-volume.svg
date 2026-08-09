@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="커널 보안 메일링 리스트 신고량이 주 2~3건에서 주 10건, 하루 5~10건으로 늘어나는 동안 신고 품질 라벨이 뒤집히는 그림">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+
+  <!-- row 1 -->
+  <text class="t" x="180" y="186" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">2년쯤 전</text>
+  <text class="t" x="180" y="222" font-size="30" font-weight="700" fill="#191919">주 2~3건</text>
+  <rect x="460" y="188" width="30" height="44" fill="#fafafa" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="514" y="216" font-size="17" fill="#6d6d6d">사람이 찾아서 보낸 것들</text>
+
+  <!-- row 2 -->
+  <text class="t" x="180" y="356" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">작년</text>
+  <text class="t" x="180" y="392" font-size="30" font-weight="700" fill="#191919">주 10건</text>
+  <rect x="460" y="358" width="118" height="44" fill="#fafafa" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="602" y="386" font-size="17" fill="#6d6d6d">늘어난 분량은 전부 AI 슬롭이었다</text>
+
+  <!-- row 3 -->
+  <text class="t" x="180" y="526" font-size="15" font-weight="700" letter-spacing="2" fill="#e34f32">올해 초부터</text>
+  <text class="t" x="180" y="562" font-size="30" font-weight="700" fill="#191919">하루 5~10건</text>
+  <rect x="460" y="528" width="620" height="44" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="484" y="556" font-size="19" fill="#e34f32">대부분 맞는 신고. 메인테이너를 더 데려왔다</text>
+
+  <text class="t" x="180" y="660" font-size="16" fill="#6d6d6d">셋을 견주려고 하루 5~10건을 주 35~70건으로 환산했다</text>
+  <text class="t" x="1080" y="660" text-anchor="end" font-size="17" fill="#6d6d6d">홍수의 크기가 아니라 내용이 뒤집혔다</text>
+</svg>

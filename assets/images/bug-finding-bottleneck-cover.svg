@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 632" width="1200" height="632" role="img" aria-label="병목은 찾기가 아니다 대표 이미지">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="632" fill="#ffffff"/>
+
+  <text class="t" x="600" y="108" text-anchor="middle" font-size="20" font-weight="700" letter-spacing="4" fill="#e34f32">VULNERABILITY RESEARCH</text>
+
+  <rect x="320" y="150" width="560" height="38" rx="19" fill="none" stroke="#191919" stroke-width="2"/>
+  <text class="t" x="600" y="176" text-anchor="middle" font-size="20" fill="#191919">취약점 후보 찾기</text>
+
+  <path d="M600 196 L600 216" stroke="#c9c9c9" stroke-width="2"/>
+  <path d="M594 210 L600 218 L606 210" fill="none" stroke="#c9c9c9" stroke-width="2"/>
+
+  <rect x="420" y="224" width="360" height="38" rx="19" fill="none" stroke="#191919" stroke-width="2"/>
+  <text class="t" x="600" y="250" text-anchor="middle" font-size="20" fill="#191919">재현 확인</text>
+
+  <path d="M600 270 L600 290" stroke="#c9c9c9" stroke-width="2"/>
+  <path d="M594 284 L600 292 L606 284" fill="none" stroke="#c9c9c9" stroke-width="2"/>
+
+  <rect x="490" y="298" width="220" height="38" rx="19" fill="#e34f32"/>
+  <text class="t" x="600" y="324" text-anchor="middle" font-size="20" fill="#ffffff">신고</text>
+
+  <text class="t" x="600" y="452" text-anchor="middle" font-size="62" font-weight="800" letter-spacing="-3" fill="#191919">병목은 찾기가 아니다</text>
+  <text class="t" x="600" y="508" text-anchor="middle" font-size="27" fill="#6d6d6d">23년 묵은 커널 버그가 드러낸 것</text>
+
+  <rect x="546" y="552" width="108" height="3" fill="#191919"/>
+</svg>

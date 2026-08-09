@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="찾기, 재현 확인, 테스트 작성 세 단계를 지나며 남는 신고가 줄어들고 사람은 마지막에만 등장하는 흐름도">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+
+  <!-- stage 1 -->
+  <rect x="180" y="170" width="270" height="180" fill="#fafafa"/>
+  <text class="t" x="212" y="216" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">1단계</text>
+  <text class="t" x="212" y="258" font-size="30" font-weight="700" fill="#191919">찾기</text>
+  <text class="t" x="212" y="294" font-size="17" fill="#6d6d6d">버그가 있다고 전제하고</text>
+  <text class="t" x="212" y="318" font-size="17" fill="#6d6d6d">파일마다 훑는다</text>
+
+  <path d="M458 260 L487 260" stroke="#c9c9c9" stroke-width="2"/>
+  <path d="M479 252 L489 260 L479 268" fill="none" stroke="#c9c9c9" stroke-width="2"/>
+
+  <!-- stage 2 -->
+  <rect x="495" y="170" width="270" height="180" fill="#fafafa"/>
+  <text class="t" x="527" y="216" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">2단계</text>
+  <text class="t" x="527" y="258" font-size="30" font-weight="700" fill="#191919">재현 확인</text>
+  <text class="t" x="527" y="294" font-size="17" fill="#6d6d6d">문맥 비운 새 세션이</text>
+  <text class="t" x="527" y="318" font-size="17" fill="#6d6d6d">크래시를 재현해 본다</text>
+
+  <path d="M773 260 L802 260" stroke="#c9c9c9" stroke-width="2"/>
+  <path d="M794 252 L804 260 L794 268" fill="none" stroke="#c9c9c9" stroke-width="2"/>
+
+  <!-- stage 3 -->
+  <rect x="810" y="170" width="270" height="180" fill="#fafafa"/>
+  <text class="t" x="842" y="216" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">3단계</text>
+  <text class="t" x="842" y="258" font-size="30" font-weight="700" fill="#191919">테스트 작성</text>
+  <text class="t" x="842" y="294" font-size="17" fill="#6d6d6d">재현 절차로 회귀</text>
+  <text class="t" x="842" y="318" font-size="17" fill="#6d6d6d">테스트를 만든다</text>
+
+  <!-- discard branch -->
+  <path d="M630 360 L630 388" stroke="#c9c9c9" stroke-width="2"/>
+  <path d="M622 380 L630 390 L638 380" fill="none" stroke="#c9c9c9" stroke-width="2"/>
+  <text class="t" x="656" y="384" font-size="16" fill="#6d6d6d">재현 안 되면 여기서 버린다</text>
+
+  <!-- remaining volume -->
+  <rect x="180" y="440" width="270" height="48" fill="#fafafa" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="180" y="512" font-size="16" fill="#6d6d6d">후보 전체</text>
+  <rect x="495" y="440" width="140" height="48" fill="#fafafa" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="495" y="512" font-size="16" fill="#6d6d6d">재현된 것만</text>
+  <rect x="810" y="440" width="72" height="48" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="810" y="512" font-size="16" fill="#e34f32">사람에게 갈 것</text>
+
+  <text class="t" x="180" y="580" font-size="17" fill="#6d6d6d">앞 두 단계에 사람은 없다. 사람은 마지막 칸을 통과한 것만 본다.</text>
+  <text class="t" x="180" y="612" font-size="16" fill="#6d6d6d">재현이 안 된 게 곧 버그가 없다는 뜻은 아니다. 테스트를 잘못 짰을 수도 있다.</text>
+  <text class="t" x="1080" y="666" text-anchor="end" font-size="17" fill="#6d6d6d">두 번째 칸이 있는지가 슬롭과 신고를 가른다</text>
+</svg>

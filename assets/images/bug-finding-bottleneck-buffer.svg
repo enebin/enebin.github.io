@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="112바이트 버퍼와 1056바이트 거절 메시지의 크기를 같은 축에서 비교한 그림">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+
+  <!-- row 1: the buffer -->
+  <text class="t" x="180" y="150" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">준비한 그릇</text>
+  <text class="t" x="180" y="190" font-size="30" font-weight="700" fill="#191919">버퍼 112바이트</text>
+  <rect x="180" y="208" width="95" height="60" fill="#fafafa" stroke="#e9e9e9" stroke-width="2"/>
+
+  <!-- boundary guide -->
+  <path d="M275 208 L275 476" stroke="#e9e9e9" stroke-width="2"/>
+
+  <!-- row 2: what actually gets written -->
+  <text class="t" x="180" y="358" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">실제로 담기는 것</text>
+  <text class="t" x="180" y="398" font-size="30" font-weight="700" fill="#191919">거절 메시지 1056바이트</text>
+  <rect x="180" y="416" width="95" height="60" fill="#fafafa" stroke="#e9e9e9" stroke-width="2"/>
+  <rect x="275" y="416" width="805" height="60" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="299" y="453" font-size="19" fill="#e34f32">944바이트가 버퍼 밖으로 넘어간다</text>
+
+  <!-- owner id span -->
+  <path d="M207 496 L207 508 L1080 508 L1080 496" fill="none" stroke="#c9c9c9" stroke-width="2"/>
+  <text class="t" x="207" y="536" font-size="16" fill="#6d6d6d">owner ID — 프로토콜이 허용하는 최대 1024바이트</text>
+
+  <text class="t" x="180" y="600" font-size="17" fill="#6d6d6d">2003년 3월에 들어온 코드다</text>
+  <text class="t" x="1080" y="656" text-anchor="end" font-size="17" fill="#6d6d6d">넘친 944바이트는 옆에 있던 커널 메모리를 덮는다</text>
+</svg>
