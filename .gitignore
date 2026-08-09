@@ -8,4 +8,5 @@ vendor/
 Gemfile.lock
 work/
 outputs/
+_workspace/
 .claude/launch.json
