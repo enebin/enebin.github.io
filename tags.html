@@ -1,0 +1,38 @@
+---
+layout: default
+title: Tags
+description: enebin.log의 글을 태그별로 모아봅니다.
+permalink: /tags/
+nav: tags
+---
+<div class="tags-page shell">
+  <header class="tags-header">
+    <h1>Tags</h1>
+    <p>관심 있는 주제의 글을 모아볼 수 있습니다.</p>
+  </header>
+
+  {% assign sorted_tags = site.tags | sort %}
+  <nav class="tag-index" aria-label="태그 목록">
+    {% for tag in sorted_tags %}
+    <a class="tag-index-link" href="#{{ tag[0] | slugify }}">
+      {{ tag[0] }} <span>{{ tag[1].size }}</span>
+    </a>
+    {% endfor %}
+  </nav>
+
+  <div class="tag-groups">
+    {% for tag in sorted_tags %}
+    <section class="tag-group" id="{{ tag[0] | slugify }}">
+      <h2>{{ tag[0] }}</h2>
+      <ul class="tag-posts">
+        {% for post in tag[1] %}
+        <li>
+          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+          <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: '%Y년 %m월 %d일' }}</time>
+        </li>
+        {% endfor %}
+      </ul>
+    </section>
+    {% endfor %}
+  </div>
+</div>

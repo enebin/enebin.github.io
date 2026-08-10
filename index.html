@@ -23,6 +23,13 @@ nav: writing
           <span aria-hidden="true">/</span>
           <span>{{ post.category | default: '기록' }}</span>
         </div>
+        {% if post.tags.size > 0 %}
+        <div class="post-tags" aria-label="태그">
+          {% for tag in post.tags %}
+          <a href="{{ '/tags/' | relative_url }}#{{ tag | slugify }}">{{ tag }}</a>
+          {% endfor %}
+        </div>
+        {% endif %}
         <p>{{ post.description | default: post.excerpt | strip_html | strip_newlines | truncate: 170 }}</p>
         <a class="read-more" href="{{ post.url | relative_url }}">더 보기 »</a>
       </div>

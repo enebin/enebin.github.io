@@ -5,6 +5,7 @@
     </a>
     <nav class="site-nav" aria-label="주요 메뉴">
       <a{% if page.nav == 'about' %} class="active"{% endif %} href="{{ '/about/' | relative_url }}">About</a>
+      <a{% if page.nav == 'tags' %} class="active"{% endif %} href="{{ '/tags/' | relative_url }}">Tags</a>
       <a href="{{ '/#writing' | relative_url }}">Engineering</a>
       <a href="{{ '/#writing' | relative_url }}">Building</a>
       <a href="{{ '/#writing' | relative_url }}">Notes</a>

@@ -2,6 +2,9 @@
 title: Claude Code가 23년 묵은 커널 버그를 찾았다. 논쟁은 그다음부터였다
 description: 리눅스 NFS 드라이버의 23년 된 취약점을 AI가 찾은 뒤, HN 댓글 268개가 갈린 지점은 "AI가 버그를 잘 찾느냐"가 아니었다.
 category: 개발
+tags:
+  - AI tooling
+  - AI native case study
 reading_time: 9분
 image: /assets/images/bug-finding-bottleneck-cover.svg
 ---

@@ -2,6 +2,8 @@
 title: AI의 평가 주도 개발(EDD) by Airbnb
 description: Airbnb 엔지니어링 팀이 정리한 Eval 주도 개발을 읽고, GenAI 기능을 어떤 순서로 검증해야 하는지 남긴 기록.
 category: 개발
+tags:
+  - AI methodology
 reading_time: 12분
 image: /assets/images/edd-cover.svg
 ---

@@ -11,6 +11,13 @@ nav: writing
       <span>{{ page.category | default: '기록' }}</span>
       {% if site.goatcounter.size > 0 %}<span class="post-views" hidden></span>{% endif %}
     </div>
+    {% if page.tags.size > 0 %}
+    <div class="post-tags" aria-label="태그">
+      {% for tag in page.tags %}
+      <a href="{{ '/tags/' | relative_url }}#{{ tag | slugify }}">{{ tag }}</a>
+      {% endfor %}
+    </div>
+    {% endif %}
     {% if page.description %}<p class="article-lead">{{ page.description }}</p>{% endif %}
   </header>
   {% if page.image %}
