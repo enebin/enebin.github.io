@@ -2,6 +2,8 @@
 title: 브라우저에서 사람을 빼면 무엇이 남을까, Cloudflare Kitesurf
 description: 사람 대신 AI 에이전트를 위해 만든 경량 브라우저 Kitesurf의 구조와 성능, Hacker News의 기대와 의문을 정리했다.
 category: 개발
+tags:
+  - AI tooling
 reading_time: 9분
 image: /assets/images/kitesurf-agent-browser-cover.svg
 ---
