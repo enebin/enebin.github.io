@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="Kitesurf가 Chromium보다 CPU와 메모리를 적게 쓰지만 완료 시간은 더 긴 성능 비교 그림">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+  <text class="t" x="76" y="86" font-size="16" font-weight="700" letter-spacing="2" fill="#6d6d6d">RESOURCE VS LATENCY</text>
+  <text class="t" x="76" y="134" font-size="30" font-weight="700" fill="#191919">가볍지만 먼저 끝나지는 않는다</text>
+
+  <text class="t" x="76" y="214" font-size="16" font-weight="700" fill="#6d6d6d">작을수록 좋음 · 스크린숏 작업</text>
+  <text class="t" x="76" y="270" font-size="18" fill="#191919">CPU</text>
+  <rect x="160" y="244" width="610" height="38" fill="#e9e9e9"/>
+  <rect x="160" y="294" width="198" height="38" fill="#e34f32"/>
+  <text class="t" x="790" y="270" font-size="18" fill="#6d6d6d">Chromium 1,173ms</text>
+  <text class="t" x="378" y="320" font-size="18" font-weight="700" fill="#e34f32">Kitesurf 380ms</text>
+
+  <text class="t" x="76" y="408" font-size="18" fill="#191919">메모리</text>
+  <rect x="160" y="382" width="610" height="38" fill="#e9e9e9"/>
+  <rect x="160" y="432" width="130" height="38" fill="#e34f32"/>
+  <text class="t" x="790" y="408" font-size="18" fill="#6d6d6d">Chromium 271.0MiB</text>
+  <text class="t" x="310" y="458" font-size="18" font-weight="700" fill="#e34f32">Kitesurf 57.8MiB</text>
+
+  <line x1="76" y1="516" x2="1124" y2="516" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="76" y="570" font-size="18" fill="#191919">완료 시간</text>
+  <text class="t" x="230" y="570" font-size="18" fill="#6d6d6d">Chromium 637ms</text>
+  <path d="M450 564 L604 564" stroke="#e34f32" stroke-width="3"/>
+  <path d="M590 554 L606 564 L590 574" fill="none" stroke="#e34f32" stroke-width="3"/>
+  <text class="t" x="640" y="570" font-size="18" font-weight="700" fill="#e34f32">Kitesurf 1,148ms</text>
+  <text class="t" x="1124" y="642" text-anchor="end" font-size="17" fill="#6d6d6d">14개 URL · 5회 실행 중앙값</text>
+</svg>

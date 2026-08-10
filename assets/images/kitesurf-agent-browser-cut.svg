@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="사람용 브라우저의 기능 중 AI 에이전트에 필요한 기능만 Kitesurf에 남기는 비교 그림">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+  <text class="t" x="80" y="92" font-size="16" font-weight="700" letter-spacing="2" fill="#6d6d6d">PRIORITY SHIFT</text>
+  <text class="t" x="80" y="140" font-size="30" font-weight="700" fill="#191919">같은 웹, 다른 우선순위</text>
+
+  <rect x="80" y="190" width="470" height="390" fill="#fafafa" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="120" y="245" font-size="30" font-weight="700" fill="#191919">사람용</text>
+  <text class="t" x="120" y="296" font-size="18" fill="#191919">탭과 확장 프로그램</text>
+  <text class="t" x="120" y="340" font-size="18" fill="#191919">동영상과 WebGL</text>
+  <text class="t" x="120" y="384" font-size="18" fill="#191919">픽셀 단위 화면</text>
+  <text class="t" x="120" y="428" font-size="18" fill="#191919">긴 로그인 세션</text>
+  <text class="t" x="120" y="500" font-size="16" font-weight="700" fill="#6d6d6d">한 사람이 오래 사용</text>
+
+  <path d="M576 385 L638 385" stroke="#e34f32" stroke-width="3"/>
+  <path d="M624 375 L640 385 L624 395" fill="none" stroke="#e34f32" stroke-width="3"/>
+
+  <rect x="670" y="190" width="450" height="390" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="710" y="245" font-size="30" font-weight="700" fill="#191919">에이전트용</text>
+  <text class="t" x="710" y="296" font-size="18" fill="#191919">DOM과 자바스크립트</text>
+  <text class="t" x="710" y="340" font-size="18" fill="#191919">HTML 추출과 캡처</text>
+  <text class="t" x="710" y="384" font-size="18" fill="#191919">작은 CPU와 메모리</text>
+  <text class="t" x="710" y="428" font-size="18" fill="#191919">작업별 격리와 폐기</text>
+  <text class="t" x="710" y="500" font-size="16" font-weight="700" fill="#e34f32">많은 작업이 잠깐 사용</text>
+
+  <text class="t" x="1120" y="640" text-anchor="end" font-size="17" fill="#6d6d6d">Kitesurf는 오른쪽에 필요한 것부터 구현한다</text>
+</svg>
