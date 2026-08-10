@@ -23,6 +23,6 @@
   <path d="M207 496 L207 508 L1080 508 L1080 496" fill="none" stroke="#c9c9c9" stroke-width="2"/>
   <text class="t" x="207" y="536" font-size="16" fill="#6d6d6d">owner ID — 프로토콜이 허용하는 최대 1024바이트</text>
 
-  <text class="t" x="180" y="600" font-size="17" fill="#6d6d6d">2003년 3월에 들어온 코드다</text>
+  <text class="t" x="180" y="600" font-size="17" fill="#6d6d6d">2003년 9월에 들어온 코드다</text>
   <text class="t" x="1080" y="656" text-anchor="end" font-size="17" fill="#6d6d6d">넘친 944바이트는 옆에 있던 커널 메모리를 덮는다</text>
 </svg>
