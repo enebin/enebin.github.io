@@ -11,7 +11,7 @@ description: 주제를 받아 이 블로그(enebin.log)의 새 글을 처음부�
 
 ## 1. 조사
 
-주제가 특정 원문(기사·논문·공식 문서·릴리스 노트)을 가리키면 `WebFetch`로 원문을 직접 읽는다. 링크가 없으면 `WebSearch`로 1차 출처를 찾아 읽는다. **원문에 없는 수치·인용은 쓰지 않는다.** 수치를 쓸 때는 원문 표현을 그대로 옮긴다.
+주제가 특정 원문(기사·논문·공식 문서·릴리스 노트)을 가리키면 사용 가능한 웹 도구로 원문을 직접 연다. 링크가 없으면 웹 검색으로 1차 출처를 찾아 읽는다. **원문에 없는 수치·인용은 쓰지 않는다.** 수치를 쓸 때는 원문 표현을 그대로 옮긴다.
 
 주제가 필자의 경험·의견이면 조사를 생략하고, 사용자가 준 맥락만으로 쓴다. 사실 확인이 필요한 빈칸이 생기면 지어내지 말고 그 대목을 빼거나 사용자에게 묻는다.
 
@@ -90,7 +90,7 @@ SVG는 블로그 스타일에 맞춘다. 기존 파일(`assets/images/edd-three-
 
 ## 5. 윤문
 
-초안이 끝나면 `humanize-korean` 스킬을 `Skill` 도구로 호출한다.
+초안이 끝나면 각 에이전트의 스킬 호출 방식으로 `humanize-korean` 스킬을 호출한다. Claude Code에서는 `Skill` 도구를, Codex에서는 `$humanize-korean`을 사용한다.
 
 - 넘길 것: front matter를 **뺀** 본문 전체
 - 지시에 포함할 것: `<figure>` 블록의 HTML 태그와 `src`·`alt`는 건드리지 말 것, `<!--more-->` 위치 유지, 마크다운 제목 구조 유지
@@ -100,7 +100,7 @@ SVG는 블로그 스타일에 맞춘다. 기존 파일(`assets/images/edd-three-
 
 ## 6. 로컬 확인
 
-`preview_start`로 `jekyll` 서버를 띄우고 `http://localhost:4000/posts/{슬러그}/`를 연다. `read_page`로 제목·본문·그림이 다 나오는지, `preview_logs`로 빌드 오류가 없는지 본다. 그림이 깨져 보이면 `read_network_requests`로 404를 확인한다.
+사용 가능한 로컬 미리보기 도구로 `jekyll` 서버를 띄우고 `http://localhost:4000/posts/{슬러그}/`를 연다. Claude Code에서는 `preview_start`, `read_page`, `preview_logs`, `read_network_requests`를 사용한다. Codex에서는 로컬 서버를 실행한 뒤 브라우저 도구로 페이지와 네트워크 요청을 확인한다. 제목·본문·그림이 모두 나오는지 보고, 빌드 오류와 이미지 404가 없는지 확인한다.
 
 ## 7. 보고
 
