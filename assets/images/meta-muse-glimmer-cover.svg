@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="메타가 Apache 2.0으로 공개한 30B 모델 Muse Glimmer를 소개하고 발표문과 커뮤니티 반응을 나란히 놓은 표지 그림">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+  <text class="t" x="96" y="112" font-size="16" font-weight="700" letter-spacing="2" fill="#e34f32">MUSE GLIMMER</text>
+  <text class="t" x="96" y="182" font-size="48" font-weight="700" fill="#191919">다시 가중치를 공개한</text>
+  <text class="t" x="96" y="240" font-size="48" font-weight="700" fill="#191919">메타의 로컬 에이전트 모델</text>
+  <text class="t" x="96" y="292" font-size="20" fill="#6d6d6d">기기에서 돌아가는 30B 에이전트 모델, Muse Glimmer</text>
+
+  <line x1="96" y1="356" x2="1104" y2="356" stroke="#e9e9e9" stroke-width="2"/>
+
+  <text class="t" x="96" y="418" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">공개된 모델</text>
+  <text class="t" x="96" y="466" font-size="30" font-weight="700" fill="#191919">300억 파라미터 · Apache 2.0</text>
+  <text class="t" x="96" y="502" font-size="18" fill="#6d6d6d">4비트로 압축해 24GB 카드 한 장에 들어간다</text>
+
+  <text class="t" x="96" y="574" font-size="15" font-weight="700" letter-spacing="2" fill="#e34f32">커뮤니티의 해석</text>
+  <text class="t" x="96" y="622" font-size="30" font-weight="700" fill="#191919">원칙인가, 경쟁 전략인가</text>
+  <text class="t" x="96" y="658" font-size="18" fill="#6d6d6d">Hacker News는 모델의 가치와 공개한 이유를 따로 평가했다</text>
+
+  <rect x="820" y="386" width="284" height="272" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="962" y="452" text-anchor="middle" font-size="16" font-weight="700" letter-spacing="2" fill="#6d6d6d">가중치 파일</text>
+  <text class="t" x="962" y="512" text-anchor="middle" font-size="40" font-weight="700" fill="#191919">15.9GB</text>
+  <text class="t" x="962" y="556" text-anchor="middle" font-size="17" fill="#6d6d6d">4비트 양자화 기준</text>
+  <line x1="860" y1="588" x2="1064" y2="588" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="962" y="624" text-anchor="middle" font-size="17" fill="#191919">한 번 받으면 회수되지 않는다</text>
+</svg>
