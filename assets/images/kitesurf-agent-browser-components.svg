@@ -1,40 +1,58 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="요청이 Engine, PageScript, PageRenderer로 흐르고 SandboxOutbound만 외부 웹에 접근하는 구조도">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="에이전트가 CDP로 Engine에 붙고 Engine·PageScript·PageRenderer가 아이솔레이트 안에 있으며 SandboxOutbound만 외부 웹으로 나가는 구조도">
   <style>
     .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
   </style>
   <rect width="1200" height="700" fill="#ffffff"/>
-  <text class="t" x="76" y="86" font-size="16" font-weight="700" letter-spacing="2" fill="#6d6d6d">ISOLATION BY ROLE</text>
-  <text class="t" x="76" y="134" font-size="30" font-weight="700" fill="#191919">권한을 나누면 실패도 작아진다</text>
+  <text class="t" x="76" y="76" font-size="16" font-weight="700" letter-spacing="2" fill="#6d6d6d">SPLIT BY PERMISSION</text>
+  <text class="t" x="76" y="124" font-size="30" font-weight="700" fill="#191919">웹으로 나가는 문은 하나뿐이다</text>
 
-  <rect x="76" y="220" width="230" height="190" fill="#fafafa" stroke="#e9e9e9" stroke-width="2"/>
-  <text class="t" x="112" y="278" font-size="30" font-weight="700" fill="#191919">Engine</text>
-  <text class="t" x="112" y="324" font-size="18" fill="#6d6d6d">CDP 요청</text>
-  <text class="t" x="112" y="358" font-size="18" fill="#6d6d6d">세션 상태</text>
+  <rect x="200" y="180" width="790" height="410" fill="#fafafa" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="225" y="212" font-size="16" font-weight="700" fill="#6d6d6d">아이솔레이트 하나 · 작업이 끝나면 통째로 폐기</text>
 
-  <path d="M306 315 L368 315" stroke="#e34f32" stroke-width="3"/>
-  <path d="M354 305 L370 315 L354 325" fill="none" stroke="#e34f32" stroke-width="3"/>
+  <rect x="30" y="252" width="150" height="150" fill="#ffffff" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="52" y="312" font-size="22" font-weight="700" fill="#191919">에이전트</text>
+  <text class="t" x="52" y="344" font-size="15" fill="#6d6d6d">Puppeteer</text>
+  <text class="t" x="52" y="370" font-size="15" fill="#6d6d6d">Playwright</text>
 
-  <rect x="370" y="220" width="230" height="190" fill="#fafafa" stroke="#e9e9e9" stroke-width="2"/>
-  <text class="t" x="406" y="278" font-size="30" font-weight="700" fill="#191919">PageScript</text>
-  <text class="t" x="406" y="324" font-size="18" fill="#6d6d6d">DOM · CSS</text>
-  <text class="t" x="406" y="358" font-size="18" fill="#6d6d6d">JavaScript</text>
+  <text class="t" x="196" y="312" text-anchor="middle" font-size="15" font-weight="700" fill="#e34f32">CDP</text>
+  <path d="M182 330 L212 330" stroke="#e34f32" stroke-width="3"/>
+  <path d="M196 320 L180 330 L196 340" fill="none" stroke="#e34f32" stroke-width="3"/>
+  <path d="M198 320 L214 330 L198 340" fill="none" stroke="#e34f32" stroke-width="3"/>
 
-  <path d="M600 315 L662 315" stroke="#e34f32" stroke-width="3"/>
-  <path d="M648 305 L664 315 L648 325" fill="none" stroke="#e34f32" stroke-width="3"/>
+  <rect x="225" y="240" width="215" height="150" fill="#ffffff" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="252" y="296" font-size="26" font-weight="700" fill="#191919">Engine</text>
+  <text class="t" x="252" y="334" font-size="17" fill="#6d6d6d">요청 접수</text>
+  <text class="t" x="252" y="362" font-size="17" fill="#6d6d6d">세션 상태</text>
 
-  <rect x="664" y="220" width="230" height="190" fill="#fafafa" stroke="#e9e9e9" stroke-width="2"/>
-  <text class="t" x="700" y="278" font-size="30" font-weight="700" fill="#191919">Renderer</text>
-  <text class="t" x="700" y="324" font-size="18" fill="#6d6d6d">PNG · PDF</text>
-  <text class="t" x="700" y="358" font-size="18" fill="#6d6d6d">상태 없음</text>
+  <path d="M440 315 L481 315" stroke="#e34f32" stroke-width="3"/>
+  <path d="M467 305 L483 315 L467 325" fill="none" stroke="#e34f32" stroke-width="3"/>
 
-  <rect x="370" y="492" width="524" height="116" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
-  <text class="t" x="406" y="544" font-size="30" font-weight="700" fill="#191919">SandboxOutbound</text>
-  <text class="t" x="406" y="582" font-size="18" fill="#6d6d6d">쿠키 분리 · CORS · 응답 필터 · 유일한 외부 통로</text>
+  <rect x="485" y="240" width="215" height="150" fill="#ffffff" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="512" y="296" font-size="26" font-weight="700" fill="#191919">PageScript</text>
+  <text class="t" x="512" y="334" font-size="17" fill="#6d6d6d">DOM · CSS</text>
+  <text class="t" x="512" y="362" font-size="17" fill="#6d6d6d">자바스크립트</text>
 
-  <path d="M485 410 L485 476" stroke="#e34f32" stroke-width="3"/>
-  <path d="M475 462 L485 478 L495 462" fill="none" stroke="#e34f32" stroke-width="3"/>
-  <path d="M894 550 L1054 550" stroke="#e34f32" stroke-width="3"/>
-  <path d="M1040 540 L1056 550 L1040 560" fill="none" stroke="#e34f32" stroke-width="3"/>
-  <text class="t" x="1080" y="544" font-size="18" font-weight="700" fill="#191919">웹</text>
-  <text class="t" x="1080" y="576" font-size="16" fill="#6d6d6d">불신 입력</text>
+  <path d="M700 315 L741 315" stroke="#e34f32" stroke-width="3"/>
+  <path d="M727 305 L743 315 L727 325" fill="none" stroke="#e34f32" stroke-width="3"/>
+
+  <rect x="745" y="240" width="215" height="150" fill="#ffffff" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="772" y="296" font-size="26" font-weight="700" fill="#191919">Renderer</text>
+  <text class="t" x="772" y="334" font-size="17" fill="#6d6d6d">PNG · PDF</text>
+  <text class="t" x="772" y="362" font-size="17" fill="#6d6d6d">상태 없음</text>
+
+  <path d="M560 390 L560 454" stroke="#e34f32" stroke-width="3"/>
+  <path d="M550 440 L560 456 L570 440" fill="none" stroke="#e34f32" stroke-width="3"/>
+
+  <rect x="485" y="458" width="475" height="106" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="512" y="506" font-size="26" font-weight="700" fill="#191919">SandboxOutbound</text>
+  <text class="t" x="512" y="540" font-size="17" fill="#6d6d6d">쿠키 분리 · CORS · 응답 필터</text>
+
+  <path d="M960 511 L1052 511" stroke="#e34f32" stroke-width="3"/>
+  <path d="M1038 501 L1054 511 L1038 521" fill="none" stroke="#e34f32" stroke-width="3"/>
+
+  <text class="t" x="1070" y="505" font-size="22" font-weight="700" fill="#191919">웹</text>
+  <text class="t" x="1070" y="536" font-size="15" fill="#6d6d6d">믿을 수 없는</text>
+  <text class="t" x="1070" y="558" font-size="15" fill="#6d6d6d">입력</text>
+
+  <text class="t" x="990" y="646" text-anchor="end" font-size="16" fill="#6d6d6d">외부 이미지 · 글꼴 · 스크립트는 전부 이 문을 거친다</text>
 </svg>

@@ -1,29 +1,47 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="사람용 브라우저의 기능 중 AI 에이전트에 필요한 기능만 Kitesurf에 남기는 비교 그림">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="브라우저 기능을 여섯 층으로 나눠 사람용 브라우저는 전부 갖추고 Kitesurf는 위 세 층을 덜어낸 뒤 아래 세 층만 남긴 비교 그림">
   <style>
     .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
   </style>
   <rect width="1200" height="700" fill="#ffffff"/>
-  <text class="t" x="80" y="92" font-size="16" font-weight="700" letter-spacing="2" fill="#6d6d6d">PRIORITY SHIFT</text>
-  <text class="t" x="80" y="140" font-size="30" font-weight="700" fill="#191919">같은 웹, 다른 우선순위</text>
+  <text class="t" x="110" y="76" font-size="16" font-weight="700" letter-spacing="2" fill="#6d6d6d">WHAT GOT CUT</text>
+  <text class="t" x="110" y="124" font-size="30" font-weight="700" fill="#191919">위 세 층을 덜어내고 아래 세 층만 남겼다</text>
 
-  <rect x="80" y="190" width="470" height="390" fill="#fafafa" stroke="#e9e9e9" stroke-width="2"/>
-  <text class="t" x="120" y="245" font-size="30" font-weight="700" fill="#191919">사람용</text>
-  <text class="t" x="120" y="296" font-size="18" fill="#191919">탭과 확장 프로그램</text>
-  <text class="t" x="120" y="340" font-size="18" fill="#191919">동영상과 WebGL</text>
-  <text class="t" x="120" y="384" font-size="18" fill="#191919">픽셀 단위 화면</text>
-  <text class="t" x="120" y="428" font-size="18" fill="#191919">긴 로그인 세션</text>
-  <text class="t" x="120" y="500" font-size="16" font-weight="700" fill="#6d6d6d">한 사람이 오래 사용</text>
+  <text class="t" x="110" y="186" font-size="18" font-weight="700" fill="#6d6d6d">사람용 브라우저</text>
+  <text class="t" x="680" y="186" font-size="18" font-weight="700" fill="#e34f32">Kitesurf</text>
 
-  <path d="M576 385 L638 385" stroke="#e34f32" stroke-width="3"/>
-  <path d="M624 375 L640 385 L624 395" fill="none" stroke="#e34f32" stroke-width="3"/>
+  <rect x="110" y="210" width="440" height="62" fill="#fafafa" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="140" y="249" font-size="18" fill="#191919">탭과 확장, 동기화</text>
+  <rect x="110" y="284" width="440" height="62" fill="#fafafa" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="140" y="323" font-size="18" fill="#191919">동영상과 WebGL</text>
+  <rect x="110" y="358" width="440" height="62" fill="#fafafa" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="140" y="397" font-size="18" fill="#191919">픽셀 단위 정확한 화면</text>
+  <rect x="110" y="432" width="440" height="62" fill="#fafafa" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="140" y="471" font-size="18" fill="#191919">레이아웃과 CSS 계산</text>
+  <rect x="110" y="506" width="440" height="62" fill="#fafafa" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="140" y="545" font-size="18" fill="#191919">DOM과 자바스크립트 실행</text>
+  <rect x="110" y="580" width="440" height="62" fill="#fafafa" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="140" y="619" font-size="18" fill="#191919">HTML 추출과 캡처</text>
 
-  <rect x="670" y="190" width="450" height="390" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
-  <text class="t" x="710" y="245" font-size="30" font-weight="700" fill="#191919">에이전트용</text>
-  <text class="t" x="710" y="296" font-size="18" fill="#191919">DOM과 자바스크립트</text>
-  <text class="t" x="710" y="340" font-size="18" fill="#191919">HTML 추출과 캡처</text>
-  <text class="t" x="710" y="384" font-size="18" fill="#191919">작은 CPU와 메모리</text>
-  <text class="t" x="710" y="428" font-size="18" fill="#191919">작업별 격리와 폐기</text>
-  <text class="t" x="710" y="500" font-size="16" font-weight="700" fill="#e34f32">많은 작업이 잠깐 사용</text>
+  <text class="t" x="614" y="404" text-anchor="middle" font-size="15" font-weight="700" fill="#e34f32">덜어내기</text>
+  <path d="M570 424 L656 424" stroke="#e34f32" stroke-width="3"/>
+  <path d="M642 414 L658 424 L642 434" fill="none" stroke="#e34f32" stroke-width="3"/>
 
-  <text class="t" x="1120" y="640" text-anchor="end" font-size="17" fill="#6d6d6d">Kitesurf는 오른쪽에 필요한 것부터 구현한다</text>
+  <rect x="680" y="210" width="440" height="62" fill="#ffffff" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="710" y="249" font-size="18" fill="#a5a5a5">탭과 확장, 동기화</text>
+  <line x1="706" y1="242" x2="894" y2="242" stroke="#a5a5a5" stroke-width="2"/>
+  <rect x="680" y="284" width="440" height="62" fill="#ffffff" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="710" y="323" font-size="18" fill="#a5a5a5">동영상과 WebGL</text>
+  <line x1="706" y1="316" x2="856" y2="316" stroke="#a5a5a5" stroke-width="2"/>
+  <rect x="680" y="358" width="440" height="62" fill="#ffffff" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="710" y="397" font-size="18" fill="#a5a5a5">픽셀 단위 정확한 화면</text>
+  <line x1="706" y1="390" x2="916" y2="390" stroke="#a5a5a5" stroke-width="2"/>
+
+  <rect x="680" y="432" width="440" height="62" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="710" y="471" font-size="18" font-weight="700" fill="#191919">레이아웃과 CSS 계산</text>
+  <rect x="680" y="506" width="440" height="62" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="710" y="545" font-size="18" font-weight="700" fill="#191919">DOM과 자바스크립트 실행</text>
+  <rect x="680" y="580" width="440" height="62" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="710" y="619" font-size="18" font-weight="700" fill="#191919">HTML 추출과 캡처</text>
+
+  <text class="t" x="1120" y="678" text-anchor="end" font-size="16" fill="#6d6d6d">덜어낸 층이 필요하면 Chromium 기반 Browser Run으로 넘긴다</text>
 </svg>
