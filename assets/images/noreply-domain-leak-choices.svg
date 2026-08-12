@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="남이 등록할 수 있는 자리 표시자 도메인과 등록이 불가능하거나 회사가 소유한 도메인을 나란히 비교한 그림">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+
+  <text class="t" x="600" y="84" text-anchor="middle" font-size="19" font-weight="700" fill="#191919">기준은 하나다. 그 도메인을 남이 살 수 있는가</text>
+
+  <text class="t" x="96" y="150" font-size="15" font-weight="700" letter-spacing="2" fill="#e34f32">남이 살 수 있다</text>
+  <rect x="96" y="176" width="492" height="376" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+
+  <text class="t" x="136" y="240" font-size="26" font-weight="700" fill="#191919">noreply@noreply.net</text>
+  <text class="t" x="136" y="274" font-size="17" fill="#6d6d6d">실재하는 도메인이다. 이미 팔렸다</text>
+
+  <line x1="136" y1="306" x2="548" y2="306" stroke="#e9e9e9" stroke-width="2"/>
+
+  <text class="t" x="136" y="356" font-size="26" font-weight="700" fill="#191919">user@deleteduser.com</text>
+  <text class="t" x="136" y="390" font-size="17" fill="#6d6d6d">15달러였다. 한 시간 만에 세 곳이 보냈다</text>
+
+  <line x1="136" y1="422" x2="548" y2="422" stroke="#e9e9e9" stroke-width="2"/>
+
+  <text class="t" x="136" y="472" font-size="26" font-weight="700" fill="#191919">test@example-mail.co</text>
+  <text class="t" x="136" y="506" font-size="17" fill="#6d6d6d">지금 비어 있어도 내일은 아니다</text>
+
+  <text class="t" x="612" y="150" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">남이 살 수 없다</text>
+  <rect x="612" y="176" width="492" height="376" fill="#fafafa"/>
+
+  <text class="t" x="652" y="240" font-size="26" font-weight="700" fill="#191919">noreply@우리회사.com</text>
+  <text class="t" x="652" y="274" font-size="17" fill="#6d6d6d">우리가 가진 도메인. 서버에서 버리면 된다</text>
+
+  <line x1="652" y1="306" x2="1064" y2="306" stroke="#e9e9e9" stroke-width="2"/>
+
+  <text class="t" x="652" y="356" font-size="26" font-weight="700" fill="#191919">noreply@우리회사.invalid</text>
+  <text class="t" x="652" y="390" font-size="17" fill="#6d6d6d">RFC 2606이 예약했다. 등록 자체가 불가능하다</text>
+
+  <line x1="652" y1="422" x2="1064" y2="422" stroke="#e9e9e9" stroke-width="2"/>
+
+  <text class="t" x="652" y="472" font-size="26" font-weight="700" fill="#191919">.test  .example  .localhost</text>
+  <text class="t" x="652" y="506" font-size="17" fill="#6d6d6d">같은 문서가 함께 막아 둔 이름들</text>
+
+  <text class="t" x="600" y="624" text-anchor="middle" font-size="19" font-weight="700" fill="#191919">도메인 등록은 소유가 아니라 임대다. 만료되면 누구나 가져간다</text>
+</svg>

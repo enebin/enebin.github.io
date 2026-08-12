@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="401796통의 수신 메일 중 28365통에 첨부 파일이 있고 발신 주소는 14000개 도메인으로 묶으면 6200개라는 것을 단계별로 보여주는 그림">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+
+  <text class="t" x="96" y="88" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">NOREPLY.NET 한 곳에 도착한 것</text>
+
+  <rect x="96" y="120" width="1008" height="118" fill="#fafafa"/>
+  <text class="t" x="136" y="176" font-size="40" font-weight="700" fill="#191919">401,796통</text>
+  <text class="t" x="136" y="212" font-size="18" fill="#6d6d6d">2024년 12월 이후 받은 메일 전체</text>
+  <text class="t" x="1064" y="200" text-anchor="end" font-size="17" fill="#6d6d6d">하루 평균 700통꼴</text>
+
+  <path d="M600 246 L600 274" stroke="#c9c9c9" stroke-width="2"/>
+  <path d="M592 266 L600 276 L608 266" fill="none" stroke="#c9c9c9" stroke-width="2"/>
+
+  <rect x="96" y="284" width="1008" height="118" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="136" y="340" font-size="40" font-weight="700" fill="#191919">28,365통</text>
+  <text class="t" x="136" y="376" font-size="18" fill="#6d6d6d">첨부 파일이 붙어 있던 메일</text>
+  <text class="t" x="1064" y="364" text-anchor="end" font-size="17" fill="#e34f32">문서, 기록, 화면이 그대로 들어 있다</text>
+
+  <text class="t" x="96" y="470" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">보낸 쪽을 세어 보면</text>
+
+  <rect x="96" y="502" width="492" height="150" fill="#fafafa"/>
+  <text class="t" x="136" y="562" font-size="40" font-weight="700" fill="#191919">14,000+</text>
+  <text class="t" x="136" y="598" font-size="18" fill="#6d6d6d">서로 다른 발신 주소</text>
+  <text class="t" x="136" y="628" font-size="17" fill="#6d6d6d">주소 하나가 반복해 보낸 게 아니다</text>
+
+  <rect x="612" y="502" width="492" height="150" fill="#fafafa"/>
+  <text class="t" x="652" y="562" font-size="40" font-weight="700" fill="#191919">6,200</text>
+  <text class="t" x="652" y="598" font-size="18" fill="#6d6d6d">이를 묶은 루트 도메인</text>
+  <text class="t" x="652" y="628" font-size="17" fill="#6d6d6d">한 회사의 설정 실수가 아니다</text>
+</svg>

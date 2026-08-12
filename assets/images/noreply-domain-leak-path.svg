@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="설정 파일에 적힌 자리 표시자 주소가 메일 서버를 거쳐 외부 도메인 주인의 캐치올 편지함으로 도착하는 경로를 보여주는 그림">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+
+  <text class="t" x="96" y="88" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">회사 안</text>
+  <line x1="96" y1="106" x2="700" y2="106" stroke="#e9e9e9" stroke-width="2"/>
+
+  <text class="t" x="760" y="88" font-size="15" font-weight="700" letter-spacing="2" fill="#e34f32">회사 밖</text>
+  <line x1="760" y1="106" x2="1104" y2="106" stroke="#e9e9e9" stroke-width="2"/>
+
+  <line x1="730" y1="130" x2="730" y2="620" stroke="#e9e9e9" stroke-width="2" stroke-dasharray="8 8"/>
+
+  <rect x="96" y="160" width="330" height="150" fill="#fafafa"/>
+  <text class="t" x="128" y="212" font-size="30" font-weight="700" fill="#191919">설정 파일 한 줄</text>
+  <text class="t" x="128" y="248" font-size="18" fill="#6d6d6d">발신자 주소를 적어야 하는데</text>
+  <text class="t" x="128" y="278" font-size="18" fill="#6d6d6d">회사 도메인 대신 그럴듯한 이름을</text>
+
+  <rect x="96" y="380" width="330" height="150" fill="#fafafa"/>
+  <text class="t" x="128" y="432" font-size="30" font-weight="700" fill="#191919">계정 삭제 처리</text>
+  <text class="t" x="128" y="468" font-size="18" fill="#6d6d6d">퇴사자 메일 칸이 비면</text>
+  <text class="t" x="128" y="498" font-size="18" fill="#6d6d6d">임시 주소로 채워 둔다</text>
+
+  <path d="M426 235 L490 235 L490 345" fill="none" stroke="#c9c9c9" stroke-width="2"/>
+  <path d="M426 455 L490 455 L490 365" fill="none" stroke="#c9c9c9" stroke-width="2"/>
+
+  <rect x="490" y="290" width="200" height="110" fill="#ffffff" stroke="#c9c9c9" stroke-width="2"/>
+  <text class="t" x="590" y="338" text-anchor="middle" font-size="24" font-weight="700" fill="#191919">메일 서버</text>
+  <text class="t" x="590" y="370" text-anchor="middle" font-size="17" fill="#6d6d6d">적힌 대로 배달한다</text>
+
+  <path d="M690 345 L840 345" stroke="#e34f32" stroke-width="2"/>
+  <path d="M832 337 L842 345 L832 353" fill="none" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="765" y="326" text-anchor="middle" font-size="16" fill="#e34f32">오류 없음</text>
+
+  <rect x="840" y="230" width="264" height="230" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="972" y="290" text-anchor="middle" font-size="16" font-weight="700" letter-spacing="2" fill="#6d6d6d">도메인 주인</text>
+  <text class="t" x="972" y="336" text-anchor="middle" font-size="30" font-weight="700" fill="#191919">캐치올 편지함</text>
+  <line x1="880" y1="366" x2="1064" y2="366" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="972" y="402" text-anchor="middle" font-size="17" fill="#191919">앞에 무슨 이름이 붙든</text>
+  <text class="t" x="972" y="430" text-anchor="middle" font-size="17" fill="#191919">전부 한 곳으로 들어온다</text>
+
+  <text class="t" x="1104" y="600" text-anchor="end" font-size="19" font-weight="700" fill="#191919">메일은 사라지지 않는다. 주소에 적힌 도메인을 찾아갈 뿐이다</text>
+</svg>
