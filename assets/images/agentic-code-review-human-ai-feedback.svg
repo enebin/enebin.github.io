@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="AI 리뷰와 사람 리뷰가 다루는 피드백 범위를 비교한 그림">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+  <text class="t" x="90" y="82" font-size="30" font-weight="700" fill="#191919">같은 코드를 봐도 묻는 것이 달랐다</text>
+  <text class="t" x="90" y="116" font-size="18" fill="#6d6d6d">AI는 기술 문제에 집중했고 사람은 대화로 맥락을 채웠다</text>
+
+  <rect x="90" y="178" width="470" height="410" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="130" y="230" font-size="15" font-weight="700" letter-spacing="2" fill="#e34f32">AI REVIEW</text>
+  <text class="t" x="130" y="278" font-size="30" font-weight="700" fill="#191919">95% 이상</text>
+  <text class="t" x="130" y="312" font-size="18" fill="#6d6d6d">코드 개선 + 결함 탐지</text>
+  <rect x="130" y="356" width="382" height="70" fill="#e34f32"/>
+  <text class="t" x="321" y="398" text-anchor="middle" font-size="19" font-weight="700" fill="#ffffff">고칠 곳과 수정안</text>
+  <rect x="130" y="444" width="188" height="70" fill="#e9e9e9"/>
+  <text class="t" x="224" y="486" text-anchor="middle" font-size="18" fill="#6d6d6d">심각도</text>
+  <rect x="324" y="444" width="188" height="70" fill="#e9e9e9"/>
+  <text class="t" x="418" y="486" text-anchor="middle" font-size="18" fill="#6d6d6d">관련 파일</text>
+  <text class="t" x="130" y="554" font-size="17" fill="#6d6d6d">평균 29.6토큰 / 변경 코드 한 줄</text>
+
+  <rect x="600" y="178" width="510" height="410" fill="#ffffff" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="640" y="230" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">HUMAN REVIEW</text>
+  <text class="t" x="640" y="278" font-size="30" font-weight="700" fill="#191919">더 넓은 질문</text>
+  <text class="t" x="640" y="312" font-size="18" fill="#6d6d6d">기술 문제와 프로젝트 맥락</text>
+  <rect x="640" y="356" width="205" height="70" fill="#e9e9e9"/>
+  <text class="t" x="742" y="398" text-anchor="middle" font-size="18" fill="#191919">코드 개선</text>
+  <rect x="851" y="356" width="219" height="70" fill="#e9e9e9"/>
+  <text class="t" x="960" y="398" text-anchor="middle" font-size="18" fill="#191919">왜 이렇게 썼나</text>
+  <rect x="640" y="444" width="205" height="70" fill="#e9e9e9"/>
+  <text class="t" x="742" y="486" text-anchor="middle" font-size="18" fill="#191919">테스트</text>
+  <rect x="851" y="444" width="219" height="70" fill="#e9e9e9"/>
+  <text class="t" x="960" y="486" text-anchor="middle" font-size="18" fill="#191919">저장소 관례</text>
+  <text class="t" x="640" y="554" font-size="17" fill="#6d6d6d">평균 4.1토큰 / 변경 코드 한 줄</text>
+
+  <text class="t" x="1110" y="642" text-anchor="end" font-size="17" fill="#6d6d6d">말의 양보다 빠져 있는 질문을 본다</text>
+</svg>

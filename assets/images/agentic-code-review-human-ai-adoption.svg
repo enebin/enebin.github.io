@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="AI와 사람의 코드 수정안 개수와 실제 채택률을 비교한 그림">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+  <text class="t" x="90" y="82" font-size="30" font-weight="700" fill="#191919">제안 수와 채택률은 반대로 움직였다</text>
+  <text class="t" x="90" y="116" font-size="18" fill="#6d6d6d">코드 블록으로 제시한 수정안이 이후 병합된 코드에 반영됐는지 추적했다</text>
+
+  <text class="t" x="90" y="208" font-size="15" font-weight="700" letter-spacing="2" fill="#e34f32">AI REVIEWER</text>
+  <text class="t" x="90" y="250" font-size="30" font-weight="700" fill="#191919">88,011개 제안</text>
+  <rect x="360" y="208" width="700" height="64" fill="#e9e9e9"/>
+  <rect x="360" y="208" width="116" height="64" fill="#e34f32"/>
+  <text class="t" x="500" y="249" font-size="19" font-weight="700" fill="#191919">16.6% 채택</text>
+
+  <line x1="90" y1="324" x2="1110" y2="324" stroke="#e9e9e9" stroke-width="2"/>
+
+  <text class="t" x="90" y="404" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">HUMAN REVIEWER</text>
+  <text class="t" x="90" y="446" font-size="30" font-weight="700" fill="#191919">25,673개 제안</text>
+  <rect x="360" y="404" width="700" height="64" fill="#e9e9e9"/>
+  <rect x="360" y="404" width="396" height="64" fill="#191919"/>
+  <text class="t" x="780" y="445" font-size="19" font-weight="700" fill="#191919">56.5% 채택</text>
+
+  <rect x="90" y="530" width="470" height="82" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="120" y="564" font-size="16" font-weight="700" fill="#e34f32">채택하지 않은 AI 제안 표본</text>
+  <text class="t" x="120" y="594" font-size="18" fill="#191919">28.7% 잘못된 제안 · 24.0% 다른 방식으로 수정</text>
+
+  <text class="t" x="1110" y="642" text-anchor="end" font-size="17" fill="#6d6d6d">많이 제안하는 능력과 쓸 만한 제안을 고르는 능력은 다르다</text>
+</svg>

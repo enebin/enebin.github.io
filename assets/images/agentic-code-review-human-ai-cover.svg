@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="AI가 결함 후보를 넓게 찾고 사람이 맥락을 확인해 최종 판단하는 코드 리뷰 역할 분담">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+
+  <text class="t" x="90" y="92" font-size="16" font-weight="700" letter-spacing="2" fill="#e34f32">AGENTIC CODE REVIEW</text>
+  <text class="t" x="90" y="144" font-size="30" font-weight="700" fill="#191919">AI는 판사가 아니라 센서다</text>
+  <text class="t" x="90" y="181" font-size="19" fill="#6d6d6d">넓게 찾는 일과 맥락을 판단하는 일을 나눈다</text>
+
+  <rect x="90" y="258" width="310" height="260" fill="#ffffff" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="125" y="306" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">AI REVIEWER</text>
+  <text class="t" x="125" y="352" font-size="30" font-weight="700" fill="#191919">결함 후보</text>
+  <line x1="125" y1="382" x2="350" y2="382" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="125" y="426" font-size="19" fill="#6d6d6d">대량 변경 1차 검사</text>
+  <text class="t" x="125" y="462" font-size="19" fill="#6d6d6d">반복 항목과 이상 신호</text>
+
+  <path d="M420 388 L542 388" stroke="#e34f32" stroke-width="3"/>
+  <path d="M530 378 L544 388 L530 398" fill="none" stroke="#e34f32" stroke-width="3"/>
+  <text class="t" x="482" y="367" text-anchor="middle" font-size="16" fill="#e34f32">검증</text>
+
+  <rect x="564" y="308" width="140" height="160" fill="#e9e9e9"/>
+  <text class="t" x="634" y="374" text-anchor="middle" font-size="30" font-weight="700" fill="#191919">PR</text>
+  <text class="t" x="634" y="410" text-anchor="middle" font-size="17" fill="#6d6d6d">코드 변경</text>
+
+  <path d="M726 388 L848 388" stroke="#e34f32" stroke-width="3"/>
+  <path d="M836 378 L850 388 L836 398" fill="none" stroke="#e34f32" stroke-width="3"/>
+  <text class="t" x="787" y="367" text-anchor="middle" font-size="16" fill="#e34f32">판단</text>
+
+  <rect x="870" y="258" width="240" height="260" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="905" y="306" font-size="15" font-weight="700" letter-spacing="2" fill="#e34f32">HUMAN REVIEWER</text>
+  <text class="t" x="905" y="352" font-size="30" font-weight="700" fill="#191919">최종 결정</text>
+  <line x1="905" y1="382" x2="1075" y2="382" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="905" y="426" font-size="19" fill="#6d6d6d">의도와 저장소 맥락</text>
+  <text class="t" x="905" y="462" font-size="19" fill="#6d6d6d">유지보수와 병합 결정</text>
+
+  <text class="t" x="1110" y="628" text-anchor="end" font-size="17" fill="#6d6d6d">278,790개 실제 인라인 리뷰 대화가 보여 준 역할 차이</text>
+</svg>
