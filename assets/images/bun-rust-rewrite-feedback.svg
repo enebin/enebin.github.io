@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="코드 리뷰와 테스트와 컴파일러가 버그를 발견하는 시점을 비교한 그림">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+  <text class="t" x="90" y="90" font-size="30" font-weight="700" fill="#191919">버그를 언제 알게 되는가</text>
+  <text class="t" x="90" y="126" font-size="18" fill="#6d6d6d">왼쪽에서 잡을수록 수정 범위가 작다</text>
+  <path d="M130 545 L1080 545" stroke="#e9e9e9" stroke-width="3"/>
+  <path d="M1068 535 L1082 545 L1068 555" fill="none" stroke="#e9e9e9" stroke-width="3"/>
+  <text class="t" x="130" y="590" font-size="16" fill="#6d6d6d">코드 작성</text>
+  <text class="t" x="1080" y="590" text-anchor="end" font-size="16" fill="#6d6d6d">사용자 실행</text>
+  <rect x="150" y="235" width="250" height="230" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="275" y="285" text-anchor="middle" font-size="16" font-weight="700" fill="#e34f32">가장 이른 피드백</text>
+  <text class="t" x="275" y="340" text-anchor="middle" font-size="30" font-weight="700" fill="#191919">Rust 컴파일러</text>
+  <text class="t" x="275" y="385" text-anchor="middle" font-size="18" fill="#6d6d6d">소유권과 수명 오류</text>
+  <text class="t" x="275" y="420" text-anchor="middle" font-size="18" fill="#6d6d6d">컴파일 전에 차단</text>
+  <rect x="475" y="300" width="250" height="165" fill="#fafafa" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="600" y="350" text-anchor="middle" font-size="30" font-weight="700" fill="#191919">CI · 테스트</text>
+  <text class="t" x="600" y="395" text-anchor="middle" font-size="18" fill="#6d6d6d">실행된 경로의 문제</text>
+  <text class="t" x="600" y="430" text-anchor="middle" font-size="18" fill="#6d6d6d">코드를 올린 뒤 발견</text>
+  <rect x="800" y="355" width="250" height="110" fill="#fafafa" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="925" y="405" text-anchor="middle" font-size="30" font-weight="700" fill="#191919">퍼징 · 운영</text>
+  <text class="t" x="925" y="440" text-anchor="middle" font-size="18" fill="#6d6d6d">드문 경로의 문제</text>
+</svg>

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="구현자와 두 리뷰어와 수정자가 반복하는 코드 변환 흐름">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+  <text class="t" x="90" y="90" font-size="30" font-weight="700" fill="#191919">하나의 작업이 통과하는 네 역할</text>
+  <rect x="90" y="250" width="210" height="170" fill="#fafafa" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="195" y="300" text-anchor="middle" font-size="16" font-weight="700" fill="#6d6d6d">1</text>
+  <text class="t" x="195" y="350" text-anchor="middle" font-size="30" font-weight="700" fill="#191919">구현자</text>
+  <text class="t" x="195" y="388" text-anchor="middle" font-size="18" fill="#6d6d6d">파일을 Rust로 변환</text>
+  <path d="M300 335 L380 335" stroke="#6d6d6d" stroke-width="2"/>
+  <path d="M370 326 L382 335 L370 344" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+  <rect x="382" y="180" width="240" height="145" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="502" y="225" text-anchor="middle" font-size="16" font-weight="700" fill="#e34f32">2A · 별도 컨텍스트</text>
+  <text class="t" x="502" y="272" text-anchor="middle" font-size="30" font-weight="700" fill="#191919">리뷰어</text>
+  <text class="t" x="502" y="302" text-anchor="middle" font-size="18" fill="#6d6d6d">틀렸다고 가정</text>
+  <rect x="382" y="345" width="240" height="145" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="502" y="390" text-anchor="middle" font-size="16" font-weight="700" fill="#e34f32">2B · 별도 컨텍스트</text>
+  <text class="t" x="502" y="437" text-anchor="middle" font-size="30" font-weight="700" fill="#191919">리뷰어</text>
+  <text class="t" x="502" y="467" text-anchor="middle" font-size="18" fill="#6d6d6d">다른 반례를 탐색</text>
+  <path d="M622 335 L702 335" stroke="#6d6d6d" stroke-width="2"/>
+  <path d="M692 326 L704 335 L692 344" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+  <rect x="704" y="250" width="210" height="170" fill="#fafafa" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="809" y="300" text-anchor="middle" font-size="16" font-weight="700" fill="#6d6d6d">3</text>
+  <text class="t" x="809" y="350" text-anchor="middle" font-size="30" font-weight="700" fill="#191919">수정자</text>
+  <text class="t" x="809" y="388" text-anchor="middle" font-size="18" fill="#6d6d6d">피드백을 적용</text>
+  <path d="M914 335 L994 335" stroke="#6d6d6d" stroke-width="2"/>
+  <path d="M984 326 L996 335 L984 344" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+  <rect x="996" y="250" width="114" height="170" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="1053" y="300" text-anchor="middle" font-size="16" font-weight="700" fill="#e34f32">4</text>
+  <text class="t" x="1053" y="350" text-anchor="middle" font-size="30" font-weight="700" fill="#191919">검증</text>
+  <text class="t" x="1053" y="388" text-anchor="middle" font-size="18" fill="#6d6d6d">테스트</text>
+  <path d="M1053 420 L1053 560 L195 560 L195 424" fill="none" stroke="#e9e9e9" stroke-width="2"/>
+  <path d="M186 436 L195 424 L204 436" fill="none" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="624" y="594" text-anchor="middle" font-size="17" fill="#6d6d6d">실패하면 기록을 남기고 다음 반복으로 돌아간다</text>
+</svg>
