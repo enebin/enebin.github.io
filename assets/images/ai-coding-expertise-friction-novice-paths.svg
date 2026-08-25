@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="초보자가 자기 계획을 기준으로 AI를 고르는 경로와 AI 제안에 의존하는 경로를 비교한 그림">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+  <text class="t" x="88" y="88" font-size="16" font-weight="700" letter-spacing="2" fill="#6d6d6d">TWO PATHS</text>
+  <text class="t" x="88" y="138" font-size="30" font-weight="700" fill="#191919">AI를 만나기 전에 기준이 있는가</text>
+  <rect x="88" y="196" width="1024" height="174" fill="#fafafa"/>
+  <text class="t" x="118" y="232" font-size="16" font-weight="700" fill="#e34f32">자기 계획이 있는 경로</text>
+  <rect x="118" y="264" width="190" height="72" fill="#ffffff" stroke="#191919" stroke-width="2"/>
+  <text class="t" x="213" y="308" text-anchor="middle" font-size="19" fill="#191919">문제 이해</text>
+  <path d="M308 300 L378 300" stroke="#6d6d6d" stroke-width="2"/>
+  <path d="M368 292 L378 300 L368 308" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+  <rect x="380" y="264" width="190" height="72" fill="#ffffff" stroke="#191919" stroke-width="2"/>
+  <text class="t" x="475" y="308" text-anchor="middle" font-size="19" fill="#191919">해법 계획</text>
+  <path d="M570 300 L640 300" stroke="#6d6d6d" stroke-width="2"/>
+  <path d="M630 292 L640 300 L630 308" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+  <rect x="642" y="264" width="190" height="72" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="737" y="308" text-anchor="middle" font-size="19" fill="#191919">AI 제안 선택</text>
+  <path d="M832 300 L902 300" stroke="#e34f32" stroke-width="2"/>
+  <path d="M892 292 L902 300 L892 308" fill="none" stroke="#e34f32" stroke-width="2"/>
+  <rect x="904" y="264" width="178" height="72" fill="#e34f32"/>
+  <text class="t" x="993" y="308" text-anchor="middle" font-size="19" font-weight="700" fill="#ffffff">검증과 수정</text>
+  <rect x="88" y="406" width="1024" height="174" fill="#ffffff" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="118" y="442" font-size="16" font-weight="700" fill="#6d6d6d">자기 계획이 없는 경로</text>
+  <rect x="118" y="474" width="190" height="72" fill="#ffffff" stroke="#191919" stroke-width="2"/>
+  <text class="t" x="213" y="518" text-anchor="middle" font-size="19" fill="#191919">문제 읽기</text>
+  <path d="M308 510 L378 510" stroke="#6d6d6d" stroke-width="2"/>
+  <path d="M368 502 L378 510 L368 518" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+  <rect x="380" y="474" width="190" height="72" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="475" y="518" text-anchor="middle" font-size="19" fill="#191919">AI 코드 수용</text>
+  <path d="M570 510 L640 510" stroke="#6d6d6d" stroke-width="2"/>
+  <path d="M630 502 L640 510 L630 518" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+  <rect x="642" y="474" width="190" height="72" fill="#ffffff" stroke="#191919" stroke-width="2"/>
+  <text class="t" x="737" y="518" text-anchor="middle" font-size="19" fill="#191919">오류와 혼란</text>
+  <path d="M832 510 L902 510" stroke="#6d6d6d" stroke-width="2"/>
+  <path d="M892 502 L902 510 L892 518" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+  <rect x="904" y="474" width="178" height="72" fill="#fafafa"/>
+  <text class="t" x="993" y="503" text-anchor="middle" font-size="19" font-weight="700" fill="#191919">AI에 다시</text>
+  <text class="t" x="993" y="529" text-anchor="middle" font-size="19" font-weight="700" fill="#191919">수정 요청</text>
+  <text class="t" x="1112" y="642" text-anchor="end" font-size="17" fill="#6d6d6d">자기 계획이 제안의 채택과 거절을 가른다</text>
+</svg>

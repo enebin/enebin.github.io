@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="교과서와 GPT Base와 GPT Tutor를 사용한 학생들의 연습 성과와 무도움 시험 성과를 비교한 그림">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+  <text class="t" x="88" y="88" font-size="16" font-weight="700" letter-spacing="2" fill="#6d6d6d">ASSISTED PRACTICE VS UNASSISTED EXAM</text>
+  <text class="t" x="88" y="138" font-size="30" font-weight="700" fill="#191919">도구가 있을 때의 성과와 없을 때의 실력</text>
+  <line x1="356" y1="188" x2="356" y2="570" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="236" y="222" text-anchor="middle" font-size="16" font-weight="700" fill="#6d6d6d">집단</text>
+  <text class="t" x="554" y="222" text-anchor="middle" font-size="16" font-weight="700" fill="#6d6d6d">AI를 쓰는 연습</text>
+  <text class="t" x="910" y="222" text-anchor="middle" font-size="16" font-weight="700" fill="#6d6d6d">AI 없는 시험</text>
+  <rect x="88" y="252" width="1024" height="92" fill="#fafafa"/>
+  <text class="t" x="118" y="307" font-size="30" font-weight="700" fill="#191919">교과서</text>
+  <text class="t" x="554" y="307" text-anchor="middle" font-size="19" fill="#6d6d6d">비교 기준</text>
+  <text class="t" x="910" y="307" text-anchor="middle" font-size="19" fill="#6d6d6d">비교 기준</text>
+  <rect x="88" y="362" width="1024" height="92" fill="#ffffff" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="118" y="417" font-size="30" font-weight="700" fill="#191919">GPT Base</text>
+  <rect x="430" y="386" width="248" height="44" fill="#e34f32"/>
+  <text class="t" x="554" y="416" text-anchor="middle" font-size="19" font-weight="700" fill="#ffffff">48% 높음</text>
+  <rect x="786" y="386" width="248" height="44" fill="#191919"/>
+  <text class="t" x="910" y="416" text-anchor="middle" font-size="19" font-weight="700" fill="#ffffff">17% 낮음</text>
+  <rect x="88" y="472" width="1024" height="92" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="118" y="527" font-size="30" font-weight="700" fill="#191919">GPT Tutor</text>
+  <rect x="430" y="496" width="248" height="44" fill="#e34f32"/>
+  <text class="t" x="554" y="526" text-anchor="middle" font-size="19" font-weight="700" fill="#ffffff">127% 높음</text>
+  <rect x="786" y="496" width="248" height="44" fill="#ffffff" stroke="#191919" stroke-width="2"/>
+  <text class="t" x="910" y="526" text-anchor="middle" font-size="19" font-weight="700" fill="#191919">유의한 차이 없음</text>
+  <text class="t" x="88" y="626" font-size="17" fill="#6d6d6d">튀르키예 고등학생 약 1,000명 · 네 차례 90분 수업 · 교과서 집단 대비</text>
+  <text class="t" x="1112" y="626" text-anchor="end" font-size="17" fill="#6d6d6d">Bastani et al.</text>
+</svg>

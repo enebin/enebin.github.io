@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="AI가 만든 빠른 결과와 개발자가 쌓는 느린 이해가 갈라지는 모습을 보여주는 표지 그림">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+  <text class="t" x="92" y="116" font-size="16" font-weight="700" letter-spacing="2" fill="#e34f32">AI CODING &amp; EXPERTISE</text>
+  <text class="t" x="92" y="180" font-size="30" font-weight="700" fill="#191919">빠른 결과와 깊은 이해는</text>
+  <text class="t" x="92" y="222" font-size="30" font-weight="700" fill="#191919">같은 길이 아니다</text>
+  <line x1="94" y1="334" x2="1104" y2="334" stroke="#e9e9e9" stroke-width="2"/>
+  <rect x="92" y="292" width="210" height="84" fill="#ffffff" stroke="#191919" stroke-width="2"/>
+  <text class="t" x="197" y="328" text-anchor="middle" font-size="15" font-weight="700" fill="#6d6d6d">시작</text>
+  <text class="t" x="197" y="356" text-anchor="middle" font-size="19" fill="#191919">새 문제</text>
+  <path d="M302 334 L390 334" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+  <path d="M380 326 L390 334 L380 342" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+  <path d="M390 334 L498 226" fill="none" stroke="#e34f32" stroke-width="3"/>
+  <path d="M390 334 L498 450" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+  <rect x="500" y="166" width="258" height="120" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="629" y="212" text-anchor="middle" font-size="30" font-weight="700" fill="#191919">결과 생성</text>
+  <text class="t" x="629" y="250" text-anchor="middle" font-size="18" fill="#6d6d6d">코드와 테스트 통과</text>
+  <rect x="500" y="410" width="258" height="120" fill="#fafafa"/>
+  <text class="t" x="629" y="456" text-anchor="middle" font-size="30" font-weight="700" fill="#191919">이해 형성</text>
+  <text class="t" x="629" y="494" text-anchor="middle" font-size="18" fill="#6d6d6d">계획과 실패와 검증</text>
+  <path d="M758 226 L866 226" fill="none" stroke="#e34f32" stroke-width="3"/>
+  <path d="M856 218 L866 226 L856 234" fill="none" stroke="#e34f32" stroke-width="3"/>
+  <path d="M758 470 L866 470" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+  <path d="M856 462 L866 470 L856 478" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+  <rect x="868" y="166" width="240" height="120" fill="#e34f32"/>
+  <text class="t" x="988" y="216" text-anchor="middle" font-size="30" font-weight="700" fill="#ffffff">완료</text>
+  <text class="t" x="988" y="252" text-anchor="middle" font-size="18" fill="#ffffff">바로 보이는 진도</text>
+  <rect x="868" y="410" width="240" height="120" fill="#ffffff" stroke="#191919" stroke-width="2"/>
+  <text class="t" x="988" y="456" text-anchor="middle" font-size="30" font-weight="700" fill="#191919">숙련</text>
+  <text class="t" x="988" y="494" text-anchor="middle" font-size="18" fill="#6d6d6d">시간 뒤 드러나는 진도</text>
+  <text class="t" x="1108" y="630" text-anchor="end" font-size="17" fill="#6d6d6d">AI는 위 경로를 줄여도 아래 경로까지 대신하지는 않는다</text>
+</svg>
