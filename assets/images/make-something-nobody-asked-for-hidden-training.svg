@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="의뢰받지 않은 작업이 주의력과 순서 구성과 완성 능력과 취향을 거쳐 나중의 유용한 작업으로 이어지는 구조">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+  <text class="t" x="80" y="92" font-size="16" font-weight="700" letter-spacing="2" fill="#6d6d6d">보이지 않는 수익</text>
+  <text class="t" x="80" y="136" font-size="30" font-weight="700" fill="#191919">결과물보다 먼저 사람에게 쌓이는 것</text>
+
+  <rect x="80" y="220" width="280" height="270" fill="#ffffff" stroke="#e34f32" stroke-width="3"/>
+  <text class="t" x="120" y="282" font-size="16" font-weight="700" letter-spacing="2" fill="#e34f32">시작</text>
+  <text class="t" x="120" y="330" font-size="30" font-weight="700" fill="#191919">의뢰받지 않은 작업</text>
+  <text class="t" x="120" y="378" font-size="18" fill="#6d6d6d">독자 없음</text>
+  <text class="t" x="120" y="412" font-size="18" fill="#6d6d6d">성과 약속 없음</text>
+  <text class="t" x="120" y="446" font-size="18" fill="#6d6d6d">스스로 정한 기준 있음</text>
+
+  <path d="M360 355 L450 355" stroke="#6d6d6d" stroke-width="2"/>
+  <path d="M440 347 L450 355 L440 363" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+
+  <rect x="450" y="190" width="300" height="330" fill="#fafafa"/>
+  <text class="t" x="490" y="244" font-size="16" font-weight="700" letter-spacing="2" fill="#6d6d6d">만드는 동안</text>
+  <text class="t" x="490" y="300" font-size="30" font-weight="700" fill="#191919">주의력</text>
+  <path d="M490 322 L710 322" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="490" y="370" font-size="30" font-weight="700" fill="#191919">순서 구성</text>
+  <path d="M490 392 L710 392" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="490" y="440" font-size="30" font-weight="700" fill="#191919">완성 능력 · 취향</text>
+
+  <path d="M750 355 L840 355" stroke="#6d6d6d" stroke-width="2"/>
+  <path d="M830 347 L840 355 L830 363" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+
+  <rect x="840" y="220" width="280" height="270" fill="#ffffff" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="880" y="282" font-size="16" font-weight="700" letter-spacing="2" fill="#6d6d6d">나중</text>
+  <text class="t" x="880" y="330" font-size="30" font-weight="700" fill="#191919">유용한 작업</text>
+  <text class="t" x="880" y="378" font-size="18" fill="#6d6d6d">직업 · 고객 · 독자</text>
+  <text class="t" x="880" y="412" font-size="18" fill="#6d6d6d">또는 아무 결과 없음</text>
+  <text class="t" x="880" y="446" font-size="18" font-weight="700" fill="#e34f32">둘 다 실패는 아니다</text>
+
+  <text class="t" x="600" y="592" text-anchor="middle" font-size="19" fill="#6d6d6d">쓸모는 시작 조건이 아니라 뒤늦게 생길 수 있는 결과다</text>
+</svg>

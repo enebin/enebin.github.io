@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="개인적인 호기심이 독자와 성과와 지표를 차례로 요구받으며 사업 계획으로 바뀌는 흐름">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+  <text class="t" x="80" y="92" font-size="16" font-weight="700" letter-spacing="2" fill="#6d6d6d">아이디어의 첫날</text>
+  <text class="t" x="80" y="136" font-size="30" font-weight="700" fill="#191919">호기심이 심사 자료로 바뀌는 과정</text>
+
+  <rect x="80" y="250" width="190" height="150" fill="#ffffff" stroke="#e34f32" stroke-width="3"/>
+  <text class="t" x="175" y="315" text-anchor="middle" font-size="30" font-weight="700" fill="#191919">호기심</text>
+  <text class="t" x="175" y="352" text-anchor="middle" font-size="18" fill="#6d6d6d">“해 보면 어떨까?”</text>
+
+  <path d="M270 325 L330 325" stroke="#6d6d6d" stroke-width="2"/>
+  <path d="M320 317 L330 325 L320 333" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+
+  <rect x="330" y="250" width="190" height="150" fill="#fafafa"/>
+  <text class="t" x="425" y="315" text-anchor="middle" font-size="30" font-weight="700" fill="#191919">독자</text>
+  <text class="t" x="425" y="352" text-anchor="middle" font-size="18" fill="#6d6d6d">누구를 위한가</text>
+
+  <path d="M520 325 L580 325" stroke="#6d6d6d" stroke-width="2"/>
+  <path d="M570 317 L580 325 L570 333" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+
+  <rect x="580" y="250" width="190" height="150" fill="#fafafa"/>
+  <text class="t" x="675" y="315" text-anchor="middle" font-size="30" font-weight="700" fill="#191919">성과</text>
+  <text class="t" x="675" y="352" text-anchor="middle" font-size="18" fill="#6d6d6d">무엇이 달라지는가</text>
+
+  <path d="M770 325 L830 325" stroke="#6d6d6d" stroke-width="2"/>
+  <path d="M820 317 L830 325 L820 333" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+
+  <rect x="830" y="250" width="190" height="150" fill="#fafafa"/>
+  <text class="t" x="925" y="315" text-anchor="middle" font-size="30" font-weight="700" fill="#191919">지표</text>
+  <text class="t" x="925" y="352" text-anchor="middle" font-size="18" fill="#6d6d6d">어떻게 증명하는가</text>
+
+  <path d="M1020 325 L1080 325" stroke="#6d6d6d" stroke-width="2"/>
+  <path d="M1070 317 L1080 325 L1070 333" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+  <text class="t" x="1085" y="304" font-size="16" fill="#6d6d6d">만들기 전</text>
+  <text class="t" x="1085" y="330" font-size="16" font-weight="700" fill="#e34f32">탈락</text>
+
+  <path d="M175 425 L175 525 L925 525 L925 425" fill="none" stroke="#e9e9e9" stroke-width="2" stroke-dasharray="9 9"/>
+  <text class="t" x="550" y="566" text-anchor="middle" font-size="19" fill="#6d6d6d">완성된 결과물 없이 미래 가치부터 설명해야 한다</text>
+</svg>

@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="반응과 호기심과 크기와 제약과 가치 추출 시점을 차례로 점검하는 다섯 질문">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+  <text class="t" x="80" y="92" font-size="16" font-weight="700" letter-spacing="2" fill="#6d6d6d">NOBODY ASKED TEST</text>
+  <text class="t" x="80" y="136" font-size="30" font-weight="700" fill="#191919">끝낼 만한 호기심을 고르는 다섯 관문</text>
+
+  <path d="M150 300 L1050 300" stroke="#e9e9e9" stroke-width="4"/>
+
+  <rect x="80" y="220" width="180" height="160" fill="#ffffff" stroke="#e34f32" stroke-width="3"/>
+  <text class="t" x="110" y="260" font-size="15" font-weight="700" fill="#e34f32">01</text>
+  <text class="t" x="110" y="307" font-size="30" font-weight="700" fill="#191919">반응</text>
+  <text class="t" x="110" y="342" font-size="17" fill="#6d6d6d">없어도 관심 있나</text>
+
+  <rect x="295" y="220" width="180" height="160" fill="#fafafa"/>
+  <text class="t" x="325" y="260" font-size="15" font-weight="700" fill="#6d6d6d">02</text>
+  <text class="t" x="325" y="307" font-size="30" font-weight="700" fill="#191919">호기심</text>
+  <text class="t" x="325" y="342" font-size="17" fill="#6d6d6d">해야만 답이 나오나</text>
+
+  <rect x="510" y="220" width="180" height="160" fill="#fafafa"/>
+  <text class="t" x="540" y="260" font-size="15" font-weight="700" fill="#6d6d6d">03</text>
+  <text class="t" x="540" y="307" font-size="30" font-weight="700" fill="#191919">크기</text>
+  <text class="t" x="540" y="342" font-size="17" fill="#6d6d6d">금방 끝낼 수 있나</text>
+
+  <rect x="725" y="220" width="180" height="160" fill="#fafafa"/>
+  <text class="t" x="755" y="260" font-size="15" font-weight="700" fill="#6d6d6d">04</text>
+  <text class="t" x="755" y="307" font-size="30" font-weight="700" fill="#191919">제약</text>
+  <text class="t" x="755" y="342" font-size="17" fill="#6d6d6d">경계가 분명한가</text>
+
+  <rect x="940" y="220" width="180" height="160" fill="#fafafa"/>
+  <text class="t" x="970" y="260" font-size="15" font-weight="700" fill="#6d6d6d">05</text>
+  <text class="t" x="970" y="307" font-size="30" font-weight="700" fill="#191919">가치</text>
+  <text class="t" x="970" y="342" font-size="17" fill="#6d6d6d">완성 뒤에 뽑나</text>
+
+  <path d="M600 410 L600 500" stroke="#6d6d6d" stroke-width="2"/>
+  <path d="M592 490 L600 500 L608 490" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+  <rect x="410" y="500" width="380" height="100" fill="#ffffff" stroke="#e34f32" stroke-width="3"/>
+  <text class="t" x="600" y="562" text-anchor="middle" font-size="30" font-weight="700" fill="#191919">하나를 실제로 완성한다</text>
+</svg>
