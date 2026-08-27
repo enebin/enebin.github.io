@@ -5,6 +5,7 @@ category: 생각
 tags:
   - 창작
 reading_time: 6분
+image: /assets/images/make-something-nobody-asked-for-cover.svg
 ---
 
 퇴근 뒤 작은 앱을 하나 만들어 보고 싶었다. 기능을 떠올리자마자 질문이 따라온다. 누가 쓸까, 돈이 될까, 꾸준히 운영할 수 있을까. 답이 흐릿하면 에디터를 열기도 전에 아이디어를 접는다.

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="아무도 부탁하지 않은 작업을 호기심에서 시작해 먼저 완성하고 쓸모는 나중에 찾는 표지 그림">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+
+  <text class="t" x="90" y="100" font-size="16" font-weight="700" letter-spacing="2" fill="#e34f32">UNCOMMISSIONED WORK</text>
+  <text class="t" x="90" y="165" font-size="46" font-weight="700" fill="#191919">아무도 부탁하지 않아도</text>
+  <text class="t" x="90" y="222" font-size="46" font-weight="700" fill="#191919">끝까지 만든다</text>
+
+  <text class="t" x="90" y="332" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">시작 조건</text>
+  <rect x="90" y="360" width="250" height="150" fill="#ffffff" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="215" y="418" text-anchor="middle" font-size="30" font-weight="700" fill="#191919">부탁 없음</text>
+  <text class="t" x="215" y="460" text-anchor="middle" font-size="18" fill="#6d6d6d">성과 약속도 없음</text>
+
+  <path d="M340 435 L440 435" stroke="#6d6d6d" stroke-width="2"/>
+  <path d="M430 427 L440 435 L430 443" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+
+  <rect x="440" y="340" width="280" height="190" fill="#ffffff" stroke="#e34f32" stroke-width="3"/>
+  <text class="t" x="580" y="405" text-anchor="middle" font-size="15" font-weight="700" letter-spacing="2" fill="#e34f32">지금 할 일</text>
+  <text class="t" x="580" y="460" text-anchor="middle" font-size="30" font-weight="700" fill="#191919">호기심을 완성한다</text>
+
+  <path d="M720 435 L820 435" stroke="#6d6d6d" stroke-width="2"/>
+  <path d="M810 427 L820 435 L810 443" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+
+  <text class="t" x="820" y="332" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">나중에 묻기</text>
+  <rect x="820" y="360" width="290" height="150" fill="#ffffff" stroke="#191919" stroke-width="2"/>
+  <text class="t" x="965" y="418" text-anchor="middle" font-size="30" font-weight="700" fill="#191919">쓸모와 독자</text>
+  <text class="t" x="965" y="460" text-anchor="middle" font-size="18" fill="#6d6d6d">결과물을 본 뒤 결정</text>
+
+  <text class="t" x="1110" y="620" text-anchor="end" font-size="17" fill="#6d6d6d">이해관계자는 없어도 기준은 남긴다</text>
+</svg>
