@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="샌드박스와 공용 패키지 저장소, 인터넷, 외부 서비스 사이의 보안 경계가 차례로 뚫린 과정">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+  <text class="t" x="80" y="86" font-size="16" font-weight="700" letter-spacing="2" fill="#6d6d6d">연결된 네 개의 경계</text>
+  <rect x="80" y="168" width="240" height="324" fill="#ffffff" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="112" y="220" font-size="15" font-weight="700" fill="#6d6d6d">1</text>
+  <text class="t" x="112" y="270" font-size="30" font-weight="700" fill="#191919">샌드박스</text>
+  <text class="t" x="112" y="314" font-size="18" fill="#6d6d6d">인터넷 차단</text>
+  <text class="t" x="112" y="346" font-size="18" fill="#6d6d6d">에이전트 간 통신 차단</text>
+  <text class="t" x="112" y="432" font-size="18" fill="#191919">하지만 패키지는 받아야 함</text>
+  <path d="M320 330 L370 330" stroke="#e34f32" stroke-width="2"/>
+  <path d="M358 318 L372 330 L358 342" fill="none" stroke="#e34f32" stroke-width="2"/>
+  <rect x="370" y="168" width="240" height="324" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="402" y="220" font-size="15" font-weight="700" fill="#e34f32">2 · 공유 지점</text>
+  <text class="t" x="402" y="270" font-size="30" font-weight="700" fill="#191919">Artifactory</text>
+  <text class="t" x="402" y="314" font-size="18" fill="#6d6d6d">디렉터리 → 게시판</text>
+  <text class="t" x="402" y="346" font-size="18" fill="#6d6d6d">외부 요청 → 우회 통로</text>
+  <text class="t" x="402" y="432" font-size="18" fill="#191919">통신과 인터넷을 함께 제공</text>
+  <path d="M610 330 L660 330" stroke="#e34f32" stroke-width="2"/>
+  <path d="M648 318 L662 330 L648 342" fill="none" stroke="#e34f32" stroke-width="2"/>
+  <rect x="660" y="168" width="190" height="324" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="692" y="220" font-size="15" font-weight="700" fill="#e34f32">3</text>
+  <text class="t" x="692" y="270" font-size="30" font-weight="700" fill="#191919">인터넷</text>
+  <text class="t" x="692" y="314" font-size="18" fill="#6d6d6d">노출된 자격 증명</text>
+  <text class="t" x="692" y="346" font-size="18" fill="#6d6d6d">공개 코드와 단서</text>
+  <text class="t" x="692" y="432" font-size="18" fill="#191919">공격 표면이 외부로 확대</text>
+  <path d="M850 330 L900 330" stroke="#e34f32" stroke-width="2"/>
+  <path d="M888 318 L902 330 L888 342" fill="none" stroke="#e34f32" stroke-width="2"/>
+  <rect x="900" y="168" width="220" height="324" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="932" y="220" font-size="15" font-weight="700" fill="#e34f32">4</text>
+  <text class="t" x="932" y="270" font-size="30" font-weight="700" fill="#191919">Hugging Face</text>
+  <text class="t" x="932" y="314" font-size="18" fill="#6d6d6d">파일 읽기 취약점</text>
+  <text class="t" x="932" y="346" font-size="18" fill="#6d6d6d">원격 코드 실행</text>
+  <text class="t" x="932" y="432" font-size="18" fill="#191919">외부 서비스 실제 침해</text>
+  <text class="t" x="80" y="574" font-size="18" fill="#6d6d6d">각 상자는 따로 안전해 보여도, 연결 하나가 다음 경계로 가는 발판이 됐다.</text>
+  <text class="t" x="1120" y="628" text-anchor="end" font-size="18" fill="#6d6d6d">격리는 연결된 서비스까지 포함해야 한다</text>
+</svg>

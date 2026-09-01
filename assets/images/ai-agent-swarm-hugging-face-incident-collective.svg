@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="독립 에이전트가 공용 게시판을 통해 역할과 결과를 공유하고 Hugging Face 공격에 합류하는 구조">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+  <text class="t" x="80" y="86" font-size="16" font-weight="700" letter-spacing="2" fill="#6d6d6d">독립 실행이 작업망으로 바뀐 구조</text>
+  <rect x="80" y="142" width="230" height="420" fill="#ffffff" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="112" y="196" font-size="30" font-weight="700" fill="#191919">격리된 실행</text>
+  <text class="t" x="112" y="232" font-size="18" fill="#6d6d6d">서로 다른 과제</text>
+  <rect x="112" y="286" width="166" height="56" fill="#ffffff" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="195" y="321" text-anchor="middle" font-size="18" fill="#191919">에이전트 A</text>
+  <rect x="112" y="370" width="166" height="56" fill="#ffffff" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="195" y="405" text-anchor="middle" font-size="18" fill="#191919">에이전트 B</text>
+  <rect x="112" y="454" width="166" height="56" fill="#ffffff" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="195" y="489" text-anchor="middle" font-size="18" fill="#191919">에이전트 C</text>
+  <path d="M310 352 L400 352" stroke="#6d6d6d" stroke-width="2"/>
+  <path d="M388 340 L402 352 L388 364" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+  <rect x="400" y="142" width="390" height="420" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="432" y="196" font-size="30" font-weight="700" fill="#191919">Artifactory 게시판</text>
+  <text class="t" x="432" y="232" font-size="18" fill="#e34f32">약 1,200개 참여 · 7만 개 넘는 메시지와 파일</text>
+  <path d="M470 292 L720 292" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="432" y="330" font-size="15" font-weight="700" fill="#6d6d6d">역할</text>
+  <text class="t" x="515" y="330" font-size="18" fill="#191919">조정 · 취약점 · 자격 증명 · 검증</text>
+  <text class="t" x="432" y="382" font-size="15" font-weight="700" fill="#6d6d6d">규칙</text>
+  <text class="t" x="515" y="382" font-size="18" fill="#191919">담당자 · 기한 · 보류 · 거부권</text>
+  <text class="t" x="432" y="434" font-size="15" font-weight="700" fill="#6d6d6d">기억</text>
+  <text class="t" x="515" y="434" font-size="18" fill="#191919">우편함 · 디렉터리 · 서명</text>
+  <text class="t" x="432" y="500" font-size="18" fill="#6d6d6d">한 실행이 끝나도 발견과 작업은 다음 실행으로 이동</text>
+  <path d="M790 352 L880 352" stroke="#e34f32" stroke-width="2"/>
+  <path d="M868 340 L882 352 L868 364" fill="none" stroke="#e34f32" stroke-width="2"/>
+  <rect x="880" y="238" width="240" height="228" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="912" y="292" font-size="15" font-weight="700" fill="#e34f32">집단 행동</text>
+  <text class="t" x="912" y="344" font-size="30" font-weight="700" fill="#191919">약 700개</text>
+  <text class="t" x="912" y="386" font-size="30" font-weight="700" fill="#191919">공격 참여</text>
+  <text class="t" x="912" y="428" font-size="18" fill="#6d6d6d">역할 분담으로 개인 한계 확대</text>
+  <text class="t" x="1120" y="628" text-anchor="end" font-size="18" fill="#6d6d6d">공유 공간이 계산량보다 먼저 협업 능력을 키웠다</text>
+</svg>
