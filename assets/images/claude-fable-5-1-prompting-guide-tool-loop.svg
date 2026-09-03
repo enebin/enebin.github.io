@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="독립 도구를 순서대로 호출하는 방식과 묶어서 호출하는 방식 비교">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+  <text class="t" x="80" y="82" font-size="16" font-weight="700" letter-spacing="2" fill="#6d6d6d">TOOL LOOP</text>
+  <text class="t" x="80" y="130" font-size="30" font-weight="700" fill="#191919">같은 세 작업, 다른 왕복 횟수</text>
+  <text class="t" x="100" y="220" font-size="30" font-weight="700" fill="#191919">하나씩 호출</text>
+  <rect x="100" y="260" width="180" height="90" fill="#fafafa"/>
+  <rect x="390" y="260" width="180" height="90" fill="#fafafa"/>
+  <rect x="680" y="260" width="180" height="90" fill="#fafafa"/>
+  <rect x="970" y="260" width="130" height="90" fill="#ffffff" stroke="#6d6d6d" stroke-width="2"/>
+  <text class="t" x="190" y="316" text-anchor="middle" font-size="19" fill="#191919">자료 A</text>
+  <text class="t" x="480" y="316" text-anchor="middle" font-size="19" fill="#191919">자료 B</text>
+  <text class="t" x="770" y="316" text-anchor="middle" font-size="19" fill="#191919">자료 C</text>
+  <text class="t" x="1035" y="316" text-anchor="middle" font-size="19" font-weight="700" fill="#191919">답변</text>
+  <path d="M280 305 L380 305 M570 305 L670 305 M860 305 L960 305" stroke="#e34f32" stroke-width="3"/>
+  <path d="M368 297 L382 305 L368 313 M658 297 L672 305 L658 313 M948 297 L962 305 L948 313" fill="none" stroke="#e34f32" stroke-width="3"/>
+  <text class="t" x="335" y="286" text-anchor="middle" font-size="15" fill="#e34f32">왕복</text>
+  <text class="t" x="625" y="286" text-anchor="middle" font-size="15" fill="#e34f32">왕복</text>
+  <text class="t" x="915" y="286" text-anchor="middle" font-size="15" fill="#e34f32">왕복</text>
+  <text class="t" x="100" y="446" font-size="30" font-weight="700" fill="#191919">한 번에 묶기</text>
+  <rect x="100" y="486" width="760" height="100" fill="#fafafa"/>
+  <line x1="353" y1="486" x2="353" y2="586" stroke="#e9e9e9" stroke-width="2"/>
+  <line x1="606" y1="486" x2="606" y2="586" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="226" y="546" text-anchor="middle" font-size="19" fill="#191919">자료 A</text>
+  <text class="t" x="480" y="546" text-anchor="middle" font-size="19" fill="#191919">자료 B</text>
+  <text class="t" x="733" y="546" text-anchor="middle" font-size="19" fill="#191919">자료 C</text>
+  <rect x="970" y="491" width="130" height="90" fill="#ffffff" stroke="#e34f32" stroke-width="3"/>
+  <text class="t" x="1035" y="546" text-anchor="middle" font-size="19" font-weight="700" fill="#191919">답변</text>
+  <path d="M860 536 L960 536" stroke="#e34f32" stroke-width="3"/>
+  <path d="M948 528 L962 536 L948 544" fill="none" stroke="#e34f32" stroke-width="3"/>
+  <text class="t" x="910" y="517" text-anchor="middle" font-size="15" fill="#e34f32">왕복</text>
+  <text class="t" x="1090" y="650" text-anchor="end" font-size="17" fill="#6d6d6d">의존하지 않는 호출만 함께 묶는다</text>
+</svg>

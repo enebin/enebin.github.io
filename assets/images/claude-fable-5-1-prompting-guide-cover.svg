@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="프롬프트를 중심으로 effort와 도구 루프와 대화 이력을 함께 조정하는 구조">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+  <text class="t" x="90" y="88" font-size="16" font-weight="700" letter-spacing="2" fill="#e34f32">CLAUDE FABLE 5.1</text>
+  <text class="t" x="90" y="142" font-size="30" font-weight="700" fill="#191919">프롬프트만 바꾸면 끝일까?</text>
+  <rect x="390" y="260" width="420" height="180" fill="#ffffff" stroke="#e34f32" stroke-width="3"/>
+  <text class="t" x="600" y="342" text-anchor="middle" font-size="30" font-weight="700" fill="#191919">프롬프트</text>
+  <text class="t" x="600" y="382" text-anchor="middle" font-size="18" fill="#6d6d6d">완료 조건 · 범위 · 출력 방식</text>
+  <rect x="70" y="270" width="250" height="160" fill="#fafafa"/>
+  <text class="t" x="195" y="340" text-anchor="middle" font-size="30" font-weight="700" fill="#191919">effort</text>
+  <text class="t" x="195" y="378" text-anchor="middle" font-size="18" fill="#6d6d6d">품질 · 비용 · 시간</text>
+  <rect x="880" y="270" width="250" height="160" fill="#fafafa"/>
+  <text class="t" x="1005" y="340" text-anchor="middle" font-size="30" font-weight="700" fill="#191919">도구 루프</text>
+  <text class="t" x="1005" y="378" text-anchor="middle" font-size="18" fill="#6d6d6d">진행 표시 · 병렬 호출</text>
+  <rect x="390" y="510" width="420" height="110" fill="#fafafa"/>
+  <text class="t" x="600" y="558" text-anchor="middle" font-size="30" font-weight="700" fill="#191919">대화 이력</text>
+  <text class="t" x="600" y="594" text-anchor="middle" font-size="18" fill="#6d6d6d">캐시 · thinking · compaction</text>
+  <path d="M320 350 L382 350" stroke="#6d6d6d" stroke-width="2"/>
+  <path d="M372 342 L384 350 L372 358" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+  <path d="M810 350 L872 350" stroke="#6d6d6d" stroke-width="2"/>
+  <path d="M860 342 L874 350 L860 358" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+  <path d="M600 440 L600 502" stroke="#6d6d6d" stroke-width="2"/>
+  <path d="M592 490 L600 504 L608 490" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+  <text class="t" x="1110" y="662" text-anchor="end" font-size="17" fill="#6d6d6d">모델 교체는 실행 환경까지 함께 맞추는 작업이다</text>
+</svg>

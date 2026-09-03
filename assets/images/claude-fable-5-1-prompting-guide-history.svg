@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="추가 전용 대화 이력과 과거를 수정한 대화 이력의 결과 비교">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+  <text class="t" x="80" y="82" font-size="16" font-weight="700" letter-spacing="2" fill="#6d6d6d">CONVERSATION HISTORY</text>
+  <text class="t" x="80" y="130" font-size="30" font-weight="700" fill="#191919">과거는 그대로 두고 새 턴만 붙인다</text>
+  <text class="t" x="90" y="220" font-size="30" font-weight="700" fill="#191919">추가 전용</text>
+  <rect x="90" y="258" width="210" height="82" fill="#fafafa"/>
+  <rect x="330" y="258" width="210" height="82" fill="#fafafa"/>
+  <rect x="570" y="258" width="210" height="82" fill="#fafafa"/>
+  <rect x="810" y="258" width="300" height="82" fill="#ffffff" stroke="#e34f32" stroke-width="3"/>
+  <text class="t" x="195" y="309" text-anchor="middle" font-size="18" fill="#191919">user</text>
+  <text class="t" x="435" y="309" text-anchor="middle" font-size="18" fill="#191919">assistant + thinking</text>
+  <text class="t" x="675" y="309" text-anchor="middle" font-size="18" fill="#191919">tool result</text>
+  <text class="t" x="960" y="309" text-anchor="middle" font-size="18" font-weight="700" fill="#191919">새 턴 추가</text>
+  <path d="M300 299 L322 299 M540 299 L562 299 M780 299 L802 299" stroke="#6d6d6d" stroke-width="2"/>
+  <text class="t" x="90" y="438" font-size="30" font-weight="700" fill="#191919">과거 수정</text>
+  <rect x="90" y="476" width="210" height="82" fill="#fafafa"/>
+  <rect x="330" y="476" width="210" height="82" fill="#ffffff" stroke="#e34f32" stroke-width="3"/>
+  <rect x="570" y="476" width="210" height="82" fill="#fafafa"/>
+  <rect x="810" y="476" width="300" height="82" fill="#fafafa"/>
+  <text class="t" x="195" y="527" text-anchor="middle" font-size="18" fill="#191919">user</text>
+  <text class="t" x="435" y="527" text-anchor="middle" font-size="18" font-weight="700" fill="#e34f32">이전 메시지 편집</text>
+  <text class="t" x="675" y="514" text-anchor="middle" font-size="18" fill="#191919">캐시</text>
+  <text class="t" x="675" y="540" text-anchor="middle" font-size="16" fill="#6d6d6d">다시 시작</text>
+  <text class="t" x="960" y="514" text-anchor="middle" font-size="18" fill="#191919">thinking 연결</text>
+  <text class="t" x="960" y="540" text-anchor="middle" font-size="16" fill="#6d6d6d">실패 가능</text>
+  <path d="M300 517 L322 517 M540 517 L562 517 M780 517 L802 517" stroke="#e34f32" stroke-width="2" stroke-dasharray="8 8"/>
+  <path d="M425 460 L445 460 M435 450 L435 470" stroke="#e34f32" stroke-width="3"/>
+  <text class="t" x="1090" y="650" text-anchor="end" font-size="17" fill="#6d6d6d">알림과 새 지침도 과거를 고치지 말고 뒤에 붙인다</text>
+</svg>
