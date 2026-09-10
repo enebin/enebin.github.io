@@ -20,9 +20,6 @@ nav: writing
     {% endif %}
     {% if page.description %}<p class="article-lead">{{ page.description }}</p>{% endif %}
   </header>
-  {% if page.image %}
-  <img class="article-cover" src="{{ page.image | relative_url }}" alt="{{ page.title }} 대표 이미지">
-  {% endif %}
   <div class="prose article-body">
     {{ content }}
   </div>
