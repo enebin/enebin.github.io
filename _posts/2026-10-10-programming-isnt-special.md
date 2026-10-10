@@ -6,6 +6,7 @@ tags:
   - AI tooling
   - 창작
 reading_time: 6분
+image: /assets/images/programming-isnt-special-cover.svg
 ---
 
 목록 화면에 검색 기능을 붙이려고 AI에게 코드를 부탁한다. 실행해 보니 검색 결과는 잘 나온다. 그런데 함수 이름이 어색하고, 요청이 실패했을 때 어떻게 처리되는지 읽기 어렵다. 고치려다 잠깐 망설인다. 잘 돌아가는데 이런 것까지 손봐야 할까.

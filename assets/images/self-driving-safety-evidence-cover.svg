@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="사고 감소율을 비교 대상과 운행 조건과 함께 읽어야 한다는 표지 그림">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+  <text class="t" x="90" y="88" font-size="16" font-weight="700" letter-spacing="2" fill="#e34f32">SELF-DRIVING SAFETY</text>
+  <text class="t" x="90" y="142" font-size="30" font-weight="700" fill="#191919">더 안전하다는 숫자, 무엇과 비교했을까?</text>
+  <rect x="390" y="260" width="420" height="180" fill="#ffffff" stroke="#e34f32" stroke-width="3"/>
+  <text class="t" x="600" y="342" text-anchor="middle" font-size="30" font-weight="700" fill="#191919">사고 감소율</text>
+  <text class="t" x="600" y="382" text-anchor="middle" font-size="18" fill="#6d6d6d">업체와 연구가 내놓은 숫자</text>
+  <rect x="70" y="270" width="250" height="160" fill="#fafafa"/>
+  <text class="t" x="195" y="340" text-anchor="middle" font-size="30" font-weight="700" fill="#191919">비교 대상</text>
+  <text class="t" x="195" y="378" text-anchor="middle" font-size="18" fill="#6d6d6d">누구의 운전과 견줬나</text>
+  <rect x="880" y="270" width="250" height="160" fill="#fafafa"/>
+  <text class="t" x="1005" y="340" text-anchor="middle" font-size="30" font-weight="700" fill="#191919">운행 조건</text>
+  <text class="t" x="1005" y="378" text-anchor="middle" font-size="18" fill="#6d6d6d">어떤 도로를 달렸나</text>
+  <path d="M320 350 L382 350" stroke="#6d6d6d" stroke-width="2"/>
+  <path d="M372 342 L384 350 L372 358" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+  <path d="M880 350 L818 350" stroke="#6d6d6d" stroke-width="2"/>
+  <path d="M828 342 L816 350 L828 358" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+  <text class="t" x="1110" y="662" text-anchor="end" font-size="17" fill="#6d6d6d">숫자 옆에 비교 대상과 운행 조건을 붙여 읽는다</text>
+</svg>

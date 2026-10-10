@@ -5,6 +5,7 @@ category: 기록
 tags:
   - 자율주행
 reading_time: 7분
+image: /assets/images/self-driving-safety-evidence-cover.svg
 ---
 
 운전석이 빈 택시에 타려는데 자율주행차 사고 영상이 떠오른다. 화면 속 차는 멈춰야 할 곳에서 멈추지 못했다. 사람이 운전하는 택시를 부르면 마음은 편해질 듯하다. 그런데 그쪽이 실제로 덜 위험한지는 영상만으로 알 수 없다.

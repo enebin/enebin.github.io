@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="callback과 errback을 반복하던 불편에서 Deferred가 나오고 Promise와 async/await로 이어졌다는 표지 그림">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+
+  <text class="t" x="90" y="100" font-size="16" font-weight="700" letter-spacing="2" fill="#e34f32">PROGRAMMING ISN'T SPECIAL</text>
+  <text class="t" x="90" y="165" font-size="46" font-weight="700" fill="#191919">평범한 반복에서</text>
+  <text class="t" x="90" y="222" font-size="46" font-weight="700" fill="#191919">더 나은 도구가 나온다</text>
+
+  <text class="t" x="90" y="332" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">매번 쓰던 코드</text>
+  <rect x="90" y="360" width="250" height="150" fill="#ffffff" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="215" y="418" text-anchor="middle" font-size="30" font-weight="700" fill="#191919">지루한 반복</text>
+  <text class="t" x="215" y="460" text-anchor="middle" font-size="18" fill="#6d6d6d">callback · errback</text>
+
+  <path d="M340 435 L440 435" stroke="#6d6d6d" stroke-width="2"/>
+  <path d="M430 427 L440 435 L430 443" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+
+  <rect x="440" y="340" width="280" height="190" fill="#ffffff" stroke="#e34f32" stroke-width="3"/>
+  <text class="t" x="580" y="405" text-anchor="middle" font-size="15" font-weight="700" letter-spacing="2" fill="#e34f32">직접 느낀 것</text>
+  <text class="t" x="580" y="460" text-anchor="middle" font-size="30" font-weight="700" fill="#191919">불편을 살핀다</text>
+
+  <path d="M720 435 L820 435" stroke="#6d6d6d" stroke-width="2"/>
+  <path d="M810 427 L820 435 L810 443" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+
+  <text class="t" x="820" y="332" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">새로운 형태</text>
+  <rect x="820" y="360" width="290" height="150" fill="#ffffff" stroke="#191919" stroke-width="2"/>
+  <text class="t" x="965" y="418" text-anchor="middle" font-size="30" font-weight="700" fill="#191919">Deferred</text>
+  <text class="t" x="965" y="460" text-anchor="middle" font-size="18" fill="#6d6d6d">Promise · async/await로</text>
+
+  <text class="t" x="1110" y="620" text-anchor="end" font-size="17" fill="#6d6d6d">반복을 대신 쳐 주면 그 불편도 함께 사라진다</text>
+</svg>
