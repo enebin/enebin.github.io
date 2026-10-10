@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="목적 설정부터 AI 초안 검토와 동작 확인을 거쳐 다음 판단 기준으로 돌아오는 흐름">
+  <style>.t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }</style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+  <text class="t" x="72" y="82" font-size="30" fill="#191919" text-anchor="start">초안 뒤의 판단이 다음 작업에 남는다</text>
+  <text class="t" x="72" y="119" font-size="16" fill="#6d6d6d" text-anchor="start">원문을 읽고 제안하는 작업 흐름</text>
+  <rect x="100" y="195" width="430" height="140" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="130" y="248" font-size="30" fill="#191919" text-anchor="start">목적과 조건</text>
+  <text class="t" x="130" y="297" font-size="18" fill="#6d6d6d" text-anchor="start">무엇을 만들지 결정</text>
+  <rect x="670" y="195" width="430" height="140" fill="#ffffff" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="700" y="248" font-size="30" fill="#191919" text-anchor="start">AI 초안</text>
+  <text class="t" x="700" y="297" font-size="18" fill="#6d6d6d" text-anchor="start">구현 후보를 생성</text>
+  <rect x="670" y="425" width="430" height="140" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="700" y="478" font-size="30" fill="#191919" text-anchor="start">검토와 확인</text>
+  <text class="t" x="700" y="527" font-size="18" fill="#6d6d6d" text-anchor="start">조건과 실제 동작을 비교</text>
+  <rect x="100" y="425" width="430" height="140" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="130" y="478" font-size="30" fill="#191919" text-anchor="start">발견한 조건</text>
+  <text class="t" x="130" y="527" font-size="18" fill="#6d6d6d" text-anchor="start">다음 작업의 기준에 반영</text>
+  <path d="M535 265 L660 265 M648.0 259.0 L660 265 L648.0 271.0" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+  <path d="M885 340 L885 415 M891.0 403.0 L885 415 L879.0 403.0" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+  <path d="M665 495 L540 495 M552.0 501.0 L540 495 L552.0 489.0" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+  <path d="M315 420 L315 345 M309.0 357.0 L315 345 L321.0 357.0" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+  <text class="t" x="600" y="644" font-size="18" fill="#e34f32" text-anchor="middle">사람이 맡는 결정 · 생성 결과와 실제 동작을 대조하는 일</text>
+</svg>
