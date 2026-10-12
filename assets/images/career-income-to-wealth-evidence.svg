@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="같은 업무 경험을 활동 기록과 결과의 근거로 정리하는 두 가지 방식">
+  <style>.t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }</style>
+  <defs>
+    <marker id="gray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10" fill="none" stroke="#6d6d6d"/></marker>
+    <marker id="red" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10" fill="none" stroke="#e34f32"/></marker>
+  </defs>
+  <rect width="1200" height="700" fill="#ffffff"/>
+<text class="t" x="72" y="65" font-size="30" fill="#191919" text-anchor="start" font-weight="700">같은 업무, 다른 기록</text>
+  <rect x="410" y="105" width="380" height="95" fill="#ffffff" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="600" y="147" font-size="30" fill="#191919" text-anchor="middle" font-weight="700">기능 출시 · 장애 대응</text>
+  <text class="t" x="600" y="177" font-size="16" fill="#6d6d6d" text-anchor="middle">한 달 동안 함께 수행한 업무</text>
+  <path d="M600 200 L600 240 L325 240 L325 292" fill="none" stroke="#6d6d6d" stroke-width="2" marker-end="url(#gray)"/>
+  <path d="M600 240 L875 240 L875 292" fill="none" stroke="#e34f32" stroke-width="2" marker-end="url(#red)"/>
+  <rect x="80" y="295" width="490" height="320" fill="#ffffff" stroke="#e9e9e9" stroke-width="2"/>
+  <rect x="630" y="295" width="490" height="320" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="112" y="334" font-size="16" fill="#6d6d6d" text-anchor="start" font-weight="700">활동 기록</text>
+  <text class="t" x="112" y="383" font-size="30" fill="#191919" text-anchor="start" font-weight="700">무엇을 했나</text>
+  <text class="t" x="112" y="433" font-size="18" fill="#191919" text-anchor="start">기능을 출시했다</text>
+  <text class="t" x="112" y="466" font-size="18" fill="#191919" text-anchor="start">장애를 고쳤다</text>
+  <text class="t" x="112" y="567" font-size="18" fill="#6d6d6d" text-anchor="start">담당했던 일은 알 수 있다</text>
+  <text class="t" x="662" y="334" font-size="16" fill="#e34f32" text-anchor="start" font-weight="700">성과의 근거</text>
+  <text class="t" x="662" y="383" font-size="30" fill="#191919" text-anchor="start" font-weight="700">무엇이 달라졌나</text>
+  <text class="t" x="662" y="433" font-size="18" fill="#191919" text-anchor="start">고객이 덜 하게 된 작업</text>
+  <text class="t" x="662" y="466" font-size="18" fill="#191919" text-anchor="start">반복 오류를 없앤 변경</text>
+  <text class="t" x="662" y="499" font-size="18" fill="#191919" text-anchor="start">팀의 결과 중 내가 맡은 부분</text>
+  <text class="t" x="662" y="567" font-size="18" fill="#6d6d6d" text-anchor="start">변화와 자신의 기여를 설명할 수 있다</text>
+</svg>

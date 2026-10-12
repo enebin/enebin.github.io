@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="소득을 생활비와 저축 및 투자로 나누고 남긴 몫을 자산으로 전환하는 흐름">
+  <style>.t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }</style>
+  <defs>
+    <marker id="gray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10" fill="none" stroke="#6d6d6d"/></marker>
+    <marker id="red" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10" fill="none" stroke="#e34f32"/></marker>
+  </defs>
+  <rect width="1200" height="700" fill="#ffffff"/>
+<text class="t" x="72" y="65" font-size="30" fill="#191919" text-anchor="start" font-weight="700">들어온 돈은 어디로 가나</text>
+  <rect x="70" y="270" width="240" height="140" fill="#ffffff" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="190" y="326" font-size="30" fill="#191919" text-anchor="middle" font-weight="700">소득</text>
+  <text class="t" x="190" y="363" font-size="18" fill="#6d6d6d" text-anchor="middle">일한 대가로 들어온 돈</text>
+  <path d="M310 340 L395 340 L395 205 L485 205" fill="none" stroke="#6d6d6d" stroke-width="2" marker-end="url(#gray)"/>
+  <path d="M395 340 L395 490 L485 490" fill="none" stroke="#e34f32" stroke-width="2" marker-end="url(#red)"/>
+  <rect x="490" y="135" width="260" height="140" fill="#ffffff" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="620" y="190" font-size="30" fill="#191919" text-anchor="middle" font-weight="700">생활비</text>
+  <text class="t" x="620" y="228" font-size="18" fill="#6d6d6d" text-anchor="middle">현재 생활에 쓰는 몫</text>
+  <rect x="490" y="420" width="260" height="140" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="620" y="475" font-size="30" fill="#191919" text-anchor="middle" font-weight="700">저축 · 투자</text>
+  <text class="t" x="620" y="513" font-size="18" fill="#6d6d6d" text-anchor="middle">미래를 위해 남기는 몫</text>
+  <path d="M750 490 L895 490" fill="none" stroke="#e34f32" stroke-width="2" marker-end="url(#red)"/>
+  <text class="t" x="820" y="460" font-size="15" fill="#6d6d6d" text-anchor="middle">시간 · 위험 · 비용</text>
+  <rect x="900" y="420" width="240" height="140" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="1020" y="475" font-size="30" fill="#191919" text-anchor="middle" font-weight="700">보유 자산</text>
+  <text class="t" x="1020" y="513" font-size="18" fill="#6d6d6d" text-anchor="middle">앞으로 활용할 수 있는 것</text>
+  <text class="t" x="900" y="202" font-size="18" fill="#6d6d6d" text-anchor="start">생활이 편해지는 것도 가치가 있다</text>
+  <text class="t" x="72" y="640" font-size="18" fill="#6d6d6d" text-anchor="start">소득이 늘어난 만큼 생활비도 늘면, 남기는 몫은 그대로일 수 있다</text>
+</svg>

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="해마다 높아지는 소득 막대의 대부분이 지출로 채워지고, 위쪽의 작은 몫만 자산으로 쌓이는 그림과 연봉이 올라도 통장은 그대로라면이라는 제목">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+  <path d="M600 580 L1120 580" stroke="#e9e9e9" stroke-width="2"/>
+  <g stroke="#191919" stroke-width="2">
+    <rect x="620" y="370" width="70" height="210" fill="#e9e9e9"/>
+    <rect x="730" y="290" width="70" height="290" fill="#e9e9e9"/>
+    <rect x="840" y="210" width="70" height="370" fill="#e9e9e9"/>
+  </g>
+  <g fill="#e34f32">
+    <rect x="620" y="340" width="70" height="30"/>
+    <rect x="730" y="260" width="70" height="30"/>
+    <rect x="840" y="180" width="70" height="30"/>
+  </g>
+  <path d="M920 195 C 990 195, 1040 260, 1040 470" fill="none" stroke="#6d6d6d" stroke-width="2" stroke-dasharray="6 6"/>
+  <path d="M1030 460 L1040 480 L1050 460" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+  <g fill="none" stroke="#e34f32" stroke-width="3">
+    <rect x="990" y="550" width="100" height="30"/>
+    <rect x="990" y="520" width="100" height="30"/>
+    <rect x="990" y="490" width="100" height="30"/>
+  </g>
+  <text class="t" x="765" y="615" font-size="16" fill="#6d6d6d" text-anchor="middle">소득</text>
+  <text class="t" x="1040" y="615" font-size="16" fill="#6d6d6d" text-anchor="middle">남긴 몫</text>
+  <text class="t" x="100" y="300" font-size="16" font-weight="700" letter-spacing="2" fill="#6d6d6d">소득 · 지출 · 자산</text>
+  <text class="t" x="100" y="370" font-size="48" font-weight="700" fill="#191919">연봉이 올라도</text>
+  <text class="t" x="100" y="430" font-size="48" font-weight="700" fill="#191919">통장은 그대로라면</text>
+  <text class="t" x="100" y="480" font-size="19" fill="#6d6d6d">버는 돈과 남기는 돈을 나눠 보기</text>
+</svg>
