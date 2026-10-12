@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="그리는 이유를 재미와 빈 지도, 분단의 기억과 통일 이후, 인권 기록, 탈출 경로 네 가지로 나누고 오른쪽으로 갈수록 지도에 거는 무게가 커지는 그림">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+  <text class="t" x="100" y="110" font-size="16" font-weight="700" letter-spacing="2" fill="#6d6d6d">211명의 답장에서 나온 이유</text>
+  <path d="M100 150 L1090 150" stroke="#e9e9e9" stroke-width="2"/>
+  <path d="M1082 142 L1094 150 L1082 158" fill="none" stroke="#c9c9c9" stroke-width="2"/>
+  <text class="t" x="100" y="185" font-size="16" fill="#6d6d6d">취미</text>
+  <text class="t" x="1100" y="185" text-anchor="end" font-size="16" fill="#6d6d6d">지도에 거는 무게가 커진다</text>
+
+  <rect x="100" y="220" width="235" height="380" fill="#fafafa"/>
+  <text class="t" x="124" y="268" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">01</text>
+  <text class="t" x="124" y="310" font-size="30" font-weight="700" fill="#191919">재미</text>
+  <text class="t" x="124" y="350" font-size="17" fill="#6d6d6d">스도쿠처럼</text>
+  <text class="t" x="124" y="376" font-size="17" fill="#6d6d6d">강과 도로를 그린다</text>
+  <text class="t" x="124" y="420" font-size="17" fill="#6d6d6d">빈 지도를 처음부터</text>
+  <text class="t" x="124" y="446" font-size="17" fill="#6d6d6d">채우는 즐거움</text>
+
+  <rect x="355" y="220" width="235" height="380" fill="#fafafa"/>
+  <text class="t" x="379" y="268" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">02</text>
+  <text class="t" x="379" y="310" font-size="30" font-weight="700" fill="#191919">분단과 통일</text>
+  <text class="t" x="379" y="350" font-size="17" fill="#6d6d6d">독일 분단의 기억</text>
+  <text class="t" x="379" y="394" font-size="17" fill="#6d6d6d">통일 뒤 기반 시설을</text>
+  <text class="t" x="379" y="420" font-size="17" fill="#6d6d6d">지을 지도</text>
+
+  <rect x="610" y="220" width="235" height="380" fill="#fafafa"/>
+  <text class="t" x="634" y="268" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">03</text>
+  <text class="t" x="634" y="310" font-size="30" font-weight="700" fill="#191919">인권 기록</text>
+  <text class="t" x="634" y="350" font-size="17" fill="#6d6d6d">요덕 수용소,</text>
+  <text class="t" x="634" y="376" font-size="17" fill="#6d6d6d">화성 제16호 관리소</text>
+  <text class="t" x="634" y="420" font-size="17" fill="#6d6d6d">정보를 남길 몇 안 되는</text>
+  <text class="t" x="634" y="446" font-size="17" fill="#6d6d6d">방법</text>
+
+  <rect x="865" y="220" width="235" height="380" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="889" y="268" font-size="15" font-weight="700" letter-spacing="2" fill="#e34f32">04</text>
+  <text class="t" x="889" y="310" font-size="30" font-weight="700" fill="#191919">탈출 경로</text>
+  <text class="t" x="889" y="350" font-size="17" fill="#6d6d6d">두만강 양쪽의</text>
+  <text class="t" x="889" y="376" font-size="17" fill="#6d6d6d">울타리, 길, 마을</text>
+  <text class="t" x="889" y="420" font-size="17" fill="#6d6d6d">쓸모 있을지 모른 채</text>
+  <text class="t" x="889" y="446" font-size="17" fill="#6d6d6d">그린다</text>
+
+  <text class="t" x="1100" y="650" text-anchor="end" font-size="17" fill="#6d6d6d">재료는 같은 위성사진이다</text>
+</svg>

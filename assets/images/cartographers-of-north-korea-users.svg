@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="바깥의 기여자가 그린 지도가 연구자와 언론에게는 이어지지만 북한 주민에게는 끊어진 선으로 표시된 그림">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+  <rect x="100" y="250" width="300" height="200" fill="#fafafa"/>
+  <text class="t" x="130" y="300" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">그리는 사람</text>
+  <text class="t" x="130" y="345" font-size="30" font-weight="700" fill="#191919">바깥의 기여자</text>
+  <text class="t" x="130" y="385" font-size="17" fill="#6d6d6d">독일, 우크라이나, 미국,</text>
+  <text class="t" x="130" y="411" font-size="17" fill="#6d6d6d">한국에서 위성사진으로</text>
+
+  <rect x="500" y="250" width="200" height="200" fill="#ffffff" stroke="#191919" stroke-width="2"/>
+  <text class="t" x="600" y="345" text-anchor="middle" font-size="30" font-weight="700" fill="#191919">공개 지도</text>
+  <text class="t" x="600" y="385" text-anchor="middle" font-size="17" fill="#6d6d6d">누구나 쓸 수 있다</text>
+  <path d="M410 350 L488 350" stroke="#c9c9c9" stroke-width="2"/><path d="M480 342 L490 350 L480 358" fill="none" stroke="#c9c9c9" stroke-width="2"/>
+
+  <path d="M710 300 L790 190" stroke="#c9c9c9" stroke-width="2"/>
+  <rect x="800" y="110" width="300" height="160" fill="#fafafa"/>
+  <text class="t" x="830" y="160" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">지금 쓰는 사람</text>
+  <text class="t" x="830" y="205" font-size="30" font-weight="700" fill="#191919">연구자 · 언론</text>
+  <text class="t" x="830" y="242" font-size="17" fill="#6d6d6d">철새 연구, 국내 GIS 사용자</text>
+
+  <path d="M710 400 L790 510" stroke="#e34f32" stroke-width="2" stroke-dasharray="8 6"/>
+  <rect x="800" y="430" width="300" height="160" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="830" y="480" font-size="15" font-weight="700" letter-spacing="2" fill="#e34f32">닿지 못하는 사람</text>
+  <text class="t" x="830" y="525" font-size="30" font-weight="700" fill="#191919">북한 주민</text>
+  <text class="t" x="830" y="562" font-size="17" fill="#6d6d6d">볼 수도, 고칠 수도 없다</text>
+
+  <text class="t" x="100" y="650" font-size="17" fill="#6d6d6d">현장을 아는 사람이 빠져 있어서, 건물의 용도 같은 의미는 비어 있다</text>
+</svg>

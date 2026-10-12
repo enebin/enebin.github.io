@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="위성사진, 방문 기억과 사진, 공개 자료가 각각 도로와 건물 윤곽, 가게와 명소, 지명으로 이어지고 건물 용도와 현장 확인은 비어 있는 그림">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+  <text class="t" x="100" y="100" font-size="16" font-weight="700" letter-spacing="2" fill="#6d6d6d">재료</text>
+  <text class="t" x="720" y="100" font-size="16" font-weight="700" letter-spacing="2" fill="#6d6d6d">지도에 남는 것</text>
+
+  <rect x="100" y="130" width="440" height="100" fill="#fafafa"/>
+  <text class="t" x="130" y="175" font-size="30" font-weight="700" fill="#191919">위성사진</text>
+  <text class="t" x="130" y="208" font-size="17" fill="#6d6d6d">빙, 디지털글로브 무료 사진을 따라 그린다</text>
+  <path d="M550 180 L700 180" stroke="#c9c9c9" stroke-width="2"/><path d="M692 172 L702 180 L692 188" fill="none" stroke="#c9c9c9" stroke-width="2"/>
+  <rect x="720" y="130" width="380" height="100" fill="#fafafa"/>
+  <text class="t" x="750" y="175" font-size="30" font-weight="700" fill="#191919">도로 · 강 · 건물 윤곽</text>
+  <text class="t" x="750" y="208" font-size="17" fill="#6d6d6d">지도 대부분이 여기서 나온다</text>
+
+  <rect x="100" y="260" width="440" height="100" fill="#fafafa"/>
+  <text class="t" x="130" y="305" font-size="30" font-weight="700" fill="#191919">방문 기억과 사진</text>
+  <text class="t" x="130" y="338" font-size="17" fill="#6d6d6d">여행 뒤 기록, 오프라인 앱 MAPS.ME</text>
+  <path d="M550 310 L700 310" stroke="#c9c9c9" stroke-width="2"/><path d="M692 302 L702 310 L692 318" fill="none" stroke="#c9c9c9" stroke-width="2"/>
+  <rect x="720" y="260" width="380" height="100" fill="#fafafa"/>
+  <text class="t" x="750" y="305" font-size="30" font-weight="700" fill="#191919">호텔 · 박물관 · 식당</text>
+  <text class="t" x="750" y="338" font-size="17" fill="#6d6d6d">가 본 사람만 찍을 수 있는 점</text>
+
+  <rect x="100" y="390" width="440" height="100" fill="#fafafa"/>
+  <text class="t" x="130" y="435" font-size="30" font-weight="700" fill="#191919">공개 자료</text>
+  <text class="t" x="130" y="468" font-size="17" fill="#6d6d6d">위키매피아, 북한 잡지, 옛 지도</text>
+  <path d="M550 440 L700 440" stroke="#c9c9c9" stroke-width="2"/><path d="M692 432 L702 440 L692 448" fill="none" stroke="#c9c9c9" stroke-width="2"/>
+  <rect x="720" y="390" width="380" height="100" fill="#fafafa"/>
+  <text class="t" x="750" y="435" font-size="30" font-weight="700" fill="#191919">지명 · 행정구역</text>
+  <text class="t" x="750" y="468" font-size="17" fill="#6d6d6d">남이 적어 둔 이름을 옮긴다</text>
+
+  <rect x="100" y="520" width="440" height="100" fill="#ffffff" stroke="#e9e9e9" stroke-width="2" stroke-dasharray="8 6"/>
+  <text class="t" x="130" y="565" font-size="30" font-weight="700" fill="#6d6d6d">현장 확인</text>
+  <text class="t" x="130" y="598" font-size="17" fill="#6d6d6d">주민은 지도에 접근할 수 없다</text>
+  <path d="M550 570 L700 570" stroke="#e34f32" stroke-width="2" stroke-dasharray="8 6"/>
+  <rect x="720" y="520" width="380" height="100" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="750" y="565" font-size="30" font-weight="700" fill="#191919">이 건물은 무엇인가</text>
+  <text class="t" x="750" y="598" font-size="17" fill="#e34f32">농장인지 군 시설인지 알 수 없다</text>
+</svg>

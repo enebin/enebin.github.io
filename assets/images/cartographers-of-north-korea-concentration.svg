@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="북한 지도 데이터 중 61퍼센트를 상위 10명이, 39퍼센트를 나머지 879명이 그렸다는 비교">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+  <text class="t" x="100" y="120" font-size="16" font-weight="700" letter-spacing="2" fill="#6d6d6d">2007년부터 · 데이터 324,415개 · 기여자 889명</text>
+  <text class="t" x="100" y="170" font-size="30" font-weight="700" fill="#191919">누가 얼마나 그렸나</text>
+
+  <text class="t" x="100" y="270" font-size="19" font-weight="700" fill="#191919">사람 수</text>
+  <rect x="260" y="240" width="9" height="48" fill="#e34f32"/>
+  <rect x="271" y="240" width="829" height="48" fill="#e9e9e9"/>
+  <text class="t" x="260" y="318" font-size="16" fill="#e34f32">상위 10명</text>
+  <text class="t" x="1100" y="318" text-anchor="end" font-size="16" fill="#6d6d6d">나머지 879명</text>
+
+  <text class="t" x="100" y="440" font-size="19" font-weight="700" fill="#191919">그린 양</text>
+  <rect x="260" y="410" width="512" height="48" fill="#e34f32"/>
+  <rect x="774" y="410" width="326" height="48" fill="#e9e9e9"/>
+  <text class="t" x="280" y="442" font-size="19" font-weight="700" fill="#ffffff">61%</text>
+  <text class="t" x="794" y="442" font-size="19" font-weight="700" fill="#191919">39%</text>
+  <text class="t" x="260" y="488" font-size="16" fill="#e34f32">상위 10명</text>
+  <text class="t" x="1100" y="488" text-anchor="end" font-size="16" fill="#6d6d6d">나머지 879명</text>
+
+  <path d="M100 560 L1100 560" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="100" y="606" font-size="18" fill="#6d6d6d">기여자의 62%가 지명을 한국어로 적었다.</text>
+  <text class="t" x="100" y="636" font-size="18" fill="#6d6d6d">하지만 상위 5명은 인도, 독일, 우크라이나, 러시아, 일본 지도도 함께 그렸다.</text>
+</svg>
