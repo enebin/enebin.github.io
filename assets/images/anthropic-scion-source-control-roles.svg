@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="Claude는 코드 작성, 파이프라인 재작성, 최적화, 충돌 수정, 운영 감시를 맡고 엔지니어는 시스템 설계, 제약 지키기, 변경 의도 검토를 맡는다는 역할 분담 그림">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+
+  <text class="t" x="90" y="100" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">일곱 명 팀의 역할 분담</text>
+
+  <rect x="90" y="140" width="480" height="420" fill="#fafafa"/>
+  <text class="t" x="130" y="200" font-size="30" font-weight="700" fill="#191919">Claude</text>
+  <text class="t" x="130" y="232" font-size="17" fill="#6d6d6d">코드를 쓰고 고친다</text>
+  <text class="t" x="130" y="300" font-size="19" fill="#191919">코드 작성</text>
+  <text class="t" x="130" y="345" font-size="19" fill="#191919">이전 파이프라인 재작성 (메모리 20배↓, 4배 빠름)</text>
+  <text class="t" x="130" y="390" font-size="19" fill="#191919">조상 조회 쿼리 최적화</text>
+  <text class="t" x="130" y="435" font-size="19" fill="#191919">머지 뒤 충돌 수정</text>
+  <text class="t" x="130" y="480" font-size="19" fill="#191919">구성 요소별 로그·지표 감시</text>
+
+  <rect x="630" y="140" width="480" height="420" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="670" y="200" font-size="30" font-weight="700" fill="#191919">엔지니어</text>
+  <text class="t" x="670" y="232" font-size="17" fill="#6d6d6d">방향과 한계를 정한다</text>
+  <text class="t" x="670" y="300" font-size="19" fill="#191919">시스템 전체 이해와 설계 득실 판단</text>
+  <text class="t" x="670" y="345" font-size="19" fill="#191919">핵심 제약을 어기면 "안 돼"</text>
+  <text class="t" x="670" y="390" font-size="19" fill="#191919">줄 단위보다 변경 의도를 검토</text>
+  <text class="t" x="670" y="480" font-size="17" fill="#6d6d6d">예: 리뷰 도구에 물으면 될 일을</text>
+  <text class="t" x="670" y="506" font-size="17" fill="#6d6d6d">커밋 기록 전체를 훑어서 풀려 할 때</text>
+
+  <text class="t" x="1110" y="630" text-anchor="end" font-size="17" fill="#6d6d6d">다섯 달 동안 하루 머지는 열 배가 됐고, 이전은 끝났다</text>
+</svg>

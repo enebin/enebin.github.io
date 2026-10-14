@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="작업이 노드의 scion-daemon에, daemon이 지역 scion-cache에, cache가 scion-server에, server가 Spanner와 클라우드 저장소에 요청하는 4단 구조와 층마다 캐시 적중률 99% 이상이라는 그림">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+
+  <text class="t" x="90" y="100" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">요청은 한 층씩만 내려간다</text>
+
+  <rect x="90" y="160" width="200" height="150" fill="#fafafa"/>
+  <text class="t" x="190" y="220" text-anchor="middle" font-size="30" font-weight="700" fill="#191919">작업</text>
+  <text class="t" x="190" y="260" text-anchor="middle" font-size="17" fill="#6d6d6d">CI · 에이전트 · 연구</text>
+
+  <rect x="350" y="160" width="200" height="150" fill="#fafafa"/>
+  <text class="t" x="450" y="205" text-anchor="middle" font-size="15" font-weight="700" fill="#6d6d6d">노드마다 하나</text>
+  <text class="t" x="450" y="245" text-anchor="middle" font-size="26" font-weight="700" fill="#191919">scion-daemon</text>
+  <text class="t" x="450" y="282" text-anchor="middle" font-size="17" fill="#6d6d6d">스냅숏에서 시작</text>
+
+  <rect x="610" y="160" width="200" height="150" fill="#fafafa"/>
+  <text class="t" x="710" y="205" text-anchor="middle" font-size="15" font-weight="700" fill="#6d6d6d">지역마다</text>
+  <text class="t" x="710" y="245" text-anchor="middle" font-size="26" font-weight="700" fill="#191919">scion-cache</text>
+  <text class="t" x="710" y="282" text-anchor="middle" font-size="17" fill="#6d6d6d">메모리에서 바로 전송</text>
+
+  <rect x="870" y="160" width="240" height="150" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="990" y="205" text-anchor="middle" font-size="15" font-weight="700" fill="#e34f32">작은 서버 무리</text>
+  <text class="t" x="990" y="245" text-anchor="middle" font-size="26" font-weight="700" fill="#191919">scion-server</text>
+  <text class="t" x="990" y="282" text-anchor="middle" font-size="17" fill="#6d6d6d">diff·blame 계산</text>
+
+  <path d="M290 235 L340 235" stroke="#6d6d6d" stroke-width="2"/><path d="M330 227 L340 235 L330 243" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+  <path d="M550 235 L600 235" stroke="#6d6d6d" stroke-width="2"/><path d="M590 227 L600 235 L590 243" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+  <path d="M810 235 L860 235" stroke="#6d6d6d" stroke-width="2"/><path d="M850 227 L860 235 L850 243" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+
+  <path d="M990 310 L990 370" stroke="#6d6d6d" stroke-width="2"/><path d="M982 360 L990 370 L998 360" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+  <rect x="870" y="380" width="240" height="100" fill="#fafafa"/>
+  <text class="t" x="990" y="422" text-anchor="middle" font-size="22" font-weight="700" fill="#191919">Spanner</text>
+  <text class="t" x="990" y="456" text-anchor="middle" font-size="17" fill="#6d6d6d">+ 클라우드 저장소</text>
+
+  <text class="t" x="450" y="350" text-anchor="middle" font-size="17" fill="#e34f32">적중률 99%+</text>
+  <text class="t" x="710" y="350" text-anchor="middle" font-size="17" fill="#e34f32">적중률 99%+</text>
+
+  <path d="M90 530 L1110 530" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="90" y="578" font-size="19" fill="#191919">데이터는 내용 주소 방식이라 한번 만들어지면 바뀌지 않는다.</text>
+  <text class="t" x="90" y="612" font-size="19" fill="#191919">그래서 어느 층이든 조율 없이 캐시하고, 한 층이 고장 나도 위층까지 번지지 않는다.</text>
+  <text class="t" x="1110" y="660" text-anchor="end" font-size="17" fill="#6d6d6d">예전 Git 미러보다 인프라 200배 작게, 체크아웃은 분에서 초로</text>
+</svg>

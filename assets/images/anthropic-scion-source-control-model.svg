@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="Git은 클라이언트마다 저장소 전체 사본을 들고 기록과 커밋을 직접 처리하고, Scion은 서버가 기록·커밋·머지를 맡고 클라이언트는 필요한 파일만 받는다는 비교 그림">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+
+  <text class="t" x="90" y="100" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">GIT</text>
+  <text class="t" x="90" y="150" font-size="30" font-weight="700" fill="#191919">모두가 전체 사본을 든다</text>
+  <text class="t" x="90" y="186" font-size="18" fill="#6d6d6d">오프라인에서도 혼자 일할 수 있게</text>
+
+  <rect x="90" y="230" width="140" height="260" fill="#fafafa" stroke="#e9e9e9" stroke-width="2"/>
+  <rect x="250" y="230" width="140" height="260" fill="#fafafa" stroke="#e9e9e9" stroke-width="2"/>
+  <rect x="410" y="230" width="140" height="260" fill="#fafafa" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="160" y="270" text-anchor="middle" font-size="16" font-weight="700" fill="#6d6d6d">클라이언트</text>
+  <text class="t" x="320" y="270" text-anchor="middle" font-size="16" font-weight="700" fill="#6d6d6d">클라이언트</text>
+  <text class="t" x="480" y="270" text-anchor="middle" font-size="16" font-weight="700" fill="#6d6d6d">클라이언트</text>
+  <text class="t" x="160" y="330" text-anchor="middle" font-size="17" fill="#191919">전체 기록</text>
+  <text class="t" x="160" y="370" text-anchor="middle" font-size="17" fill="#191919">전체 파일</text>
+  <text class="t" x="160" y="410" text-anchor="middle" font-size="17" fill="#191919">커밋·머지</text>
+  <text class="t" x="320" y="330" text-anchor="middle" font-size="17" fill="#191919">전체 기록</text>
+  <text class="t" x="320" y="370" text-anchor="middle" font-size="17" fill="#191919">전체 파일</text>
+  <text class="t" x="320" y="410" text-anchor="middle" font-size="17" fill="#191919">커밋·머지</text>
+  <text class="t" x="480" y="330" text-anchor="middle" font-size="17" fill="#191919">전체 기록</text>
+  <text class="t" x="480" y="370" text-anchor="middle" font-size="17" fill="#191919">전체 파일</text>
+  <text class="t" x="480" y="410" text-anchor="middle" font-size="17" fill="#191919">커밋·머지</text>
+  <text class="t" x="90" y="540" font-size="18" fill="#6d6d6d">사본이 늘수록 복사량도 그대로 늘어난다</text>
+
+  <path d="M620 90 L620 620" stroke="#e9e9e9" stroke-width="2"/>
+
+  <text class="t" x="680" y="100" font-size="15" font-weight="700" letter-spacing="2" fill="#e34f32">SCION</text>
+  <text class="t" x="680" y="150" font-size="30" font-weight="700" fill="#191919">서버가 무거운 일을 맡는다</text>
+  <text class="t" x="680" y="186" font-size="18" fill="#6d6d6d">클라이언트는 늘 온라인이라고 가정</text>
+
+  <rect x="680" y="230" width="440" height="120" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="710" y="272" font-size="16" font-weight="700" fill="#e34f32">서버</text>
+  <text class="t" x="710" y="312" font-size="19" fill="#191919">기록 조회 · blame · 커밋 · 머지 · 리베이스</text>
+  <path d="M760 360 L760 400" stroke="#6d6d6d" stroke-width="2"/>
+  <path d="M900 360 L900 400" stroke="#6d6d6d" stroke-width="2"/>
+  <path d="M1040 360 L1040 400" stroke="#6d6d6d" stroke-width="2"/>
+  <text class="t" x="1060" y="386" font-size="15" fill="#6d6d6d">필요한 것만</text>
+  <rect x="690" y="410" width="140" height="80" fill="#fafafa" stroke="#e9e9e9" stroke-width="2"/>
+  <rect x="830" y="410" width="140" height="80" fill="#fafafa" stroke="#e9e9e9" stroke-width="2"/>
+  <rect x="970" y="410" width="140" height="80" fill="#fafafa" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="760" y="456" text-anchor="middle" font-size="17" fill="#191919">파일 몇 개</text>
+  <text class="t" x="900" y="456" text-anchor="middle" font-size="17" fill="#191919">파일 몇 개</text>
+  <text class="t" x="1040" y="456" text-anchor="middle" font-size="17" fill="#191919">API만</text>
+  <text class="t" x="680" y="540" font-size="18" fill="#6d6d6d">push가 없고, 작업 폴더 없이도 일할 수 있다</text>
+
+  <text class="t" x="1120" y="650" text-anchor="end" font-size="17" fill="#6d6d6d">사람에게 좋던 오프라인 우선 설계가 에이전트 규모에서는 짐이 됐다</text>
+</svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="하루 머지가 2,500건에서 3만 건으로 늘자 Git을 Scion으로 바꿨다는 표지 그림">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+
+  <text class="t" x="90" y="100" font-size="16" font-weight="700" letter-spacing="2" fill="#e34f32">SCION</text>
+  <text class="t" x="90" y="165" font-size="46" font-weight="700" fill="#191919">에이전트가 하루 3만 번</text>
+  <text class="t" x="90" y="222" font-size="46" font-weight="700" fill="#191919">머지하면 Git은 버틸까</text>
+
+  <rect x="90" y="340" width="300" height="170" fill="#fafafa"/>
+  <text class="t" x="240" y="400" text-anchor="middle" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">2026년 5월</text>
+  <text class="t" x="240" y="458" text-anchor="middle" font-size="34" font-weight="700" fill="#191919">하루 2,500</text>
+
+  <path d="M390 425 L460 425" stroke="#6d6d6d" stroke-width="2"/><path d="M450 417 L460 425 L450 433" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+
+  <rect x="460" y="340" width="300" height="170" fill="#ffffff" stroke="#e34f32" stroke-width="3"/>
+  <text class="t" x="610" y="400" text-anchor="middle" font-size="15" font-weight="700" letter-spacing="2" fill="#e34f32">2026년 9월</text>
+  <text class="t" x="610" y="458" text-anchor="middle" font-size="34" font-weight="700" fill="#191919">하루 30,000+</text>
+
+  <path d="M760 425 L830 425" stroke="#6d6d6d" stroke-width="2"/><path d="M820 417 L830 425 L820 433" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+
+  <rect x="830" y="340" width="280" height="170" fill="#ffffff" stroke="#191919" stroke-width="2"/>
+  <text class="t" x="970" y="400" text-anchor="middle" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">다섯 달 뒤</text>
+  <text class="t" x="970" y="458" text-anchor="middle" font-size="34" font-weight="700" fill="#191919">Git → Scion</text>
+
+  <text class="t" x="1110" y="620" text-anchor="end" font-size="17" fill="#6d6d6d">코드 작성이 빨라지자 병목은 버전 관리로 옮겨 갔다</text>
+</svg>
