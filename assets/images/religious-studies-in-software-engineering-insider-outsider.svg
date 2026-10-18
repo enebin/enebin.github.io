@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="내부자와 외부자가 각각 무엇을 잘 보고 무엇을 놓치는지 비교한 그림">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+  <text class="t" x="600" y="90" text-anchor="middle" font-size="17" font-weight="700" fill="#6d6d6d">같은 대상을 보는 두 자리</text>
+
+  <rect x="90" y="130" width="470" height="440" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="130" y="185" font-size="15" font-weight="700" letter-spacing="2" fill="#e34f32">내부자</text>
+  <text class="t" x="130" y="228" font-size="30" font-weight="700" fill="#191919">신자 · 개발자</text>
+  <text class="t" x="130" y="300" font-size="16" font-weight="700" fill="#6d6d6d">잘 보는 것</text>
+  <text class="t" x="130" y="332" font-size="19" fill="#191919">직접 겪어서 아는 깊은 사정</text>
+  <text class="t" x="130" y="362" font-size="19" fill="#191919">말로 적히지 않은 규칙</text>
+  <path d="M130 400 L520 400" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="130" y="446" font-size="16" font-weight="700" fill="#6d6d6d">놓치는 것</text>
+  <text class="t" x="130" y="478" font-size="19" fill="#191919">자기 믿음이 만든 치우침</text>
+  <text class="t" x="130" y="508" font-size="19" fill="#191919">자기가 쥔 권력</text>
+
+  <rect x="640" y="130" width="470" height="440" fill="#fafafa"/>
+  <text class="t" x="680" y="185" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">외부자</text>
+  <text class="t" x="680" y="228" font-size="30" font-weight="700" fill="#191919">인류학자 · 사용자</text>
+  <text class="t" x="680" y="300" font-size="16" font-weight="700" fill="#6d6d6d">잘 보는 것</text>
+  <text class="t" x="680" y="332" font-size="19" fill="#191919">한 걸음 떨어진 객관성</text>
+  <text class="t" x="680" y="362" font-size="19" fill="#191919">다른 체계와의 비교</text>
+  <path d="M680 400 L1070 400" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="680" y="446" font-size="16" font-weight="700" fill="#6d6d6d">놓치는 것</text>
+  <text class="t" x="680" y="478" font-size="19" fill="#191919">안에서만 보이는 맥락</text>
+  <text class="t" x="680" y="508" font-size="19" fill="#191919">왜 그렇게 하는지의 이유</text>
+
+  <path d="M565 350 L635 350" stroke="#6d6d6d" stroke-width="2"/>
+  <path d="M575 342 L565 350 L575 358" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+  <path d="M625 342 L635 350 L625 358" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+
+  <text class="t" x="1110" y="630" text-anchor="end" font-size="17" fill="#6d6d6d">하나를 고르지 말고 두 자리를 오가며 본다</text>
+</svg>

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="코드와 팀이 가진 이론을 나누고, 팀이 흩어지면 코드는 돌아가도 프로그램은 죽는다는 것을 보여주는 그림">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+  <text class="t" x="90" y="90" font-size="17" font-weight="700" fill="#6d6d6d">Naur가 본 프로그램의 두 부분</text>
+
+  <text class="t" x="90" y="160" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">팀이 있을 때</text>
+  <rect x="90" y="180" width="480" height="130" fill="#fafafa"/>
+  <text class="t" x="130" y="232" font-size="30" font-weight="700" fill="#191919">이론</text>
+  <text class="t" x="130" y="272" font-size="18" fill="#6d6d6d">문제 이해 · 설계 이유 · 바꾸는 법</text>
+  <rect x="90" y="320" width="480" height="130" fill="#ffffff" stroke="#191919" stroke-width="2"/>
+  <text class="t" x="130" y="372" font-size="30" font-weight="700" fill="#191919">코드</text>
+  <text class="t" x="130" y="412" font-size="18" fill="#6d6d6d">이론을 적어 둔 흔적</text>
+  <text class="t" x="90" y="500" font-size="19" fill="#191919">새 요구가 와도 답할 수 있다</text>
+  <text class="t" x="90" y="532" font-size="19" font-weight="700" fill="#191919">프로그램이 살아 있다</text>
+
+  <path d="M600 315 L660 315" stroke="#6d6d6d" stroke-width="2"/>
+  <path d="M650 307 L660 315 L650 323" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+  <text class="t" x="630" y="290" text-anchor="middle" font-size="15" fill="#6d6d6d">팀 해산</text>
+
+  <text class="t" x="690" y="160" font-size="15" font-weight="700" letter-spacing="2" fill="#e34f32">팀이 흩어진 뒤</text>
+  <rect x="690" y="180" width="420" height="130" fill="#ffffff" stroke="#e34f32" stroke-width="2" stroke-dasharray="10 8"/>
+  <text class="t" x="730" y="232" font-size="30" font-weight="700" fill="#c9c9c9">이론</text>
+  <text class="t" x="730" y="272" font-size="18" fill="#c9c9c9">아무도 모른다</text>
+  <rect x="690" y="320" width="420" height="130" fill="#ffffff" stroke="#191919" stroke-width="2"/>
+  <text class="t" x="730" y="372" font-size="30" font-weight="700" fill="#191919">코드</text>
+  <text class="t" x="730" y="412" font-size="18" fill="#6d6d6d">그대로 남아 계속 실행된다</text>
+  <text class="t" x="690" y="500" font-size="19" fill="#191919">바꾸려 하면 어디가 깨질지 모른다</text>
+  <text class="t" x="690" y="532" font-size="19" font-weight="700" fill="#e34f32">프로그램은 이미 죽었다</text>
+
+  <text class="t" x="1110" y="630" text-anchor="end" font-size="17" fill="#6d6d6d">문서는 코드 쪽에 쌓이고, 이론은 사람 쪽에만 있다</text>
+</svg>

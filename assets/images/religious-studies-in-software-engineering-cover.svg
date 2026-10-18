@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="코드는 저장소에 남아 계속 돌아가지만 이론을 가진 팀이 흩어지면 프로그램은 죽는다는 표지 그림">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+  <text class="t" x="90" y="100" font-size="16" font-weight="700" letter-spacing="2" fill="#e34f32">RELIGIOUS STUDIES IN SOFTWARE ENGINEERING</text>
+  <text class="t" x="90" y="165" font-size="46" font-weight="700" fill="#191919">코드는 돌아가는데</text>
+  <text class="t" x="90" y="222" font-size="46" font-weight="700" fill="#191919">프로그램은 죽어 있을 수 있다</text>
+
+  <text class="t" x="90" y="332" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">저장소에 남는 것</text>
+  <rect x="90" y="360" width="440" height="170" fill="#ffffff" stroke="#191919" stroke-width="2"/>
+  <text class="t" x="310" y="430" text-anchor="middle" font-size="30" font-weight="700" fill="#191919">코드</text>
+  <text class="t" x="310" y="472" text-anchor="middle" font-size="18" fill="#6d6d6d">테스트 통과 · 계속 실행됨</text>
+
+  <text class="t" x="670" y="332" font-size="15" font-weight="700" letter-spacing="2" fill="#e34f32">사람 사이에만 있는 것</text>
+  <rect x="670" y="360" width="440" height="170" fill="#ffffff" stroke="#e34f32" stroke-width="3" stroke-dasharray="10 8"/>
+  <text class="t" x="890" y="430" text-anchor="middle" font-size="30" font-weight="700" fill="#191919">이론</text>
+  <text class="t" x="890" y="472" text-anchor="middle" font-size="18" fill="#6d6d6d">왜 이렇게 짰고, 어떻게 바꿀지</text>
+
+  <text class="t" x="1110" y="620" text-anchor="end" font-size="17" fill="#6d6d6d">팀이 흩어지면 점선 쪽이 먼저 사라진다</text>
+</svg>

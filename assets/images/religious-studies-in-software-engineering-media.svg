@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="말, 글, 인쇄, 디지털 네 단계에서 지식을 쥔 쪽이 어떻게 바뀌었는지 보여주는 그림">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+  <path d="M90 200 L1110 200" stroke="#e9e9e9" stroke-width="2"/>
+  <path d="M1100 192 L1110 200 L1100 208" fill="none" stroke="#c9c9c9" stroke-width="2"/>
+
+  <g>
+    <rect x="90" y="250" width="230" height="300" fill="#fafafa"/>
+    <rect x="198" y="193" width="14" height="14" fill="#6d6d6d"/>
+    <text class="t" x="205" y="160" text-anchor="middle" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">1단계</text>
+    <text class="t" x="120" y="305" font-size="30" font-weight="700" fill="#191919">말</text>
+    <text class="t" x="120" y="350" font-size="16" font-weight="700" fill="#6d6d6d">지식을 담는 그릇</text>
+    <text class="t" x="120" y="380" font-size="18" fill="#191919">이야기 · 운율 · 노래</text>
+    <text class="t" x="120" y="440" font-size="16" font-weight="700" fill="#6d6d6d">권위를 쥔 쪽</text>
+    <text class="t" x="120" y="470" font-size="18" fill="#191919">외우고 전하는 사람</text>
+  </g>
+  <g>
+    <rect x="350" y="250" width="230" height="300" fill="#fafafa"/>
+    <rect x="458" y="193" width="14" height="14" fill="#6d6d6d"/>
+    <text class="t" x="465" y="160" text-anchor="middle" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">2단계</text>
+    <text class="t" x="380" y="305" font-size="30" font-weight="700" fill="#191919">글</text>
+    <text class="t" x="380" y="350" font-size="16" font-weight="700" fill="#6d6d6d">지식을 담는 그릇</text>
+    <text class="t" x="380" y="380" font-size="18" fill="#191919">경전</text>
+    <text class="t" x="380" y="440" font-size="16" font-weight="700" fill="#6d6d6d">권위를 쥔 쪽</text>
+    <text class="t" x="380" y="470" font-size="18" fill="#191919">경전을 읽고 푸는 사람</text>
+  </g>
+  <g>
+    <rect x="610" y="250" width="230" height="300" fill="#fafafa"/>
+    <rect x="718" y="193" width="14" height="14" fill="#6d6d6d"/>
+    <text class="t" x="725" y="160" text-anchor="middle" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">3단계</text>
+    <text class="t" x="640" y="305" font-size="30" font-weight="700" fill="#191919">인쇄</text>
+    <text class="t" x="640" y="350" font-size="16" font-weight="700" fill="#6d6d6d">지식을 담는 그릇</text>
+    <text class="t" x="640" y="380" font-size="18" fill="#191919">찍어 낸 책</text>
+    <text class="t" x="640" y="440" font-size="16" font-weight="700" fill="#6d6d6d">흔들린 권위</text>
+    <text class="t" x="640" y="470" font-size="18" fill="#191919">교회</text>
+  </g>
+  <g>
+    <rect x="870" y="250" width="240" height="300" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+    <rect x="981" y="191" width="18" height="18" fill="#e34f32"/>
+    <text class="t" x="990" y="160" text-anchor="middle" font-size="15" font-weight="700" letter-spacing="2" fill="#e34f32">지금</text>
+    <text class="t" x="900" y="305" font-size="30" font-weight="700" fill="#191919">디지털</text>
+    <text class="t" x="900" y="350" font-size="16" font-weight="700" fill="#6d6d6d">지식을 담는 그릇</text>
+    <text class="t" x="900" y="380" font-size="18" fill="#191919">코드 · 플랫폼</text>
+    <text class="t" x="900" y="440" font-size="16" font-weight="700" fill="#6d6d6d">권위를 쥔 쪽</text>
+    <text class="t" x="900" y="470" font-size="18" fill="#191919">빅테크와 개발자</text>
+  </g>
+
+  <text class="t" x="1110" y="630" text-anchor="end" font-size="17" fill="#6d6d6d">매체를 만드는 사람이 늘 권위 가까이에 있었다</text>
+</svg>

@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="분파가 교회가 되고 교회에서 다시 분파가 갈라지는 순환을 종교와 소프트웨어 사례로 나란히 보여주는 그림">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+  <text class="t" x="90" y="90" font-size="17" font-weight="700" fill="#6d6d6d">교회 - 분파 순환</text>
+
+  <text class="t" x="330" y="160" text-anchor="middle" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">굳은 권위</text>
+  <text class="t" x="600" y="160" text-anchor="middle" font-size="15" font-weight="700" letter-spacing="2" fill="#e34f32">저항하는 분파</text>
+  <text class="t" x="870" y="160" text-anchor="middle" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">새 권위</text>
+
+  <text class="t" x="90" y="250" font-size="16" font-weight="700" fill="#6d6d6d">종교</text>
+  <rect x="210" y="190" width="240" height="110" fill="#fafafa"/>
+  <text class="t" x="330" y="240" text-anchor="middle" font-size="30" font-weight="700" fill="#191919">가톨릭</text>
+  <text class="t" x="330" y="276" text-anchor="middle" font-size="17" fill="#6d6d6d">면벌부 판매</text>
+  <path d="M450 245 L478 245" stroke="#6d6d6d" stroke-width="2"/><path d="M470 237 L480 245 L470 253" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+  <rect x="480" y="190" width="240" height="110" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="600" y="240" text-anchor="middle" font-size="30" font-weight="700" fill="#191919">Luther</text>
+  <text class="t" x="600" y="276" text-anchor="middle" font-size="17" fill="#6d6d6d">1517년 95개조 반박문</text>
+  <path d="M720 245 L748 245" stroke="#6d6d6d" stroke-width="2"/><path d="M740 237 L750 245 L740 253" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+  <rect x="750" y="190" width="240" height="110" fill="#fafafa"/>
+  <text class="t" x="870" y="240" text-anchor="middle" font-size="30" font-weight="700" fill="#191919">개신교</text>
+  <text class="t" x="870" y="276" text-anchor="middle" font-size="17" fill="#6d6d6d">다시 여러 갈래로</text>
+
+  <text class="t" x="90" y="440" font-size="16" font-weight="700" fill="#6d6d6d">소프트웨어</text>
+  <rect x="210" y="380" width="240" height="110" fill="#fafafa"/>
+  <text class="t" x="330" y="430" text-anchor="middle" font-size="30" font-weight="700" fill="#191919">닫힌 코드</text>
+  <text class="t" x="330" y="466" text-anchor="middle" font-size="17" fill="#6d6d6d">회사가 쥔 소스</text>
+  <path d="M450 435 L478 435" stroke="#6d6d6d" stroke-width="2"/><path d="M470 427 L480 435 L470 443" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+  <rect x="480" y="380" width="240" height="110" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="600" y="430" text-anchor="middle" font-size="30" font-weight="700" fill="#191919">GPL</text>
+  <text class="t" x="600" y="466" text-anchor="middle" font-size="17" fill="#6d6d6d">1984년 Stallman</text>
+  <path d="M720 435 L748 435" stroke="#6d6d6d" stroke-width="2"/><path d="M740 427 L750 435 L740 443" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+  <rect x="750" y="380" width="240" height="110" fill="#fafafa"/>
+  <text class="t" x="870" y="430" text-anchor="middle" font-size="30" font-weight="700" fill="#191919">오픈소스 기업</text>
+  <text class="t" x="870" y="466" text-anchor="middle" font-size="17" fill="#6d6d6d">RedHat · Docker · Hashicorp</text>
+
+  <path d="M1000 435 L1060 435 L1060 560 L330 560 L330 500" fill="none" stroke="#c9c9c9" stroke-width="2" stroke-dasharray="8 6"/>
+  <path d="M322 510 L330 500 L338 510" fill="none" stroke="#c9c9c9" stroke-width="2"/>
+  <text class="t" x="695" y="592" text-anchor="middle" font-size="17" fill="#6d6d6d">새 권위가 굳으면 다시 분파가 나온다</text>
+
+  <text class="t" x="1110" y="650" text-anchor="end" font-size="17" fill="#6d6d6d">저항으로 시작한 쪽도 커지면 지켜야 할 권위가 된다</text>
+</svg>
