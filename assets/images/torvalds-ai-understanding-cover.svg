@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="어떤 도구를 썼는지 묻는 질문에서 자신이 하는 일을 이해하는지 묻는 질문으로 옮겨 간다는 표지 그림">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+
+  <text class="t" x="90" y="100" font-size="16" font-weight="700" letter-spacing="2" fill="#e34f32">TORVALDS × LLM</text>
+  <text class="t" x="90" y="165" font-size="46" font-weight="700" fill="#191919">토발즈는 도구를 묻지 않고</text>
+  <text class="t" x="90" y="222" font-size="46" font-weight="700" fill="#191919">이해를 묻는다</text>
+
+  <rect x="90" y="340" width="440" height="170" fill="#fafafa"/>
+  <text class="t" x="310" y="400" text-anchor="middle" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">묻지 않는 것</text>
+  <text class="t" x="310" y="458" text-anchor="middle" font-size="32" font-weight="700" fill="#6d6d6d">"무엇으로 썼나요?"</text>
+  <path d="M170 450 L450 450" stroke="#6d6d6d" stroke-width="2"/>
+
+  <path d="M530 425 L640 425" stroke="#6d6d6d" stroke-width="2"/><path d="M630 417 L640 425 L630 433" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+
+  <rect x="640" y="340" width="470" height="170" fill="#ffffff" stroke="#e34f32" stroke-width="3"/>
+  <text class="t" x="875" y="400" text-anchor="middle" font-size="15" font-weight="700" letter-spacing="2" fill="#e34f32">묻는 것</text>
+  <text class="t" x="875" y="458" text-anchor="middle" font-size="32" font-weight="700" fill="#191919">"이해하고 있나요?"</text>
+
+  <text class="t" x="1110" y="620" text-anchor="end" font-size="17" fill="#6d6d6d">noref-filemap-read-with-llm — 브랜치 이름에 LLM을 적었다</text>
+</svg>

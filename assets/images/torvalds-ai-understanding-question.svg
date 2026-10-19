@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="어떤 도구를 썼는지 묻는 규칙은 AI, 컴파일러, 편집기 금지로 끝없이 이어지고, 이해를 묻는 기준은 도구와 상관없이 하나의 질문으로 기여자를 본다는 비교 그림">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+
+  <text class="t" x="90" y="100" font-size="16" font-weight="700" letter-spacing="2" fill="#6d6d6d">도구를 묻는 규칙</text>
+  <text class="t" x="90" y="150" font-size="30" font-weight="700" fill="#191919">"무엇으로 썼나?"</text>
+  <rect x="90" y="200" width="460" height="80" fill="#fafafa"/><text class="t" x="120" y="248" font-size="19" fill="#191919">이 작업에는 AI 금지</text>
+  <path d="M320 280 L320 310" stroke="#c9c9c9" stroke-width="2"/>
+  <rect x="90" y="310" width="460" height="80" fill="#fafafa"/><text class="t" x="120" y="358" font-size="19" fill="#191919">컴파일러 금지, 어셈블리로 증명하라</text>
+  <path d="M320 390 L320 420" stroke="#c9c9c9" stroke-width="2"/>
+  <rect x="90" y="420" width="460" height="80" fill="#fafafa"/><text class="t" x="120" y="468" font-size="19" fill="#191919">편집기·백스페이스 없이 커밋 메시지</text>
+  <path d="M320 500 L320 530" stroke="#c9c9c9" stroke-width="2" stroke-dasharray="4 6"/>
+  <text class="t" x="320" y="570" text-anchor="middle" font-size="19" fill="#6d6d6d">…어디서 멈추나</text>
+
+  <text class="t" x="650" y="100" font-size="16" font-weight="700" letter-spacing="2" fill="#e34f32">이해를 묻는 기준</text>
+  <text class="t" x="650" y="150" font-size="30" font-weight="700" fill="#191919">"알고 하는가?"</text>
+  <rect x="650" y="200" width="460" height="300" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="680" y="260" font-size="19" font-weight="700" fill="#191919">기여자에게 바라는 두 가지</text>
+  <text class="t" x="680" y="310" font-size="19" fill="#191919">1. 최선을 다할 것</text>
+  <text class="t" x="680" y="350" font-size="19" fill="#191919">2. 자신이 하는 일을 이해할 것</text>
+  <path d="M680 395 L1080 395" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="680" y="440" font-size="17" fill="#6d6d6d">어떤 도구를 썼는지와는</text>
+  <text class="t" x="680" y="468" font-size="17" fill="#6d6d6d">거의 상관이 없다</text>
+
+  <text class="t" x="1110" y="640" text-anchor="end" font-size="17" fill="#6d6d6d">규칙은 도구 수만큼 늘지만, 기준은 하나다</text>
+</svg>

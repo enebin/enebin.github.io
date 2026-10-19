@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="Claude Code에 맡긴 코드, 테스트 프로그램, 검토, 소개문 초안과 토발즈가 직접 쥔 방향 지시, 직접 측정, 한계 기록을 나눈 그림">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+
+  <text class="t" x="90" y="100" font-size="16" font-weight="700" letter-spacing="2" fill="#6d6d6d">맡긴 일</text>
+  <text class="t" x="90" y="150" font-size="30" font-weight="700" fill="#191919">Claude Code</text>
+  <rect x="90" y="190" width="460" height="80" fill="#fafafa"/><text class="t" x="120" y="238" font-size="19" fill="#191919">코드 작성</text>
+  <rect x="90" y="290" width="460" height="80" fill="#fafafa"/><text class="t" x="120" y="338" font-size="19" fill="#191919">테스트 프로그램</text>
+  <rect x="90" y="390" width="460" height="80" fill="#fafafa"/><text class="t" x="120" y="438" font-size="19" fill="#191919">검토 항목 정리</text>
+  <rect x="90" y="490" width="460" height="80" fill="#fafafa"/><text class="t" x="120" y="538" font-size="19" fill="#191919">패치 소개문 초안</text>
+
+  <text class="t" x="650" y="100" font-size="16" font-weight="700" letter-spacing="2" fill="#e34f32">쥐고 있던 일</text>
+  <text class="t" x="650" y="150" font-size="30" font-weight="700" fill="#191919">토발즈</text>
+  <rect x="650" y="190" width="460" height="113" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="680" y="240" font-size="19" font-weight="700" fill="#191919">방향 지시</text>
+  <text class="t" x="680" y="274" font-size="17" fill="#6d6d6d">"under my direction" — 무엇을 만들지</text>
+  <rect x="650" y="323" width="460" height="113" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="680" y="373" font-size="19" font-weight="700" fill="#191919">직접 측정</text>
+  <text class="t" x="680" y="407" font-size="17" fill="#6d6d6d">"on my machine" — 결과가 맞는지</text>
+  <rect x="650" y="456" width="460" height="113" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="680" y="506" font-size="19" font-weight="700" fill="#191919">한계 기록</text>
+  <text class="t" x="680" y="540" font-size="17" fill="#6d6d6d">어디서 안 쟀는지까지 공개</text>
+
+  <path d="M560 380 L640 380" stroke="#6d6d6d" stroke-width="2"/><path d="M570 372 L560 380 L570 388" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+
+  <text class="t" x="1110" y="640" text-anchor="end" font-size="17" fill="#6d6d6d">왼쪽 결과는 오른쪽을 거쳐야 패치가 된다</text>
+</svg>

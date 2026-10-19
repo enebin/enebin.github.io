@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="도구는 사람이 쥐고 조작하며 감각 피드백을 받는 닫힌 고리이고, 자동화는 사람이 요청을 던지고 결과만 받아 그 사이 과정이 보이지 않는 구조라는 비교 그림">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+
+  <text class="t" x="90" y="100" font-size="16" font-weight="700" letter-spacing="2" fill="#6d6d6d">도구</text>
+  <text class="t" x="90" y="150" font-size="30" font-weight="700" fill="#191919">손에 쥐고 휘두른다</text>
+  <rect x="120" y="250" width="160" height="80" fill="#fafafa"/><text class="t" x="200" y="298" text-anchor="middle" font-size="19" fill="#191919">사람</text>
+  <rect x="380" y="250" width="160" height="80" fill="#fafafa"/><text class="t" x="460" y="298" text-anchor="middle" font-size="19" fill="#191919">망치</text>
+  <path d="M280 270 L380 270" stroke="#191919" stroke-width="2"/><path d="M370 262 L380 270 L370 278" fill="none" stroke="#191919" stroke-width="2"/>
+  <path d="M380 312 L280 312" stroke="#191919" stroke-width="2"/><path d="M290 304 L280 312 L290 320" fill="none" stroke="#191919" stroke-width="2"/>
+  <text class="t" x="330" y="240" text-anchor="middle" font-size="16" fill="#6d6d6d">조작</text>
+  <text class="t" x="330" y="356" text-anchor="middle" font-size="16" fill="#6d6d6d">손의 감각</text>
+  <text class="t" x="90" y="440" font-size="18" fill="#191919">계속 방향을 잡고, 반응을 느낀다</text>
+  <text class="t" x="90" y="474" font-size="18" fill="#191919">그 사이에 실력이 쌓인다</text>
+
+  <path d="M600 90 L600 520" stroke="#e9e9e9" stroke-width="2"/>
+
+  <text class="t" x="660" y="100" font-size="16" font-weight="700" letter-spacing="2" fill="#e34f32">자동화</text>
+  <text class="t" x="660" y="150" font-size="30" font-weight="700" fill="#191919">요청하고 받는다</text>
+  <rect x="690" y="250" width="160" height="80" fill="#fafafa"/><text class="t" x="770" y="298" text-anchor="middle" font-size="19" fill="#191919">사람</text>
+  <rect x="950" y="250" width="160" height="80" fill="#ffffff" stroke="#e34f32" stroke-width="2"/><text class="t" x="1030" y="298" text-anchor="middle" font-size="19" fill="#191919">LLM</text>
+  <path d="M850 270 L950 270" stroke="#191919" stroke-width="2"/><path d="M940 262 L950 270 L940 278" fill="none" stroke="#191919" stroke-width="2"/>
+  <path d="M950 312 L850 312" stroke="#191919" stroke-width="2" stroke-dasharray="4 6"/><path d="M860 304 L850 312 L860 320" fill="none" stroke="#191919" stroke-width="2"/>
+  <text class="t" x="900" y="240" text-anchor="middle" font-size="16" fill="#6d6d6d">요청</text>
+  <text class="t" x="900" y="356" text-anchor="middle" font-size="16" fill="#6d6d6d">결과만</text>
+  <text class="t" x="660" y="440" font-size="18" fill="#191919">사이의 과정은 사람 손을 거치지 않는다</text>
+  <text class="t" x="660" y="474" font-size="18" fill="#e34f32">이해는 따로 채워 넣어야 한다</text>
+
+  <text class="t" x="1110" y="620" text-anchor="end" font-size="17" fill="#6d6d6d">리치 히키의 구분 — 'AI' is Not a Tool</text>
+</svg>
