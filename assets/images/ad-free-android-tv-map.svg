@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="홈 화면 배너는 Projectivy Launcher로, YouTube 광고는 SmartTube로, 리모컨 YouTube 버튼은 Button Mapper로 바꾸고, 그 아래 네트워크 층에서 Pi-hole이나 AdGuard DNS가 광고 도메인을 막는 구조">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+
+  <text class="t" x="90" y="72" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">광고가 나오는 곳</text>
+  <text class="t" x="680" y="72" font-size="15" font-weight="700" letter-spacing="2" fill="#e34f32">갈아 끼우는 앱</text>
+
+  <!-- row 1 -->
+  <rect x="90" y="96" width="440" height="110" fill="#fafafa"/>
+  <text class="t" x="124" y="146" font-size="30" font-weight="700" fill="#191919">홈 화면 배너</text>
+  <text class="t" x="124" y="180" font-size="18" fill="#6d6d6d">기본 런처가 띄운다. 끄는 설정이 없다</text>
+  <path d="M540 151 L670 151" stroke="#6d6d6d" stroke-width="2"/>
+  <path d="M660 143 L670 151 L660 159" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+  <rect x="680" y="96" width="430" height="110" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="714" y="146" font-size="30" font-weight="700" fill="#191919">Projectivy Launcher</text>
+  <text class="t" x="714" y="180" font-size="18" fill="#6d6d6d">고른 앱만 보여 주는 홈 화면</text>
+
+  <!-- row 2 -->
+  <rect x="90" y="226" width="440" height="110" fill="#fafafa"/>
+  <text class="t" x="124" y="276" font-size="30" font-weight="700" fill="#191919">YouTube 광고</text>
+  <text class="t" x="124" y="310" font-size="18" fill="#6d6d6d">영상 광고와 영상 속 협찬 구간</text>
+  <path d="M540 281 L670 281" stroke="#6d6d6d" stroke-width="2"/>
+  <path d="M660 273 L670 281 L660 289" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+  <rect x="680" y="226" width="430" height="110" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="714" y="276" font-size="30" font-weight="700" fill="#191919">SmartTube</text>
+  <text class="t" x="714" y="310" font-size="18" fill="#6d6d6d">광고 없음, SponsorBlock 내장</text>
+
+  <!-- row 3 -->
+  <rect x="90" y="356" width="440" height="110" fill="#fafafa"/>
+  <text class="t" x="124" y="406" font-size="30" font-weight="700" fill="#191919">리모컨 YouTube 버튼</text>
+  <text class="t" x="124" y="440" font-size="18" fill="#6d6d6d">누르면 공식 앱이 열린다</text>
+  <path d="M540 411 L670 411" stroke="#6d6d6d" stroke-width="2"/>
+  <path d="M660 403 L670 411 L660 419" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+  <rect x="680" y="356" width="430" height="110" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="714" y="406" font-size="30" font-weight="700" fill="#191919">Button Mapper</text>
+  <text class="t" x="714" y="440" font-size="18" fill="#6d6d6d">같은 버튼이 SmartTube를 연다</text>
+
+  <!-- device boundary -->
+  <path d="M90 500 L1110 500" stroke="#e9e9e9" stroke-width="2" stroke-dasharray="8 8"/>
+  <text class="t" x="1110" y="490" text-anchor="end" font-size="15" fill="#6d6d6d">여기까지 TV 안</text>
+
+  <!-- network layer -->
+  <rect x="90" y="524" width="1020" height="110" fill="#fafafa"/>
+  <text class="t" x="124" y="560" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">선택 · 네트워크 층</text>
+  <text class="t" x="124" y="600" font-size="30" font-weight="700" fill="#191919">Pi-hole 또는 AdGuard DNS</text>
+  <text class="t" x="560" y="600" font-size="18" fill="#6d6d6d">광고·추적 도메인을 이름 단계에서 막는다</text>
+  <text class="t" x="124" y="624" font-size="16" fill="#6d6d6d">배너 도메인을 막으면 기본 런처의 배너도 숨겨진다고 한다</text>
+</svg>

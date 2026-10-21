@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="큰 광고 배너가 위쪽 절반을 차지한 기본 홈 화면과 앱 타일만 남은 바꾼 홈 화면을 나란히 놓은 표지 그림">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+
+  <text class="t" x="90" y="100" font-size="16" font-weight="700" letter-spacing="2" fill="#e34f32">ANDROID TV × ADB</text>
+  <text class="t" x="90" y="165" font-size="46" font-weight="700" fill="#191919">Android TV에서</text>
+  <text class="t" x="90" y="222" font-size="46" font-weight="700" fill="#191919">광고를 걷어 내는 법</text>
+
+  <!-- stock home -->
+  <text class="t" x="90" y="312" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">기본 홈 화면</text>
+  <rect x="90" y="330" width="460" height="260" fill="#ffffff" stroke="#c9c9c9" stroke-width="2"/>
+  <rect x="110" y="350" width="420" height="130" fill="#e9e9e9"/>
+  <text class="t" x="320" y="424" text-anchor="middle" font-size="22" font-weight="700" fill="#6d6d6d">추천 배너</text>
+  <rect x="110" y="500" width="94" height="66" fill="#fafafa" stroke="#e9e9e9"/>
+  <rect x="218" y="500" width="94" height="66" fill="#fafafa" stroke="#e9e9e9"/>
+  <rect x="326" y="500" width="94" height="66" fill="#fafafa" stroke="#e9e9e9"/>
+  <rect x="434" y="500" width="94" height="66" fill="#fafafa" stroke="#e9e9e9"/>
+
+  <path d="M570 460 L630 460" stroke="#6d6d6d" stroke-width="2"/>
+  <path d="M620 452 L630 460 L620 468" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+
+  <!-- replaced home -->
+  <text class="t" x="650" y="312" font-size="15" font-weight="700" letter-spacing="2" fill="#e34f32">바꾼 홈 화면</text>
+  <rect x="650" y="330" width="460" height="260" fill="#ffffff" stroke="#e34f32" stroke-width="3"/>
+  <rect x="670" y="370" width="130" height="86" fill="#fafafa" stroke="#e9e9e9"/>
+  <rect x="815" y="370" width="130" height="86" fill="#fafafa" stroke="#e9e9e9"/>
+  <rect x="960" y="370" width="130" height="86" fill="#fafafa" stroke="#e9e9e9"/>
+  <rect x="670" y="472" width="130" height="86" fill="#fafafa" stroke="#e9e9e9"/>
+  <rect x="815" y="472" width="130" height="86" fill="#fafafa" stroke="#e9e9e9"/>
+  <text class="t" x="735" y="420" text-anchor="middle" font-size="16" fill="#6d6d6d">SmartTube</text>
+  <text class="t" x="880" y="420" text-anchor="middle" font-size="16" fill="#6d6d6d">Wholphin</text>
+  <text class="t" x="1025" y="420" text-anchor="middle" font-size="16" fill="#6d6d6d">설정</text>
+
+  <text class="t" x="1110" y="640" text-anchor="end" font-size="17" fill="#6d6d6d">배너를 끄는 설정은 없다. 홈 화면 자체를 바꾼다</text>
+</svg>
