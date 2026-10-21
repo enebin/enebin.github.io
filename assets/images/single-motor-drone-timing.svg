@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="역기전력으로 속도를 추정하는 일반 ESC는 초당 약 50번에서 한계가 오고 자기식 인코더로 위치를 읽는 moteus는 초당 300번 가감속했으며 중간 마이크로컨트롤러를 없애 제어 경로를 줄였다는 비교 그림">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+
+  <!-- rate comparison -->
+  <text class="t" x="90" y="96" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">초당 속도 변화 횟수</text>
+
+  <text class="t" x="90" y="160" font-size="22" font-weight="700" fill="#191919">일반 ESC</text>
+  <text class="t" x="90" y="190" font-size="17" fill="#6d6d6d">역기전력으로 속도를 추정</text>
+  <rect x="400" y="148" width="100" height="40" fill="#e9e9e9"/>
+  <text class="t" x="516" y="176" font-size="19" fill="#6d6d6d">약 50번에서 모터를 놓친다</text>
+
+  <text class="t" x="90" y="260" font-size="22" font-weight="700" fill="#191919">moteus</text>
+  <text class="t" x="90" y="290" font-size="17" fill="#6d6d6d">자기식 인코더로 위치를 직접 읽음</text>
+  <rect x="400" y="248" width="600" height="40" fill="#e34f32"/>
+  <text class="t" x="1016" y="276" font-size="19" font-weight="700" fill="#191919">300번</text>
+
+  <path d="M90 350 L1110 350" stroke="#e9e9e9" stroke-width="2"/>
+
+  <!-- control path -->
+  <text class="t" x="90" y="408" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">제어 경로</text>
+
+  <text class="t" x="90" y="472" font-size="17" fill="#6d6d6d">처음</text>
+  <rect x="200" y="440" width="220" height="56" fill="#fafafa"/>
+  <text class="t" x="310" y="475" text-anchor="middle" font-size="18" fill="#191919">비행 제어기</text>
+  <path d="M420 468 L470 468" stroke="#6d6d6d" stroke-width="2"/><path d="M462 460 L472 468 L462 476" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+  <rect x="472" y="440" width="260" height="56" fill="#ffffff" stroke="#6d6d6d" stroke-width="2" stroke-dasharray="6 5"/>
+  <text class="t" x="602" y="475" text-anchor="middle" font-size="18" fill="#6d6d6d">별도 마이크로컨트롤러</text>
+  <path d="M732 468 L782 468" stroke="#6d6d6d" stroke-width="2"/><path d="M774 460 L784 468 L774 476" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+  <rect x="784" y="440" width="220" height="56" fill="#fafafa"/>
+  <text class="t" x="894" y="475" text-anchor="middle" font-size="18" fill="#191919">모터 제어기</text>
+
+  <text class="t" x="90" y="572" font-size="17" fill="#e34f32" font-weight="700">나중</text>
+  <rect x="200" y="540" width="220" height="56" fill="#fafafa"/>
+  <text class="t" x="310" y="575" text-anchor="middle" font-size="18" fill="#191919">비행 제어기</text>
+  <path d="M420 568 L782 568" stroke="#e34f32" stroke-width="3"/><path d="M772 559 L784 568 L772 577" fill="none" stroke="#e34f32" stroke-width="3"/>
+  <text class="t" x="602" y="556" text-anchor="middle" font-size="16" fill="#e34f32">펌웨어를 고쳐 직접 연결</text>
+  <rect x="784" y="540" width="220" height="56" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="894" y="575" text-anchor="middle" font-size="18" fill="#191919">모터 제어기</text>
+
+  <text class="t" x="1110" y="650" text-anchor="end" font-size="17" fill="#6d6d6d">지연·무게·비용이 함께 줄었다</text>
+</svg>

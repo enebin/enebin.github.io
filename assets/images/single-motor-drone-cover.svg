@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="모터 네 개에서 모터 하나로 줄이고 빠진 일을 타이밍이 맡는다는 표지 그림">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+
+  <text class="t" x="90" y="100" font-size="16" font-weight="700" letter-spacing="2" fill="#e34f32">ONE MOTOR DRONE</text>
+  <text class="t" x="90" y="165" font-size="46" font-weight="700" fill="#191919">모터 하나로 나는 드론은</text>
+  <text class="t" x="90" y="222" font-size="46" font-weight="700" fill="#191919">부품 대신 타이밍을 쓴다</text>
+
+  <rect x="90" y="330" width="440" height="200" fill="#fafafa"/>
+  <rect x="200" y="370" width="50" height="50" fill="#ffffff" stroke="#6d6d6d" stroke-width="2"/>
+  <rect x="280" y="370" width="50" height="50" fill="#ffffff" stroke="#6d6d6d" stroke-width="2"/>
+  <rect x="200" y="440" width="50" height="50" fill="#ffffff" stroke="#6d6d6d" stroke-width="2"/>
+  <rect x="280" y="440" width="50" height="50" fill="#ffffff" stroke="#6d6d6d" stroke-width="2"/>
+  <text class="t" x="390" y="442" font-size="32" font-weight="700" fill="#6d6d6d">모터 4</text>
+
+  <path d="M530 430 L640 430" stroke="#6d6d6d" stroke-width="2"/><path d="M630 422 L640 430 L630 438" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+
+  <rect x="640" y="330" width="470" height="200" fill="#ffffff" stroke="#e34f32" stroke-width="3"/>
+  <rect x="720" y="405" width="50" height="50" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="810" y="442" font-size="32" font-weight="700" fill="#191919">모터 1</text>
+  <text class="t" x="810" y="482" font-size="18" fill="#6d6d6d">+ 초당 300번 가감속</text>
+
+  <text class="t" x="1110" y="620" text-anchor="end" font-size="17" fill="#6d6d6d">빠진 부품의 일은 사라지지 않고 제어로 옮겨 간다</text>
+</svg>

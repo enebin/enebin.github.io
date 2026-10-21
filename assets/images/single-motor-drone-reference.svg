@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="지금은 벽에 단 적외선 신호원을 기준점으로 삼아 방향을 알고 다음 단계에서는 카메라로 주변 사물을 기준점으로 삼아 실외 비행을 노린다는 비교 그림">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+
+  <!-- now -->
+  <text class="t" x="90" y="96" font-size="15" font-weight="700" letter-spacing="2" fill="#e34f32">지금</text>
+  <text class="t" x="90" y="136" font-size="30" font-weight="700" fill="#191919">벽의 적외선 신호원</text>
+  <rect x="90" y="170" width="480" height="380" fill="#fafafa"/>
+  <path d="M90 170 L570 170" stroke="#191919" stroke-width="6"/>
+  <text class="t" x="110" y="200" font-size="15" fill="#6d6d6d">벽</text>
+  <rect x="310" y="174" width="40" height="22" fill="#e34f32"/>
+  <text class="t" x="365" y="192" font-size="16" fill="#e34f32">신호원</text>
+  <path d="M330 200 L330 360" stroke="#e34f32" stroke-width="2" stroke-dasharray="8 6"/>
+  <rect x="286" y="376" width="88" height="68" fill="#ffffff" stroke="#191919" stroke-width="3"/>
+  <rect x="322" y="364" width="16" height="12" fill="#191919"/>
+  <text class="t" x="330" y="416" text-anchor="middle" font-size="16" fill="#191919">드론</text>
+  <path d="M390 450 A70 70 0 0 1 300 474" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+  <path d="M312 482 L300 474 L314 466" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+  <text class="t" x="400" y="490" font-size="16" fill="#6d6d6d">몸체가 천천히 돈다</text>
+  <text class="t" x="90" y="592" font-size="18" fill="#191919">신호원 쪽을 보고 "앞"을 다시 잡는다</text>
+  <text class="t" x="90" y="622" font-size="17" fill="#6d6d6d">신호원이 없는 곳에서는 날지 못한다</text>
+
+  <!-- next -->
+  <text class="t" x="630" y="96" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">다음 목표</text>
+  <text class="t" x="630" y="136" font-size="30" font-weight="700" fill="#191919">주변 사물을 기준으로</text>
+  <rect x="630" y="170" width="480" height="380" fill="#ffffff" stroke="#e9e9e9" stroke-width="2"/>
+  <rect x="680" y="220" width="70" height="90" fill="#ffffff" stroke="#6d6d6d" stroke-width="2"/>
+  <rect x="980" y="210" width="80" height="60" fill="#ffffff" stroke="#6d6d6d" stroke-width="2"/>
+  <rect x="990" y="440" width="70" height="70" fill="#ffffff" stroke="#6d6d6d" stroke-width="2"/>
+  <path d="M870 370 L750 280" stroke="#6d6d6d" stroke-width="2" stroke-dasharray="8 6"/>
+  <path d="M870 370 L990 250" stroke="#6d6d6d" stroke-width="2" stroke-dasharray="8 6"/>
+  <path d="M870 370 L995 460" stroke="#6d6d6d" stroke-width="2" stroke-dasharray="8 6"/>
+  <rect x="826" y="376" width="88" height="68" fill="#ffffff" stroke="#191919" stroke-width="3"/>
+  <text class="t" x="870" y="416" text-anchor="middle" font-size="16" fill="#191919">드론</text>
+  <text class="t" x="630" y="592" font-size="18" fill="#191919">카메라 센서로 방향을 인식한다</text>
+  <text class="t" x="630" y="622" font-size="17" fill="#6d6d6d">신호원 없이 실외에서도 날 수 있다</text>
+</svg>

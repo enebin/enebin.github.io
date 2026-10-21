@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="한 바퀴 중 특정 구간에서 모터를 가속하면 날개가 뒤처지고 기울어진 힌지가 이를 날개 각도 변화로 바꿔 한쪽 양력이 커지는 과정을 보여주는 그림">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+
+  <!-- top view of one revolution -->
+  <text class="t" x="90" y="96" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">위에서 본 한 바퀴</text>
+  <circle cx="300" cy="370" r="190" fill="none" stroke="#e9e9e9" stroke-width="3"/>
+  <path d="M300 180 A190 190 0 0 1 490 370" fill="none" stroke="#e34f32" stroke-width="10"/>
+  <text class="t" x="440" y="200" font-size="17" font-weight="700" fill="#e34f32">이 구간에서 가속</text>
+  <path d="M190 470 L410 270" stroke="#191919" stroke-width="6"/>
+  <rect x="286" y="356" width="28" height="28" fill="#ffffff" stroke="#191919" stroke-width="3"/>
+  <path d="M300 540 A170 170 0 0 1 130 370" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+  <path d="M138 384 L130 370 L120 386" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+  <text class="t" x="110" y="600" font-size="16" fill="#6d6d6d">회전 방향</text>
+  <text class="t" x="300" y="620" text-anchor="middle" font-size="17" fill="#6d6d6d">매 바퀴 같은 위치에서 반복한다</text>
+
+  <!-- steps -->
+  <rect x="610" y="120" width="500" height="92" fill="#fafafa"/>
+  <text class="t" x="640" y="158" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">1</text>
+  <text class="t" x="670" y="160" font-size="22" font-weight="700" fill="#191919">모터가 순간 빨라진다</text>
+  <text class="t" x="670" y="192" font-size="17" fill="#6d6d6d">허브가 먼저 앞으로 나간다</text>
+
+  <path d="M860 216 L860 240" stroke="#c9c9c9" stroke-width="2"/>
+  <path d="M852 232 L860 242 L868 232" fill="none" stroke="#c9c9c9" stroke-width="2"/>
+
+  <rect x="610" y="246" width="500" height="92" fill="#fafafa"/>
+  <text class="t" x="640" y="284" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">2</text>
+  <text class="t" x="670" y="286" font-size="22" font-weight="700" fill="#191919">날개가 관성으로 뒤처진다</text>
+  <text class="t" x="670" y="318" font-size="17" fill="#6d6d6d">허브와 날개 사이가 힌지에서 꺾인다</text>
+
+  <path d="M860 342 L860 366" stroke="#c9c9c9" stroke-width="2"/>
+  <path d="M852 358 L860 368 L868 358" fill="none" stroke="#c9c9c9" stroke-width="2"/>
+
+  <rect x="610" y="372" width="500" height="92" fill="#fafafa"/>
+  <text class="t" x="640" y="410" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">3</text>
+  <text class="t" x="670" y="412" font-size="22" font-weight="700" fill="#191919">힌지가 꺾임을 각도로 바꾼다</text>
+  <text class="t" x="670" y="444" font-size="17" fill="#6d6d6d">한쪽 날개는 각도가 오르고 반대쪽은 내려간다</text>
+
+  <path d="M860 468 L860 492" stroke="#c9c9c9" stroke-width="2"/>
+  <path d="M852 484 L860 494 L868 484" fill="none" stroke="#c9c9c9" stroke-width="2"/>
+
+  <rect x="610" y="498" width="500" height="92" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="640" y="536" font-size="15" font-weight="700" letter-spacing="2" fill="#e34f32">4</text>
+  <text class="t" x="670" y="538" font-size="22" font-weight="700" fill="#191919">한쪽 양력이 커져 기체가 기운다</text>
+  <text class="t" x="670" y="570" font-size="17" fill="#6d6d6d">가속하는 위치가 기우는 방향을 정한다</text>
+</svg>

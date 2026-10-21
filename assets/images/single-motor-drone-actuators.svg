@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="쿼드콥터는 모터 네 개, 스와시플레이트 동축 헬리콥터는 모터 두 개와 서보 두 개, 단일 모터 드론은 모터 하나와 힌지 하나를 쓴다는 비교 그림">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+
+  <text class="t" x="90" y="96" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">양력 · 앞뒤 기울기 · 좌우 기울기를 다루는 구동기 수</text>
+
+  <!-- quadcopter -->
+  <rect x="90" y="140" width="320" height="400" fill="#fafafa"/>
+  <text class="t" x="120" y="190" font-size="30" font-weight="700" fill="#191919">쿼드콥터</text>
+  <rect x="150" y="240" width="70" height="70" fill="#ffffff" stroke="#6d6d6d" stroke-width="2"/>
+  <rect x="280" y="240" width="70" height="70" fill="#ffffff" stroke="#6d6d6d" stroke-width="2"/>
+  <rect x="150" y="340" width="70" height="70" fill="#ffffff" stroke="#6d6d6d" stroke-width="2"/>
+  <rect x="280" y="340" width="70" height="70" fill="#ffffff" stroke="#6d6d6d" stroke-width="2"/>
+  <text class="t" x="185" y="282" text-anchor="middle" font-size="16" fill="#6d6d6d">모터</text>
+  <text class="t" x="315" y="282" text-anchor="middle" font-size="16" fill="#6d6d6d">모터</text>
+  <text class="t" x="185" y="382" text-anchor="middle" font-size="16" fill="#6d6d6d">모터</text>
+  <text class="t" x="315" y="382" text-anchor="middle" font-size="16" fill="#6d6d6d">모터</text>
+  <text class="t" x="120" y="470" font-size="18" fill="#191919">구동기 4개</text>
+  <text class="t" x="120" y="502" font-size="17" fill="#6d6d6d">네 모터의 속도 차이로 기운다</text>
+
+  <!-- coaxial helicopter -->
+  <rect x="440" y="140" width="320" height="400" fill="#fafafa"/>
+  <text class="t" x="470" y="190" font-size="30" font-weight="700" fill="#191919">동축 헬리콥터</text>
+  <rect x="500" y="240" width="70" height="70" fill="#ffffff" stroke="#6d6d6d" stroke-width="2"/>
+  <rect x="630" y="240" width="70" height="70" fill="#ffffff" stroke="#6d6d6d" stroke-width="2"/>
+  <rect x="500" y="340" width="70" height="70" fill="#ffffff" stroke="#6d6d6d" stroke-width="2" stroke-dasharray="6 5"/>
+  <rect x="630" y="340" width="70" height="70" fill="#ffffff" stroke="#6d6d6d" stroke-width="2" stroke-dasharray="6 5"/>
+  <text class="t" x="535" y="282" text-anchor="middle" font-size="16" fill="#6d6d6d">모터</text>
+  <text class="t" x="665" y="282" text-anchor="middle" font-size="16" fill="#6d6d6d">모터</text>
+  <text class="t" x="535" y="382" text-anchor="middle" font-size="16" fill="#6d6d6d">서보</text>
+  <text class="t" x="665" y="382" text-anchor="middle" font-size="16" fill="#6d6d6d">서보</text>
+  <text class="t" x="470" y="470" font-size="18" fill="#191919">구동기 4개 + 스와시플레이트</text>
+  <text class="t" x="470" y="502" font-size="17" fill="#6d6d6d">서보가 날개 각도를 직접 바꾼다</text>
+
+  <!-- single motor -->
+  <rect x="790" y="140" width="320" height="400" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="820" y="190" font-size="30" font-weight="700" fill="#191919">단일 모터 드론</text>
+  <rect x="915" y="240" width="70" height="70" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="950" y="282" text-anchor="middle" font-size="16" fill="#e34f32">모터</text>
+  <path d="M905 375 L995 345" stroke="#6d6d6d" stroke-width="3"/>
+  <rect x="944" y="354" width="12" height="12" fill="#ffffff" stroke="#6d6d6d" stroke-width="2"/>
+  <text class="t" x="950" y="408" text-anchor="middle" font-size="16" fill="#6d6d6d">비스듬한 힌지</text>
+  <text class="t" x="820" y="470" font-size="18" fill="#191919">구동기 1개 + 힌지</text>
+  <text class="t" x="820" y="502" font-size="17" fill="#6d6d6d">속도 변화가 날개 각도를 바꾼다</text>
+
+  <text class="t" x="1110" y="610" text-anchor="end" font-size="17" fill="#6d6d6d">구동기가 줄면 그 일은 제어 타이밍으로 넘어간다</text>
+</svg>
