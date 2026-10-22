@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="사용자 질문이 Jev로 가서 표현 형식이 정해지고 기본 표는 A2UI로, 차트와 계산기와 지도는 샌드박스 HTML로 나뉘는 흐름을 보여주는 그림">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+
+  <!-- question -->
+  <rect x="60" y="290" width="200" height="120" fill="#fafafa"/>
+  <text class="t" x="160" y="340" text-anchor="middle" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">입력</text>
+  <text class="t" x="160" y="378" text-anchor="middle" font-size="24" font-weight="700" fill="#191919">질문</text>
+
+  <path d="M262 350 L318 350" stroke="#6d6d6d" stroke-width="2"/><path d="M308 342 L318 350 L308 358" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+
+  <!-- Jev -->
+  <rect x="320" y="270" width="250" height="160" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="445" y="315" text-anchor="middle" font-size="15" font-weight="700" letter-spacing="2" fill="#e34f32">1. 형식 결정</text>
+  <text class="t" x="445" y="357" text-anchor="middle" font-size="30" font-weight="700" fill="#191919">Jev</text>
+  <text class="t" x="445" y="392" text-anchor="middle" font-size="16" fill="#6d6d6d">TypeSafe · jev-latest</text>
+
+  <path d="M572 350 L628 350" stroke="#6d6d6d" stroke-width="2"/><path d="M618 342 L628 350 L618 358" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+
+  <!-- answer model -->
+  <rect x="630" y="270" width="250" height="160" fill="#fafafa"/>
+  <text class="t" x="755" y="315" text-anchor="middle" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">2. 내용 작성</text>
+  <text class="t" x="755" y="357" text-anchor="middle" font-size="30" font-weight="700" fill="#191919">답변 모델</text>
+  <text class="t" x="755" y="392" text-anchor="middle" font-size="16" fill="#6d6d6d">OpenAI · chat-latest</text>
+
+  <!-- branches -->
+  <path d="M882 330 L930 330 L930 190 L958 190" fill="none" stroke="#6d6d6d" stroke-width="2"/><path d="M948 182 L958 190 L948 198" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+  <path d="M882 370 L930 370 L930 510 L958 510" fill="none" stroke="#6d6d6d" stroke-width="2"/><path d="M948 502 L958 510 L948 518" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+
+  <rect x="960" y="130" width="200" height="120" fill="#fafafa"/>
+  <text class="t" x="1060" y="180" text-anchor="middle" font-size="24" font-weight="700" fill="#191919">A2UI</text>
+  <text class="t" x="1060" y="214" text-anchor="middle" font-size="16" fill="#6d6d6d">기본 표</text>
+
+  <rect x="960" y="450" width="200" height="120" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="1060" y="497" text-anchor="middle" font-size="22" font-weight="700" fill="#191919">샌드박스 HTML</text>
+  <text class="t" x="1060" y="531" text-anchor="middle" font-size="16" fill="#6d6d6d">차트·계산기·지도</text>
+
+  <!-- failure note -->
+  <path d="M445 432 L445 560" stroke="#e9e9e9" stroke-width="2" stroke-dasharray="6 6"/>
+  <text class="t" x="445" y="595" text-anchor="middle" font-size="17" fill="#191919">제공자 오류는 그대로 드러낸다</text>
+  <text class="t" x="445" y="622" text-anchor="middle" font-size="16" fill="#6d6d6d">다른 라우터나 모델로 몰래 바꾸지 않는다</text>
+</svg>

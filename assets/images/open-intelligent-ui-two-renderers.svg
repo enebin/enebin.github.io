@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="A2UI는 데이터를 받아 앱의 준비된 컴포넌트로 그리고 샌드박스 HTML은 생성된 코드를 격리된 iframe에서 실행한다는 차이를 비교한 그림">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+
+  <!-- left: A2UI -->
+  <text class="t" x="90" y="100" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">정해진 부품</text>
+  <text class="t" x="90" y="145" font-size="30" font-weight="700" fill="#191919">A2UI</text>
+
+  <rect x="90" y="185" width="460" height="80" fill="#fafafa"/>
+  <text class="t" x="115" y="220" font-size="16" fill="#6d6d6d">AI가 보내는 것</text>
+  <text class="t" x="115" y="248" font-size="19" fill="#191919">화면 구성 데이터</text>
+  <path d="M320 268 L320 300" stroke="#c9c9c9" stroke-width="2"/><path d="M312 292 L320 302 L328 292" fill="none" stroke="#c9c9c9" stroke-width="2"/>
+  <rect x="90" y="305" width="460" height="80" fill="#fafafa"/>
+  <text class="t" x="115" y="340" font-size="16" fill="#6d6d6d">그리는 주체</text>
+  <text class="t" x="115" y="368" font-size="19" fill="#191919">앱에 미리 준비된 컴포넌트</text>
+
+  <text class="t" x="90" y="440" font-size="18" fill="#191919">디자인이 흔들리지 않는다</text>
+  <text class="t" x="90" y="472" font-size="18" fill="#191919">예상 밖의 코드가 돌지 않는다</text>
+  <text class="t" x="90" y="504" font-size="18" fill="#6d6d6d">없는 부품은 그릴 수 없다</text>
+
+  <path d="M600 90 L600 600" stroke="#e9e9e9" stroke-width="2"/>
+
+  <!-- right: sandbox -->
+  <text class="t" x="650" y="100" font-size="15" font-weight="700" letter-spacing="2" fill="#e34f32">즉석 코드</text>
+  <text class="t" x="650" y="145" font-size="30" font-weight="700" fill="#191919">샌드박스 HTML</text>
+
+  <rect x="650" y="185" width="460" height="80" fill="#fafafa"/>
+  <text class="t" x="675" y="220" font-size="16" fill="#6d6d6d">AI가 보내는 것</text>
+  <text class="t" x="675" y="248" font-size="19" fill="#191919">HTML · CSS · JavaScript</text>
+  <path d="M880 268 L880 300" stroke="#c9c9c9" stroke-width="2"/><path d="M872 292 L880 302 L888 292" fill="none" stroke="#c9c9c9" stroke-width="2"/>
+  <rect x="650" y="305" width="460" height="80" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="675" y="340" font-size="16" fill="#e34f32">도는 곳</text>
+  <text class="t" x="675" y="368" font-size="19" fill="#191919">격리된 iframe 안</text>
+
+  <text class="t" x="650" y="440" font-size="18" fill="#191919">질문마다 새 모양을 만든다</text>
+  <text class="t" x="650" y="472" font-size="18" fill="#191919">슬라이더·계산 로직이 안에서 돈다</text>
+  <text class="t" x="650" y="504" font-size="18" fill="#6d6d6d">바깥과는 좁은 통로로만 만난다</text>
+
+  <text class="t" x="1110" y="630" text-anchor="end" font-size="17" fill="#6d6d6d">왼쪽은 믿을 수 있는 대신 좁고, 오른쪽은 넓은 대신 가둬 둔다</text>
+</svg>

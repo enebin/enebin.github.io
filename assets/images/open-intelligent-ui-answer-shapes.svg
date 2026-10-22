@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="같은 채팅 안에서 질문에 따라 글, 표, 차트, 계산기, 지도 중 하나로 답하는 모습을 보여주는 그림">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+
+  <text class="t" x="90" y="90" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">질문</text>
+  <text class="t" x="640" y="90" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">답의 모양</text>
+
+  <!-- row 1 -->
+  <text class="t" x="90" y="160" font-size="19" fill="#191919">"A2UI가 뭐야?"</text>
+  <path d="M520 154 L610 154" stroke="#c9c9c9" stroke-width="2"/><path d="M600 146 L610 154 L600 162" fill="none" stroke="#c9c9c9" stroke-width="2"/>
+  <rect x="640" y="125" width="470" height="60" fill="#fafafa"/>
+  <text class="t" x="670" y="163" font-size="19" fill="#191919">글</text>
+  <text class="t" x="1080" y="163" text-anchor="end" font-size="16" fill="#6d6d6d">설명이면 충분하다</text>
+
+  <!-- row 2 -->
+  <text class="t" x="90" y="260" font-size="19" fill="#191919">"요금제 세 개 비교해 줘"</text>
+  <path d="M520 254 L610 254" stroke="#c9c9c9" stroke-width="2"/><path d="M600 246 L610 254 L600 262" fill="none" stroke="#c9c9c9" stroke-width="2"/>
+  <rect x="640" y="225" width="470" height="60" fill="#fafafa"/>
+  <text class="t" x="670" y="263" font-size="19" fill="#191919">표</text>
+  <text class="t" x="1080" y="263" text-anchor="end" font-size="16" fill="#6d6d6d">앱에 있는 컴포넌트</text>
+
+  <!-- row 3 -->
+  <text class="t" x="90" y="360" font-size="19" fill="#191919">"차트로 보여 줘"</text>
+  <path d="M520 354 L610 354" stroke="#c9c9c9" stroke-width="2"/><path d="M600 346 L610 354 L600 362" fill="none" stroke="#c9c9c9" stroke-width="2"/>
+  <rect x="640" y="325" width="470" height="60" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="670" y="363" font-size="19" fill="#191919">차트</text>
+  <text class="t" x="1080" y="363" text-anchor="end" font-size="16" fill="#e34f32">즉석에서 만든 화면</text>
+
+  <!-- row 4 -->
+  <text class="t" x="90" y="460" font-size="19" fill="#191919">"네 명이서 팁 넣고 나누면?"</text>
+  <path d="M520 454 L610 454" stroke="#c9c9c9" stroke-width="2"/><path d="M600 446 L610 454 L600 462" fill="none" stroke="#c9c9c9" stroke-width="2"/>
+  <rect x="640" y="425" width="470" height="60" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="670" y="463" font-size="19" fill="#191919">계산기</text>
+  <text class="t" x="1080" y="463" text-anchor="end" font-size="16" fill="#e34f32">즉석에서 만든 화면</text>
+
+  <!-- row 5 -->
+  <text class="t" x="90" y="560" font-size="19" fill="#191919">"해안 따라 주말 여행 짜 줘"</text>
+  <path d="M520 554 L610 554" stroke="#c9c9c9" stroke-width="2"/><path d="M600 546 L610 554 L600 562" fill="none" stroke="#c9c9c9" stroke-width="2"/>
+  <rect x="640" y="525" width="470" height="60" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="670" y="563" font-size="19" fill="#191919">지도</text>
+  <text class="t" x="1080" y="563" text-anchor="end" font-size="16" fill="#e34f32">즉석에서 만든 화면</text>
+
+  <text class="t" x="1110" y="650" text-anchor="end" font-size="17" fill="#6d6d6d">에이전트가 요청마다 글, 기존 컴포넌트, 새 화면 중 하나를 고른다</text>
+</svg>

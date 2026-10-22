@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="iframe 안에서 사용자가 값을 고르면 검증된 호스트 브리지를 거쳐 에이전트의 다음 턴이 시작되고 새 화면이 따로 쌓이는 순환을 보여주는 그림">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+
+  <!-- iframe -->
+  <rect x="80" y="110" width="420" height="300" fill="#ffffff" stroke="#191919" stroke-width="2"/>
+  <text class="t" x="110" y="150" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">격리된 iframe</text>
+  <text class="t" x="110" y="200" font-size="19" fill="#191919">슬라이더를 움직인다</text>
+  <text class="t" x="110" y="232" font-size="16" fill="#6d6d6d">계산은 안에서 끝나고 에이전트는 쉰다</text>
+  <path d="M110 300 L470 300" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="110" y="350" font-size="19" fill="#191919">후속 버튼을 누른다</text>
+  <text class="t" x="110" y="382" font-size="16" fill="#e34f32">선택한 값을 밖으로 보낸다</text>
+
+  <!-- bridge -->
+  <path d="M502 365 L688 365" stroke="#e34f32" stroke-width="3"/><path d="M678 357 L688 365 L678 373" fill="none" stroke="#e34f32" stroke-width="3"/>
+  <text class="t" x="595" y="340" text-anchor="middle" font-size="16" font-weight="700" fill="#e34f32">검증된 호스트 브리지</text>
+
+  <!-- agent -->
+  <rect x="690" y="290" width="420" height="150" fill="#fafafa"/>
+  <text class="t" x="720" y="330" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">에이전트</text>
+  <text class="t" x="720" y="374" font-size="26" font-weight="700" fill="#191919">다음 턴 시작</text>
+  <text class="t" x="720" y="410" font-size="16" fill="#6d6d6d">고른 값을 입력으로 받는다</text>
+
+  <!-- new artifact -->
+  <path d="M900 442 L900 498" stroke="#6d6d6d" stroke-width="2"/><path d="M892 488 L900 498 L908 488" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+  <rect x="690" y="500" width="420" height="90" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="720" y="540" font-size="19" fill="#191919">새 결과물이 아래에 쌓인다</text>
+  <text class="t" x="720" y="570" font-size="16" fill="#6d6d6d">앞의 화면은 고치지 않고 그대로 남는다</text>
+
+  <path d="M688 545 L290 545 L290 414" fill="none" stroke="#c9c9c9" stroke-width="2" stroke-dasharray="6 6"/><path d="M282 424 L290 414 L298 424" fill="none" stroke="#c9c9c9" stroke-width="2"/>
+  <text class="t" x="310" y="580" font-size="16" fill="#6d6d6d">새 화면에서 다시 고른다</text>
+
+  <text class="t" x="1110" y="650" text-anchor="end" font-size="17" fill="#6d6d6d">작은 조작은 안에서, 다음 질문은 통로를 거쳐서</text>
+</svg>
