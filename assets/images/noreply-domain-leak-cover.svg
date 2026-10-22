@@ -4,8 +4,8 @@
   </style>
   <rect width="1200" height="700" fill="#ffffff"/>
   <text class="t" x="96" y="112" font-size="16" font-weight="700" letter-spacing="2" fill="#e34f32">NOREPLY.NET</text>
-  <text class="t" x="96" y="182" font-size="48" font-weight="700" fill="#191919">아무도 안 읽는다고</text>
-  <text class="t" x="96" y="240" font-size="48" font-weight="700" fill="#191919">믿었던 주소</text>
+  <text class="t" x="96" y="182" font-size="48" font-weight="700" fill="#191919">누군가 noreply.net 도메인을</text>
+  <text class="t" x="96" y="240" font-size="48" font-weight="700" fill="#191919">사버렸더니 벌어진 일</text>
   <text class="t" x="96" y="292" font-size="20" fill="#6d6d6d">자리 표시자로 적은 도메인은 누군가 살 수 있다</text>
 
   <line x1="96" y1="356" x2="1104" y2="356" stroke="#e9e9e9" stroke-width="2"/>

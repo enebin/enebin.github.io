@@ -1,5 +1,5 @@
 ---
-title: 답이 글이 아니라 화면으로 돌아올 때
+title: AI가 줄글 대신 화면(UI)으로 답하게 만들려면
 description: CopilotKit이 공개한 Open Intelligent UI를 읽고 AI가 질문마다 표, 차트, 계산기 중 무엇으로 답할지 고르고 그 화면을 안전하게 띄우는 구조를 정리한다.
 category: 개발
 tags:

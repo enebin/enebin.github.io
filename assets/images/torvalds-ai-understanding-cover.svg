@@ -5,8 +5,8 @@
   <rect width="1200" height="700" fill="#ffffff"/>
 
   <text class="t" x="90" y="100" font-size="16" font-weight="700" letter-spacing="2" fill="#e34f32">TORVALDS × LLM</text>
-  <text class="t" x="90" y="165" font-size="46" font-weight="700" fill="#191919">토발즈는 도구를 묻지 않고</text>
-  <text class="t" x="90" y="222" font-size="46" font-weight="700" fill="#191919">이해를 묻는다</text>
+  <text class="t" x="90" y="165" font-size="46" font-weight="700" fill="#191919">리누스 토발즈가 AI 코딩을</text>
+  <text class="t" x="90" y="222" font-size="46" font-weight="700" fill="#191919">막지 않는 대신 내건 조건</text>
 
   <rect x="90" y="340" width="440" height="170" fill="#fafafa"/>
   <text class="t" x="310" y="400" text-anchor="middle" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">묻지 않는 것</text>

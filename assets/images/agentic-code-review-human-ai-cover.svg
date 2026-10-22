@@ -5,7 +5,7 @@
   <rect width="1200" height="700" fill="#ffffff"/>
 
   <text class="t" x="90" y="92" font-size="16" font-weight="700" letter-spacing="2" fill="#e34f32">AGENTIC CODE REVIEW</text>
-  <text class="t" x="90" y="144" font-size="30" font-weight="700" fill="#191919">AI는 판사가 아니라 센서다</text>
+  <text class="t" x="90" y="144" font-size="30" font-weight="700" fill="#191919">27만 개 PR로 본 AI 코드 리뷰의 역할</text>
   <text class="t" x="90" y="181" font-size="19" fill="#6d6d6d">넓게 찾는 일과 맥락을 판단하는 일을 나눈다</text>
 
   <rect x="90" y="258" width="310" height="260" fill="#ffffff" stroke="#e9e9e9" stroke-width="2"/>

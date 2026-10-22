@@ -4,8 +4,8 @@
   </style>
   <rect width="1200" height="700" fill="#ffffff"/>
   <text class="t" x="90" y="100" font-size="16" font-weight="700" letter-spacing="2" fill="#e34f32">RELIGIOUS STUDIES IN SOFTWARE ENGINEERING</text>
-  <text class="t" x="90" y="165" font-size="46" font-weight="700" fill="#191919">코드는 돌아가는데</text>
-  <text class="t" x="90" y="222" font-size="46" font-weight="700" fill="#191919">프로그램은 죽어 있을 수 있다</text>
+  <text class="t" x="90" y="165" font-size="46" font-weight="700" fill="#191919">코드는 멀쩡히 돌아가는데</text>
+  <text class="t" x="90" y="222" font-size="46" font-weight="700" fill="#191919">왜 프로그램은 죽었다고 할까</text>
 
   <text class="t" x="90" y="332" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">저장소에 남는 것</text>
   <rect x="90" y="360" width="440" height="170" fill="#ffffff" stroke="#191919" stroke-width="2"/>

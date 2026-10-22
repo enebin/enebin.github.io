@@ -5,8 +5,8 @@
   <rect width="1200" height="700" fill="#ffffff"/>
 
   <text class="t" x="90" y="100" font-size="16" font-weight="700" letter-spacing="2" fill="#e34f32">ONE MOTOR DRONE</text>
-  <text class="t" x="90" y="165" font-size="46" font-weight="700" fill="#191919">모터 하나로 나는 드론은</text>
-  <text class="t" x="90" y="222" font-size="46" font-weight="700" fill="#191919">부품 대신 타이밍을 쓴다</text>
+  <text class="t" x="90" y="165" font-size="46" font-weight="700" fill="#191919">모터 하나로 드론이</text>
+  <text class="t" x="90" y="222" font-size="46" font-weight="700" fill="#191919">어떻게 날 수 있을까?</text>
 
   <rect x="90" y="330" width="440" height="200" fill="#fafafa"/>
   <rect x="200" y="370" width="50" height="50" fill="#ffffff" stroke="#6d6d6d" stroke-width="2"/>

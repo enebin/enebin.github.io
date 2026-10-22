@@ -1,5 +1,5 @@
 ---
-title: Claude Fable 5.1은 프롬프트만 바꿔서는 안 된다
+title: Claude Fable 5.1로 올릴 때 프롬프트만 바꾸면 안 되는 이유
 description: Claude Fable 5.1을 도입할 때 effort, 진행 표시, 도구 호출, 대화 이력을 함께 점검해야 하는 이유를 살펴본다.
 category: 개발
 tags:

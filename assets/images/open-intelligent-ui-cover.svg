@@ -5,8 +5,8 @@
   <rect width="1200" height="700" fill="#ffffff"/>
 
   <text class="t" x="90" y="100" font-size="16" font-weight="700" letter-spacing="2" fill="#e34f32">OPEN INTELLIGENT UI</text>
-  <text class="t" x="90" y="165" font-size="46" font-weight="700" fill="#191919">답이 글이 아니라</text>
-  <text class="t" x="90" y="222" font-size="46" font-weight="700" fill="#191919">화면으로 돌아올 때</text>
+  <text class="t" x="90" y="165" font-size="46" font-weight="700" fill="#191919">AI가 줄글 대신</text>
+  <text class="t" x="90" y="222" font-size="46" font-weight="700" fill="#191919">화면(UI)으로 답하게 만들려면</text>
 
   <rect x="90" y="320" width="440" height="230" fill="#fafafa"/>
   <text class="t" x="120" y="365" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">글로 된 답</text>

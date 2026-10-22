@@ -1,5 +1,5 @@
 ---
-title: 아무도 안 읽는다고 믿었던 주소
+title: 누군가 noreply.net 도메인을 사버렸더니 벌어진 일
 description: 보안 연구자가 noreply.net 도메인을 사자 기업들이 40만 통의 메일을 보내왔다. 자리 표시자 주소가 어떻게 진짜 유출 경로가 되는지 정리했다.
 category: 개발
 tags:
