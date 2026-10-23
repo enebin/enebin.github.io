@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="애플이 공개하지 않은 조각과 HackiOS가 그 자리에 넣은 대체품을 짝지어 보여 주는 그림">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+
+  <text class="t" x="120" y="90" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">애플이 닫아 둔 조각</text>
+  <text class="t" x="680" y="90" font-size="15" font-weight="700" letter-spacing="2" fill="#e34f32">HackiOS가 넣은 대역</text>
+  <path d="M120 104 L1080 104" stroke="#e9e9e9" stroke-width="2"/>
+
+  <g>
+    <text class="t" x="120" y="160" font-size="19" fill="#191919">corecrypto (암호 라이브러리)</text>
+    <path d="M560 153 L640 153" stroke="#6d6d6d" stroke-width="2"/><path d="M630 145 L640 153 L630 161" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+    <text class="t" x="680" y="160" font-size="19" fill="#191919">minicrypto</text>
+  </g>
+  <path d="M120 190 L1080 190" stroke="#e9e9e9" stroke-width="1"/>
+  <g>
+    <text class="t" x="120" y="240" font-size="19" fill="#191919">AMFI, Sandbox (서명 검사, 앱 격리)</text>
+    <path d="M560 233 L640 233" stroke="#6d6d6d" stroke-width="2"/><path d="M630 225 L640 233 L630 241" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+    <text class="t" x="680" y="240" font-size="19" fill="#191919">같은 자리에 꽂히는 MAC 정책 대역</text>
+  </g>
+  <path d="M120 270 L1080 270" stroke="#e9e9e9" stroke-width="1"/>
+  <g>
+    <text class="t" x="120" y="320" font-size="19" fill="#191919">IOSurface, IOMobileFramebuffer, AppleKeyStore</text>
+    <path d="M560 313 L640 313" stroke="#6d6d6d" stroke-width="2"/><path d="M630 305 L640 313 L630 321" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+    <text class="t" x="680" y="320" font-size="19" fill="#191919">직접 새로 쓴 드라이버</text>
+  </g>
+  <path d="M120 350 L1080 350" stroke="#e9e9e9" stroke-width="1"/>
+  <g>
+    <text class="t" x="120" y="400" font-size="19" fill="#191919">와이파이 드라이버 (WCN6750)</text>
+    <path d="M560 393 L640 393" stroke="#6d6d6d" stroke-width="2"/><path d="M630 385 L640 393 L630 401" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+    <text class="t" x="680" y="400" font-size="19" fill="#191919">리눅스 ath11k, LinuxKPI 위에서</text>
+  </g>
+  <path d="M120 430 L1080 430" stroke="#e9e9e9" stroke-width="1"/>
+  <g>
+    <text class="t" x="120" y="480" font-size="19" fill="#191919">GPU 드라이버 (Adreno 642L)</text>
+    <path d="M560 473 L640 473" stroke="#6d6d6d" stroke-width="2"/><path d="M630 465 L640 473 L630 481" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+    <text class="t" x="680" y="480" font-size="19" fill="#191919">Mesa freedreno, OpenGL ES</text>
+  </g>
+  <path d="M120 510 L1080 510" stroke="#e9e9e9" stroke-width="1"/>
+  <g>
+    <text class="t" x="120" y="560" font-size="19" fill="#191919">터치, 가상 HID, 오디오 출력</text>
+    <path d="M560 553 L640 553" stroke="#6d6d6d" stroke-width="2"/><path d="M630 545 L640 553 L630 561" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+    <text class="t" x="680" y="560" font-size="19" fill="#191919">/dev/redwood-touch, 주입 라이브러리</text>
+  </g>
+  <path d="M120 590 L1080 590" stroke="#e9e9e9" stroke-width="2"/>
+
+  <text class="t" x="1080" y="650" text-anchor="end" font-size="17" fill="#6d6d6d">왼쪽은 애플 소스에 없고 오른쪽은 저장소에 있다</text>
+</svg>

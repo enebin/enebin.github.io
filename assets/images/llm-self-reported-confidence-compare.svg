@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="예보관의 확신도는 정보를 규칙에 넣어 계산하고 실제 결과로 검증하지만 LLM의 확신도는 앞 문장에 이어질 그럴듯한 다음 글자로 생성되며 검증된 적이 없다는 비교 그림">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+
+  <!-- left column: forecaster -->
+  <text class="t" x="320" y="90" text-anchor="middle" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">예보관</text>
+  <text class="t" x="320" y="130" text-anchor="middle" font-size="30" font-weight="700" fill="#191919">70%는 계산이다</text>
+
+  <rect x="120" y="170" width="400" height="90" fill="#fafafa"/>
+  <text class="t" x="320" y="205" text-anchor="middle" font-size="16" font-weight="700" fill="#6d6d6d">정보</text>
+  <text class="t" x="320" y="238" text-anchor="middle" font-size="18" fill="#191919">기압, 구름, 과거 기록</text>
+
+  <path d="M320 262 L320 294" stroke="#6d6d6d" stroke-width="2"/>
+  <path d="M312 286 L320 296 L328 286" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+
+  <rect x="120" y="300" width="400" height="90" fill="#fafafa"/>
+  <text class="t" x="320" y="335" text-anchor="middle" font-size="16" font-weight="700" fill="#6d6d6d">정해진 규칙</text>
+  <text class="t" x="320" y="368" text-anchor="middle" font-size="18" fill="#191919">같은 정보면 같은 답</text>
+
+  <path d="M320 392 L320 424" stroke="#6d6d6d" stroke-width="2"/>
+  <path d="M312 416 L320 426 L328 416" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+
+  <rect x="120" y="430" width="400" height="90" fill="#ffffff" stroke="#191919" stroke-width="2"/>
+  <text class="t" x="320" y="486" text-anchor="middle" font-size="34" font-weight="700" fill="#191919">70%</text>
+
+  <path d="M320 522 L320 554" stroke="#6d6d6d" stroke-width="2"/>
+  <path d="M312 546 L320 556 L328 546" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+
+  <rect x="120" y="560" width="400" height="90" fill="#fafafa"/>
+  <text class="t" x="320" y="595" text-anchor="middle" font-size="16" font-weight="700" fill="#6d6d6d">검증</text>
+  <text class="t" x="320" y="628" text-anchor="middle" font-size="18" fill="#191919">1년 치 결과와 대조한 보정표</text>
+
+  <!-- divider -->
+  <path d="M600 80 L600 660" stroke="#e9e9e9" stroke-width="2"/>
+
+  <!-- right column: LLM -->
+  <text class="t" x="880" y="90" text-anchor="middle" font-size="15" font-weight="700" letter-spacing="2" fill="#e34f32">LLM</text>
+  <text class="t" x="880" y="130" text-anchor="middle" font-size="30" font-weight="700" fill="#191919">0.85는 문장이다</text>
+
+  <rect x="680" y="170" width="400" height="90" fill="#fafafa"/>
+  <text class="t" x="880" y="205" text-anchor="middle" font-size="16" font-weight="700" fill="#6d6d6d">앞에 쓴 문장</text>
+  <text class="t" x="880" y="238" text-anchor="middle" font-size="18" fill="#191919">"이게 분명히 맞는 답입니다"</text>
+
+  <path d="M880 262 L880 294" stroke="#6d6d6d" stroke-width="2"/>
+  <path d="M872 286 L880 296 L888 286" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+
+  <rect x="680" y="300" width="400" height="90" fill="#fafafa"/>
+  <text class="t" x="880" y="335" text-anchor="middle" font-size="16" font-weight="700" fill="#6d6d6d">다음 글자 생성</text>
+  <text class="t" x="880" y="368" text-anchor="middle" font-size="18" fill="#191919">이 자리에 가장 그럴듯한 글자</text>
+
+  <path d="M880 392 L880 424" stroke="#6d6d6d" stroke-width="2"/>
+  <path d="M872 416 L880 426 L888 416" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+
+  <rect x="680" y="430" width="400" height="90" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="880" y="486" text-anchor="middle" font-size="34" font-weight="700" fill="#e34f32">0.85</text>
+  <text class="t" x="1060" y="516" text-anchor="end" font-size="15" fill="#6d6d6d">다시 물으면 0.7</text>
+
+  <path d="M880 522 L880 554" stroke="#6d6d6d" stroke-width="2"/>
+  <path d="M872 546 L880 556 L888 546" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+
+  <rect x="680" y="560" width="400" height="90" fill="#fafafa"/>
+  <text class="t" x="880" y="595" text-anchor="middle" font-size="16" font-weight="700" fill="#6d6d6d">검증</text>
+  <text class="t" x="880" y="628" text-anchor="middle" font-size="18" fill="#191919">정답률과 맞춰 본 적 없음</text>
+</svg>

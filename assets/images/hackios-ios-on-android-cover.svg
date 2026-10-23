@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="안드로이드 폰 위에 손대지 않은 iOS를 올린다는 표지 그림">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+
+  <text class="t" x="90" y="100" font-size="16" font-weight="700" letter-spacing="2" fill="#e34f32">HACKIOS</text>
+  <text class="t" x="90" y="165" font-size="46" font-weight="700" fill="#191919">안드로이드 폰에서</text>
+  <text class="t" x="90" y="222" font-size="46" font-weight="700" fill="#191919">손대지 않은 iOS 16.5를 켠 HackiOS</text>
+
+  <rect x="90" y="320" width="1020" height="90" fill="#ffffff" stroke="#e34f32" stroke-width="3"/>
+  <text class="t" x="120" y="375" font-size="26" font-weight="700" fill="#191919">iOS 16.5 사용자 공간</text>
+  <text class="t" x="1080" y="375" text-anchor="end" font-size="17" fill="#e34f32">한 바이트도 안 고침</text>
+
+  <rect x="90" y="420" width="1020" height="80" fill="#fafafa"/>
+  <text class="t" x="120" y="470" font-size="22" fill="#191919">공개된 XNU 커널 + 직접 만든 드라이버와 로더</text>
+
+  <rect x="90" y="510" width="1020" height="80" fill="#ffffff" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="120" y="560" font-size="22" fill="#6d6d6d">POCO X5 Pro 5G</text>
+
+  <text class="t" x="1110" y="650" text-anchor="end" font-size="17" fill="#6d6d6d">롬이 아니라 RAM에서만 도는 연구용 벤치</text>
+</svg>

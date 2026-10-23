@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="안드로이드에서 로더로, RAM에 이미지를 올리고 커널을 띄운 뒤 다시 안드로이드로 돌아오는 순서를 보여 주는 그림">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+
+  <rect x="80" y="200" width="200" height="150" fill="#ffffff" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="180" y="265" text-anchor="middle" font-size="30" font-weight="700" fill="#191919">안드로이드</text>
+  <text class="t" x="180" y="300" text-anchor="middle" font-size="16" fill="#6d6d6d">평소 상태</text>
+
+  <path d="M280 275 L340 275" stroke="#6d6d6d" stroke-width="2"/><path d="M330 267 L340 275 L330 283" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+  <text class="t" x="310" y="255" text-anchor="middle" font-size="15" fill="#6d6d6d">xl enter</text>
+
+  <rect x="340" y="200" width="200" height="150" fill="#fafafa"/>
+  <text class="t" x="440" y="265" text-anchor="middle" font-size="30" font-weight="700" fill="#191919">로더</text>
+  <text class="t" x="440" y="300" text-anchor="middle" font-size="16" fill="#6d6d6d">fastboot boot로 RAM에</text>
+
+  <path d="M540 275 L600 275" stroke="#6d6d6d" stroke-width="2"/><path d="M590 267 L600 275 L590 283" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+  <text class="t" x="570" y="255" text-anchor="middle" font-size="15" fill="#6d6d6d">xl ramdisk</text>
+
+  <rect x="600" y="200" width="200" height="150" fill="#fafafa"/>
+  <text class="t" x="700" y="265" text-anchor="middle" font-size="30" font-weight="700" fill="#191919">이미지 올리기</text>
+  <text class="t" x="700" y="300" text-anchor="middle" font-size="16" fill="#6d6d6d">2.5GB, 약 80초</text>
+
+  <path d="M800 275 L860 275" stroke="#6d6d6d" stroke-width="2"/><path d="M850 267 L860 275 L850 283" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+  <text class="t" x="830" y="255" text-anchor="middle" font-size="15" fill="#6d6d6d">xl run</text>
+
+  <rect x="860" y="200" width="240" height="150" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="980" y="265" text-anchor="middle" font-size="30" font-weight="700" fill="#191919">iOS 세션</text>
+  <text class="t" x="980" y="300" text-anchor="middle" font-size="16" fill="#6d6d6d">XL_SECS만큼, 예시 900초</text>
+
+  <path d="M980 350 L980 440 L440 440 L440 350" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+  <path d="M432 360 L440 350 L448 360" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+  <text class="t" x="710" y="470" text-anchor="middle" font-size="16" fill="#6d6d6d">시간이 끝나면 커널이 로더로 돌아가 로그를 넘긴다</text>
+
+  <path d="M440 520 L440 560 L180 560 L180 350" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+  <path d="M172 360 L180 350 L188 360" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+  <text class="t" x="310" y="590" text-anchor="middle" font-size="15" fill="#6d6d6d">xl reboot</text>
+
+  <path d="M340 110 L1100 110" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="720" y="95" text-anchor="middle" font-size="17" font-weight="700" fill="#e34f32">여기부터는 전부 RAM 안에서만 벌어진다</text>
+</svg>

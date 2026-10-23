@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="안드로이드 폰 하드웨어 위에 UEFI와 로더, XNU 커널, 손대지 않은 iOS 사용자 공간이 층층이 쌓인 그림">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+
+  <rect x="120" y="70" width="760" height="130" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="160" y="118" font-size="30" font-weight="700" fill="#191919">iOS 16.5 사용자 공간</text>
+  <text class="t" x="160" y="152" font-size="18" fill="#6d6d6d">launchd → backboardd → SpringBoard → 설정, 사파리, 사진</text>
+  <text class="t" x="160" y="180" font-size="17" fill="#6d6d6d">프로그램, 프레임워크, dyld 공유 캐시 모두 그대로</text>
+  <text class="t" x="920" y="140" font-size="17" font-weight="700" fill="#e34f32">애플 바이너리 그대로</text>
+
+  <rect x="120" y="215" width="760" height="130" fill="#fafafa"/>
+  <text class="t" x="160" y="263" font-size="30" font-weight="700" fill="#191919">XNU 커널 xnu-8796.121.2</text>
+  <text class="t" x="160" y="297" font-size="18" fill="#6d6d6d">애플이 공개한 소스 + HackiOS 플랫폼 계층</text>
+  <text class="t" x="160" y="325" font-size="17" fill="#6d6d6d">닫힌 드라이버 대체, 라이브러리 주입도 여기서</text>
+  <text class="t" x="920" y="285" font-size="17" font-weight="700" fill="#6d6d6d">공개 소스 + 패치</text>
+
+  <rect x="120" y="360" width="760" height="130" fill="#fafafa"/>
+  <text class="t" x="160" y="408" font-size="30" font-weight="700" fill="#191919">xnuloader + Mu-Silicium UEFI</text>
+  <text class="t" x="160" y="442" font-size="18" fill="#6d6d6d">fastboot boot로 RAM에 올리는 부트로더</text>
+  <text class="t" x="160" y="470" font-size="17" fill="#6d6d6d">USB 연결, 워치독, 커널 로그 수신을 맡는다</text>
+  <text class="t" x="920" y="430" font-size="17" font-weight="700" fill="#6d6d6d">HackiOS가 직접 만듦</text>
+
+  <rect x="120" y="505" width="760" height="110" fill="#ffffff" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="160" y="553" font-size="30" font-weight="700" fill="#191919">POCO X5 Pro 5G</text>
+  <text class="t" x="160" y="587" font-size="18" fill="#6d6d6d">스냅드래곤 778G, Adreno 642L, WCN6750, Goodix GT9916</text>
+  <text class="t" x="920" y="565" font-size="17" font-weight="700" fill="#6d6d6d">안드로이드 폰 하드웨어</text>
+
+  <text class="t" x="880" y="660" text-anchor="end" font-size="17" fill="#6d6d6d">위는 손대지 않고 아래를 새로 깔았다</text>
+</svg>

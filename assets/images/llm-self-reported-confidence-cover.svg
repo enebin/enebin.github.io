@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="LLM이 스스로 매긴 확신도 0.85는 되물으면 0.7로 바뀌지만 기록에서 계산한 점수는 같은 정보에 늘 같은 값을 낸다는 표지 그림">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+
+  <text class="t" x="90" y="100" font-size="16" font-weight="700" letter-spacing="2" fill="#e34f32">LLM × CONFIDENCE</text>
+  <text class="t" x="90" y="165" font-size="46" font-weight="700" fill="#191919">LLM이 말한 "확신도 0.85"를</text>
+  <text class="t" x="90" y="222" font-size="46" font-weight="700" fill="#191919">믿으면 안 되는 이유</text>
+
+  <rect x="90" y="340" width="440" height="170" fill="#fafafa"/>
+  <text class="t" x="310" y="400" text-anchor="middle" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">모델에게 물은 숫자</text>
+  <text class="t" x="310" y="462" text-anchor="middle" font-size="40" font-weight="700" fill="#6d6d6d">0.85 → 0.7</text>
+  <text class="t" x="310" y="494" text-anchor="middle" font-size="16" fill="#6d6d6d">같은 질문을 다시 보냈을 뿐이다</text>
+
+  <path d="M530 425 L640 425" stroke="#6d6d6d" stroke-width="2"/><path d="M630 417 L640 425 L630 433" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+
+  <rect x="640" y="340" width="470" height="170" fill="#ffffff" stroke="#e34f32" stroke-width="3"/>
+  <text class="t" x="875" y="400" text-anchor="middle" font-size="15" font-weight="700" letter-spacing="2" fill="#e34f32">기록에서 계산한 점수</text>
+  <text class="t" x="875" y="462" text-anchor="middle" font-size="40" font-weight="700" fill="#191919">95% / 40%</text>
+  <text class="t" x="875" y="494" text-anchor="middle" font-size="16" fill="#6d6d6d">같은 정보면 늘 같은 값, 매주 보정</text>
+
+  <text class="t" x="1110" y="620" text-anchor="end" font-size="17" fill="#6d6d6d">확신도는 정보를 규칙에 넣어 계산하고 결과로 검증한 값이다</text>
+</svg>

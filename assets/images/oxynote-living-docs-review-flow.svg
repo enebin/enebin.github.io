@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="초안에서 블록 단위 diff를 거쳐 승인되면 보호된 main에 병합되는 네 단계 흐름을 보여주는 그림">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+
+  <!-- step 1 draft -->
+  <rect x="80" y="120" width="220" height="150" fill="#fafafa"/>
+  <text class="t" x="100" y="155" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">1</text>
+  <text class="t" x="100" y="200" font-size="30" font-weight="700" fill="#191919">초안</text>
+  <text class="t" x="100" y="238" font-size="16" fill="#6d6d6d">모든 변경은 여기로</text>
+
+  <path d="M300 195 L340 195" stroke="#6d6d6d" stroke-width="2"/>
+  <path d="M330 187 L340 195 L330 203" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+
+  <!-- step 2 diff -->
+  <rect x="340" y="120" width="220" height="150" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="360" y="155" font-size="15" font-weight="700" letter-spacing="2" fill="#e34f32">2</text>
+  <text class="t" x="360" y="200" font-size="30" font-weight="700" fill="#191919">diff</text>
+  <text class="t" x="360" y="238" font-size="16" fill="#6d6d6d">글자가 아니라 블록 단위</text>
+
+  <path d="M560 195 L600 195" stroke="#6d6d6d" stroke-width="2"/>
+  <path d="M590 187 L600 195 L590 203" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+
+  <!-- step 3 approve -->
+  <rect x="600" y="120" width="220" height="150" fill="#fafafa"/>
+  <text class="t" x="620" y="155" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">3</text>
+  <text class="t" x="620" y="200" font-size="30" font-weight="700" fill="#191919">승인</text>
+  <text class="t" x="620" y="238" font-size="16" fill="#6d6d6d">리뷰어가 Approve</text>
+
+  <path d="M820 195 L860 195" stroke="#6d6d6d" stroke-width="2"/>
+  <path d="M850 187 L860 195 L850 203" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+
+  <!-- step 4 main -->
+  <rect x="860" y="120" width="260" height="150" fill="#fafafa"/>
+  <text class="t" x="880" y="155" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">4</text>
+  <text class="t" x="880" y="200" font-size="30" font-weight="700" fill="#191919">main</text>
+  <text class="t" x="880" y="238" font-size="16" fill="#6d6d6d">직접 편집 금지로 보호 가능</text>
+
+  <!-- what the diff sees -->
+  <path d="M450 270 L450 330" stroke="#c9c9c9" stroke-width="2"/>
+  <path d="M442 322 L450 332 L458 322" fill="none" stroke="#c9c9c9" stroke-width="2"/>
+
+  <text class="t" x="80" y="372" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">한 diff 안에 함께 보이는 것</text>
+
+  <rect x="80" y="395" width="250" height="110" fill="#ffffff" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="100" y="430" font-size="17" font-weight="700" fill="#191919">문장</text>
+  <text class="t" x="100" y="460" font-size="16" fill="#6d6d6d">고쳐진 설명 문단</text>
+  <path d="M100 480 L240 480" stroke="#e34f32" stroke-width="2"/>
+
+  <rect x="345" y="395" width="250" height="110" fill="#ffffff" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="365" y="430" font-size="17" font-weight="700" fill="#191919">엔드포인트 이름</text>
+  <text class="t" x="365" y="460" font-size="16" fill="#6d6d6d">코드 블록의 제목</text>
+  <path d="M365 480 L505 480" stroke="#e34f32" stroke-width="2"/>
+
+  <rect x="610" y="395" width="250" height="110" fill="#ffffff" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="630" y="430" font-size="17" font-weight="700" fill="#191919">응답 필드</text>
+  <text class="t" x="630" y="460" font-size="16" fill="#6d6d6d">JSON 응답의 키 이름</text>
+  <path d="M630 480 L770 480" stroke="#e34f32" stroke-width="2"/>
+
+  <rect x="875" y="395" width="245" height="110" fill="#ffffff" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="895" y="430" font-size="17" font-weight="700" fill="#191919">차트</text>
+  <text class="t" x="895" y="460" font-size="16" fill="#6d6d6d">쿼리와 임계치 변경</text>
+  <path d="M895 480 L1035 480" stroke="#e34f32" stroke-width="2"/>
+
+  <text class="t" x="80" y="560" font-size="16" fill="#6d6d6d">빨간색과 초록색으로 제자리에 표시된다. 리뷰어는 탭을 옮기지 않고 네 가지를 한 번에 본다.</text>
+
+  <text class="t" x="1120" y="656" text-anchor="end" font-size="17" fill="#6d6d6d">문서를 코드처럼 리뷰하려면 diff가 코드만큼 똑똑해야 한다</text>
+</svg>

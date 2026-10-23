@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="한 페이지 안에 설명 문단과 쿼리를 직접 실행하는 Live Metrics 차트 블록과 임계치 설명이 위아래로 놓인 구조를 보여주는 그림">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+
+  <!-- page frame -->
+  <rect x="120" y="60" width="640" height="590" fill="#ffffff" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="150" y="108" font-size="30" font-weight="700" fill="#191919">Shipments</text>
+  <text class="t" x="150" y="136" font-size="15" fill="#6d6d6d">GET /v1/shipments/{id}</text>
+
+  <!-- paragraph -->
+  <text class="t" x="150" y="180" font-size="17" fill="#191919">이 엔드포인트는 배송 하나를 돌려준다.</text>
+  <path d="M150 198 L700 198" stroke="#e9e9e9" stroke-width="2"/>
+  <path d="M150 216 L560 216" stroke="#e9e9e9" stroke-width="2"/>
+
+  <!-- live metrics block -->
+  <rect x="150" y="250" width="580" height="200" fill="#fafafa"/>
+  <text class="t" x="165" y="276" font-size="14" font-weight="700" fill="#6d6d6d">Live Metrics · p99 latency</text>
+  <path d="M180 420 L700 420" stroke="#c9c9c9" stroke-width="1.5"/>
+  <path d="M180 300 L180 420" stroke="#c9c9c9" stroke-width="1.5"/>
+  <polyline points="190,400 240,385 290,392 340,360 390,370 440,330 490,345 540,300 590,320 640,310 690,335" fill="none" stroke="#191919" stroke-width="2.5"/>
+  <path d="M180 340 L700 340" stroke="#e34f32" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text class="t" x="698" y="333" text-anchor="end" font-size="14" fill="#e34f32">Degraded</text>
+  <path d="M180 305 L700 305" stroke="#e34f32" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text class="t" x="698" y="298" text-anchor="end" font-size="14" fill="#e34f32">Heavy delay</text>
+
+  <!-- explanation below chart -->
+  <text class="t" x="150" y="495" font-size="17" fill="#191919">Degraded 선은 SLA의 절반에 둔다.</text>
+  <text class="t" x="150" y="523" font-size="17" fill="#191919">넘으면 배송 조회 큐 길이부터 본다.</text>
+  <path d="M150 541 L640 541" stroke="#e9e9e9" stroke-width="2"/>
+  <path d="M150 559 L480 559" stroke="#e9e9e9" stroke-width="2"/>
+
+  <!-- code block -->
+  <rect x="150" y="585" width="580" height="40" fill="#fafafa"/>
+  <text class="t" x="165" y="611" font-size="15" fill="#6d6d6d">curl https://api.example.com/v1/shipments/sh_1</text>
+
+  <!-- right side annotations -->
+  <path d="M760 350 L820 350" stroke="#6d6d6d" stroke-width="2"/>
+  <path d="M810 342 L820 350 L810 358" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+  <rect x="840" y="290" width="270" height="120" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="860" y="322" font-size="15" font-weight="700" letter-spacing="2" fill="#e34f32">쿼리</text>
+  <text class="t" x="860" y="352" font-size="17" fill="#191919">Prometheus</text>
+  <text class="t" x="860" y="380" font-size="17" fill="#191919">PostgreSQL · MySQL · MariaDB</text>
+
+  <text class="t" x="840" y="450" font-size="16" fill="#6d6d6d">임베드가 아니다.</text>
+  <text class="t" x="840" y="476" font-size="16" fill="#6d6d6d">블록이 페이지 안에서 직접 쿼리를 돌린다.</text>
+
+  <path d="M760 180 L820 180" stroke="#6d6d6d" stroke-width="2"/>
+  <path d="M810 172 L820 180 L810 188" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+  <text class="t" x="840" y="172" font-size="16" fill="#6d6d6d">설명은 차트 위아래에</text>
+  <text class="t" x="840" y="198" font-size="16" fill="#6d6d6d">그냥 글로 적는다</text>
+
+  <text class="t" x="1110" y="656" text-anchor="end" font-size="17" fill="#6d6d6d">무엇을 재는지와 넘으면 무엇을 할지가 같은 화면에 있다</text>
+</svg>

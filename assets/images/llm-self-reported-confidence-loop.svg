@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="관찰 가능한 신호 고르기, 과거 정답률로 시작하기, 모든 답변 기록하기, 기록으로 규칙 고치기, 매주 보정표로 점검하기가 순환하는 다섯 단계 그림">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+
+  <!-- step 1 -->
+  <rect x="120" y="80" width="340" height="120" fill="#fafafa"/>
+  <text class="t" x="150" y="118" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">1</text>
+  <text class="t" x="150" y="156" font-size="30" font-weight="700" fill="#191919">신호 고르기</text>
+  <text class="t" x="150" y="186" font-size="17" fill="#6d6d6d">문서를 찾았나, 반복 답이 같나</text>
+
+  <path d="M460 140 L730 140" stroke="#6d6d6d" stroke-width="2"/>
+  <path d="M720 132 L730 140 L720 148" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+
+  <!-- step 2 -->
+  <rect x="740" y="80" width="340" height="120" fill="#fafafa"/>
+  <text class="t" x="770" y="118" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">2</text>
+  <text class="t" x="770" y="156" font-size="30" font-weight="700" fill="#191919">과거에서 출발</text>
+  <text class="t" x="770" y="186" font-size="17" fill="#6d6d6d">200개 중 150개가 맞았다면 모두 75%</text>
+
+  <path d="M910 200 L910 290" stroke="#6d6d6d" stroke-width="2"/>
+  <path d="M902 282 L910 292 L918 282" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+
+  <!-- step 3 -->
+  <rect x="740" y="300" width="340" height="120" fill="#fafafa"/>
+  <text class="t" x="770" y="338" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">3</text>
+  <text class="t" x="770" y="376" font-size="30" font-weight="700" fill="#191919">모든 답변 기록</text>
+  <text class="t" x="770" y="406" font-size="17" fill="#6d6d6d">신호, 매긴 점수, 실제로 맞았는지</text>
+
+  <path d="M910 420 L910 510" stroke="#6d6d6d" stroke-width="2"/>
+  <path d="M902 502 L910 512 L918 502" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+
+  <!-- step 4 -->
+  <rect x="740" y="520" width="340" height="120" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="770" y="558" font-size="15" font-weight="700" letter-spacing="2" fill="#e34f32">4</text>
+  <text class="t" x="770" y="596" font-size="30" font-weight="700" fill="#191919">기록으로 규칙 고치기</text>
+  <text class="t" x="770" y="626" font-size="17" fill="#6d6d6d">문서 있고 답 일치 95%, 문서 없음 40%</text>
+
+  <path d="M740 580 L470 580" stroke="#6d6d6d" stroke-width="2"/>
+  <path d="M480 572 L470 580 L480 588" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+
+  <!-- step 5 -->
+  <rect x="120" y="520" width="340" height="120" fill="#fafafa"/>
+  <text class="t" x="150" y="558" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">5</text>
+  <text class="t" x="150" y="596" font-size="30" font-weight="700" fill="#191919">매주 보정표 점검</text>
+  <text class="t" x="150" y="626" font-size="17" fill="#6d6d6d">90%라 했는데 70%만 맞았다면 과잉</text>
+
+  <!-- loop back from 5 to 3 -->
+  <path d="M290 520 L290 360 L730 360" fill="none" stroke="#e34f32" stroke-width="2"/>
+  <path d="M720 352 L730 360 L720 368" fill="none" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="310" y="300" font-size="17" fill="#e34f32">틀린 만큼 다시 기록하고 다시 고친다</text>
+  <text class="t" x="310" y="330" font-size="16" fill="#6d6d6d">기록이 쌓일수록 묶음을 더 잘게 나눌 수 있다</text>
+</svg>

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="HackiOS에서 동작하는 기능과 아직 동작하지 않는 기능을 두 칸으로 나눈 그림">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+
+  <rect x="90" y="70" width="500" height="560" fill="#fafafa"/>
+  <text class="t" x="130" y="125" font-size="30" font-weight="700" fill="#191919">되는 것</text>
+  <text class="t" x="130" y="190" font-size="19" fill="#191919">잠금 화면, 홈 화면, 시스템 제스처</text>
+  <text class="t" x="130" y="235" font-size="19" fill="#191919">설정, 시계, 캘린더, 사진, 메모, 사파리</text>
+  <text class="t" x="130" y="280" font-size="19" fill="#191919">멀티터치, 전원·볼륨 키</text>
+  <text class="t" x="130" y="325" font-size="19" fill="#191919">GPU 가속 (Mesa/freedreno)</text>
+  <text class="t" x="130" y="370" font-size="19" fill="#191919">와이파이 55~90 Mbit/s</text>
+  <text class="t" x="130" y="415" font-size="19" fill="#191919">스피커, 메인 마이크</text>
+  <text class="t" x="130" y="460" font-size="19" fill="#191919">전·후면 카메라, 동영상 녹화</text>
+  <text class="t" x="130" y="505" font-size="19" fill="#191919">Sileo, Procursus, SSH</text>
+  <text class="t" x="130" y="580" font-size="16" fill="#6d6d6d">잠금 화면까지 약 20초, 코어 8개</text>
+
+  <rect x="610" y="70" width="500" height="560" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="650" y="125" font-size="30" font-weight="700" fill="#191919">아직 안 되는 것</text>
+  <text class="t" x="650" y="190" font-size="19" fill="#191919">셀룰러</text>
+  <text class="t" x="650" y="235" font-size="19" fill="#191919">블루투스</text>
+  <text class="t" x="650" y="280" font-size="19" fill="#191919">충전 (배터리가 줄기만 한다)</text>
+  <text class="t" x="650" y="325" font-size="19" fill="#191919">App Store 콘텐츠</text>
+  <text class="t" x="650" y="370" font-size="19" fill="#191919">Apple ID 로그인</text>
+  <text class="t" x="650" y="415" font-size="19" fill="#191919">앱용 Metal (진행 중)</text>
+  <text class="t" x="650" y="505" font-size="16" fill="#e34f32">Secure Enclave가 없어서 막히는 것들</text>
+  <text class="t" x="650" y="580" font-size="16" fill="#6d6d6d">시스템 셰이더 456개 중 293개 동작</text>
+
+  <text class="t" x="1110" y="672" text-anchor="end" font-size="17" fill="#6d6d6d">보고 만지는 건 되고 애플 계정에 묶인 건 안 된다</text>
+</svg>
