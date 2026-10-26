@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="IST 특별호 AI 기반 시스템의 소프트웨어 아키텍처 논문 13편 읽기 표지 그림">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+  <text class="t" x="90" y="100" font-size="16" font-weight="700" letter-spacing="2" fill="#e34f32">IST SPECIAL ISSUE</text>
+  <text class="t" x="90" y="165" font-size="46" font-weight="700" fill="#191919">AI 기반 시스템의</text>
+  <text class="t" x="90" y="222" font-size="46" font-weight="700" fill="#191919">소프트웨어 아키텍처 논문 13편</text>
+
+  <rect x="90" y="330" width="420" height="150" fill="#fafafa"/>
+  <text class="t" x="120" y="390" font-size="30" font-weight="700" fill="#191919">LLM</text>
+  <text class="t" x="120" y="430" font-size="19" fill="#6d6d6d">사람의 말을 기계가 읽을 형태로 옮긴다</text>
+
+  <path d="M520 405 L590 405" stroke="#6d6d6d" stroke-width="2"/>
+  <path d="M580 395 L592 405 L580 415" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+
+  <rect x="600" y="330" width="510" height="150" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="630" y="390" font-size="30" font-weight="700" fill="#191919">솔버 · 그래프 · 원본 기록</text>
+  <text class="t" x="630" y="430" font-size="19" fill="#6d6d6d">매번 같은 답으로 최종 판단을 내린다</text>
+
+  <text class="t" x="1110" y="610" text-anchor="end" font-size="17" fill="#6d6d6d">Information and Software Technology · 2026</text>
+</svg>

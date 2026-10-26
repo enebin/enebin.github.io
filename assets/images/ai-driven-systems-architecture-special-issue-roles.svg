@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="철도 모니터, 코드 리뷰, Falcon 세 논문에서 AI가 맡는 일과 결정론적 부품이 맡는 일, 결과를 나란히 비교한 표">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+
+  <!-- headers -->
+  <text class="t" x="320" y="110" font-size="16" font-weight="700" letter-spacing="2" fill="#6d6d6d">AI가 맡는 일</text>
+  <text class="t" x="660" y="110" font-size="16" font-weight="700" letter-spacing="2" fill="#e34f32">결과가 매번 같은 부품</text>
+  <text class="t" x="1000" y="110" font-size="16" font-weight="700" letter-spacing="2" fill="#6d6d6d">결과</text>
+  <path d="M60 130 L1140 130" stroke="#e9e9e9" stroke-width="2"/>
+
+  <!-- row 1 -->
+  <text class="t" x="60" y="205" font-size="30" font-weight="700" fill="#191919">철도 모니터</text>
+  <rect x="320" y="160" width="310" height="120" fill="#fafafa"/>
+  <text class="t" x="340" y="210" font-size="18" fill="#191919">설계 모델의 단계와 코드</text>
+  <text class="t" x="340" y="238" font-size="18" fill="#191919">위치를 이어 로그를 심는다</text>
+  <rect x="660" y="160" width="310" height="120" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="680" y="210" font-size="18" fill="#191919">적합성 검사가 실행 기록을</text>
+  <text class="t" x="680" y="238" font-size="18" fill="#191919">설계 모델에 겹쳐 본다</text>
+  <text class="t" x="1000" y="210" font-size="18" fill="#191919">이상 탐지</text>
+  <text class="t" x="1000" y="238" font-size="18" fill="#191919">F1 95.957%</text>
+
+  <path d="M60 310 L1140 310" stroke="#e9e9e9" stroke-width="2"/>
+
+  <!-- row 2 -->
+  <text class="t" x="60" y="385" font-size="30" font-weight="700" fill="#191919">코드 리뷰</text>
+  <rect x="320" y="340" width="310" height="120" fill="#fafafa"/>
+  <text class="t" x="340" y="390" font-size="18" fill="#191919">리뷰 의견과 설명,</text>
+  <text class="t" x="340" y="418" font-size="18" fill="#191919">수정 제안을 쓴다</text>
+  <rect x="660" y="340" width="310" height="120" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="680" y="390" font-size="18" fill="#191919">코드와 DB 부작용을 잇는</text>
+  <text class="t" x="680" y="418" font-size="18" fill="#191919">의존성 그래프가 근거를 준다</text>
+  <text class="t" x="1000" y="390" font-size="18" fill="#191919">PR 342건</text>
+  <text class="t" x="1000" y="418" font-size="18" fill="#191919">정밀도 87.0%</text>
+
+  <path d="M60 490 L1140 490" stroke="#e9e9e9" stroke-width="2"/>
+
+  <!-- row 3 -->
+  <text class="t" x="60" y="565" font-size="30" font-weight="700" fill="#191919">Falcon</text>
+  <rect x="320" y="520" width="310" height="120" fill="#fafafa"/>
+  <text class="t" x="340" y="570" font-size="18" fill="#191919">환경 데이터를 보고</text>
+  <text class="t" x="340" y="598" font-size="18" fill="#191919">적응 전략을 예측한다</text>
+  <rect x="660" y="520" width="310" height="120" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="680" y="570" font-size="18" fill="#191919">SMT 솔버가 조건에 맞는</text>
+  <text class="t" x="680" y="598" font-size="18" fill="#191919">교체 모델을 고른다</text>
+  <text class="t" x="1000" y="570" font-size="18" fill="#191919">예측 대부분</text>
+  <text class="t" x="1000" y="598" font-size="18" fill="#191919">확신도 80% 이상</text>
+</svg>

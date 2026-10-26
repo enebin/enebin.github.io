@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="아틀라시안에서 정리해고된 엔지니어가 돌아본 8년 표지 그림">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+  <text class="t" x="90" y="100" font-size="16" font-weight="700" letter-spacing="2" fill="#e34f32">8 YEARS AT THE EDGE</text>
+  <text class="t" x="90" y="165" font-size="46" font-weight="700" fill="#191919">아틀라시안에서 정리해고된</text>
+  <text class="t" x="90" y="222" font-size="46" font-weight="700" fill="#191919">엔지니어가 돌아본 8년</text>
+
+  <rect x="90" y="330" width="300" height="200" fill="#fafafa"/>
+  <text class="t" x="120" y="380" font-size="30" font-weight="700" fill="#191919">만들기</text>
+  <text class="t" x="120" y="416" font-size="17" fill="#6d6d6d">첫 24개월</text>
+  <text class="t" x="120" y="500" font-size="17" fill="#191919">브로커 · Sovereign · AMI</text>
+
+  <rect x="450" y="330" width="300" height="200" fill="#fafafa"/>
+  <text class="t" x="480" y="380" font-size="30" font-weight="700" fill="#191919">넓히기</text>
+  <text class="t" x="480" y="416" font-size="17" fill="#6d6d6d">제품 이전 · 엣지 기능</text>
+  <text class="t" x="480" y="500" font-size="17" fill="#191919">Jira · Confluence · 사이드카</text>
+
+  <rect x="810" y="330" width="300" height="200" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="840" y="380" font-size="30" font-weight="700" fill="#191919">지키기</text>
+  <text class="t" x="840" y="416" font-size="17" fill="#6d6d6d">유지보수 · 사람</text>
+  <text class="t" x="840" y="500" font-size="17" fill="#191919">변경 쏠림 · 갈등 · 멘토링</text>
+
+  <path d="M390 430 L446 430" stroke="#c9c9c9" stroke-width="2"/><path d="M438 422 L448 430 L438 438" fill="none" stroke="#c9c9c9" stroke-width="2"/>
+  <path d="M750 430 L806 430" stroke="#c9c9c9" stroke-width="2"/><path d="M798 422 L808 430 L798 438" fill="none" stroke="#c9c9c9" stroke-width="2"/>
+
+  <text class="t" x="1110" y="640" text-anchor="end" font-size="17" fill="#6d6d6d">셀프서비스 로드밸런서 하나에서 2,000대 규모의 엣지 플랫폼까지</text>
+</svg>

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="개발자 요청이 브로커, SQS 작업자, DynamoDB, Sovereign 템플릿을 거쳐 Envoy 프록시 설정이 되는 흐름">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+  <text class="t" x="80" y="80" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">요청이 설정이 되기까지</text>
+  <rect x="80" y="120" width="220" height="110" fill="#fafafa"/>
+  <text class="t" x="190" y="170" text-anchor="middle" font-size="26" font-weight="700" fill="#191919">개발자</text>
+  <text class="t" x="190" y="202" text-anchor="middle" font-size="16" fill="#6d6d6d">작은 JSON 요청</text>
+  <path d="M300 175 L356 175" stroke="#c9c9c9" stroke-width="2"/><path d="M348 167 L358 175 L348 183" fill="none" stroke="#c9c9c9" stroke-width="2"/>
+  <rect x="360" y="120" width="220" height="110" fill="#fafafa"/>
+  <text class="t" x="470" y="170" text-anchor="middle" font-size="26" font-weight="700" fill="#191919">브로커</text>
+  <text class="t" x="470" y="202" text-anchor="middle" font-size="16" fill="#6d6d6d">FastAPI · OSB 규격</text>
+  <path d="M580 175 L636 175" stroke="#c9c9c9" stroke-width="2"/><path d="M628 167 L638 175 L628 183" fill="none" stroke="#c9c9c9" stroke-width="2"/>
+  <rect x="640" y="120" width="220" height="110" fill="#fafafa"/>
+  <text class="t" x="750" y="170" text-anchor="middle" font-size="26" font-weight="700" fill="#191919">SQS 작업자</text>
+  <text class="t" x="750" y="202" text-anchor="middle" font-size="16" fill="#6d6d6d">DNS · CloudFront 생성</text>
+  <path d="M860 175 L916 175" stroke="#c9c9c9" stroke-width="2"/><path d="M908 167 L918 175 L908 183" fill="none" stroke="#c9c9c9" stroke-width="2"/>
+  <rect x="920" y="120" width="200" height="110" fill="#fafafa"/>
+  <text class="t" x="1020" y="170" text-anchor="middle" font-size="26" font-weight="700" fill="#191919">DynamoDB</text>
+  <text class="t" x="1020" y="202" text-anchor="middle" font-size="16" fill="#6d6d6d">프로비저닝 결과</text>
+  <path d="M1020 230 L1020 300" stroke="#c9c9c9" stroke-width="2"/><path d="M1012 292 L1020 302 L1028 292" fill="none" stroke="#c9c9c9" stroke-width="2"/>
+  <rect x="640" y="310" width="480" height="130" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="880" y="360" text-anchor="middle" font-size="26" font-weight="700" fill="#191919">Sovereign</text>
+  <text class="t" x="880" y="392" text-anchor="middle" font-size="16" fill="#6d6d6d">템플릿 + 컨텍스트 → 클러스터 · 라우트 · 리스너</text>
+  <rect x="360" y="310" width="220" height="130" fill="#fafafa"/>
+  <text class="t" x="470" y="360" text-anchor="middle" font-size="26" font-weight="700" fill="#191919">S3 버킷</text>
+  <text class="t" x="470" y="392" text-anchor="middle" font-size="16" fill="#6d6d6d">다른 동적 데이터</text>
+  <path d="M580 375 L636 375" stroke="#c9c9c9" stroke-width="2"/><path d="M628 367 L638 375 L628 383" fill="none" stroke="#c9c9c9" stroke-width="2"/>
+  <path d="M880 440 L880 500" stroke="#c9c9c9" stroke-width="2"/><path d="M872 492 L880 502 L888 492" fill="none" stroke="#c9c9c9" stroke-width="2"/>
+  <rect x="640" y="510" width="480" height="110" fill="#fafafa"/>
+  <text class="t" x="880" y="560" text-anchor="middle" font-size="26" font-weight="700" fill="#191919">Envoy 프록시 2,000대 정도</text>
+  <text class="t" x="880" y="592" text-anchor="middle" font-size="16" fill="#6d6d6d">실행 중에 새 설정을 받는다</text>
+  <rect x="80" y="510" width="500" height="110" fill="#fafafa"/>
+  <text class="t" x="330" y="560" text-anchor="middle" font-size="26" font-weight="700" fill="#191919">CloudFormation + AMI</text>
+  <text class="t" x="330" y="592" text-anchor="middle" font-size="16" fill="#6d6d6d">Packer · SaltStack으로 구운 이미지</text>
+  <path d="M580 565 L636 565" stroke="#c9c9c9" stroke-width="2"/><path d="M628 557 L638 565 L628 573" fill="none" stroke="#c9c9c9" stroke-width="2"/>
+  <text class="t" x="80" y="300" font-size="16" fill="#6d6d6d">클라이언트는 결과가 나올 때까지</text>
+  <text class="t" x="80" y="326" font-size="16" fill="#6d6d6d">"준비됐어?"를 계속 묻는다</text>
+  <text class="t" x="1120" y="666" text-anchor="end" font-size="17" fill="#6d6d6d">위쪽은 요청마다 움직이고 아래쪽은 미리 깔아 둔 장기 인프라다</text>
+</svg>

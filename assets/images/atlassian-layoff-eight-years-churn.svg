@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="처음 만든 직후, 사람이 바뀌는 시기, 변경이 한곳에 몰려 얽히는 시기로 이어지는 유지보수의 세 단계">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+  <path d="M80 600 L1120 600" stroke="#e9e9e9" stroke-width="2"/><path d="M1110 592 L1122 600 L1110 608" fill="none" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="1120" y="636" text-anchor="end" font-size="16" fill="#6d6d6d">시간</text>
+  <rect x="80" y="110" width="320" height="300" fill="#fafafa"/>
+  <text class="t" x="108" y="156" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">처음</text>
+  <text class="t" x="108" y="200" font-size="30" font-weight="700" fill="#191919">만든 직후</text>
+  <text class="t" x="108" y="262" font-size="18" fill="#6d6d6d">문서와 교육</text>
+  <text class="t" x="108" y="296" font-size="18" fill="#6d6d6d">당직 때 볼 로그와 지표</text>
+  <text class="t" x="108" y="330" font-size="18" fill="#6d6d6d">장애 시나리오 정리</text>
+  <rect x="440" y="110" width="320" height="300" fill="#fafafa"/>
+  <text class="t" x="468" y="156" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">몇 년 뒤</text>
+  <text class="t" x="468" y="200" font-size="30" font-weight="700" fill="#191919">사람이 바뀐다</text>
+  <text class="t" x="468" y="262" font-size="18" fill="#6d6d6d">다시 온보딩</text>
+  <text class="t" x="468" y="296" font-size="18" fill="#6d6d6d">새 사람의 새 의견</text>
+  <text class="t" x="468" y="330" font-size="18" fill="#6d6d6d">더 낫게 고치려는 변경</text>
+  <rect x="800" y="110" width="320" height="300" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="828" y="156" font-size="15" font-weight="700" letter-spacing="2" fill="#e34f32">신호</text>
+  <text class="t" x="828" y="200" font-size="30" font-weight="700" fill="#191919">변경이 몰린다</text>
+  <text class="t" x="828" y="262" font-size="18" fill="#6d6d6d">같은 영역만 계속 바뀐다</text>
+  <text class="t" x="828" y="296" font-size="18" fill="#6d6d6d">크기와 복잡도가 늘어난다</text>
+  <text class="t" x="828" y="330" font-size="18" fill="#6d6d6d">고치면 다른 곳이 깨진다</text>
+  <path d="M400 260 L436 260" stroke="#c9c9c9" stroke-width="2"/><path d="M428 252 L438 260 L428 268" fill="none" stroke="#c9c9c9" stroke-width="2"/>
+  <path d="M760 260 L796 260" stroke="#c9c9c9" stroke-width="2"/><path d="M788 252 L798 260 L788 268" fill="none" stroke="#c9c9c9" stroke-width="2"/>
+  <path d="M240 560 C 520 560, 760 520, 960 440" fill="none" stroke="#c9c9c9" stroke-width="2"/>
+  <text class="t" x="240" y="586" font-size="16" fill="#6d6d6d">바꾸기 쉬움</text>
+  <text class="t" x="980" y="470" font-size="16" fill="#e34f32">바꾸기 어려움</text>
+  <text class="t" x="1120" y="676" text-anchor="end" font-size="17" fill="#6d6d6d">유지보수 부담은 처음에는 보이지 않고 변경이 쌓인 뒤에 드러난다</text>
+</svg>

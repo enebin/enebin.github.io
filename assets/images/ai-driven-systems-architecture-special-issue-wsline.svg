@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="기술 문서가 LLM 추출, DSL 검증 루프, CSOP 변환, 솔버를 거쳐 실행 일정이 되는 WS-Line 파이프라인과 직접 생성 방식의 결과 비교">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+
+  <!-- zone bands -->
+  <rect x="270" y="150" width="430" height="4" fill="#c9c9c9"/>
+  <text class="t" x="270" y="136" font-size="16" font-weight="700" letter-spacing="2" fill="#6d6d6d">LLM이 맡는 구간</text>
+  <rect x="730" y="150" width="430" height="4" fill="#e34f32"/>
+  <text class="t" x="730" y="136" font-size="16" font-weight="700" letter-spacing="2" fill="#e34f32">결과가 매번 같은 구간</text>
+
+  <!-- boxes -->
+  <rect x="40" y="190" width="200" height="140" fill="#fafafa"/>
+  <text class="t" x="58" y="240" font-size="30" font-weight="700" fill="#191919">기술 문서</text>
+  <text class="t" x="58" y="278" font-size="16" fill="#6d6d6d">작업, 자원, 대기 조건을</text>
+  <text class="t" x="58" y="302" font-size="16" fill="#6d6d6d">자연어로 적은 문서</text>
+
+  <rect x="270" y="190" width="200" height="140" fill="#fafafa"/>
+  <text class="t" x="288" y="240" font-size="30" font-weight="700" fill="#191919">LLM + RAG</text>
+  <text class="t" x="288" y="278" font-size="16" fill="#6d6d6d">문서에서 찾은 근거로</text>
+  <text class="t" x="288" y="302" font-size="16" fill="#6d6d6d">DSL 명세를 채운다</text>
+
+  <rect x="500" y="190" width="200" height="140" fill="#fafafa"/>
+  <text class="t" x="518" y="240" font-size="30" font-weight="700" fill="#191919">DSL 검증</text>
+  <text class="t" x="518" y="278" font-size="16" fill="#6d6d6d">YAML 문법, 타입,</text>
+  <text class="t" x="518" y="302" font-size="16" fill="#6d6d6d">참조 관계를 검사한다</text>
+
+  <rect x="730" y="190" width="200" height="140" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="748" y="240" font-size="30" font-weight="700" fill="#191919">CSOP 변환</text>
+  <text class="t" x="748" y="278" font-size="16" fill="#6d6d6d">스크립트가 명세를</text>
+  <text class="t" x="748" y="302" font-size="16" fill="#6d6d6d">솔버 입력으로 옮긴다</text>
+
+  <rect x="960" y="190" width="200" height="140" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="978" y="240" font-size="30" font-weight="700" fill="#191919">솔버</text>
+  <text class="t" x="978" y="278" font-size="16" fill="#6d6d6d">제약을 모두 지키는</text>
+  <text class="t" x="978" y="302" font-size="16" fill="#6d6d6d">최단 일정을 계산한다</text>
+
+  <!-- forward arrows -->
+  <path d="M242 260 L266 260" stroke="#6d6d6d" stroke-width="2"/>
+  <path d="M258 252 L268 260 L258 268" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+  <path d="M472 260 L496 260" stroke="#6d6d6d" stroke-width="2"/>
+  <path d="M488 252 L498 260 L488 268" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+  <path d="M702 260 L726 260" stroke="#6d6d6d" stroke-width="2"/>
+  <path d="M718 252 L728 260 L718 268" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+  <path d="M932 260 L956 260" stroke="#6d6d6d" stroke-width="2"/>
+  <path d="M948 252 L958 260 L948 268" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+
+  <!-- correction loop -->
+  <path d="M600 332 L600 384 L370 384 L370 336" fill="none" stroke="#c9c9c9" stroke-width="2"/>
+  <path d="M362 344 L370 334 L378 344" fill="none" stroke="#c9c9c9" stroke-width="2"/>
+  <text class="t" x="390" y="414" font-size="16" fill="#6d6d6d">통과하지 못하면 오류 메시지와 함께 되돌린다 (횟수 제한)</text>
+
+  <!-- results -->
+  <path d="M40 470 L1160 470" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="40" y="520" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">같은 문서로 시험한 결과</text>
+
+  <text class="t" x="40" y="572" font-size="19" font-weight="700" fill="#191919">WS-Line</text>
+  <text class="t" x="330" y="572" font-size="19" fill="#191919">150번 실행 · 문법 오류 0번 · 정답 일정과 불일치 0번</text>
+  <rect x="330" y="584" width="520" height="3" fill="#e34f32"/>
+
+  <text class="t" x="40" y="636" font-size="19" font-weight="700" fill="#191919">LLM이 스크립트 직접 작성</text>
+  <text class="t" x="330" y="636" font-size="19" fill="#6d6d6d">10번 실행 · 실행 불가 8번 · 틀린 일정 2번</text>
+</svg>
