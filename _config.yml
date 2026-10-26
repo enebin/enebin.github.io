@@ -51,6 +51,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - README.md
+  - AGENTS.md
   - work
   - outputs
   - vendor
