@@ -9,11 +9,10 @@
     {% feed_meta %}
     <link rel="icon" type="image/png" href="{{ '/assets/favicon.png' | relative_url }}" />
     <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css"
-    />
-    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=6' | relative_url }}" />
+    {% assign font_css = 'https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css' %}
+    <link rel="stylesheet" href="{{ font_css }}" media="print" onload="this.media='all'" />
+    <noscript><link rel="stylesheet" href="{{ font_css }}" /></noscript>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=7' | relative_url }}" />
   </head>
   <body{% if page.body_class %} class="{{ page.body_class }}"{% endif %}>
     <a class="skip-link" href="#main">본문으로 바로가기</a>
