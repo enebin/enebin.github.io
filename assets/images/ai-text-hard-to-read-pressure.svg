@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="사람의 말은 듣는 사람이 알아들었는지로 다듬어지고 AI의 후속 학습은 정답 여부와 길이로만 보상받는다는 두 흐름을 비교한 그림">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+    .m { font-family: Menlo,Consolas,monospace; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+  <text class="t" x="70" y="90" font-size="16" font-weight="700" letter-spacing="2" fill="#6d6d6d">사람의 말</text>
+  <rect x="70" y="110" width="340" height="130" fill="#fafafa"/>
+  <text class="t" x="100" y="166" font-size="28" font-weight="700" fill="#191919">말한다</text>
+  <text class="t" x="100" y="204" font-size="17" fill="#6d6d6d">상대에게 뜻을 전하려고</text>
+  <path d="M410 175 L430 175" stroke="#6d6d6d" stroke-width="2"/><path d="M422 167 L430 175 L422 183" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+  <rect x="430" y="110" width="340" height="130" fill="#fafafa"/>
+  <text class="t" x="460" y="166" font-size="28" font-weight="700" fill="#191919">알아들었나</text>
+  <text class="t" x="460" y="204" font-size="17" fill="#6d6d6d">못 알아들으면 말한 쪽 손해</text>
+  <path d="M770 175 L790 175" stroke="#6d6d6d" stroke-width="2"/><path d="M782 167 L790 175 L782 183" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+  <rect x="790" y="110" width="340" height="130" fill="#fafafa"/>
+  <text class="t" x="820" y="166" font-size="28" font-weight="700" fill="#191919">고쳐 말한다</text>
+  <text class="t" x="820" y="204" font-size="17" fill="#6d6d6d">더 쉬운 표현으로 다듬어진다</text>
+  <path d="M960 240 L960 270 L240 270 L240 246" fill="none" stroke="#c9c9c9" stroke-width="2"/><path d="M232 254 L240 244 L248 254" fill="none" stroke="#c9c9c9" stroke-width="2"/>
+  <text class="t" x="600" y="296" text-anchor="middle" font-size="16" fill="#6d6d6d">듣는 사람의 이해가 되먹임으로 돌아온다</text>
+  <text class="t" x="70" y="390" font-size="16" font-weight="700" letter-spacing="2" fill="#e34f32">AI의 후속 학습 (수학·코딩·추론)</text>
+  <rect x="70" y="410" width="340" height="130" fill="#fafafa"/>
+  <text class="t" x="100" y="466" font-size="28" font-weight="700" fill="#191919">답을 낸다</text>
+  <text class="t" x="100" y="504" font-size="17" fill="#6d6d6d">적은 토큰에 많이 담을수록 유리</text>
+  <path d="M410 475 L430 475" stroke="#6d6d6d" stroke-width="2"/><path d="M422 467 L430 475 L422 483" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+  <rect x="430" y="410" width="340" height="130" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="460" y="466" font-size="28" font-weight="700" fill="#191919">정답인가</text>
+  <text class="t" x="460" y="504" font-size="17" fill="#6d6d6d">읽기 쉬운지는 채점하지 않는다</text>
+  <path d="M770 475 L790 475" stroke="#6d6d6d" stroke-width="2"/><path d="M782 467 L790 475 L782 483" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+  <rect x="790" y="410" width="340" height="130" fill="#fafafa"/>
+  <text class="t" x="820" y="466" font-size="28" font-weight="700" fill="#191919">짧게 압축</text>
+  <text class="t" x="820" y="504" font-size="17" fill="#6d6d6d">길이 벌점 실험에서 확인했다</text>
+  <path d="M960 540 L960 570 L240 570 L240 546" fill="none" stroke="#c9c9c9" stroke-width="2"/><path d="M232 554 L240 544 L248 554" fill="none" stroke="#c9c9c9" stroke-width="2"/>
+  <text class="t" x="600" y="596" text-anchor="middle" font-size="16" fill="#6d6d6d">읽는 사람은 보상 계산 어디에도 들어 있지 않다</text>
+</svg>

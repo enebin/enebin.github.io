@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="단계별 성공률이 95%일 때 단계 수가 1, 3, 10, 20, 30으로 늘어나면 전체 성공률이 95%, 86%, 60%, 36%, 21%로 떨어지는 막대그래프">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+
+  <text class="t" x="120" y="78" font-size="30" font-weight="700" fill="#191919">단계마다 95% 성공할 때 흐름 전체의 성공률</text>
+  <text class="t" x="120" y="112" font-size="17" fill="#6d6d6d">전체 성공률 = 0.95 × 0.95 × … (단계 수만큼 곱한다)</text>
+
+  <path d="M120 560 L1080 560" stroke="#e9e9e9" stroke-width="2"/>
+  <path d="M120 180 L1080 180" stroke="#e9e9e9" stroke-width="1" stroke-dasharray="6 6"/>
+  <text class="t" x="1080" y="170" text-anchor="end" font-size="15" fill="#6d6d6d">100%</text>
+
+  <rect x="200" y="199" width="110" height="361" fill="#e9e9e9"/>
+  <text class="t" x="255" y="186" text-anchor="middle" font-size="30" font-weight="700" fill="#191919">95%</text>
+  <text class="t" x="255" y="592" text-anchor="middle" font-size="18" fill="#191919">1단계</text>
+
+  <rect x="380" y="233" width="110" height="327" fill="#e9e9e9"/>
+  <text class="t" x="435" y="220" text-anchor="middle" font-size="30" font-weight="700" fill="#191919">86%</text>
+  <text class="t" x="435" y="592" text-anchor="middle" font-size="18" fill="#191919">3단계</text>
+  <text class="t" x="435" y="618" text-anchor="middle" font-size="15" fill="#6d6d6d">데모</text>
+
+  <rect x="560" y="332" width="110" height="228" fill="#e9e9e9"/>
+  <text class="t" x="615" y="319" text-anchor="middle" font-size="30" font-weight="700" fill="#191919">60%</text>
+  <text class="t" x="615" y="592" text-anchor="middle" font-size="18" fill="#191919">10단계</text>
+
+  <rect x="740" y="423" width="110" height="137" fill="#e9e9e9"/>
+  <text class="t" x="795" y="410" text-anchor="middle" font-size="30" font-weight="700" fill="#191919">36%</text>
+  <text class="t" x="795" y="592" text-anchor="middle" font-size="18" fill="#191919">20단계</text>
+
+  <rect x="920" y="480" width="110" height="80" fill="#e34f32"/>
+  <text class="t" x="975" y="467" text-anchor="middle" font-size="30" font-weight="700" fill="#e34f32">21%</text>
+  <text class="t" x="975" y="592" text-anchor="middle" font-size="18" fill="#191919">30단계</text>
+  <text class="t" x="975" y="618" text-anchor="middle" font-size="15" fill="#e34f32">실제 업무</text>
+
+  <text class="t" x="1080" y="666" text-anchor="end" font-size="17" fill="#6d6d6d">단계별 성공률은 그대로인데 흐름이 길어질수록 전체 성공률은 빠르게 무너진다</text>
+</svg>

@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="2014년부터 2026년까지 무료 오픈소스 프로젝트와 유료 서비스·플랫폼이 등장한 시점을 축 위아래로 나눠 보여주는 연표">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+
+  <text class="t" x="60" y="80" font-size="16" font-weight="700" fill="#6d6d6d">무료 오픈소스</text>
+  <text class="t" x="60" y="660" font-size="16" font-weight="700" fill="#e34f32">유료 서비스 · 플랫폼</text>
+
+  <!-- 8-year bracket -->
+  <path d="M120 120 L120 106 L760 106 L760 120" fill="none" stroke="#c9c9c9" stroke-width="2"/>
+  <text class="t" x="440" y="96" text-anchor="middle" font-size="17" fill="#191919">누군가 팔기 전 8년 동안 오픈소스로 존재</text>
+
+  <!-- axis: 2014=120, 80px/year -->
+  <path d="M100 360 L1110 360" stroke="#191919" stroke-width="2"/>
+  <text class="t" x="120" y="392" text-anchor="middle" font-size="16" fill="#6d6d6d">2014</text>
+  <text class="t" x="280" y="392" text-anchor="middle" font-size="16" fill="#6d6d6d">2016</text>
+  <text class="t" x="360" y="392" text-anchor="middle" font-size="16" fill="#6d6d6d">2017</text>
+  <text class="t" x="680" y="392" text-anchor="middle" font-size="16" fill="#6d6d6d">2021</text>
+  <text class="t" x="760" y="392" text-anchor="middle" font-size="16" fill="#6d6d6d">2022</text>
+  <text class="t" x="1080" y="392" text-anchor="middle" font-size="16" fill="#6d6d6d">2026</text>
+
+  <!-- open source above -->
+  <path d="M120 360 L120 220" stroke="#c9c9c9" stroke-width="2"/>
+  <rect x="114" y="354" width="12" height="12" fill="#191919"/>
+  <text class="t" x="130" y="200" font-size="19" font-weight="700" fill="#191919">rqlite</text>
+  <text class="t" x="130" y="222" font-size="15" fill="#6d6d6d">Raft + SQLite</text>
+
+  <path d="M280 360 L280 290" stroke="#c9c9c9" stroke-width="2"/>
+  <rect x="274" y="354" width="12" height="12" fill="#191919"/>
+  <text class="t" x="270" y="282" text-anchor="end" font-size="19" font-weight="700" fill="#191919">Bedrock</text>
+
+  <path d="M360 360 L360 160" stroke="#c9c9c9" stroke-width="2"/>
+  <rect x="354" y="354" width="12" height="12" fill="#191919"/>
+  <text class="t" x="370" y="160" font-size="19" font-weight="700" fill="#191919">dqlite</text>
+  <text class="t" x="370" y="182" font-size="15" fill="#6d6d6d">Canonical</text>
+
+  <path d="M680 360 L680 220" stroke="#c9c9c9" stroke-width="2"/>
+  <rect x="674" y="354" width="12" height="12" fill="#191919"/>
+  <text class="t" x="670" y="200" text-anchor="end" font-size="19" font-weight="700" fill="#191919">Litestream</text>
+
+  <path d="M760 360 L760 290" stroke="#c9c9c9" stroke-width="2"/>
+  <rect x="754" y="354" width="12" height="12" fill="#191919"/>
+  <text class="t" x="770" y="282" font-size="19" font-weight="700" fill="#191919">cr-sqlite</text>
+
+  <!-- paid below -->
+  <path d="M760 410 L760 590" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="776" y="452" font-size="19" fill="#191919">LiteFS (Fly.io)</text>
+  <text class="t" x="776" y="486" font-size="19" fill="#191919">Cloudflare D1</text>
+  <text class="t" x="776" y="520" font-size="19" fill="#191919">libSQL · Turso</text>
+  <text class="t" x="776" y="554" font-size="19" fill="#191919">SQLite Cloud</text>
+
+  <path d="M1080 410 L1080 620" stroke="#e34f32" stroke-width="2"/>
+  <rect x="1074" y="354" width="12" height="12" fill="#e34f32"/>
+  <text class="t" x="1070" y="600" text-anchor="end" font-size="19" font-weight="700" fill="#e34f32">Supabase, Turso 인수</text>
+</svg>

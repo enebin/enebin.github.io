@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="Olmo 3 7B의 Base, Instruct, Think 버전과 상위 모델로 갈수록 읽기 어려운 특징이 강해지는 경향을 계단으로 나타낸 그림">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+    .m { font-family: Menlo,Consolas,monospace; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+  <text class="t" x="70" y="62" font-size="16" font-weight="700" letter-spacing="2" fill="#6d6d6d">왕복 번역 전후 차이 (논문 그림의 경향만 옮김, 높이는 개념)</text>
+  <rect x="110" y="470" width="200" height="90" fill="#e9e9e9"/>
+  <text class="t" x="210" y="598" text-anchor="middle" font-size="15" font-weight="700" letter-spacing="1" fill="#6d6d6d">Olmo 3 7B</text>
+  <text class="t" x="210" y="632" text-anchor="middle" font-size="24" font-weight="700" fill="#191919">Base</text>
+  <text class="t" x="210" y="660" text-anchor="middle" font-size="16" fill="#6d6d6d">사전학습만</text>
+  <rect x="370" y="390" width="200" height="170" fill="#e9e9e9"/>
+  <text class="t" x="470" y="598" text-anchor="middle" font-size="15" font-weight="700" letter-spacing="1" fill="#6d6d6d">Olmo 3 7B</text>
+  <text class="t" x="470" y="632" text-anchor="middle" font-size="24" font-weight="700" fill="#191919">Instruct</text>
+  <text class="t" x="470" y="660" text-anchor="middle" font-size="16" fill="#6d6d6d">지시 따르기 학습</text>
+  <rect x="630" y="260" width="200" height="300" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="730" y="598" text-anchor="middle" font-size="15" font-weight="700" letter-spacing="1" fill="#6d6d6d">Olmo 3 7B</text>
+  <text class="t" x="730" y="632" text-anchor="middle" font-size="24" font-weight="700" fill="#191919">Think</text>
+  <text class="t" x="730" y="660" text-anchor="middle" font-size="16" fill="#6d6d6d">추론 훈련까지</text>
+  <rect x="890" y="260" width="200" height="300" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="990" y="598" text-anchor="middle" font-size="15" font-weight="700" letter-spacing="1" fill="#6d6d6d">상위 모델 9개</text>
+  <text class="t" x="990" y="632" text-anchor="middle" font-size="24" font-weight="700" fill="#191919">Claude·GPT·Kimi·GLM</text>
+  <path d="M80 560 L1130 560" stroke="#6d6d6d" stroke-width="2"/>
+  <text class="t" x="870" y="126" text-anchor="middle" font-size="17" fill="#e34f32">Think부터 상위 모델과 같은 쪽에 선다</text>
+  <text class="t" x="110" y="150" font-size="17" fill="#6d6d6d">Llama 3.1 8B 두 버전도</text>
+  <text class="t" x="110" y="176" font-size="17" fill="#6d6d6d">Base·Instruct처럼 차이가 작았다</text>
+</svg>

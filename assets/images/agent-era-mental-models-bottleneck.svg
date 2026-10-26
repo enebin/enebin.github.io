@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="만들기 단계는 넓어졌지만 결정, 검토, 검증 단계는 그대로 좁아서 전체 처리량을 정하는 흐름도">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+
+  <text class="t" x="90" y="78" font-size="30" font-weight="700" fill="#191919">아이디어가 출시되기까지 거치는 단계</text>
+  <text class="t" x="90" y="112" font-size="17" fill="#6d6d6d">막대의 높이는 한 단계가 일정 시간에 처리할 수 있는 양</text>
+
+  <rect x="90" y="170" width="220" height="360" fill="#fafafa"/>
+  <text class="t" x="200" y="330" text-anchor="middle" font-size="30" font-weight="700" fill="#191919">만들기</text>
+  <text class="t" x="200" y="366" text-anchor="middle" font-size="17" fill="#6d6d6d">코드 · 초안 · 시안</text>
+  <text class="t" x="200" y="560" text-anchor="middle" font-size="16" fill="#6d6d6d">에이전트 덕에 크게 늘었다</text>
+
+  <path d="M318 350 L384 350" stroke="#c9c9c9" stroke-width="2"/>
+  <path d="M376 342 L386 350 L376 358" fill="none" stroke="#c9c9c9" stroke-width="2"/>
+
+  <rect x="394" y="300" width="220" height="100" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="504" y="362" text-anchor="middle" font-size="30" font-weight="700" fill="#191919">결정</text>
+
+  <path d="M622 350 L688 350" stroke="#c9c9c9" stroke-width="2"/>
+  <path d="M680 342 L690 350 L680 358" fill="none" stroke="#c9c9c9" stroke-width="2"/>
+
+  <rect x="698" y="300" width="220" height="100" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="808" y="362" text-anchor="middle" font-size="30" font-weight="700" fill="#191919">검토 · 검증</text>
+
+  <path d="M926 350 L992 350" stroke="#c9c9c9" stroke-width="2"/>
+  <path d="M984 342 L994 350 L984 358" fill="none" stroke="#c9c9c9" stroke-width="2"/>
+
+  <rect x="1002" y="300" width="108" height="100" fill="#fafafa"/>
+  <text class="t" x="1056" y="362" text-anchor="middle" font-size="26" font-weight="700" fill="#191919">출시</text>
+
+  <path d="M394 440 L918 440" stroke="#e34f32" stroke-width="2"/>
+  <path d="M394 432 L394 448 M918 432 L918 448" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="656" y="476" text-anchor="middle" font-size="18" fill="#e34f32">사람이 맡는 구간 · 예전과 같은 폭</text>
+  <text class="t" x="656" y="506" text-anchor="middle" font-size="17" fill="#6d6d6d">출시 속도는 여기서 정해진다</text>
+
+  <text class="t" x="1110" y="640" text-anchor="end" font-size="17" fill="#6d6d6d">코드 생성이 열 배 빨라져도 출시가 열 배 빨라지지 않는다</text>
+</svg>

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="AI 에이전트 제품을 설계할 때 쓰는 사고 모형 15가지를 비용, 성공률, 자율성, 남는 자산, 사람의 역할 다섯 묶음으로 보여주는 표지 그림">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+
+  <text class="t" x="90" y="100" font-size="16" font-weight="700" letter-spacing="2" fill="#e34f32">AGENT × MENTAL MODELS</text>
+  <text class="t" x="90" y="165" font-size="46" font-weight="700" fill="#191919">AI 에이전트 제품을 설계할 때 쓰는</text>
+  <text class="t" x="90" y="222" font-size="46" font-weight="700" fill="#191919">사고 모형 15가지</text>
+
+  <rect x="90" y="340" width="190" height="170" fill="#fafafa"/>
+  <text class="t" x="185" y="400" text-anchor="middle" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">1 · 비용</text>
+  <text class="t" x="185" y="452" text-anchor="middle" font-size="22" font-weight="700" fill="#191919">해결 건당 비용</text>
+
+  <rect x="296" y="340" width="190" height="170" fill="#fafafa"/>
+  <text class="t" x="391" y="400" text-anchor="middle" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">2 · 확률</text>
+  <text class="t" x="391" y="452" text-anchor="middle" font-size="22" font-weight="700" fill="#191919">평가가 명세다</text>
+
+  <rect x="502" y="340" width="190" height="170" fill="#ffffff" stroke="#e34f32" stroke-width="3"/>
+  <text class="t" x="597" y="400" text-anchor="middle" font-size="15" font-weight="700" letter-spacing="2" fill="#e34f32">3 · 신뢰</text>
+  <text class="t" x="597" y="452" text-anchor="middle" font-size="22" font-weight="700" fill="#191919">자율성 다이얼</text>
+
+  <rect x="708" y="340" width="190" height="170" fill="#fafafa"/>
+  <text class="t" x="803" y="400" text-anchor="middle" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">4 · 자산</text>
+  <text class="t" x="803" y="452" text-anchor="middle" font-size="22" font-weight="700" fill="#191919">다음 모델 테스트</text>
+
+  <rect x="914" y="340" width="196" height="170" fill="#fafafa"/>
+  <text class="t" x="1012" y="400" text-anchor="middle" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">5 · 사람</text>
+  <text class="t" x="1012" y="452" text-anchor="middle" font-size="22" font-weight="700" fill="#191919">안목이 일이다</text>
+
+  <text class="t" x="1110" y="620" text-anchor="end" font-size="17" fill="#6d6d6d">예전 사고 모형은 그대로 통하지만 확률로 움직이는 모델 앞에서는 다른 답을 낸다</text>
+</svg>

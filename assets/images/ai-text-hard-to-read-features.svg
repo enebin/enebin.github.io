@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="AI 글에서 사람 글보다 자주 나온 여섯 가지 문장 특징과 각 특징이 읽기를 느리게 만드는 이유">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+    .m { font-family: Menlo,Consolas,monospace; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+  <text class="t" x="70" y="62" font-size="16" font-weight="700" letter-spacing="2" fill="#6d6d6d">읽기를 느리게 만드는 여섯 가지 특징</text>
+  <rect x="70" y="90" width="515" height="170" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="102" y="132" font-size="15" font-weight="700" letter-spacing="2" fill="#e34f32">01</text>
+  <text class="t" x="102" y="172" font-size="28" font-weight="700" fill="#191919">사물 주어 + 생물 동사</text>
+  <text class="t" x="102" y="208" font-size="18" fill="#191919">is_file() swallows that</text>
+  <text class="t" x="102" y="238" font-size="16" fill="#6d6d6d">주어가 살아 있으리라는 짐작이 깨져 다시 읽는다</text>
+  <rect x="615" y="90" width="515" height="170" fill="#fafafa"/>
+  <text class="t" x="647" y="132" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">02</text>
+  <text class="t" x="647" y="172" font-size="28" font-weight="700" fill="#191919">낯선 단어 조합</text>
+  <text class="t" x="647" y="208" font-size="18" fill="#191919">말뭉치에 한 번도 없는 두 단어 짝</text>
+  <text class="t" x="647" y="238" font-size="16" fill="#6d6d6d">다음 단어를 예측하기 어려워 읽는 속도가 준다</text>
+  <rect x="70" y="285" width="515" height="170" fill="#fafafa"/>
+  <text class="t" x="102" y="327" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">03</text>
+  <text class="t" x="102" y="367" font-size="28" font-weight="700" fill="#191919">긴 의존 거리</text>
+  <text class="t" x="102" y="403" font-size="18" fill="#191919">The guitar … (8단어) … teaches</text>
+  <text class="t" x="102" y="433" font-size="16" fill="#6d6d6d">주어를 오래 머릿속에 붙들고 있어야 한다</text>
+  <rect x="615" y="285" width="515" height="170" fill="#fafafa"/>
+  <text class="t" x="647" y="327" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">04</text>
+  <text class="t" x="647" y="367" font-size="28" font-weight="700" fill="#191919">명사 쌓기</text>
+  <text class="t" x="647" y="403" font-size="18" fill="#191919">reader-patience budget</text>
+  <text class="t" x="647" y="433" font-size="16" fill="#6d6d6d">어디서 끊어 읽어야 할지 헷갈린다</text>
+  <rect x="70" y="480" width="515" height="170" fill="#fafafa"/>
+  <text class="t" x="102" y="522" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">05</text>
+  <text class="t" x="102" y="562" font-size="28" font-weight="700" fill="#191919">즉석에서 만든 동사</text>
+  <text class="t" x="102" y="598" font-size="18" fill="#191919">footnote it, calendar it</text>
+  <text class="t" x="102" y="628" font-size="16" fill="#6d6d6d">명사의 뜻을 동작으로 한 번 더 풀어야 한다</text>
+  <rect x="615" y="480" width="515" height="170" fill="#fafafa"/>
+  <text class="t" x="647" y="522" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">06</text>
+  <text class="t" x="647" y="562" font-size="28" font-weight="700" fill="#191919">that 없는 목적어 관계절</text>
+  <text class="t" x="647" y="598" font-size="18" fill="#191919">the house (that) they built</text>
+  <text class="t" x="647" y="628" font-size="16" fill="#6d6d6d">문장 구조를 알려 주던 표지가 사라진다</text>
+  <text class="t" x="1130" y="672" text-anchor="end" font-size="17" fill="#6d6d6d">상위 모델 아홉 개 모두 01과 02를 사람 글보다 많이 썼다</text>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="AI가 쓴 글이 읽기 어려운 이유를 잰 논문이라는 제목과 is_file() swallows that 예문에 읽기를 늦추는 지점을 표시한 표지 그림">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+    .m { font-family: Menlo,Consolas,monospace; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+  <text class="t" x="90" y="100" font-size="16" font-weight="700" letter-spacing="2" fill="#e34f32">LLM × READABILITY</text>
+  <text class="t" x="90" y="165" font-size="46" font-weight="700" fill="#191919">AI가 쓴 글이 읽기 어려운</text>
+  <text class="t" x="90" y="222" font-size="46" font-weight="700" fill="#191919">이유를 분석한 논문</text>
+
+  <rect x="90" y="320" width="1020" height="200" fill="#fafafa"/>
+  <text class="m" x="140" y="420" font-size="36" fill="#191919">is_file()</text>
+  <text class="m" x="355" y="420" font-size="36" font-weight="700" fill="#e34f32">swallows</text>
+  <text class="m" x="555" y="420" font-size="36" fill="#191919">that and returns False</text>
+  <path d="M355 440 L529 440" stroke="#e34f32" stroke-width="3"/>
+  <text class="t" x="355" y="480" font-size="17" fill="#e34f32">함수가 무엇을 삼킨다는 걸까</text>
+
+  <text class="t" x="1110" y="620" text-anchor="end" font-size="17" fill="#6d6d6d">상위 모델 아홉 개 모두 사람 글보다 이런 문장을 많이 썼다</text>
+</svg>

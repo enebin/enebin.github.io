@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="AI가 쓴 영어 문장을 일본어로 옮겼다가 다시 영어로 되돌리고 두 문장의 특징 빈도를 비교하는 과정">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+    .m { font-family: Menlo,Consolas,monospace; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+  <text class="t" x="70" y="62" font-size="16" font-weight="700" letter-spacing="2" fill="#6d6d6d">왕복 번역으로 만든 두 번째 기준</text>
+
+  <rect x="70" y="110" width="320" height="190" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="100" y="152" font-size="15" font-weight="700" letter-spacing="2" fill="#e34f32">AI가 쓴 영어</text>
+  <text class="t" x="100" y="200" font-size="30" font-weight="700" fill="#191919">원래 문장</text>
+  <text class="t" x="100" y="238" font-size="17" fill="#6d6d6d">모델이 고른 표현이</text>
+  <text class="t" x="100" y="264" font-size="17" fill="#6d6d6d">그대로 담겨 있다</text>
+
+  <path d="M390 205 L470 205" stroke="#6d6d6d" stroke-width="2"/><path d="M460 197 L470 205 L460 213" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+
+  <rect x="470" y="110" width="260" height="190" fill="#fafafa"/>
+  <text class="t" x="500" y="152" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">NLLB-200 (3.3B)</text>
+  <text class="t" x="500" y="200" font-size="30" font-weight="700" fill="#191919">일본어</text>
+  <text class="t" x="500" y="238" font-size="17" fill="#6d6d6d">영어와 거리가 먼 언어라</text>
+  <text class="t" x="500" y="264" font-size="17" fill="#6d6d6d">표현이 크게 바뀐다</text>
+
+  <path d="M730 205 L810 205" stroke="#6d6d6d" stroke-width="2"/><path d="M800 197 L810 205 L800 213" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+
+  <rect x="810" y="110" width="320" height="190" fill="#fafafa"/>
+  <text class="t" x="840" y="152" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">다시 영어로</text>
+  <text class="t" x="840" y="200" font-size="30" font-weight="700" fill="#191919">되돌린 문장</text>
+  <text class="t" x="840" y="238" font-size="17" fill="#6d6d6d">뜻은 같고</text>
+  <text class="t" x="840" y="264" font-size="17" fill="#6d6d6d">표현만 달라졌다</text>
+
+  <path d="M230 300 L230 380 L970 380 L970 300" fill="none" stroke="#e9e9e9" stroke-width="2"/>
+  <path d="M600 380 L600 420" stroke="#6d6d6d" stroke-width="2"/><path d="M592 410 L600 420 L608 410" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+  <text class="t" x="620" y="406" font-size="16" fill="#6d6d6d">여섯 가지 특징의 빈도를 각각 센다</text>
+
+  <rect x="70" y="440" width="515" height="150" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="100" y="482" font-size="15" font-weight="700" letter-spacing="2" fill="#e34f32">원래 문장 쪽이 더 많다</text>
+  <text class="t" x="100" y="524" font-size="26" font-weight="700" fill="#191919">모델이 일부러 고른 표현</text>
+  <text class="t" x="100" y="560" font-size="17" fill="#6d6d6d">더 평범한 말이 있었는데도 그 표현을 택했다</text>
+
+  <rect x="615" y="440" width="515" height="150" fill="#fafafa"/>
+  <text class="t" x="645" y="482" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">차이가 없다</text>
+  <text class="t" x="645" y="524" font-size="26" font-weight="700" fill="#191919">내용 때문에 생긴 표현</text>
+  <text class="t" x="645" y="560" font-size="17" fill="#6d6d6d">뜻을 전하려면 어차피 필요한 구조다</text>
+
+  <text class="t" x="1130" y="650" text-anchor="end" font-size="17" fill="#6d6d6d">러시아어 경유, TranslateGemma(4B)로도 같은 실험을 되풀이했다</text>
+</svg>

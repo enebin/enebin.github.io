@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="합의, 스트리밍, 병합 세 방식을 쓰기 주체, 일관성, 클러스터, 대표 프로젝트, 답하는 질문으로 비교한 표">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+
+  <!-- headers -->
+  <rect x="300" y="60" width="260" height="4" fill="#e34f32"/>
+  <rect x="580" y="60" width="260" height="4" fill="#191919"/>
+  <rect x="860" y="60" width="260" height="4" fill="#191919"/>
+  <text class="t" x="300" y="100" font-size="15" font-weight="700" letter-spacing="2" fill="#e34f32">1 · 2014~</text>
+  <text class="t" x="580" y="100" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">2 · 2021~</text>
+  <text class="t" x="860" y="100" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">3 · 2022~</text>
+  <text class="t" x="300" y="142" font-size="30" font-weight="700" fill="#191919">합의</text>
+  <text class="t" x="580" y="142" font-size="30" font-weight="700" fill="#191919">스트리밍</text>
+  <text class="t" x="860" y="142" font-size="30" font-weight="700" fill="#191919">병합</text>
+
+  <!-- row lines -->
+  <path d="M80 180 L1120 180" stroke="#e9e9e9" stroke-width="2"/>
+  <path d="M80 260 L1120 260" stroke="#e9e9e9" stroke-width="2"/>
+  <path d="M80 340 L1120 340" stroke="#e9e9e9" stroke-width="2"/>
+  <path d="M80 420 L1120 420" stroke="#e9e9e9" stroke-width="2"/>
+  <path d="M80 500 L1120 500" stroke="#e9e9e9" stroke-width="2"/>
+  <path d="M80 620 L1120 620" stroke="#e9e9e9" stroke-width="2"/>
+
+  <!-- row labels -->
+  <text class="t" x="80" y="226" font-size="16" font-weight="700" fill="#6d6d6d">쓰기 주체</text>
+  <text class="t" x="80" y="306" font-size="16" font-weight="700" fill="#6d6d6d">일관성</text>
+  <text class="t" x="80" y="386" font-size="16" font-weight="700" fill="#6d6d6d">클러스터</text>
+  <text class="t" x="80" y="466" font-size="16" font-weight="700" fill="#6d6d6d">대표 프로젝트</text>
+  <text class="t" x="80" y="566" font-size="16" font-weight="700" fill="#6d6d6d">답하는 질문</text>
+
+  <!-- consensus -->
+  <text class="t" x="300" y="226" font-size="19" fill="#191919">리더 하나</text>
+  <text class="t" x="300" y="306" font-size="19" fill="#191919">강한 일관성 (CP)</text>
+  <text class="t" x="300" y="386" font-size="19" fill="#191919">필요</text>
+  <text class="t" x="300" y="466" font-size="19" fill="#191919">rqlite, dqlite</text>
+  <text class="t" x="300" y="552" font-size="18" fill="#191919">장애가 나도 멈추지</text>
+  <text class="t" x="300" y="578" font-size="18" fill="#191919">않으려면?</text>
+
+  <!-- streaming -->
+  <text class="t" x="580" y="226" font-size="19" fill="#191919">서버 하나</text>
+  <text class="t" x="580" y="306" font-size="19" fill="#191919">단일 노드 그대로</text>
+  <text class="t" x="580" y="386" font-size="19" fill="#191919">없음, S3만 있으면 됨</text>
+  <text class="t" x="580" y="466" font-size="19" fill="#191919">Litestream</text>
+  <text class="t" x="580" y="552" font-size="18" fill="#191919">머신이 죽으면 싸게</text>
+  <text class="t" x="580" y="578" font-size="18" fill="#191919">되살리려면?</text>
+
+  <!-- merge -->
+  <text class="t" x="860" y="226" font-size="19" fill="#191919">여럿, 리더 없음</text>
+  <text class="t" x="860" y="306" font-size="19" fill="#191919">최종 일관성 (AP)</text>
+  <text class="t" x="860" y="386" font-size="19" fill="#191919">없음, 나중에 합침</text>
+  <text class="t" x="860" y="466" font-size="19" fill="#191919">cr-sqlite</text>
+  <text class="t" x="860" y="552" font-size="18" fill="#191919">기기마다 따로 쓰고</text>
+  <text class="t" x="860" y="578" font-size="18" fill="#191919">나중에 합치려면?</text>
+
+  <text class="t" x="1120" y="666" text-anchor="end" font-size="17" fill="#6d6d6d">세 방식은 등장 순서대로 하나씩 새 질문에 답했다</text>
+</svg>

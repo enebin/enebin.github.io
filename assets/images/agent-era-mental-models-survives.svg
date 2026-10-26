@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="모델이 열 배 좋아질 때 버려도 되는 보조 구조와, 사용과 데이터와 제품 개선이 도는 플라이휠 속에서 남는 데이터·평가·워크플로·유통을 나눈 그림">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+
+  <text class="t" x="90" y="78" font-size="30" font-weight="700" fill="#191919">바탕 모델이 열 배 좋아지면</text>
+
+  <rect x="90" y="130" width="420" height="440" fill="#fafafa"/>
+  <text class="t" x="130" y="180" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">빌려 쓰는 것 · 버려도 된다</text>
+  <text class="t" x="130" y="228" font-size="30" font-weight="700" fill="#6d6d6d">모델 가중치</text>
+  <path d="M130 258 L470 258" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="130" y="306" font-size="30" font-weight="700" fill="#6d6d6d">보조 구조</text>
+  <text class="t" x="130" y="342" font-size="18" fill="#6d6d6d">프롬프트 체인, 우회 로직처럼</text>
+  <text class="t" x="130" y="368" font-size="18" fill="#6d6d6d">지금 모델의 약점을 메우는 장치</text>
+  <path d="M130 410 L470 410" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="130" y="456" font-size="18" fill="#191919">언제 버려도 아깝지 않게</text>
+  <text class="t" x="130" y="484" font-size="18" fill="#191919">싸게 만들어 둔다</text>
+
+  <text class="t" x="600" y="180" font-size="15" font-weight="700" letter-spacing="2" fill="#e34f32">소유하는 것 · 오래 남는다</text>
+
+  <rect x="740" y="210" width="260" height="70" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="870" y="254" text-anchor="middle" font-size="26" font-weight="700" fill="#191919">사용</text>
+
+  <rect x="900" y="360" width="210" height="70" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="1005" y="404" text-anchor="middle" font-size="26" font-weight="700" fill="#191919">고유 데이터</text>
+
+  <rect x="600" y="360" width="230" height="70" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="715" y="404" text-anchor="middle" font-size="26" font-weight="700" fill="#191919">더 나은 제품</text>
+
+  <path d="M960 286 L1000 352" stroke="#e34f32" stroke-width="2"/>
+  <path d="M988 346 L1000 354 L1000 340" fill="none" stroke="#e34f32" stroke-width="2"/>
+  <path d="M894 395 L840 395" stroke="#e34f32" stroke-width="2"/>
+  <path d="M850 387 L838 395 L850 403" fill="none" stroke="#e34f32" stroke-width="2"/>
+  <path d="M720 354 L770 286" stroke="#e34f32" stroke-width="2"/>
+  <path d="M758 290 L771 285 L770 299" fill="none" stroke="#e34f32" stroke-width="2"/>
+
+  <text class="t" x="600" y="488" font-size="18" fill="#191919">평가 세트 · 실패 로그 · 사람이 고친 이력 · 사용자 선호</text>
+  <text class="t" x="600" y="522" font-size="18" fill="#191919">워크플로 · 유통 경로</text>
+  <text class="t" x="600" y="556" font-size="17" fill="#6d6d6d">모델이 바뀌어도 그대로 쓸 수 있고 쓸수록 쌓인다</text>
+
+  <text class="t" x="1110" y="650" text-anchor="end" font-size="17" fill="#6d6d6d">좋아진 모델이 제품을 키우면 자산이 남은 것이고, 제품을 지우면 래퍼였던 것이다</text>
+</svg>
