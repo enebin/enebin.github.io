@@ -1,5 +1,6 @@
 ---
 title: IST 특별호 「AI 기반 시스템의 소프트웨어 아키텍처」 논문 13편 읽기
+date: 2026-10-26 20:17:00 +0900
 description: Information and Software Technology 특별호에 실린 논문 13편을 읽고 LLM이 맡는 일과 솔버·그래프·원본 기록이 맡는 일을 어떻게 나누는지 살펴본다.
 category: 개발
 tags:
