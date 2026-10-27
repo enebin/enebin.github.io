@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="컨텍스트 보강, 도구 선별, 격리, 가지치기, 외부 저장, 요약 여섯 가지 처방을 끌어오기, 떼어놓기, 덜어내기 세 묶음으로 나눠 보여주는 그림">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+
+  <!-- context window -->
+  <rect x="100" y="70" width="1000" height="70" fill="#ffffff" stroke="#191919" stroke-width="2"/>
+  <text class="t" x="600" y="114" text-anchor="middle" font-size="22" font-weight="700" fill="#191919">컨텍스트 창</text>
+
+  <!-- column 1: bring in -->
+  <path d="M250 215 L250 150" stroke="#e34f32" stroke-width="2"/>
+  <path d="M242 160 L250 148 L258 160" fill="none" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="250" y="250" text-anchor="middle" font-size="15" font-weight="700" letter-spacing="2" fill="#e34f32">끌어온다</text>
+
+  <rect x="100" y="270" width="300" height="150" fill="#fafafa"/>
+  <text class="t" x="130" y="320" font-size="28" font-weight="700" fill="#191919">컨텍스트 보강</text>
+  <text class="t" x="130" y="356" font-size="17" fill="#6d6d6d">RAG, 스킬처럼 문제에 필요한</text>
+  <text class="t" x="130" y="382" font-size="17" fill="#6d6d6d">정보를 가져온다</text>
+
+  <rect x="100" y="440" width="300" height="150" fill="#fafafa"/>
+  <text class="t" x="130" y="490" font-size="28" font-weight="700" fill="#191919">도구 선별</text>
+  <text class="t" x="130" y="526" font-size="17" fill="#6d6d6d">이 작업에 필요한 도구와 스킬만</text>
+  <text class="t" x="130" y="552" font-size="17" fill="#6d6d6d">골라서 노출한다</text>
+
+  <!-- column 2: set apart -->
+  <path d="M600 150 L600 215" stroke="#c9c9c9" stroke-width="2" stroke-dasharray="6 6"/>
+  <text class="t" x="600" y="250" text-anchor="middle" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">떼어놓는다</text>
+
+  <rect x="450" y="270" width="300" height="320" fill="#fafafa"/>
+  <text class="t" x="480" y="320" font-size="28" font-weight="700" fill="#191919">격리</text>
+  <text class="t" x="480" y="356" font-size="17" fill="#6d6d6d">서브에이전트에게 빈 이력을 주고</text>
+  <text class="t" x="480" y="382" font-size="17" fill="#6d6d6d">같은 환경에서 일하게 한다</text>
+  <rect x="480" y="420" width="240" height="46" fill="#ffffff" stroke="#191919" stroke-width="2"/>
+  <text class="t" x="600" y="450" text-anchor="middle" font-size="16" fill="#191919">새 컨텍스트 창</text>
+  <text class="t" x="480" y="510" font-size="17" fill="#6d6d6d">본체의 이력은 그대로 두고</text>
+  <text class="t" x="480" y="536" font-size="17" fill="#6d6d6d">결과만 돌려받는다</text>
+
+  <!-- column 3: take out -->
+  <path d="M950 150 L950 215" stroke="#e34f32" stroke-width="2"/>
+  <path d="M942 205 L950 217 L958 205" fill="none" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="950" y="250" text-anchor="middle" font-size="15" font-weight="700" letter-spacing="2" fill="#e34f32">덜어낸다</text>
+
+  <rect x="800" y="270" width="300" height="96" fill="#fafafa"/>
+  <text class="t" x="830" y="308" font-size="28" font-weight="700" fill="#191919">가지치기</text>
+  <text class="t" x="830" y="342" font-size="17" fill="#6d6d6d">더 필요 없는 턴과 도구 결과를 지운다</text>
+
+  <rect x="800" y="382" width="300" height="96" fill="#fafafa"/>
+  <text class="t" x="830" y="420" font-size="28" font-weight="700" fill="#191919">외부 저장</text>
+  <text class="t" x="830" y="454" font-size="17" fill="#6d6d6d">파일이나 DB에 내려놓고 나중에 꺼낸다</text>
+
+  <rect x="800" y="494" width="300" height="96" fill="#fafafa"/>
+  <text class="t" x="830" y="532" font-size="28" font-weight="700" fill="#191919">요약</text>
+  <text class="t" x="830" y="566" font-size="17" fill="#6d6d6d">오래된 턴을 요약으로 바꾼다. 컴팩션</text>
+
+  <text class="t" x="1100" y="650" text-anchor="end" font-size="17" fill="#6d6d6d">DSPy 예제에서는 네 가지를 더하는 데 열여섯 줄 안팎이면 충분했다</text>
+</svg>

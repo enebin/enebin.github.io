@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="실기 프로브에서 핫 코드가 16KB일 때 CPI 1.06, 24KB일 때 4.10, 32KB일 때 5.62로 뛰는 그래프">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+
+  <text class="t" x="120" y="80" font-size="16" font-weight="700" letter-spacing="2" fill="#6d6d6d">명령어 하나에 드는 사이클 (CPI) · OLD 3DS 실기 프로브</text>
+
+  <!-- axis -->
+  <path d="M160 540 L940 540" stroke="#e9e9e9" stroke-width="2"/>
+  <path d="M160 140 L160 540" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="140" y="546" text-anchor="end" font-size="15" fill="#6d6d6d">0</text>
+  <text class="t" x="140" y="146" text-anchor="end" font-size="15" fill="#6d6d6d">6</text>
+
+  <!-- bars: scale 400px / 6 CPI = 66.67px per 1 -->
+  <!-- 16KB: 1.06 -> 70.7px -->
+  <rect x="240" y="469" width="160" height="71" fill="#e34f32"/>
+  <text class="t" x="320" y="447" text-anchor="middle" font-size="30" font-weight="700" fill="#191919">1.06</text>
+  <text class="t" x="320" y="580" text-anchor="middle" font-size="19" font-weight="700" fill="#191919">핫 코드 16KB</text>
+  <text class="t" x="320" y="606" text-anchor="middle" font-size="16" fill="#e34f32">캐시에 다 들어간다</text>
+
+  <!-- 24KB: 4.10 -> 273px -->
+  <rect x="500" y="267" width="160" height="273" fill="#fafafa" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="580" y="245" text-anchor="middle" font-size="30" font-weight="700" fill="#191919">4.10</text>
+  <text class="t" x="580" y="580" text-anchor="middle" font-size="19" font-weight="700" fill="#191919">핫 코드 24KB</text>
+  <text class="t" x="580" y="606" text-anchor="middle" font-size="16" fill="#6d6d6d">넘치는 순간 네 배</text>
+
+  <!-- 32KB: 5.62 -> 375px -->
+  <rect x="760" y="165" width="160" height="375" fill="#fafafa" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="840" y="143" text-anchor="middle" font-size="30" font-weight="700" fill="#191919">5.62</text>
+  <text class="t" x="840" y="580" text-anchor="middle" font-size="19" font-weight="700" fill="#191919">핫 코드 32KB</text>
+
+  <!-- game render path line: 4.34 -> 289px -> y=251 -->
+  <path d="M160 251 L940 251" stroke="#6d6d6d" stroke-width="2" stroke-dasharray="8 8"/>
+  <text class="t" x="956" y="236" font-size="15" font-weight="700" fill="#191919">게임 렌더 경로 CPI 4.34</text>
+  <text class="t" x="956" y="260" font-size="15" fill="#6d6d6d">사이클의 43.6%가</text>
+  <text class="t" x="956" y="282" font-size="15" fill="#6d6d6d">명령어 인출 대기</text>
+
+  <!-- i-cache note -->
+  <text class="t" x="120" y="660" font-size="17" fill="#6d6d6d">Old 3DS의 L1 명령어 캐시는 16KB. 네이티브 렌더러는 범주별 루프 하나를 이 크기 안에 맞춰 설계했다.</text>
+</svg>

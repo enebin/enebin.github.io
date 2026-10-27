@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="컨텍스트를 계속 쌓을 때 성능 곡선이 평평해지는 모습과 주기적으로 비울 때 계단처럼 오르는 모습을 나란히 둔 개념도">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+
+  <!-- left panel: keep accumulating -->
+  <text class="t" x="90" y="80" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">컨텍스트를 계속 쌓는다</text>
+  <text class="t" x="90" y="120" font-size="30" font-weight="700" fill="#191919">큰 도약 뒤 평평해진다</text>
+
+  <path d="M120 540 L120 170" stroke="#e9e9e9" stroke-width="2"/>
+  <path d="M120 540 L540 540" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="110" y="176" text-anchor="end" font-size="15" fill="#6d6d6d">성능</text>
+  <text class="t" x="540" y="566" text-anchor="end" font-size="15" fill="#6d6d6d">시간</text>
+
+  <path d="M130 520 L200 370 L350 362 L410 300 L530 296" fill="none" stroke="#191919" stroke-width="3"/>
+
+  <path d="M275 410 L275 376" stroke="#c9c9c9" stroke-width="2"/>
+  <path d="M267 386 L275 374 L283 386" fill="none" stroke="#c9c9c9" stroke-width="2"/>
+  <text class="t" x="275" y="440" text-anchor="middle" font-size="17" fill="#6d6d6d">같은 아이디어를</text>
+  <text class="t" x="275" y="464" text-anchor="middle" font-size="17" fill="#6d6d6d">점점 더 작게만 고친다</text>
+
+  <!-- divider -->
+  <path d="M600 90 L600 580" stroke="#e9e9e9" stroke-width="2"/>
+
+  <!-- right panel: periodic forgetting -->
+  <text class="t" x="660" y="80" font-size="15" font-weight="700" letter-spacing="2" fill="#e34f32">주기적으로 비운다</text>
+  <text class="t" x="660" y="120" font-size="30" font-weight="700" fill="#191919">비울 때마다 한 계단 오른다</text>
+
+  <path d="M690 540 L690 170" stroke="#e9e9e9" stroke-width="2"/>
+  <path d="M690 540 L1110 540" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="680" y="176" text-anchor="end" font-size="15" fill="#6d6d6d">성능</text>
+  <text class="t" x="1110" y="566" text-anchor="end" font-size="15" fill="#6d6d6d">시간</text>
+
+  <path d="M820 180 L820 540" stroke="#e34f32" stroke-width="2" stroke-dasharray="6 6"/>
+  <path d="M940 180 L940 540" stroke="#e34f32" stroke-width="2" stroke-dasharray="6 6"/>
+  <path d="M1040 180 L1040 540" stroke="#e34f32" stroke-width="2" stroke-dasharray="6 6"/>
+  <text class="t" x="820" y="166" text-anchor="middle" font-size="15" font-weight="700" fill="#e34f32">비움</text>
+  <text class="t" x="940" y="166" text-anchor="middle" font-size="15" font-weight="700" fill="#e34f32">비움</text>
+  <text class="t" x="1040" y="166" text-anchor="middle" font-size="15" font-weight="700" fill="#e34f32">비움</text>
+
+  <path d="M700 520 L770 400 L820 394 L880 310 L940 304 L990 240 L1040 236 L1100 190" fill="none" stroke="#191919" stroke-width="3"/>
+
+  <text class="t" x="1100" y="620" text-anchor="end" font-size="17" fill="#6d6d6d">메모와 결과물은 환경에 남기고 대화 이력만 지운다</text>
+  <text class="t" x="1100" y="648" text-anchor="end" font-size="15" fill="#6d6d6d">개념도. 실제 측정값이 아니다</text>
+</svg>

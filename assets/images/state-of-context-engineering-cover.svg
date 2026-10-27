@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="컨텍스트 엔지니어링의 현주소를 2024년 긴 컨텍스트, 2026년 하네스를 모는 에이전트, 2027년 개인 에이전트의 기억 세 단계와 각 단계가 만든 실패 유형으로 보여주는 표지 그림">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+
+  <text class="t" x="90" y="100" font-size="16" font-weight="700" letter-spacing="2" fill="#e34f32">CONTEXT FAILS &amp; FIXES</text>
+  <text class="t" x="90" y="165" font-size="46" font-weight="700" fill="#191919">드류 브루니그가 정리한</text>
+  <text class="t" x="90" y="222" font-size="46" font-weight="700" fill="#191919">컨텍스트 엔지니어링의 현주소</text>
+
+  <rect x="90" y="330" width="310" height="190" fill="#fafafa"/>
+  <text class="t" x="120" y="378" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">2024 · 긴 컨텍스트</text>
+  <text class="t" x="120" y="420" font-size="24" font-weight="700" fill="#191919">100만 토큰에 전부 넣기</text>
+  <text class="t" x="120" y="458" font-size="17" fill="#6d6d6d">오염 · 주의 분산 · 혼동 · 충돌</text>
+  <text class="t" x="120" y="486" font-size="17" fill="#6d6d6d">여섯 가지 처방이 하네스로 옮겨감</text>
+
+  <path d="M408 425 L438 425" stroke="#c9c9c9" stroke-width="2"/>
+  <path d="M430 417 L440 425 L430 433" fill="none" stroke="#c9c9c9" stroke-width="2"/>
+
+  <rect x="445" y="330" width="310" height="190" fill="#fafafa"/>
+  <text class="t" x="475" y="378" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">2026 · 에이전트 모델</text>
+  <text class="t" x="475" y="420" font-size="24" font-weight="700" fill="#191919">모델이 하네스를 몬다</text>
+  <text class="t" x="475" y="458" font-size="17" fill="#6d6d6d">가중치와의 싸움 · 컨텍스트 관성</text>
+  <text class="t" x="475" y="486" font-size="17" fill="#6d6d6d">결과물은 남기고 대화는 비운다</text>
+
+  <path d="M763 425 L793 425" stroke="#c9c9c9" stroke-width="2"/>
+  <path d="M785 417 L795 425 L785 433" fill="none" stroke="#c9c9c9" stroke-width="2"/>
+
+  <rect x="800" y="330" width="310" height="190" fill="#ffffff" stroke="#e34f32" stroke-width="3"/>
+  <text class="t" x="830" y="378" font-size="15" font-weight="700" letter-spacing="2" fill="#e34f32">2027 · 개인 에이전트</text>
+  <text class="t" x="830" y="420" font-size="24" font-weight="700" fill="#191919">기억과 스킬이 쌓인다</text>
+  <text class="t" x="830" y="458" font-size="17" fill="#6d6d6d">오래된 기억끼리 충돌</text>
+  <text class="t" x="830" y="486" font-size="17" fill="#6d6d6d">전략적 망각이 다음 과제</text>
+
+  <text class="t" x="1110" y="620" text-anchor="end" font-size="17" fill="#6d6d6d">모델의 새 능력이 새 실패 유형을 만들고 하네스가 그걸 수습한다</text>
+</svg>

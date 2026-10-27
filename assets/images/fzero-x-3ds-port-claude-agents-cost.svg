@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="이 프로젝트의 24일과 4,974달러를 사람 팀 추정치인 약 6개월과 약 35만 달러 옆에 놓은 비교">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+
+  <text class="t" x="100" y="80" font-size="16" font-weight="700" letter-spacing="2" fill="#6d6d6d">1차 개발 기준 · 같은 범위를 사람 팀이 맡았을 때의 중간 추정치와 비교</text>
+
+  <!-- calendar -->
+  <text class="t" x="100" y="160" font-size="19" font-weight="700" fill="#191919">달력 기간</text>
+  <text class="t" x="340" y="160" font-size="16" fill="#6d6d6d">이 프로젝트</text>
+  <rect x="340" y="172" width="107" height="28" fill="#e34f32"/>
+  <text class="t" x="460" y="193" font-size="17" font-weight="700" fill="#191919">24일 (실제 작업 15일)</text>
+  <text class="t" x="340" y="238" font-size="16" fill="#6d6d6d">사람 팀</text>
+  <rect x="340" y="250" width="800" height="28" fill="#fafafa" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="352" y="271" font-size="17" font-weight="700" fill="#191919">약 6개월</text>
+
+  <path d="M100 320 L1140 320" stroke="#e9e9e9" stroke-width="2"/>
+
+  <!-- cost -->
+  <text class="t" x="100" y="370" font-size="19" font-weight="700" fill="#191919">비용</text>
+  <text class="t" x="340" y="370" font-size="16" fill="#6d6d6d">이 프로젝트</text>
+  <rect x="340" y="382" width="12" height="28" fill="#e34f32"/>
+  <text class="t" x="364" y="403" font-size="17" font-weight="700" fill="#191919">4,974달러 (API 정가 기준, 구독제라 실제 청구액 아님)</text>
+  <text class="t" x="340" y="448" font-size="16" fill="#6d6d6d">사람 팀</text>
+  <rect x="340" y="460" width="800" height="28" fill="#fafafa" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="352" y="481" font-size="17" font-weight="700" fill="#191919">약 35만 달러 (시니어 2명 + 파트타임 QA)</text>
+
+  <path d="M100 530 L1140 530" stroke="#e9e9e9" stroke-width="2"/>
+
+  <!-- people -->
+  <text class="t" x="100" y="580" font-size="19" font-weight="700" fill="#191919">사람의 일</text>
+  <text class="t" x="340" y="580" font-size="17" fill="#191919">지휘 1명, 약 15일. 코드를 쓰지도 읽지도 않았다</text>
+  <text class="t" x="340" y="610" font-size="16" fill="#6d6d6d">사람 팀이라면 전담 인력이 반년. 대신 남은 백로그까지 닫았을 것</text>
+
+  <text class="t" x="1140" y="660" text-anchor="end" font-size="17" fill="#6d6d6d">약 70배 싸고 7~8배 빠르다. 다만 다듬어진 정도는 다르다</text>
+</svg>

@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="사용자, 지휘 세션, 워크트리별 에이전트, SD 카드, 3DS 실기를 도는 작업 순환">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+
+  <!-- top row -->
+  <rect x="80" y="110" width="240" height="130" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="200" y="165" text-anchor="middle" font-size="30" font-weight="700" fill="#191919">사람 1명</text>
+  <text class="t" x="200" y="200" text-anchor="middle" font-size="16" fill="#6d6d6d">방향 · 판정 · 실기 증거</text>
+  <text class="t" x="200" y="224" text-anchor="middle" font-size="16" fill="#6d6d6d">코드는 읽지 않는다</text>
+
+  <path d="M320 175 L440 175" stroke="#6d6d6d" stroke-width="2"/>
+  <path d="M430 167 L442 175 L430 183" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+  <text class="t" x="380" y="160" text-anchor="middle" font-size="15" fill="#6d6d6d">프롬프트 223개</text>
+
+  <rect x="444" y="110" width="300" height="130" fill="#fafafa"/>
+  <text class="t" x="594" y="165" text-anchor="middle" font-size="30" font-weight="700" fill="#191919">지휘 세션 1개</text>
+  <text class="t" x="594" y="200" text-anchor="middle" font-size="16" fill="#6d6d6d">메모리 · 브리프 · 병합</text>
+  <text class="t" x="594" y="224" text-anchor="middle" font-size="16" fill="#6d6d6d">프로젝트 내내 살아 있다</text>
+
+  <path d="M744 175 L864 175" stroke="#6d6d6d" stroke-width="2"/>
+  <path d="M854 167 L866 175 L854 183" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+  <text class="t" x="804" y="160" text-anchor="middle" font-size="15" fill="#6d6d6d">브리프</text>
+
+  <!-- agents stack -->
+  <rect x="892" y="134" width="228" height="106" fill="#fafafa"/>
+  <rect x="880" y="122" width="228" height="106" fill="#fafafa" stroke="#ffffff" stroke-width="2"/>
+  <rect x="868" y="110" width="228" height="106" fill="#fafafa" stroke="#ffffff" stroke-width="2"/>
+  <text class="t" x="982" y="152" text-anchor="middle" font-size="26" font-weight="700" fill="#191919">에이전트 147개</text>
+  <text class="t" x="982" y="182" text-anchor="middle" font-size="15" fill="#6d6d6d">워크트리 · 브랜치 · 진행 파일</text>
+  <text class="t" x="982" y="204" text-anchor="middle" font-size="15" fill="#6d6d6d">메인라인은 못 건드린다</text>
+
+  <!-- agents -> merge (down) -->
+  <path d="M982 240 L982 330" stroke="#6d6d6d" stroke-width="2"/>
+  <path d="M974 320 L982 332 L990 320" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+  <text class="t" x="1000" y="292" font-size="15" fill="#6d6d6d">커밋</text>
+
+  <!-- bottom row -->
+  <rect x="868" y="336" width="228" height="110" fill="#fafafa"/>
+  <text class="t" x="982" y="382" text-anchor="middle" font-size="24" font-weight="700" fill="#191919">병합 · 빌드</text>
+  <text class="t" x="982" y="412" text-anchor="middle" font-size="15" fill="#6d6d6d">에뮬레이터 확인 뒤 .3dsx / .cia</text>
+
+  <path d="M868 391 L760 391" stroke="#6d6d6d" stroke-width="2"/>
+  <path d="M770 383 L758 391 L770 399" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+
+  <rect x="520" y="336" width="236" height="110" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="638" y="382" text-anchor="middle" font-size="24" font-weight="700" fill="#191919">SD 카드</text>
+  <text class="t" x="638" y="412" text-anchor="middle" font-size="15" fill="#e34f32">사람 손으로 36번 왕복</text>
+
+  <path d="M520 391 L412 391" stroke="#6d6d6d" stroke-width="2"/>
+  <path d="M422 383 L410 391 L422 399" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+
+  <rect x="172" y="336" width="236" height="110" fill="#fafafa"/>
+  <text class="t" x="290" y="382" text-anchor="middle" font-size="24" font-weight="700" fill="#191919">3DS 실기</text>
+  <text class="t" x="290" y="412" text-anchor="middle" font-size="15" fill="#6d6d6d">에이전트는 볼 수 없는 곳</text>
+
+  <!-- 3DS -> user (up) -->
+  <path d="M200 336 L200 250" stroke="#6d6d6d" stroke-width="2"/>
+  <path d="M192 260 L200 248 L208 260" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+  <text class="t" x="214" y="296" font-size="15" fill="#6d6d6d">로그 · fps · 눈으로 본 것</text>
+
+  <!-- note -->
+  <path d="M80 520 L1120 520" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="80" y="566" font-size="18" fill="#191919">실기 숫자는 전부 이 순환에서 나왔다. 에이전트가 하루에 할 수 있는 일의 상한은 사람이 SD 카드를 나르는 횟수였다.</text>
+  <text class="t" x="80" y="600" font-size="16" fill="#6d6d6d">2차 개발에서는 Wi-Fi 네트워크 링크와 에뮬레이터 리플레이 검증이 이 왕복을 일부 대신했다.</text>
+</svg>
