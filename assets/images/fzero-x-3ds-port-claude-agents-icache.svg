@@ -4,7 +4,7 @@
   </style>
   <rect width="1200" height="700" fill="#ffffff"/>
 
-  <text class="t" x="120" y="80" font-size="16" font-weight="700" letter-spacing="2" fill="#6d6d6d">명령어 하나에 드는 사이클 (CPI) · OLD 3DS 실기 프로브</text>
+  <text class="t" x="120" y="80" font-size="16" font-weight="700" letter-spacing="2" fill="#6d6d6d">명령어 한 줄에 걸리는 클럭 수 (CPI) · OLD 3DS 실기 측정</text>
 
   <!-- axis -->
   <path d="M160 540 L940 540" stroke="#e9e9e9" stroke-width="2"/>
@@ -33,9 +33,9 @@
   <!-- game render path line: 4.34 -> 289px -> y=251 -->
   <path d="M160 251 L940 251" stroke="#6d6d6d" stroke-width="2" stroke-dasharray="8 8"/>
   <text class="t" x="956" y="236" font-size="15" font-weight="700" fill="#191919">게임 렌더 경로 CPI 4.34</text>
-  <text class="t" x="956" y="260" font-size="15" fill="#6d6d6d">사이클의 43.6%가</text>
-  <text class="t" x="956" y="282" font-size="15" fill="#6d6d6d">명령어 인출 대기</text>
+  <text class="t" x="956" y="260" font-size="15" fill="#6d6d6d">시간의 43.6%를</text>
+  <text class="t" x="956" y="282" font-size="15" fill="#6d6d6d">코드 읽어 오느라 대기</text>
 
   <!-- i-cache note -->
-  <text class="t" x="120" y="660" font-size="17" fill="#6d6d6d">Old 3DS의 L1 명령어 캐시는 16KB. 네이티브 렌더러는 범주별 루프 하나를 이 크기 안에 맞춰 설계했다.</text>
+  <text class="t" x="120" y="660" font-size="17" fill="#6d6d6d">Old 3DS의 명령어 캐시는 16KB. 전용 렌더러는 단계별 반복문 하나를 이 크기 안에 맞춰 설계했다.</text>
 </svg>

@@ -4,25 +4,25 @@
   </style>
   <rect width="1200" height="700" fill="#ffffff"/>
 
-  <text class="t" x="120" y="80" font-size="16" font-weight="700" letter-spacing="2" fill="#6d6d6d">소스 트리 하나</text>
+  <text class="t" x="120" y="80" font-size="16" font-weight="700" letter-spacing="2" fill="#6d6d6d">하나의 코드 폴더</text>
 
   <!-- top: port/3ds -->
   <rect x="120" y="110" width="760" height="140" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
   <text class="t" x="160" y="160" font-size="15" font-weight="700" letter-spacing="2" fill="#e34f32">새로 쓴 코드</text>
-  <text class="t" x="160" y="200" font-size="30" font-weight="700" fill="#191919">port/3ds + 네이티브 렌더러</text>
-  <text class="t" x="160" y="232" font-size="18" fill="#6d6d6d">1차 개발 기준 15,039줄. citro3d 백엔드, 입체 3D, 오디오, 메뉴, 렌더 스레드</text>
+  <text class="t" x="160" y="200" font-size="30" font-weight="700" fill="#191919">port/3ds + 전용 렌더러</text>
+  <text class="t" x="160" y="232" font-size="18" fill="#6d6d6d">1차 개발 기준 15,039줄. 3DS 그래픽 · 입체 3D · 오디오 · 메뉴 · 렌더 스레드</text>
 
   <!-- middle: libultraship -->
   <rect x="120" y="270" width="760" height="140" fill="#fafafa"/>
-  <text class="t" x="160" y="320" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">업스트림 그대로</text>
+  <text class="t" x="160" y="320" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">원본 그대로 (업스트림)</text>
   <text class="t" x="160" y="360" font-size="30" font-weight="700" fill="#191919">libultraship</text>
-  <text class="t" x="160" y="392" font-size="18" fill="#6d6d6d">N64 런타임. devkitARM으로 빌드되게 newlib 13줄만 고쳤다</text>
+  <text class="t" x="160" y="392" font-size="18" fill="#6d6d6d">닌텐도 64 게임을 다른 기기에서 돌리는 통역 계층. newlib 13줄만 고쳤다</text>
 
   <!-- bottom: decomp -->
   <rect x="120" y="430" width="760" height="140" fill="#fafafa"/>
-  <text class="t" x="160" y="480" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">업스트림 그대로</text>
+  <text class="t" x="160" y="480" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">원본 그대로 (업스트림)</text>
   <text class="t" x="160" y="520" font-size="30" font-weight="700" fill="#191919">inspectredc/fzerox</text>
-  <text class="t" x="160" y="552" font-size="18" fill="#6d6d6d">F-Zero X 디컴파일. 원본 저장소는 한 줄도 바꾸지 않았다</text>
+  <text class="t" x="160" y="552" font-size="18" fill="#6d6d6d">F-Zero X 복원 코드(디컴파일). 원본 저장소는 한 줄도 바꾸지 않았다</text>
 
   <!-- patch stack bar -->
   <rect x="920" y="270" width="14" height="300" fill="#e34f32"/>
