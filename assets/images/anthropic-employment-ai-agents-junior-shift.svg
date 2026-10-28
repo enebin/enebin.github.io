@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="주니어 기술직 채용 비중이 줄어드는 동안 비기술직과 관리자의 직접 코딩 및 부서 간 재배치가 늘어난 대비를 보여주는 그림">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+
+  <text class="t" x="90" y="65" font-size="16" font-weight="700" letter-spacing="2" fill="#6d6d6d">코드를 짜는 주체의 이동과 채용 구조 변화</text>
+
+  <!-- Left column: shrinking entry -->
+  <rect x="90" y="100" width="490" height="500" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="130" y="150" font-size="15" font-weight="700" letter-spacing="2" fill="#e34f32">줄어든 영역 · 초급 기술직 진입로</text>
+  <text class="t" x="130" y="198" font-size="30" font-weight="700" fill="#191919">주니어 기술직 수요 감소</text>
+
+  <rect x="130" y="235" width="410" height="100" fill="#fafafa"/>
+  <text class="t" x="155" y="272" font-size="16" font-weight="700" fill="#6d6d6d">신규 기술직 채용 중 주니어 비중</text>
+  <text class="t" x="155" y="312" font-size="30" font-weight="700" fill="#e34f32">27% → 9%</text>
+
+  <rect x="130" y="355" width="410" height="100" fill="#fafafa"/>
+  <text class="t" x="155" y="392" font-size="16" font-weight="700" fill="#6d6d6d">기술 부서 내 주니어 직원 비중</text>
+  <text class="t" x="155" y="432" font-size="30" font-weight="700" fill="#191919">21% → 14%</text>
+
+  <text class="t" x="130" y="505" font-size="18" fill="#191919">기초 구현과 버그 탐지를 Claude에 위임</text>
+  <text class="t" x="130" y="538" font-size="17" fill="#6d6d6d">머신러닝 관리자 약 1/3, 소프트웨어 관리자 약 1/5이</text>
+  <text class="t" x="130" y="566" font-size="17" fill="#6d6d6d">AI 때문에 채용을 줄였다고 응답</text>
+
+  <!-- Right column: expanding coding & mobility -->
+  <rect x="620" y="100" width="490" height="500" fill="#fafafa"/>
+  <text class="t" x="660" y="150" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">늘어난 영역 · 비기술직 코딩과 직무 이동</text>
+  <text class="t" x="660" y="198" font-size="30" font-weight="700" fill="#191919">사내 전반의 직접 구현 확산</text>
+
+  <rect x="660" y="235" width="410" height="100" fill="#ffffff" stroke="#e9e9e9" stroke-width="1"/>
+  <text class="t" x="685" y="272" font-size="16" font-weight="700" fill="#6d6d6d">비기술직 코딩 에이전트 세션 (월간)</text>
+  <text class="t" x="685" y="312" font-size="30" font-weight="700" fill="#191919">2회 → 90회</text>
+
+  <rect x="660" y="355" width="410" height="100" fill="#ffffff" stroke="#e9e9e9" stroke-width="1"/>
+  <text class="t" x="685" y="392" font-size="16" font-weight="700" fill="#6d6d6d">관리자 커밋 수 · 월별 부서 이동 가능성</text>
+  <text class="t" x="685" y="432" font-size="30" font-weight="700" fill="#191919">커밋 2배 · 부서 이동 +50%</text>
+
+  <text class="t" x="660" y="505" font-size="18" fill="#191919">엔지니어 대 PM 비율 약 17대 1로 상승</text>
+  <text class="t" x="660" y="538" font-size="17" fill="#6d6d6d">최근 30일간 커밋 없는 기술 부서 직원 비중 절반 감소</text>
+  <text class="t" x="660" y="566" font-size="17" fill="#6d6d6d">문구 작성 디자인 팀은 프롬프트·모델 평가로 전환</text>
+
+  <text class="t" x="1110" y="655" text-anchor="end" font-size="17" fill="#6d6d6d">기존 직원과 비개발자가 에이전트로 직접 구현을 흡수하면서 초급 채용 문턱이 가장 먼저 높아졌다</text>
+</svg>

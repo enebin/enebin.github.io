@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="Anthropic 내부 데이터로 본 주니어 기술직 채용 감소와 에이전트 시대의 업무 변화를 요약한 표지 그림">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+
+  <text class="t" x="90" y="100" font-size="16" font-weight="700" letter-spacing="2" fill="#e34f32">EMPLOYMENT AT ANTHROPIC</text>
+  <text class="t" x="90" y="165" font-size="44" font-weight="700" fill="#191919">Anthropic 내부 데이터로 본</text>
+  <text class="t" x="90" y="222" font-size="44" font-weight="700" fill="#191919">주니어 채용 감소와 업무 변화</text>
+
+  <!-- card 1 -->
+  <rect x="90" y="320" width="310" height="200" fill="#fafafa"/>
+  <text class="t" x="120" y="368" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">신규 기술직 채용 중 주니어</text>
+  <text class="t" x="120" y="422" font-size="30" font-weight="700" fill="#191919">27% → 9%</text>
+  <text class="t" x="120" y="462" font-size="17" fill="#6d6d6d">기술 부서 내 주니어 21% → 14%</text>
+  <text class="t" x="120" y="490" font-size="17" fill="#6d6d6d">비기술직 코딩 세션 월 2 → 90회</text>
+
+  <path d="M408 420 L438 420" stroke="#c9c9c9" stroke-width="2"/>
+  <path d="M430 412 L440 420 L430 428" fill="none" stroke="#c9c9c9" stroke-width="2"/>
+
+  <!-- card 2 -->
+  <rect x="445" y="320" width="310" height="200" fill="#fafafa"/>
+  <text class="t" x="475" y="368" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">대화형 에이전트 작업 시간</text>
+  <text class="t" x="475" y="422" font-size="30" font-weight="700" fill="#191919">사람 근무 시간의 6배</text>
+  <text class="t" x="475" y="462" font-size="17" fill="#6d6d6d">엔지니어 1인당 커밋 속도 5배</text>
+  <text class="t" x="475" y="490" font-size="17" fill="#6d6d6d">세션 시간의 80%는 사람 입력 대기</text>
+
+  <path d="M763 420 L793 420" stroke="#c9c9c9" stroke-width="2"/>
+  <path d="M785 412 L795 420 L785 428" fill="none" stroke="#c9c9c9" stroke-width="2"/>
+
+  <!-- card 3 -->
+  <rect x="800" y="320" width="310" height="200" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="830" y="368" font-size="15" font-weight="700" letter-spacing="2" fill="#e34f32">메타 업무와 조율의 확대</text>
+  <text class="t" x="830" y="422" font-size="30" font-weight="700" fill="#191919">세션의 22%가 메타 업무</text>
+  <text class="t" x="830" y="462" font-size="17" fill="#6d6d6d">에이전트 상시 지침 8,500건</text>
+  <text class="t" x="830" y="490" font-size="17" fill="#6d6d6d">기술직 비관리자 회의 시간 +16%</text>
+
+  <text class="t" x="1110" y="625" text-anchor="end" font-size="17" fill="#6d6d6d">실행이 자동화될수록 사람의 주의력과 판단력이 가장 귀한 자원이 된다</text>
+</svg>
