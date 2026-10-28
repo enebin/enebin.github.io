@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="에이전트 떼와 최상위 모델에 월 2만 달러 이상을 태우는 방식과 문제 정의·도구 조합·경량 모델 활용으로 월 1,000~2,000달러 이하에서 실속을 챙기는 엔지니어링을 비교한 그림">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+
+  <text class="t" x="90" y="72" font-size="16" font-weight="700" letter-spacing="2" fill="#6d6d6d">토큰 비용과 작업 방식이 갈라놓는 두 갈래</text>
+
+  <!-- Left box: High burn -->
+  <rect x="90" y="104" width="480" height="510" fill="#fafafa"/>
+  <text class="t" x="130" y="152" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">도구에 통째로 맡기는 쪽</text>
+  <text class="t" x="130" y="196" font-size="30" font-weight="700" fill="#191919">월 20,000달러+ 소모</text>
+
+  <line x1="130" y1="224" x2="530" y2="224" stroke="#e9e9e9" stroke-width="2"/>
+
+  <text class="t" x="130" y="268" font-size="19" font-weight="700" fill="#191919">코드 검토 없는 에이전트 떼 구동</text>
+  <text class="t" x="130" y="298" font-size="17" fill="#6d6d6d">사람이 코드를 보지 않은 채 무작정 재시도 반복</text>
+
+  <text class="t" x="130" y="356" font-size="19" font-weight="700" fill="#191919">산문으로 짠 거대한 SKILL.md</text>
+  <text class="t" x="130" y="386" font-size="17" fill="#6d6d6d">영어 문장을 LLM이라는 비싼 통역기로 실행</text>
+
+  <text class="t" x="130" y="444" font-size="19" font-weight="700" fill="#191919">최상위 모델 최대 강도만 고집</text>
+  <text class="t" x="130" y="474" font-size="17" fill="#6d6d6d">Fable 5.1 최대 추론은 Haiku 5.5 저강도의 380배 비용</text>
+
+  <rect x="130" y="514" width="400" height="68" fill="#ffffff" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="154" y="555" font-size="17" font-weight="700" fill="#6d6d6d">결말 · 토큰 소진 결제 창과 주당 250달러 한도</text>
+
+  <!-- Right box: Systems engineering -->
+  <rect x="630" y="104" width="480" height="510" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="670" y="152" font-size="15" font-weight="700" letter-spacing="2" fill="#e34f32">구조와 검증을 쥐는 쪽</text>
+  <text class="t" x="670" y="196" font-size="30" font-weight="700" fill="#191919">월 1,000~2,000달러 이하</text>
+
+  <line x1="670" y1="224" x2="1070" y2="224" stroke="#e9e9e9" stroke-width="2"/>
+
+  <text class="t" x="670" y="268" font-size="19" font-weight="700" fill="#191919">아키텍처 · 자료구조 · 검증 계획 선행</text>
+  <text class="t" x="670" y="298" font-size="17" fill="#6d6d6d">문제를 검토 가능한 작은 단위로 쪼갠 뒤 초안 생성</text>
+
+  <text class="t" x="670" y="356" font-size="19" font-weight="700" fill="#191919">MCP · Playwright 등 실행 도구 연결</text>
+  <text class="t" x="670" y="386" font-size="17" fill="#6d6d6d">채팅창 주문 대신 모델이 일할 기반 환경을 구축</text>
+
+  <text class="t" x="670" y="444" font-size="19" font-weight="700" fill="#191919">난도별 모델 분리와 비용 추산</text>
+  <text class="t" x="670" y="474" font-size="17" fill="#6d6d6d">단순 검사는 100만 토큰당 0.10~0.20달러급 경량 모델 활용</text>
+
+  <rect x="670" y="514" width="400" height="68" fill="#fafafa"/>
+  <text class="t" x="694" y="555" font-size="17" font-weight="700" fill="#191919">결말 · 1,000달러 감사로 95% 실제 버그 포착</text>
+
+  <text class="t" x="1110" y="662" text-anchor="end" font-size="17" fill="#6d6d6d">모델이 좋아질수록 차이는 프롬프트 문구가 아니라 문제 분해와 비용 설계에서 벌어진다</text>
+</svg>

@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="선두 경쟁에 매달리는 전략과 무리와 보폭을 맞추며 제대로 된 해법을 준비하는 스티븐 브래드버리 전략을 비교한 그림">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+
+  <text class="t" x="90" y="74" font-size="16" font-weight="700" letter-spacing="2" fill="#6d6d6d">AI 열차 앞에서 고를 수 있는 두 가지 태도</text>
+
+  <!-- Top track: First mover -->
+  <rect x="90" y="106" width="1020" height="230" fill="#fafafa"/>
+  <text class="t" x="130" y="152" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">태도 A · 무조건 맨 앞에 서기</text>
+  <text class="t" x="130" y="196" font-size="30" font-weight="700" fill="#191919">"지금 당장 올라타지 않으면 뒤처진다"</text>
+
+  <rect x="130" y="224" width="280" height="84" fill="#ffffff" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="154" y="258" font-size="18" font-weight="700" fill="#191919">몇 주 만에 새 요령 습득</text>
+  <text class="t" x="154" y="286" font-size="16" fill="#6d6d6d">유행하는 프롬프트와 설정 추격</text>
+
+  <path d="M418 266 L462 266" stroke="#c9c9c9" stroke-width="2"/>
+  <path d="M454 258 L464 266 L454 274" fill="none" stroke="#c9c9c9" stroke-width="2"/>
+
+  <rect x="470" y="224" width="280" height="84" fill="#ffffff" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="494" y="258" font-size="18" font-weight="700" fill="#191919">몇 달 뒤 제품에 기본 내장</text>
+  <text class="t" x="494" y="286" font-size="16" fill="#6d6d6d">애써 익힌 개인기가 기본값이 됨</text>
+
+  <path d="M758 266 L802 266" stroke="#c9c9c9" stroke-width="2"/>
+  <path d="M794 258 L804 266 L794 274" fill="none" stroke="#c9c9c9" stroke-width="2"/>
+
+  <rect x="810" y="224" width="260" height="84" fill="#ffffff" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="834" y="258" font-size="18" font-weight="700" fill="#191919">그 순간을 넘기면 가치 소멸</text>
+  <text class="t" x="834" y="286" font-size="16" fill="#6d6d6d">다시 다음 단기 요령을 찾아 소모됨</text>
+
+  <!-- Bottom track: Steven Bradbury -->
+  <rect x="90" y="376" width="1020" height="244" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="130" y="422" font-size="15" font-weight="700" letter-spacing="2" fill="#e34f32">태도 B · 스티븐 브래드버리 전략</text>
+  <text class="t" x="130" y="466" font-size="30" font-weight="700" fill="#191919">무리와 보폭을 맞추며 제대로 할 때를 기다린다</text>
+
+  <rect x="130" y="498" width="280" height="92" fill="#fafafa"/>
+  <text class="t" x="154" y="534" font-size="18" font-weight="700" fill="#191919">오늘의 업무에 필요한 만큼 학습</text>
+  <text class="t" x="154" y="564" font-size="16" fill="#6d6d6d">현재 도구를 익혀 실무를 수행함</text>
+
+  <path d="M418 544 L462 544" stroke="#e34f32" stroke-width="2"/>
+  <path d="M454 536 L464 544 L454 552" fill="none" stroke="#e34f32" stroke-width="2"/>
+
+  <rect x="470" y="498" width="280" height="92" fill="#fafafa"/>
+  <text class="t" x="494" y="534" font-size="18" font-weight="700" fill="#191919">선두의 시행착오와 과열 관찰</text>
+  <text class="t" x="494" y="564" font-size="16" fill="#6d6d6d">무리한 선점 경쟁에서 체력을 아낌</text>
+
+  <path d="M758 544 L802 544" stroke="#e34f32" stroke-width="2"/>
+  <path d="M794 536 L804 544 L794 552" fill="none" stroke="#e34f32" stroke-width="2"/>
+
+  <rect x="810" y="498" width="260" height="92" fill="#fafafa"/>
+  <text class="t" x="834" y="534" font-size="18" font-weight="700" fill="#191919">제대로 된 해법으로 승부</text>
+  <text class="t" x="834" y="564" font-size="16" fill="#6d6d6d">Google · iPhone처럼 완성도로 이김</text>
+
+  <text class="t" x="1110" y="664" text-anchor="end" font-size="17" fill="#6d6d6d">먼저 들어가는 것보다 제대로 해내는 쪽이 오래 남는다</text>
+</svg>

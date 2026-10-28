@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="1995년 이전의 C 언어 최적화 요령과 2026년의 프롬프트 엔지니어링 요령이 각각 컴파일러와 제품의 기본 기능으로 흡수된 뒤에도 미신만 남는 흐름을 비교한 그림">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+
+  <!-- Left column: Compiler era -->
+  <text class="t" x="90" y="76" font-size="16" font-weight="700" letter-spacing="2" fill="#6d6d6d">과거 · C 컴파일러와 CPU 시대</text>
+  <text class="t" x="90" y="122" font-size="30" font-weight="700" fill="#191919">손으로 챙기던 미세 최적화</text>
+
+  <rect x="90" y="156" width="460" height="128" fill="#fafafa"/>
+  <text class="t" x="120" y="196" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">1단계 · 요령의 등장</text>
+  <text class="t" x="120" y="232" font-size="19" font-weight="700" fill="#191919">i++ 대신 ++i를 써야 복사본을 안 만든다</text>
+  <text class="t" x="120" y="262" font-size="17" fill="#6d6d6d">반환값을 보관하는 연산을 사람이 직접 피하려 함</text>
+
+  <path d="M320 290 L320 322" stroke="#c9c9c9" stroke-width="2"/>
+  <path d="M312 314 L320 324 L328 314" fill="none" stroke="#c9c9c9" stroke-width="2"/>
+
+  <rect x="90" y="330" width="460" height="128" fill="#fafafa"/>
+  <text class="t" x="120" y="370" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">2단계 · 기본 기능으로 흡수</text>
+  <text class="t" x="120" y="406" font-size="19" font-weight="700" fill="#191919">1995년 최적화 컴파일러와 CPU 분기 예측</text>
+  <text class="t" x="120" y="436" font-size="17" fill="#6d6d6d">반환값을 안 쓰면 복사를 생략하고 명령어를 재배치함</text>
+
+  <path d="M320 464 L320 496" stroke="#c9c9c9" stroke-width="2"/>
+  <path d="M312 488 L320 498 L328 488" fill="none" stroke="#c9c9c9" stroke-width="2"/>
+
+  <rect x="90" y="504" width="460" height="128" fill="#fafafa"/>
+  <text class="t" x="120" y="544" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">3단계 · 관행만 남음</text>
+  <text class="t" x="120" y="580" font-size="19" font-weight="700" fill="#191919">효용이 사라진 뒤에도 남은 습관</text>
+  <text class="t" x="120" y="610" font-size="17" fill="#6d6d6d">최적화 환경에서는 오히려 코드를 느리게 만들기도 함</text>
+
+  <!-- Right column: AI era -->
+  <text class="t" x="650" y="76" font-size="16" font-weight="700" letter-spacing="2" fill="#e34f32">현재 · 생성형 AI와 에이전트 시대</text>
+  <text class="t" x="650" y="122" font-size="30" font-weight="700" fill="#191919">모델을 달래는 프롬프트 요령</text>
+
+  <rect x="650" y="156" width="460" height="128" fill="#fafafa"/>
+  <text class="t" x="680" y="196" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">1단계 · 요령의 등장</text>
+  <text class="t" x="680" y="232" font-size="19" font-weight="700" fill="#191919">매직 키워드 · 부정 프롬프트 · 역할극 지시문</text>
+  <text class="t" x="680" y="262" font-size="17" fill="#6d6d6d">'masterpiece, 8k'나 시드 조합을 개인 기술처럼 외움</text>
+
+  <path d="M880 290 L880 322" stroke="#c9c9c9" stroke-width="2"/>
+  <path d="M872 314 L880 324 L888 314" fill="none" stroke="#c9c9c9" stroke-width="2"/>
+
+  <rect x="650" y="330" width="460" height="128" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="680" y="370" font-size="15" font-weight="700" letter-spacing="2" fill="#e34f32">2단계 · 몇 달 뒤 기본 경험으로 흡수</text>
+  <text class="t" x="680" y="406" font-size="19" font-weight="700" fill="#191919">프롬프트 자동 확장 · 프리셋 · 하네스 내장</text>
+  <text class="t" x="680" y="436" font-size="17" fill="#6d6d6d">효과가 입증된 요령은 제품 뒷단 인프라로 포장됨</text>
+
+  <path d="M880 464 L880 496" stroke="#c9c9c9" stroke-width="2"/>
+  <path d="M872 488 L880 498 L888 488" fill="none" stroke="#c9c9c9" stroke-width="2"/>
+
+  <rect x="650" y="504" width="460" height="128" fill="#fafafa"/>
+  <text class="t" x="680" y="544" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">3단계 · 5년 뒤 남을 부적</text>
+  <text class="t" x="680" y="580" font-size="19" font-weight="700" fill="#191919">"당신은 숙련된 개발자입니다. 실수하지 마세요"</text>
+  <text class="t" x="680" y="610" font-size="17" fill="#6d6d6d">모델이 알아서 처리한 뒤에도 맞춤 지침에 끝까지 남음</text>
+
+  <text class="t" x="1110" y="668" text-anchor="end" font-size="17" fill="#6d6d6d">진짜로 효과가 있는 요령일수록 가장 먼저 제품의 기본값으로 사라진다</text>
+</svg>
