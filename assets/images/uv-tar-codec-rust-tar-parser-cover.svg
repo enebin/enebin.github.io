@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="관대한 기존 tar 파서의 역동기화 취약점과 첫 블록에서 포맷을 잠그는 tar-codec의 중첩 상태 머신을 나란히 비교한 표지 그림">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+
+  <text class="t" x="90" y="100" font-size="16" font-weight="700" letter-spacing="2" fill="#e34f32">ASTRAL TAR-CODEC &amp; STATE MACHINES</text>
+  <text class="t" x="90" y="165" font-size="46" font-weight="700" fill="#191919">Astral이 uv의 tar 파서 tar-codec과</text>
+  <text class="t" x="90" y="222" font-size="46" font-weight="700" fill="#191919">상태 머신을 새로 짠 이유</text>
+
+  <rect x="90" y="320" width="440" height="210" fill="#fafafa" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="310" y="370" text-anchor="middle" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">관대한 기존 파서</text>
+  <text class="t" x="310" y="430" text-anchor="middle" font-size="28" font-weight="700" fill="#6d6d6d">모호한 헤더 허용</text>
+  <text class="t" x="310" y="478" text-anchor="middle" font-size="28" font-weight="700" fill="#6d6d6d">파서 역동기화 발생</text>
+  <path d="M185 422 L435 422" stroke="#6d6d6d" stroke-width="2"/>
+  <path d="M175 470 L445 470" stroke="#6d6d6d" stroke-width="2"/>
+
+  <path d="M530 425 L640 425" stroke="#6d6d6d" stroke-width="2"/>
+  <path d="M630 417 L640 425 L630 433" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+
+  <rect x="640" y="320" width="470" height="210" fill="#ffffff" stroke="#e34f32" stroke-width="3"/>
+  <text class="t" x="875" y="370" text-anchor="middle" font-size="15" font-weight="700" letter-spacing="2" fill="#e34f32">새로 짠 TAR-CODEC</text>
+  <text class="t" x="875" y="430" text-anchor="middle" font-size="28" font-weight="700" fill="#191919">첫 헤더에서 계열 고정</text>
+  <text class="t" x="875" y="478" text-anchor="middle" font-size="28" font-weight="700" fill="#191919">중첩 상태 머신 검증</text>
+
+  <text class="t" x="1110" y="620" text-anchor="end" font-size="17" fill="#6d6d6d">검사기와 설치 도구가 같은 압축 파일에서 다른 파일을 읽는 일을 막는다</text>
+</svg>

@@ -6,6 +6,7 @@ tags:
   - Rust
   - 보안
 reading_time: 8분
+image: /assets/images/uv-tar-codec-rust-tar-parser-cover.svg
 ---
 
 파이썬 패키지 저장소(PyPI)에 올라온 소스 배포판(`.tar.gz`)을 보안 검사기가 열어 본다. 안에는 평범한 `innocent.py` 하나만 들어 있고 악성 코드는 보이지 않는다. 검사를 통과한 패키지가 배포 목록에 올라간다.
