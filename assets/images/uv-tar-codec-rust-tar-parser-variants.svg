@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="1979년 UNIX V7 tar의 512바이트 고정 헤더 한계를 넘기 위해 POSIX UStar/pax와 GNU tar가 각기 다른 방식으로 확장 블록과 인코딩을 덧붙인 구조를 비교한 그림">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+
+  <text class="t" x="90" y="64" font-size="16" font-weight="700" letter-spacing="2" fill="#6d6d6d">512바이트 고정 블록 위에서 갈라진 세 가지 tar 방언과 확장 방식</text>
+
+  <!-- Column 1: UNIX V7 -->
+  <rect x="90" y="100" width="320" height="516" fill="#fafafa"/>
+  <text class="t" x="118" y="142" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">1979 · UNIX V7 TAR</text>
+  <text class="t" x="118" y="182" font-size="30" font-weight="700" fill="#191919">고정 헤더의 원형</text>
+  <line x1="118" y1="204" x2="382" y2="204" stroke="#e9e9e9" stroke-width="1"/>
+
+  <text class="t" x="118" y="240" font-size="18" font-weight="700" fill="#191919">경로명 최대 100바이트</text>
+  <text class="t" x="118" y="268" font-size="16" fill="#6d6d6d">name[100]과 linkname[100] 고정 배열</text>
+
+  <text class="t" x="118" y="314" font-size="18" font-weight="700" fill="#191919">파일 크기 최대 8GiB - 1B</text>
+  <text class="t" x="118" y="342" font-size="16" fill="#6d6d6d">size[12]에 NUL 종료 8진수 문자열 저장</text>
+  <text class="t" x="118" y="366" font-size="16" fill="#6d6d6d">최댓값 0o77777777777 (바이트당 3비트)</text>
+
+  <text class="t" x="118" y="412" font-size="18" font-weight="700" fill="#191919">단순한 엔트리와 공간 낭비</text>
+  <text class="t" x="118" y="440" font-size="16" fill="#6d6d6d">일반 파일·하드링크·심볼릭링크만 정의</text>
+  <text class="t" x="118" y="464" font-size="16" fill="#6d6d6d">513바이트 파일에 최소 1,536바이트 소모</text>
+
+  <rect x="118" y="504" width="264" height="84" fill="#ffffff" stroke="#c9c9c9" stroke-width="1.5"/>
+  <text class="t" x="136" y="534" font-size="15" font-weight="700" fill="#191919">블록 배치</text>
+  <text class="t" x="136" y="560" font-size="15" fill="#6d6d6d">[V7 헤더] → [본문 블록...] → [0 블록×2]</text>
+
+  <!-- Column 2: UStar / pax -->
+  <rect x="440" y="100" width="320" height="516" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="468" y="142" font-size="15" font-weight="700" letter-spacing="2" fill="#e34f32">POSIX · USTAR 와 PAX</text>
+  <text class="t" x="468" y="182" font-size="30" font-weight="700" fill="#191919">키-값 확장 헤더</text>
+  <line x1="468" y1="204" x2="732" y2="204" stroke="#e9e9e9" stroke-width="1"/>
+
+  <text class="t" x="468" y="240" font-size="18" font-weight="700" fill="#191919">UStar: prefix[155] 추가</text>
+  <text class="t" x="468" y="268" font-size="16" fill="#6d6d6d">magic="ustar\0", 경로 한계를 255B로 확장</text>
+
+  <text class="t" x="468" y="314" font-size="18" font-weight="700" fill="#191919">pax: 확장 블록 x(지역) · g(전역)</text>
+  <text class="t" x="468" y="342" font-size="16" fill="#6d6d6d">"&lt;길이&gt; &lt;키&gt;=&lt;값&gt;\n" 본문으로 한계 해제</text>
+  <text class="t" x="468" y="366" font-size="16" fill="#6d6d6d">예: "13 size=8000\n" (길이 숫자·개행 포함)</text>
+
+  <text class="t" x="468" y="412" font-size="18" font-weight="700" fill="#e34f32">우선순위: 지역(x) &gt; 전역(g) &gt; UStar</text>
+  <text class="t" x="468" y="440" font-size="16" fill="#191919">뒤따르는 UStar 헤더의 이름·크기를 덮어씀</text>
+  <text class="t" x="468" y="464" font-size="16" fill="#6d6d6d">하위 호환용 가짜 경로(PaxHeaders) 보유</text>
+
+  <rect x="468" y="504" width="264" height="84" fill="#fafafa" stroke="#e34f32" stroke-width="1.5"/>
+  <text class="t" x="486" y="534" font-size="15" font-weight="700" fill="#e34f32">블록 배치</text>
+  <text class="t" x="486" y="560" font-size="15" fill="#191919">[g 헤더+본문] → [x 헤더+본문] → [UStar]</text>
+
+  <!-- Column 3: GNU tar -->
+  <rect x="790" y="100" width="320" height="516" fill="#fafafa"/>
+  <text class="t" x="818" y="142" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">1997~ · GNU TAR</text>
+  <text class="t" x="818" y="182" font-size="30" font-weight="700" fill="#191919">이진 크기와 L·K 블록</text>
+  <line x1="818" y1="204" x2="1082" y2="204" stroke="#e9e9e9" stroke-width="1"/>
+
+  <text class="t" x="818" y="240" font-size="18" font-weight="700" fill="#191919">초기 UStar 초안에서 독자 분기</text>
+  <text class="t" x="818" y="268" font-size="16" fill="#6d6d6d">magic="ustar " (공백 포함), 희소 파일 메타데이터</text>
+
+  <text class="t" x="818" y="314" font-size="18" font-weight="700" fill="#191919">Base-256 이진 숫자 인코딩</text>
+  <text class="t" x="818" y="342" font-size="16" fill="#6d6d6d">첫 바이트 최상위 비트가 1이면 이진수로 해석</text>
+  <text class="t" x="818" y="366" font-size="16" fill="#6d6d6d">size[12] 한계를 2^80바이트(1요비바이트)로 확장</text>
+
+  <text class="t" x="818" y="412" font-size="18" font-weight="700" fill="#191919">전용 확장 타입플래그 L 과 K</text>
+  <text class="t" x="818" y="440" font-size="16" fill="#6d6d6d">L 블록 본문은 긴 파일명, K 블록 본문은 링크 대상</text>
+  <text class="t" x="818" y="464" font-size="16" fill="#6d6d6d">한 엔트리 앞에 L과 K를 연달아 쌓기 가능</text>
+
+  <rect x="818" y="504" width="264" height="84" fill="#ffffff" stroke="#c9c9c9" stroke-width="1.5"/>
+  <text class="t" x="836" y="534" font-size="15" font-weight="700" fill="#191919">블록 배치</text>
+  <text class="t" x="836" y="560" font-size="15" fill="#6d6d6d">[L 헤더+본문] → [K 헤더+본문] → [GNU]</text>
+
+  <text class="t" x="1110" y="664" text-anchor="end" font-size="17" fill="#6d6d6d">앞선 블록의 본문이 뒤따르는 블록 헤더의 파일명과 크기를 바꾸기 때문에 문맥 없는 블록 파싱이 불가능해진다</text>
+</svg>

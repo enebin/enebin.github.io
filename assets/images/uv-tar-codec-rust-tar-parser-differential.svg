@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="동일한 512바이트 tar 블록 스트림을 두고 패키지 저장소 검사기는 innocent.py만 보고 통과시키지만, 설치 도구의 관대한 파서는 헤더 경계를 다르게 해석해 evil.py를 꺼내는 파서 역동기화 과정을 비교한 그림">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+
+  <text class="t" x="90" y="64" font-size="16" font-weight="700" letter-spacing="2" fill="#6d6d6d">같은 tar 바이트 스트림에서 전혀 다른 파일이 풀리는 파서 역동기화</text>
+
+  <!-- Shared input stream -->
+  <rect x="90" y="96" width="1020" height="142" fill="#fafafa"/>
+  <text class="t" x="120" y="132" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">입력 · 512바이트 고정 블록 스트림 (모호한 크기 값과 확장 헤더가 섞인 아카이브)</text>
+
+  <rect x="120" y="152" width="220" height="64" fill="#ffffff" stroke="#c9c9c9" stroke-width="1.5"/>
+  <text class="t" x="138" y="180" font-size="17" font-weight="700" fill="#191919">블록 0 · 헤더 A</text>
+  <text class="t" x="138" y="203" font-size="15" fill="#6d6d6d">innocent.py (비표준 size)</text>
+
+  <rect x="356" y="152" width="220" height="64" fill="#ffffff" stroke="#c9c9c9" stroke-width="1.5"/>
+  <text class="t" x="374" y="180" font-size="17" font-weight="700" fill="#191919">블록 1 · 본문 / 헤더</text>
+  <text class="t" x="374" y="203" font-size="15" fill="#6d6d6d">정상 코드 512바이트</text>
+
+  <rect x="592" y="152" width="240" height="64" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="610" y="180" font-size="17" font-weight="700" fill="#e34f32">블록 2 · 숨겨진 헤더 B</text>
+  <text class="t" x="610" y="203" font-size="15" fill="#191919">evil.py (size = 512)</text>
+
+  <rect x="848" y="152" width="232" height="64" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="866" y="180" font-size="17" font-weight="700" fill="#e34f32">블록 3 · 숨겨진 본문</text>
+  <text class="t" x="866" y="203" font-size="15" fill="#191919">악성 스크립트 페이로드</text>
+
+  <!-- Arrows down to two parsers -->
+  <path d="M320 244 L320 284" stroke="#c9c9c9" stroke-width="2"/>
+  <path d="M312 276 L320 286 L328 276" fill="none" stroke="#c9c9c9" stroke-width="2"/>
+
+  <path d="M880 244 L880 284" stroke="#e34f32" stroke-width="2"/>
+  <path d="M872 276 L880 286 L888 276" fill="none" stroke="#e34f32" stroke-width="2"/>
+
+  <!-- Left parser: Index scanner -->
+  <rect x="90" y="294" width="490" height="320" fill="#fafafa"/>
+  <text class="t" x="120" y="336" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">파서 A · 패키지 저장소(PyPI) 보안 검사기</text>
+  <text class="t" x="120" y="376" font-size="30" font-weight="700" fill="#191919">블록 1~3을 통째로 본문 취급</text>
+
+  <line x1="120" y1="398" x2="550" y2="398" stroke="#e9e9e9" stroke-width="1"/>
+
+  <text class="t" x="120" y="434" font-size="18" font-weight="700" fill="#191919">1. 헤더 A의 size를 1,536바이트(3블록)로 해석</text>
+  <text class="t" x="120" y="464" font-size="17" fill="#6d6d6d">공백이나 확장 레코드 우선순위를 자체 규칙으로 계산함</text>
+
+  <text class="t" x="120" y="510" font-size="18" font-weight="700" fill="#191919">2. 블록 2의 evil.py 헤더를 일반 텍스트로 건너뜀</text>
+  <text class="t" x="120" y="540" font-size="17" fill="#6d6d6d">본문 블록은 내용과 무관하게 헤더로 분류하지 않음</text>
+
+  <rect x="120" y="562" width="430" height="36" fill="#ffffff" stroke="#c9c9c9" stroke-width="1.5"/>
+  <text class="t" x="138" y="586" font-size="16" font-weight="700" fill="#191919">검사 결과: innocent.py 파일 1개만 확인 · 정상 통과</text>
+
+  <!-- Right parser: Lenient installer -->
+  <rect x="620" y="294" width="490" height="320" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="650" y="336" font-size="15" font-weight="700" letter-spacing="2" fill="#e34f32">파서 B · 설치 도구(uv · pip)의 관대한 파서</text>
+  <text class="t" x="650" y="376" font-size="30" font-weight="700" fill="#191919">블록 2를 새 파일 헤더로 인식</text>
+
+  <line x1="650" y1="398" x2="1080" y2="398" stroke="#e9e9e9" stroke-width="1"/>
+
+  <text class="t" x="650" y="434" font-size="18" font-weight="700" fill="#191919">1. 헤더 A의 size를 512바이트(1블록)로 해석</text>
+  <text class="t" x="650" y="464" font-size="17" fill="#6d6d6d">블록 1만 읽고 곧바로 다음 헤더 대기 상태로 복귀함</text>
+
+  <text class="t" x="650" y="510" font-size="18" font-weight="700" fill="#191919">2. 블록 2에서 헤더 B를 만나 두 번째 파일을 추출</text>
+  <text class="t" x="650" y="540" font-size="17" fill="#6d6d6d">검사기가 본문으로 넘긴 블록 3이 실제 실행 파일로 풀림</text>
+
+  <rect x="650" y="562" width="430" height="36" fill="#fafafa" stroke="#e34f32" stroke-width="1.5"/>
+  <text class="t" x="668" y="586" font-size="16" font-weight="700" fill="#e34f32">설치 결과: innocent.py + evil.py 추출 · 빌드 시 코드 실행</text>
+
+  <text class="t" x="1110" y="664" text-anchor="end" font-size="17" fill="#6d6d6d">블록 경계 해석이 한 번 어긋나면 두 파서가 바라보는 아카이브의 파일 목록 자체가 달라진다</text>
+</svg>
