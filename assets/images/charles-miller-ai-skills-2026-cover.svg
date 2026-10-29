@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="몇 달 만에 기본 기능으로 흡수되는 AI 요령과 끝까지 남는 소프트웨어 공학 역량을 나란히 보여 주는 표지 그림">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+
+  <text class="t" x="90" y="100" font-size="16" font-weight="700" letter-spacing="2" fill="#e34f32">"AI SKILLS" ARE WORTHLESS IN 2026</text>
+  <text class="t" x="90" y="165" font-size="46" font-weight="700" fill="#191919">찰스 밀러가 2026년의 'AI 활용법'에</text>
+  <text class="t" x="90" y="222" font-size="46" font-weight="700" fill="#191919">가치가 없다고 말한 이유</text>
+
+  <rect x="90" y="320" width="440" height="210" fill="#fafafa"/>
+  <text class="t" x="310" y="370" text-anchor="middle" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">몇 달 뒤 기본 기능이 되는 것</text>
+  <text class="t" x="310" y="430" text-anchor="middle" font-size="28" font-weight="700" fill="#6d6d6d">프롬프트 주문</text>
+  <text class="t" x="310" y="478" text-anchor="middle" font-size="28" font-weight="700" fill="#6d6d6d">설정 요령</text>
+  <path d="M200 422 L420 422" stroke="#6d6d6d" stroke-width="2"/>
+  <path d="M220 470 L400 470" stroke="#6d6d6d" stroke-width="2"/>
+
+  <path d="M530 425 L640 425" stroke="#6d6d6d" stroke-width="2"/><path d="M630 417 L640 425 L630 433" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+
+  <rect x="640" y="320" width="470" height="210" fill="#ffffff" stroke="#e34f32" stroke-width="3"/>
+  <text class="t" x="875" y="370" text-anchor="middle" font-size="15" font-weight="700" letter-spacing="2" fill="#e34f32">끝까지 남는 것</text>
+  <text class="t" x="875" y="430" text-anchor="middle" font-size="28" font-weight="700" fill="#191919">문제를 쪼개는 힘</text>
+  <text class="t" x="875" y="478" text-anchor="middle" font-size="28" font-weight="700" fill="#191919">시스템 엔지니어링</text>
+
+  <text class="t" x="1110" y="620" text-anchor="end" font-size="17" fill="#6d6d6d">i++보다 ++i가 빠르다는 전설처럼 요령은 금방 낡는다</text>
+</svg>

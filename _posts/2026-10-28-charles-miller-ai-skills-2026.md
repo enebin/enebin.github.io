@@ -6,6 +6,7 @@ tags:
   - AI tooling
   - 커리어
 reading_time: 8분
+image: /assets/images/charles-miller-ai-skills-2026-cover.svg
 ---
 
 새로 나온 코딩 에이전트나 이미지 생성 도구를 잘 써 보려고 주말 내내 프롬프트 작성법과 설정 요령을 정리해 둔다. 어떤 문구를 넣어야 모델이 실수를 덜 하는지, 어떤 영어 단어를 붙여야 화질이 좋아지는지 노트에 적어 두고 남들보다 앞선 'AI 활용 기술'을 익혔다고 안심한다.
