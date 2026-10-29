@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="에이전트 프로젝트를 bot 폴더의 지침·도구·채널·하위 에이전트와 evals 폴더의 평가 코드로 나누고 모델의 판단과 결정론적 코드 처리를 결합하는 구조를 보여주는 그림">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+
+  <!-- top label -->
+  <text class="t" x="72" y="64" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">AGENT AS CODE</text>
+  <text class="t" x="1128" y="64" text-anchor="end" font-size="16" fill="#6d6d6d">Git 버전 관리 · PR 리뷰 · CI 검증 대상</text>
+  <line x1="72" y1="84" x2="1128" y2="84" stroke="#e9e9e9" stroke-width="2"/>
+
+  <!-- left column: Markdown / Model Judgment -->
+  <rect x="72" y="114" width="480" height="360" fill="#fafafa" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="108" y="156" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">MARKDOWN · 모델의 판단 영역</text>
+  <text class="t" x="108" y="198" font-size="30" font-weight="700" fill="#191919">지침과 작업 절차</text>
+
+  <rect x="108" y="226" width="408" height="96" fill="#ffffff" stroke="#e9e9e9" stroke-width="1.5"/>
+  <text class="t" x="132" y="262" font-size="19" font-weight="700" fill="#191919">bot/instructions.md · skills/*.md</text>
+  <text class="t" x="132" y="294" font-size="17" fill="#6d6d6d">목표, 행동 기준, 필요할 때 불러오는 검토 루브릭</text>
+
+  <rect x="108" y="342" width="408" height="96" fill="#ffffff" stroke="#e9e9e9" stroke-width="1.5"/>
+  <text class="t" x="132" y="378" font-size="19" font-weight="700" fill="#191919">bot/subagents/&lt;id&gt;/</text>
+  <text class="t" x="132" y="410" font-size="17" fill="#6d6d6d">코드 변경 해석, 과거 교훈 대조, 위험도 등급 채점</text>
+
+  <!-- arrow between columns -->
+  <path d="M562 294 L638 294" stroke="#e34f32" stroke-width="2"/>
+  <path d="M628 286 L640 294 L628 302" fill="none" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="600" y="274" text-anchor="middle" font-size="15" font-weight="700" fill="#e34f32">도구 호출</text>
+
+  <!-- right column: TypeScript / Deterministic Code -->
+  <rect x="648" y="114" width="480" height="360" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="684" y="156" font-size="15" font-weight="700" letter-spacing="2" fill="#e34f32">TYPESCRIPT · 결정론적 코드 경계</text>
+  <text class="t" x="684" y="198" font-size="30" font-weight="700" fill="#191919">도구와 정책 강제</text>
+
+  <rect x="684" y="226" width="408" height="96" fill="#fafafa" stroke="#e9e9e9" stroke-width="1.5"/>
+  <text class="t" x="708" y="262" font-size="19" font-weight="700" fill="#191919">bot/tools/*.ts · channels/*.ts</text>
+  <text class="t" x="708" y="294" font-size="17" fill="#6d6d6d">Slack·PR 이벤트 수신, 외부 API 호출, 결과 게시</text>
+
+  <rect x="684" y="342" width="408" height="96" fill="#fafafa" stroke="#e9e9e9" stroke-width="1.5"/>
+  <text class="t" x="708" y="378" font-size="19" font-weight="700" fill="#191919">호스트 정책 계산 (기준 브랜치 참조)</text>
+  <text class="t" x="708" y="410" font-size="17" fill="#6d6d6d">PR 내부의 규칙 위조 차단, mode: hard 사람 승인 강제</text>
+
+  <!-- vertical arrows to evals -->
+  <path d="M312 474 L312 516" stroke="#6d6d6d" stroke-width="2"/>
+  <path d="M304 506 L312 518 L320 506" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+  <path d="M888 474 L888 516" stroke="#6d6d6d" stroke-width="2"/>
+  <path d="M880 506 L888 518 L896 506" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+
+  <!-- bottom bar: evals -->
+  <rect x="72" y="522" width="1056" height="116" fill="#fafafa" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="108" y="562" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">EVALS · 회귀 검증</text>
+  <text class="t" x="108" y="602" font-size="30" font-weight="700" fill="#191919">evals/*.eval.ts</text>
+  <text class="t" x="390" y="598" font-size="18" fill="#6d6d6d">고정된 입력과 재생 이벤트로 도구 호출 여부·JSON 구조·외부 쓰기 차단을 자동 검사한다</text>
+</svg>

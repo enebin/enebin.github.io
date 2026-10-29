@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="모델 제작사 공식 하네스, 오픈소스 하네스, 기업용 에이전트 SDK가 각각 구독 가성비와 모델 최적화, 모델 전환 자유도, 웹훅·보안·호스팅 제어권 중 무엇을 우선하는지 비교한 그림">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+
+  <!-- header -->
+  <text class="t" x="72" y="64" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">2026년 10월 에이전트 하네스 선택 기준</text>
+  <text class="t" x="1128" y="64" text-anchor="end" font-size="16" fill="#6d6d6d">개인 대화형 도구에서 백그라운드 워크로드 호스팅으로</text>
+  <line x1="72" y1="84" x2="1128" y2="84" stroke="#e9e9e9" stroke-width="2"/>
+
+  <!-- column 1: Frontier Lab CLI -->
+  <rect x="72" y="116" width="330" height="460" fill="#fafafa" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="104" y="160" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">모델 제작사 공식 하네스</text>
+  <text class="t" x="104" y="202" font-size="30" font-weight="700" fill="#191919">Claude Code · Codex</text>
+  <line x1="104" y1="226" x2="370" y2="226" stroke="#e9e9e9" stroke-width="1.5"/>
+
+  <text class="t" x="104" y="264" font-size="16" font-weight="700" fill="#191919">주된 실행 환경</text>
+  <text class="t" x="104" y="292" font-size="17" fill="#6d6d6d">개발자 터미널 · 대화형 코딩 세션</text>
+
+  <text class="t" x="104" y="344" font-size="16" font-weight="700" fill="#191919">선택하는 이유</text>
+  <text class="t" x="104" y="372" font-size="17" fill="#6d6d6d">월 100~200달러 정액 구독으로</text>
+  <text class="t" x="104" y="398" font-size="17" fill="#6d6d6d">Opus 5.5·Fable 5.1을 저렴하게 사용</text>
+  <text class="t" x="104" y="424" font-size="17" fill="#6d6d6d">자사 모델에 맞춘 최적화된 성능</text>
+
+  <text class="t" x="104" y="476" font-size="16" font-weight="700" fill="#6d6d6d">한계</text>
+  <text class="t" x="104" y="504" font-size="17" fill="#6d6d6d">단일 공급사 중심, 웹훅 기반의</text>
+  <text class="t" x="104" y="530" font-size="17" fill="#6d6d6d">사내 정책 강제용으로는 무거움</text>
+
+  <!-- column 2: Open Source Harness -->
+  <rect x="435" y="116" width="330" height="460" fill="#fafafa" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="467" y="160" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">오픈소스 하네스</text>
+  <text class="t" x="467" y="202" font-size="30" font-weight="700" fill="#191919">Pi · OpenCode · Juggler</text>
+  <line x1="467" y1="226" x2="733" y2="226" stroke="#e9e9e9" stroke-width="1.5"/>
+
+  <text class="t" x="467" y="264" font-size="16" font-weight="700" fill="#191919">주된 실행 환경</text>
+  <text class="t" x="467" y="292" font-size="17" fill="#6d6d6d">로컬 터미널 · 다중 모델 라우팅</text>
+
+  <text class="t" x="467" y="344" font-size="16" font-weight="700" fill="#191919">선택하는 이유</text>
+  <text class="t" x="467" y="372" font-size="17" fill="#6d6d6d">여러 모델과 구독을 자유롭게 전환</text>
+  <text class="t" x="467" y="398" font-size="17" fill="#6d6d6d">높은 커스터마이징과 종속 탈피</text>
+
+  <text class="t" x="467" y="476" font-size="16" font-weight="700" fill="#6d6d6d">한계</text>
+  <text class="t" x="467" y="504" font-size="17" fill="#6d6d6d">설치·학습 전환 비용과 약관 논란,</text>
+  <text class="t" x="467" y="530" font-size="17" fill="#6d6d6d">대화형 UI·로컬 상태 위주의 설계</text>
+
+  <!-- column 3: Enterprise Agent SDK -->
+  <rect x="798" y="116" width="330" height="460" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="830" y="160" font-size="15" font-weight="700" letter-spacing="2" fill="#e34f32">코드형 워크로드 SDK</text>
+  <text class="t" x="830" y="202" font-size="30" font-weight="700" fill="#191919">Cursor Agent SDK 등</text>
+  <line x1="830" y1="226" x2="1096" y2="226" stroke="#e9e9e9" stroke-width="1.5"/>
+
+  <text class="t" x="830" y="264" font-size="16" font-weight="700" fill="#191919">주된 실행 환경</text>
+  <text class="t" x="830" y="292" font-size="17" fill="#6d6d6d">PR·Slack·이슈 웹훅 및 상시 서버</text>
+
+  <text class="t" x="830" y="344" font-size="16" font-weight="700" fill="#e34f32">선택하는 이유</text>
+  <text class="t" x="830" y="372" font-size="17" fill="#191919">결정론적 코드 경계와 권한 분리</text>
+  <text class="t" x="830" y="398" font-size="17" fill="#191919">도메인 허용 목록·시크릿·감사 로그</text>
+  <text class="t" x="830" y="424" font-size="17" fill="#191919">관리형 배포와 자체 컨테이너 호스팅</text>
+
+  <text class="t" x="830" y="476" font-size="16" font-weight="700" fill="#6d6d6d">한계</text>
+  <text class="t" x="830" y="504" font-size="17" fill="#6d6d6d">플랫폼별 SDK 파편화와</text>
+  <text class="t" x="830" y="530" font-size="17" fill="#6d6d6d">공급사 인프라 결합 우려</text>
+
+  <!-- bottom summary -->
+  <text class="t" x="600" y="632" text-anchor="middle" font-size="18" font-weight="700" fill="#191919">사람이 직접 치는 대화창에서는 구독 가성비가 이기고, 서버에서 혼자 도는 사내 업무에서는 통제력과 배포 구조가 이긴다</text>
+</svg>
