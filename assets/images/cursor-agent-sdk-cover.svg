@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="프롬프트 설정창 대신 Markdown 지침과 TypeScript 도구·정책, 자동 평가를 코드로 묶어 배포하는 Cursor Agent SDK 표지 그림">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+
+  <text class="t" x="90" y="100" font-size="16" font-weight="700" letter-spacing="2" fill="#e34f32">CURSOR AGENT SDK · AGENT AS CODE</text>
+  <text class="t" x="90" y="165" font-size="44" font-weight="700" fill="#191919">Cursor Agent SDK 공개와</text>
+  <text class="t" x="90" y="222" font-size="44" font-weight="700" fill="#191919">에이전트 하네스 경쟁</text>
+
+  <!-- card 1 -->
+  <rect x="90" y="320" width="310" height="200" fill="#fafafa"/>
+  <text class="t" x="120" y="368" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">판단과 처리의 분리</text>
+  <text class="t" x="120" y="422" font-size="30" font-weight="700" fill="#191919">Markdown + TS</text>
+  <text class="t" x="120" y="462" font-size="17" fill="#6d6d6d">해석과 위험도 채점은 모델에</text>
+  <text class="t" x="120" y="490" font-size="17" fill="#6d6d6d">정책 검증과 외부 호출은 코드에</text>
+
+  <path d="M408 420 L438 420" stroke="#c9c9c9" stroke-width="2"/>
+  <path d="M430 412 L440 420 L430 428" fill="none" stroke="#c9c9c9" stroke-width="2"/>
+
+  <!-- card 2 -->
+  <rect x="445" y="320" width="310" height="200" fill="#fafafa"/>
+  <text class="t" x="475" y="368" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">행동 계약과 힐클라이밍</text>
+  <text class="t" x="475" y="422" font-size="30" font-weight="700" fill="#191919">14회 → 5회</text>
+  <text class="t" x="475" y="462" font-size="17" fill="#6d6d6d">고정 입력으로 도구 호출 여부 검사</text>
+  <text class="t" x="475" y="490" font-size="17" fill="#6d6d6d">실행 시간 92초 → 31초 단축</text>
+
+  <path d="M763 420 L793 420" stroke="#c9c9c9" stroke-width="2"/>
+  <path d="M785 412 L795 420 L785 428" fill="none" stroke="#c9c9c9" stroke-width="2"/>
+
+  <!-- card 3 -->
+  <rect x="800" y="320" width="310" height="200" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="830" y="368" font-size="15" font-weight="700" letter-spacing="2" fill="#e34f32">하네스 경쟁의 이동</text>
+  <text class="t" x="830" y="422" font-size="30" font-weight="700" fill="#191919">워크로드 호스팅</text>
+  <text class="t" x="830" y="462" font-size="17" fill="#6d6d6d">대화형 코딩은 구독 가성비 중심</text>
+  <text class="t" x="830" y="490" font-size="17" fill="#6d6d6d">사내 자동화는 보안·배포 통제 중심</text>
+
+  <text class="t" x="1110" y="625" text-anchor="end" font-size="17" fill="#6d6d6d">모델의 판단을 어떤 코드 울타리에 가두고 어디서 실행할 것인가</text>
+</svg>
