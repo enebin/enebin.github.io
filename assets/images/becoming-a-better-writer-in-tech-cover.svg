@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="Amazon과 Stripe가 시니어 엔지니어와 매니저 채용에서 코드보다 글쓰기를 먼저 보는 이유를 나타낸 표지 그림">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+
+  <text class="t" x="90" y="100" font-size="16" font-weight="700" letter-spacing="2" fill="#e34f32">WRITING IN TECH × CAREER</text>
+  <text class="t" x="90" y="165" font-size="44" font-weight="700" fill="#191919">Amazon과 Stripe는 왜 시니어 면접에서</text>
+  <text class="t" x="90" y="222" font-size="44" font-weight="700" fill="#191919">코드보다 글쓰기를 먼저 보나</text>
+
+  <rect x="90" y="340" width="450" height="170" fill="#fafafa" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="315" y="400" text-anchor="middle" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">코드만 짤 때의 범위</text>
+  <text class="t" x="315" y="458" text-anchor="middle" font-size="30" font-weight="700" fill="#6d6d6d">내 코드와 우리 팀 안에서 멈춘다</text>
+
+  <path d="M540 425 L640 425" stroke="#6d6d6d" stroke-width="2"/>
+  <path d="M630 417 L640 425 L630 433" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+
+  <rect x="640" y="340" width="470" height="170" fill="#ffffff" stroke="#e34f32" stroke-width="3"/>
+  <text class="t" x="875" y="400" text-anchor="middle" font-size="15" font-weight="700" letter-spacing="2" fill="#e34f32">명확한 글을 더할 때의 범위</text>
+  <text class="t" x="875" y="458" text-anchor="middle" font-size="30" font-weight="700" fill="#191919">다른 팀과 전사 의사결정을 움직인다</text>
+
+  <text class="t" x="1110" y="620" text-anchor="end" font-size="17" fill="#6d6d6d">하루에 코드보다 자연어 단어를 더 많이 쓰는 시니어 엔지니어의 무기</text>
+</svg>

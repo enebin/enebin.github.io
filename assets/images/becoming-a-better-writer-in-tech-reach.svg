@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="주니어에서 시니어, 스태프 엔지니어와 매니저로 올라갈수록 글이 닿는 범위가 팀 내부에서 여러 팀과 전사로 넓어지고 기업들이 채용에서 글쓰기 과제를 보는 구조를 나타낸 그림">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+
+  <text class="t" x="72" y="138" font-size="16" font-weight="700" fill="#6d6d6d">팀 내부 소통</text>
+  <path d="M92 162 L92 552" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="72" y="586" font-size="16" font-weight="700" fill="#e34f32">전사 영향력</text>
+
+  <rect x="190" y="84" width="920" height="142" fill="#fafafa" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="230" y="130" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">주니어 · 일반 엔지니어</text>
+  <text class="t" x="230" y="170" font-size="30" font-weight="700" fill="#191919">커밋 요약, 코드 리뷰, 팀 채팅</text>
+  <text class="t" x="230" y="204" font-size="18" fill="#6d6d6d">같은 맥락을 공유하는 동료들과 매일 주고받는 기록</text>
+
+  <path d="M650 226 L650 264" stroke="#6d6d6d" stroke-width="2"/>
+  <path d="M642 256 L650 266 L658 256" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+
+  <rect x="190" y="272" width="920" height="142" fill="#fafafa" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="230" y="318" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">시니어 엔지니어 · 테크 리드</text>
+  <text class="t" x="230" y="358" font-size="30" font-weight="700" fill="#191919">설계 문서, PRD 의견, 장애 회고록, 런북</text>
+  <text class="t" x="230" y="392" font-size="18" fill="#6d6d6d">트레이드오프와 판단 근거를 남겨 다른 팀이 언제든 읽게 만든다</text>
+
+  <path d="M650 414 L650 452" stroke="#e34f32" stroke-width="2"/>
+  <path d="M642 444 L650 454 L658 444" fill="none" stroke="#e34f32" stroke-width="2"/>
+
+  <rect x="190" y="460" width="920" height="154" fill="#ffffff" stroke="#e34f32" stroke-width="3"/>
+  <text class="t" x="230" y="506" font-size="15" font-weight="700" letter-spacing="2" fill="#e34f32">스태프 · 프린시펄 · 엔지니어링 매니저</text>
+  <text class="t" x="230" y="546" font-size="30" font-weight="700" fill="#191919">전사 프로젝트·인력 제안서, 채용 시 글쓰기 과제</text>
+  <text class="t" x="230" y="582" font-size="18" fill="#6d6d6d">Amazon(EM), Stripe(Staff+), TrueLayer(Principal)는 면접에서 글쓰기부터 평가한다</text>
+
+  <text class="t" x="1110" y="658" text-anchor="end" font-size="17" fill="#6d6d6d">내 팀 바깥을 설득하는 유일한 확장 도구는 결국 잘 쓰인 글이다</text>
+</svg>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="막연한 감상을 묻는 피드백 요청과 가장 헷갈리는 부분이나 실행 판별 기준을 콕 집어 묻는 구체적 피드백 요청의 차이를 비교한 그림">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+
+  <rect x="80" y="96" width="1040" height="220" fill="#fafafa" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="120" y="144" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">막연한 질문과 모호한 서술</text>
+  <text class="t" x="120" y="188" font-size="30" font-weight="700" fill="#6d6d6d">"초안 썼는데 한번 봐주실래요? 설명이 이해되나요?"</text>
+  <text class="t" x="120" y="232" font-size="18" fill="#6d6d6d">서술 예: "오디오 데이터에서 176,400개 샘플을 처리한다" (채널별인지 프레임인지 불분명)</text>
+  <text class="t" x="120" y="268" font-size="18" font-weight="700" fill="#6d6d6d">돌아오는 답: "네, 잘 쓰셨네요" — 정작 독자가 막히는 부분은 그대로 남는다</text>
+
+  <path d="M600 316 L600 368" stroke="#e34f32" stroke-width="2"/>
+  <path d="M592 360 L600 370 L608 360" fill="none" stroke="#e34f32" stroke-width="2"/>
+
+  <rect x="80" y="376" width="1040" height="236" fill="#ffffff" stroke="#e34f32" stroke-width="3"/>
+  <text class="t" x="120" y="424" font-size="15" font-weight="700" letter-spacing="2" fill="#e34f32">구체적인 질문과 판별 가능한 기준</text>
+  <text class="t" x="120" y="468" font-size="30" font-weight="700" fill="#191919">"가장 헷갈리거나 군더더기인 곳은 어디인가요?"</text>
+  <text class="t" x="120" y="512" font-size="18" fill="#191919">서술 예: "44.1kHz에서 176,400프레임 = 4초 분량이 나오면 정상이다"</text>
+  <text class="t" x="120" y="548" font-size="18" fill="#191919">검증 질문: "이 입력으로 실행했을 때 어떤 값이 나오면 성공이라고 판단하셨나요?"</text>
+  <text class="t" x="120" y="584" font-size="18" font-weight="700" fill="#e34f32">돌아오는 답: 빠진 단위와 전제 조건, 모호한 결론이 즉시 드러난다</text>
+
+  <text class="t" x="1120" y="658" text-anchor="end" font-size="17" fill="#6d6d6d">페어 프로그래밍하듯 함께 읽고 좁혀 물어야 진짜 피드백이 나온다</text>
+</svg>

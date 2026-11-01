@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="작성자가 편집에 시간을 쓰지 않아 독자 100명이 각자 헤매는 문서와 작성자가 시간을 들여 6페이지로 압축해 독자 100명의 시간을 아끼는 문서를 비교한 그림">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+
+  <rect x="80" y="90" width="490" height="490" fill="#fafafa" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="120" y="142" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">작성자 시간을 아낀 초안 그대로 배포</text>
+  <text class="t" x="120" y="188" font-size="30" font-weight="700" fill="#191919">다듬지 않은 20페이지 글덩어리</text>
+
+  <rect x="120" y="224" width="410" height="90" fill="#ffffff" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="144" y="262" font-size="18" font-weight="700" fill="#191919">작성자 편집 시간: 0분</text>
+  <text class="t" x="144" y="292" font-size="17" fill="#6d6d6d">긴 문단, 방어적 사족, 도표 없는 줄글</text>
+
+  <path d="M325 314 L325 356" stroke="#6d6d6d" stroke-width="2"/>
+  <path d="M317 348 L325 358 L333 348" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+
+  <rect x="120" y="364" width="410" height="176" fill="#ffffff" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="144" y="408" font-size="18" font-weight="700" fill="#6d6d6d">독자 100명이 치르는 비용</text>
+  <text class="t" x="144" y="444" font-size="18" fill="#6d6d6d">핵심을 찾느라 각자 20분씩 소모</text>
+  <text class="t" x="144" y="480" font-size="18" fill="#6d6d6d">중간에 읽기를 포기하거나 의도를 오해함</text>
+  <text class="t" x="144" y="516" font-size="18" font-weight="700" fill="#6d6d6d">조직 전체에서 수십 시간 증발</text>
+
+  <rect x="630" y="90" width="490" height="490" fill="#ffffff" stroke="#e34f32" stroke-width="3"/>
+  <text class="t" x="670" y="142" font-size="15" font-weight="700" letter-spacing="2" fill="#e34f32">독자 시간을 더 귀하게 여기는 편집</text>
+  <text class="t" x="670" y="188" font-size="30" font-weight="700" fill="#191919">6페이지 이하로 깎아낸 문서</text>
+
+  <rect x="670" y="224" width="410" height="90" fill="#fafafa" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="694" y="262" font-size="18" font-weight="700" fill="#e34f32">작성자 편집 시간: 충분한 압축과 퇴고</text>
+  <text class="t" x="694" y="292" font-size="17" fill="#191919">짧은 문장, 문장 앞머리 강조, 다이어그램 배치</text>
+
+  <path d="M875 314 L875 356" stroke="#e34f32" stroke-width="2"/>
+  <path d="M867 348 L875 358 L883 348" fill="none" stroke="#e34f32" stroke-width="2"/>
+
+  <rect x="670" y="364" width="410" height="176" fill="#fafafa" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="694" y="408" font-size="18" font-weight="700" fill="#191919">독자 100명이 얻는 이득</text>
+  <text class="t" x="694" y="444" font-size="18" fill="#191919">5분 만에 핵심과 요청 사항(Ask) 파악</text>
+  <text class="t" x="694" y="480" font-size="18" fill="#191919">오해 없는 빠른 피드백과 의사결정</text>
+  <text class="t" x="694" y="516" font-size="18" font-weight="700" fill="#e34f32">작성자의 1시간이 100명의 시간을 구한다</text>
+
+  <text class="t" x="1120" y="644" text-anchor="end" font-size="17" fill="#6d6d6d">"시간이 더 있었다면 더 짧은 편지를 썼을 것이다" — 블레즈 파스칼</text>
+</svg>
