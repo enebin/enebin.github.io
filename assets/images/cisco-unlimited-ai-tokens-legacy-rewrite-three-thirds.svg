@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="시스코의 작동 원리를 아는 숙련 운영자 3분의 1, 외부 관점을 가져오는 시스템 사고형 인재 3분의 1, 창업자 모드로 일하는 AI 네이티브 인재 3분의 1이 결합한 팀 구조 그림">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+
+  <text class="t" x="80" y="80" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">JEETU PATEL의 1/3 · 1/3 · 1/3 팀 공식</text>
+
+  <!-- Pillar 1 -->
+  <rect x="80" y="110" width="320" height="340" fill="#fafafa" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="115" y="160" font-size="16" font-weight="700" letter-spacing="2" fill="#6d6d6d">1/3 · 내부 기반</text>
+  <text class="t" x="115" y="208" font-size="30" font-weight="700" fill="#191919">숙련 운영자</text>
+  <path d="M115 232 L365 232" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="115" y="275" font-size="18" fill="#191919">시스코 엔진의 작동 원리 숙지</text>
+  <text class="t" x="115" y="310" font-size="18" fill="#6d6d6d">대규모 장비·조직 운영 경험</text>
+  <text class="t" x="115" y="345" font-size="18" fill="#6d6d6d">안정성과 내부 맥락 유지</text>
+  <text class="t" x="115" y="410" font-size="16" fill="#6d6d6d">단독 한계: 과거 방식에 갇히기 쉬움</text>
+
+  <!-- Pillar 2 -->
+  <rect x="440" y="110" width="320" height="340" fill="#fafafa" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="475" y="160" font-size="16" font-weight="700" letter-spacing="2" fill="#6d6d6d">1/3 · 외부 관점</text>
+  <text class="t" x="475" y="208" font-size="30" font-weight="700" fill="#191919">시스템 사고형 인재</text>
+  <path d="M475 232 L725 232" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="475" y="275" font-size="18" fill="#191919">외부 시장에서 영입된 시각</text>
+  <text class="t" x="475" y="310" font-size="18" fill="#6d6d6d">밖에서 안을 들여다보는 구조 분석</text>
+  <text class="t" x="475" y="345" font-size="18" fill="#6d6d6d">부서 간 사일로와 병목 진단</text>
+  <text class="t" x="475" y="410" font-size="16" fill="#6d6d6d">단독 한계: 내부 실행 동력 부족</text>
+
+  <!-- Pillar 3 -->
+  <rect x="800" y="110" width="320" height="340" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="835" y="160" font-size="16" font-weight="700" letter-spacing="2" fill="#e34f32">1/3 · 돌파 동력</text>
+  <text class="t" x="835" y="208" font-size="30" font-weight="700" fill="#191919">AI 네이티브 창업가</text>
+  <path d="M835 232 L1085 232" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="835" y="275" font-size="18" fill="#191919">창업자 모드(Founder Mode) 실행</text>
+  <text class="t" x="835" y="310" font-size="18" fill="#6d6d6d">창업가·CEO·엔지니어 출신</text>
+  <text class="t" x="835" y="345" font-size="18" fill="#6d6d6d">기존 경계 없는 목표 설정과 가속</text>
+  <text class="t" x="835" y="410" font-size="16" fill="#e34f32">단독 한계: 대규모 운영 맥락 부재</text>
+
+  <!-- Convergence arrows -->
+  <path d="M240 450 L240 495 L600 495" fill="none" stroke="#191919" stroke-width="2"/>
+  <path d="M600 450 L600 520" fill="none" stroke="#191919" stroke-width="2"/>
+  <path d="M960 450 L960 495 L600 495" fill="none" stroke="#e34f32" stroke-width="2"/>
+  <path d="M592 512 L600 522 L608 512" fill="none" stroke="#191919" stroke-width="2"/>
+
+  <!-- Bottom combined bar -->
+  <rect x="80" y="525" width="1040" height="90" fill="#ffffff" stroke="#191919" stroke-width="2"/>
+  <text class="t" x="600" y="565" text-anchor="middle" font-size="24" font-weight="700" fill="#191919">세 집단의 결합 = 대규모 운영 안정성 + 외부 구조 개혁 + AI 네이티브 가속</text>
+  <text class="t" x="600" y="596" text-anchor="middle" font-size="17" fill="#6d6d6d">어느 한 집단만으로는 세 집단이 함께 일할 때의 위력을 낼 수 없다</text>
+</svg>

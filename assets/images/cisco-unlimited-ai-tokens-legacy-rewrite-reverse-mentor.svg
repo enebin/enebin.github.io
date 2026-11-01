@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="비용 절감을 위해 신입 채용을 줄이는 40%의 고용주와 달리 시스코가 인턴과 Z세대를 역멘토로 삼아 숙련 직원과 아이디어 마찰을 일으키는 구조를 비교한 그림">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+
+  <!-- Left box: 40% employers -->
+  <rect x="80" y="80" width="480" height="510" fill="#fafafa" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="120" y="130" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">고용주 약 40%의 선택</text>
+  <text class="t" x="120" y="175" font-size="30" font-weight="700" fill="#191919">신입 감축과 현상 유지</text>
+
+  <rect x="120" y="215" width="400" height="95" fill="#ffffff" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="145" y="252" font-size="18" font-weight="700" fill="#191919">단순 업무·데이터 입력 → AI 대체</text>
+  <text class="t" x="145" y="284" font-size="17" fill="#6d6d6d">신입보다 저렴하다는 이유로 대졸 채용 축소</text>
+
+  <path d="M320 310 L320 345" stroke="#6d6d6d" stroke-width="2"/>
+  <path d="M312 337 L320 347 L328 337" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+
+  <rect x="120" y="350" width="400" height="95" fill="#ffffff" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="145" y="387" font-size="18" font-weight="700" fill="#191919">수십 년 경력자 위주로만 조직 유지</text>
+  <text class="t" x="145" y="419" font-size="17" fill="#6d6d6d">익숙한 업무 방식과 기존 관행 반복</text>
+
+  <path d="M320 445 L320 480" stroke="#6d6d6d" stroke-width="2"/>
+  <path d="M312 472 L320 482 L328 472" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+
+  <rect x="120" y="485" width="400" height="75" fill="#ffffff" stroke="#6d6d6d" stroke-width="2"/>
+  <text class="t" x="145" y="530" font-size="19" font-weight="700" fill="#6d6d6d">결과: 새로운 질문과 외부 자극 차단</text>
+
+  <!-- Right box: Cisco reverse mentor -->
+  <rect x="640" y="80" width="480" height="510" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="680" y="130" font-size="15" font-weight="700" letter-spacing="2" fill="#e34f32">CISCO의 역멘토 전략</text>
+  <text class="t" x="680" y="175" font-size="30" font-weight="700" fill="#191919">아이디어 마찰과 관행 파괴</text>
+
+  <rect x="680" y="215" width="400" height="95" fill="#fafafa"/>
+  <text class="t" x="705" y="252" font-size="18" font-weight="700" fill="#191919">무경력 신입·인턴 (예: 스탠퍼드생 바야)</text>
+  <text class="t" x="705" y="284" font-size="17" fill="#6d6d6d">경험이 없어야만 던질 수 있는 근본적인 질문</text>
+
+  <path d="M880 310 L880 345" stroke="#e34f32" stroke-width="2"/>
+  <path d="M872 337 L880 347 L888 337" fill="none" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="900" y="334" font-size="15" font-weight="700" fill="#e34f32">역멘토링 + 아이디어 마찰</text>
+
+  <rect x="680" y="350" width="400" height="95" fill="#fafafa"/>
+  <text class="t" x="705" y="387" font-size="18" font-weight="700" fill="#191919">수십 년 근속한 시스코 숙련 직원</text>
+  <text class="t" x="705" y="419" font-size="17" fill="#6d6d6d">인적 갈등이 아닌 신뢰 기반의 아이디어 긴장</text>
+
+  <path d="M880 445 L880 480" stroke="#e34f32" stroke-width="2"/>
+  <path d="M872 472 L880 482 L888 472" fill="none" stroke="#e34f32" stroke-width="2"/>
+
+  <rect x="680" y="485" width="400" height="75" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="705" y="530" font-size="19" font-weight="700" fill="#191919">결과: 비현실적 목표와 난제 재설계</text>
+
+  <text class="t" x="1120" y="645" text-anchor="end" font-size="17" fill="#6d6d6d">인턴에게 허드렛일 대신 베테랑의 사고방식을 흔드는 역할을 맡긴다</text>
+</svg>

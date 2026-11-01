@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="시스코가 수십 년 경력 팀 대신 27세 엔지니어 2인 팀에 무제한 AI 토큰을 맡겨 24개월 내 레거시 코드 98% 리팩터링을 추진한다는 표지 그림">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+
+  <text class="t" x="90" y="100" font-size="16" font-weight="700" letter-spacing="2" fill="#e34f32">CISCO × UNLIMITED TOKENS</text>
+  <text class="t" x="90" y="165" font-size="44" font-weight="700" fill="#191919">27세 엔지니어 2명에게 토큰을 무제한으로</text>
+  <text class="t" x="90" y="222" font-size="44" font-weight="700" fill="#191919">쥐여주고 레거시 코드 98%를 갈아엎는 이유</text>
+
+  <rect x="90" y="340" width="440" height="170" fill="#fafafa"/>
+  <text class="t" x="310" y="400" text-anchor="middle" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">기존 대기업 관행</text>
+  <text class="t" x="310" y="458" text-anchor="middle" font-size="30" font-weight="700" fill="#6d6d6d">수십 년 경력자 + 대규모 팀</text>
+  <path d="M135 448 L485 448" stroke="#6d6d6d" stroke-width="2"/>
+
+  <path d="M530 425 L640 425" stroke="#6d6d6d" stroke-width="2"/>
+  <path d="M630 417 L640 425 L630 433" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+
+  <rect x="640" y="340" width="470" height="170" fill="#ffffff" stroke="#e34f32" stroke-width="3"/>
+  <text class="t" x="875" y="400" text-anchor="middle" font-size="15" font-weight="700" letter-spacing="2" fill="#e34f32">CISCO의 선택</text>
+  <text class="t" x="875" y="458" text-anchor="middle" font-size="30" font-weight="700" fill="#191919">27세 2인 팀 + 무제한 AI 토큰</text>
+
+  <text class="t" x="1110" y="620" text-anchor="end" font-size="17" fill="#6d6d6d">4주 검증 후 24개월 내 전사 레거시 코드 98% 리팩터링 목표</text>
+</svg>

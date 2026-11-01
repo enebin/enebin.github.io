@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="AI로 레거시 코드를 빠르게 새 코드와 자동화 테스트로 바꾸는 구간과 달리, 두 버전의 업무 로직 일치 여부와 테스트 자체를 사람이 검증해야 하는 병목 구간을 대비한 그림">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+
+  <!-- Top track: Fast AI generation -->
+  <rect x="80" y="80" width="1040" height="210" fill="#fafafa" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="120" y="125" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">1단계 · 무제한 토큰이 압축하는 구간 (수개월 → 수주)</text>
+
+  <rect x="120" y="150" width="270" height="105" fill="#ffffff" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="255" y="195" text-anchor="middle" font-size="24" font-weight="700" fill="#191919">20년 된 레거시 코드</text>
+  <text class="t" x="255" y="228" text-anchor="middle" font-size="16" fill="#6d6d6d">ColdFusion · FoxPro · 구형 C</text>
+
+  <path d="M390 202 L465 202" stroke="#191919" stroke-width="2"/>
+  <path d="M455 194 L465 202 L455 210" fill="none" stroke="#191919" stroke-width="2"/>
+
+  <rect x="465" y="150" width="270" height="105" fill="#ffffff" stroke="#191919" stroke-width="2"/>
+  <text class="t" x="600" y="195" text-anchor="middle" font-size="24" font-weight="700" fill="#191919">AI 코드 이식·역공학</text>
+  <text class="t" x="600" y="228" text-anchor="middle" font-size="16" fill="#6d6d6d">언어 변환 + 테스트 자동 생성</text>
+
+  <path d="M735 202 L810 202" stroke="#191919" stroke-width="2"/>
+  <path d="M800 194 L810 202 L800 210" fill="none" stroke="#191919" stroke-width="2"/>
+
+  <rect x="810" y="150" width="270" height="105" fill="#ffffff" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="945" y="195" text-anchor="middle" font-size="24" font-weight="700" fill="#191919">새 코드 + 자동 테스트</text>
+  <text class="t" x="945" y="228" text-anchor="middle" font-size="16" fill="#6d6d6d">겉보기 동작 99% 일치</text>
+
+  <!-- Vertical arrow to bottleneck -->
+  <path d="M600 290 L600 345" stroke="#e34f32" stroke-width="3"/>
+  <path d="M590 335 L600 347 L610 335" fill="none" stroke="#e34f32" stroke-width="3"/>
+
+  <!-- Bottom track: Verification bottleneck -->
+  <rect x="80" y="350" width="1040" height="255" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="120" y="395" font-size="15" font-weight="700" letter-spacing="2" fill="#e34f32">2단계 · 토큰으로 건너뛸 수 없는 검증 병목</text>
+  <text class="t" x="120" y="438" font-size="30" font-weight="700" fill="#191919">"그럼 AI가 짠 자동화 테스트 코드는 누가 읽어 봤나?"</text>
+
+  <rect x="120" y="468" width="300" height="105" fill="#fafafa"/>
+  <text class="t" x="145" y="505" font-size="19" font-weight="700" fill="#191919">기능으로 굳어진 옛 버그</text>
+  <text class="t" x="145" y="538" font-size="17" fill="#6d6d6d">고객이 의존하던 비표준 동작 유실</text>
+
+  <rect x="450" y="468" width="300" height="105" fill="#fafafa"/>
+  <text class="t" x="475" y="505" font-size="19" font-weight="700" fill="#191919">런타임·스레드 모델 변화</text>
+  <text class="t" x="475" y="538" text-anchor="start" font-size="17" fill="#6d6d6d">단일→다중 스레드 전환 시 보안 구멍</text>
+
+  <rect x="780" y="468" width="300" height="105" fill="#fafafa"/>
+  <text class="t" x="805" y="505" font-size="19" font-weight="700" fill="#191919">원작자 없는 새 레거시</text>
+  <text class="t" x="805" y="538" font-size="17" fill="#6d6d6d">사람이 이해 못 한 코드의 유지보수</text>
+
+  <text class="t" x="1120" y="650" text-anchor="end" font-size="17" fill="#6d6d6d">작성 비용이 0에 가까워질수록 진짜 비용은 동작 동등성 검증에 몰린다</text>
+</svg>

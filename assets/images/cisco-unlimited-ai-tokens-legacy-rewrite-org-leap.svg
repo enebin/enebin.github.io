@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="시스코 사장 지투 파텔이 조직도 5단계 아래에서 비전략 업무를 하던 27세 파디에게 무제한 AI 토큰을 주고 2인 팀으로 24개월 내 레거시 코드 98% 리팩터링을 맡긴 구조 그림">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+
+  <!-- Left column: 5-level org chart -->
+  <text class="t" x="90" y="78" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">조직도 5단계 구조</text>
+
+  <rect x="90" y="100" width="380" height="90" fill="#fafafa" stroke="#191919" stroke-width="2"/>
+  <text class="t" x="120" y="138" font-size="15" font-weight="700" fill="#e34f32">CPO / 사장</text>
+  <text class="t" x="120" y="170" font-size="26" font-weight="700" fill="#191919">지투 파텔 (Jeetu Patel)</text>
+
+  <path d="M280 190 L280 220" stroke="#e9e9e9" stroke-width="2"/>
+  <rect x="90" y="220" width="380" height="52" fill="#fafafa"/>
+  <text class="t" x="120" y="252" font-size="17" fill="#6d6d6d">1~2단계 아래 임원·부서장</text>
+
+  <path d="M280 272 L280 302" stroke="#e9e9e9" stroke-width="2"/>
+  <rect x="90" y="302" width="380" height="52" fill="#fafafa"/>
+  <text class="t" x="120" y="334" font-size="17" fill="#6d6d6d">3~4단계 아래 중간 관리자·팀</text>
+
+  <path d="M280 354 L280 390" stroke="#e9e9e9" stroke-width="2"/>
+  <rect x="90" y="390" width="380" height="190" fill="#fafafa" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="120" y="430" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">5단계 아래 (인수 합류 후 묻혀 있던 자리)</text>
+  <text class="t" x="120" y="472" font-size="30" font-weight="700" fill="#191919">파디 (27세)</text>
+  <text class="t" x="120" y="508" font-size="18" fill="#6d6d6d">실시간 번역 스타트업 EzDubs 공동 창업자</text>
+  <text class="t" x="120" y="538" font-size="18" fill="#6d6d6d">2025년 인수 합류 뒤 비전략적 업무 담당</text>
+
+  <!-- Direct leap arrow -->
+  <path d="M470 145 L610 145 L610 340 L650 340" fill="none" stroke="#e34f32" stroke-width="3"/>
+  <path d="M640 332 L650 340 L640 348" fill="none" stroke="#e34f32" stroke-width="3"/>
+  <path d="M470 485 L610 485 L610 340" fill="none" stroke="#e34f32" stroke-width="3"/>
+  <text class="t" x="540" y="130" text-anchor="middle" font-size="16" font-weight="700" fill="#e34f32">5단계 직통 발탁</text>
+
+  <!-- Right column: Mission box -->
+  <text class="t" x="660" y="78" font-size="15" font-weight="700" letter-spacing="2" fill="#e34f32">부여된 리팩터링 미션</text>
+
+  <rect x="660" y="100" width="450" height="145" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="695" y="142" font-size="15" font-weight="700" letter-spacing="2" fill="#e34f32">자원 및 인력</text>
+  <text class="t" x="695" y="184" font-size="30" font-weight="700" fill="#191919">2인 팀 + 무제한 AI 토큰</text>
+  <text class="t" x="695" y="218" font-size="18" fill="#6d6d6d">사내 AI 선도 팀조차 떠올리지 못한 2인 재작성 가설</text>
+
+  <path d="M885 245 L885 275" stroke="#191919" stroke-width="2"/>
+  <path d="M877 267 L885 277 L893 267" fill="none" stroke="#191919" stroke-width="2"/>
+
+  <rect x="660" y="280" width="450" height="135" fill="#fafafa"/>
+  <text class="t" x="695" y="320" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">1차 검증 기한</text>
+  <text class="t" x="695" y="362" font-size="30" font-weight="700" fill="#191919">4주 안에 가능성 입증</text>
+  <text class="t" x="695" y="394" font-size="18" fill="#6d6d6d">토큰 제한 없이 실제 코드 재작성 타당성 확인</text>
+
+  <path d="M885 415 L885 445" stroke="#191919" stroke-width="2"/>
+  <path d="M877 437 L885 447 L893 437" fill="none" stroke="#191919" stroke-width="2"/>
+
+  <rect x="660" y="450" width="450" height="130" fill="#ffffff" stroke="#191919" stroke-width="2"/>
+  <text class="t" x="695" y="490" font-size="15" font-weight="700" letter-spacing="2" fill="#e34f32">최종 목표</text>
+  <text class="t" x="695" y="532" font-size="30" font-weight="700" fill="#191919">24개월 내 레거시 98% 개편</text>
+  <text class="t" x="695" y="562" font-size="18" fill="#6d6d6d">전사 레거시 코드의 98% 리팩터링 완수</text>
+
+  <text class="t" x="1110" y="645" text-anchor="end" font-size="17" fill="#6d6d6d">연차 대신 창업자 감각을 가진 주니어에게 연산 자원을 집중했다</text>
+</svg>
