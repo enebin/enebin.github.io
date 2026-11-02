@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="전 세계 UPS 배터리가 매분 0초에 동시에 상태를 점검하면서 전력망 주파수를 흔들고 지터로 이를 해결한다는 표지 그림">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+
+  <text class="t" x="90" y="100" font-size="16" font-weight="700" letter-spacing="2" fill="#e34f32">CYBER-PHYSICAL GRID × NTP</text>
+  <text class="t" x="90" y="165" font-size="46" font-weight="700" fill="#191919">전 세계 UPS 배터리가 매분 0초에</text>
+  <text class="t" x="90" y="222" font-size="46" font-weight="700" fill="#191919">상태를 점검하면 전력망은 어떻게 되나</text>
+
+  <rect x="90" y="330" width="460" height="190" fill="#fafafa"/>
+  <text class="t" x="320" y="388" text-anchor="middle" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">매분 00초 동기화 점검</text>
+  <text class="t" x="320" y="446" text-anchor="middle" font-size="30" font-weight="700" fill="#191919">동시 전력 급증 · 주파수 하락</text>
+  <text class="t" x="320" y="488" text-anchor="middle" font-size="18" fill="#6d6d6d">유럽 80MW 변동 · 수력 터빈 반복 마모</text>
+
+  <path d="M550 425 L650 425" stroke="#6d6d6d" stroke-width="2"/>
+  <path d="M640 417 L650 425 L640 433" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+
+  <rect x="650" y="330" width="460" height="190" fill="#ffffff" stroke="#e34f32" stroke-width="3"/>
+  <text class="t" x="880" y="388" text-anchor="middle" font-size="15" font-weight="700" letter-spacing="2" fill="#e34f32">무작위 지터(JITTER) 분산</text>
+  <text class="t" x="880" y="446" text-anchor="middle" font-size="30" font-weight="700" fill="#191919">점검 시점 분산 · 파형 평탄화</text>
+  <text class="t" x="880" y="488" text-anchor="middle" font-size="18" fill="#6d6d6d">진단 기능은 유지하고 합산 피크만 제거</text>
+
+  <text class="t" x="1110" y="620" text-anchor="end" font-size="17" fill="#6d6d6d">5개 대륙 12개 전력망에서 관측된 60초 주기의 미스터리</text>
+</svg>

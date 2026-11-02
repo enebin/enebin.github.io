@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="매분 0초 고정 점검이 일으키는 수요 급증 및 터빈 마모와 무작위 지터 분산 점검이 만드는 평탄한 전력 수요를 비교한 그림">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+
+  <text class="t" x="90" y="78" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">THUNDERING HERD VS RANDOMIZED JITTER</text>
+  <text class="t" x="90" y="122" font-size="30" font-weight="700" fill="#191919">발전소 터빈을 깎아 먹는 정각 동시 점검과 지터(Jitter)를 통한 분산</text>
+
+  <!-- Left panel: Synchronized at :00 -->
+  <rect x="90" y="160" width="490" height="450" fill="#fafafa" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="125" y="205" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">기존 방식 · 매분 00초 일제 실행</text>
+  <text class="t" x="125" y="248" font-size="30" font-weight="700" fill="#191919">동시 점검 폭주</text>
+
+  <text class="t" x="125" y="295" font-size="16" fill="#6d6d6d">개별 UPS · IoT 기기 진단 시점</text>
+  <path d="M125 320 L540 320" stroke="#c9c9c9" stroke-width="2"/>
+  <path d="M210 300 L210 320 M375 300 L375 320" stroke="#191919" stroke-width="4"/>
+  <path d="M125 355 L540 355" stroke="#c9c9c9" stroke-width="2"/>
+  <path d="M210 335 L210 355 M375 335 L375 355" stroke="#191919" stroke-width="4"/>
+  <path d="M125 390 L540 390" stroke="#c9c9c9" stroke-width="2"/>
+  <path d="M210 370 L210 390 M375 370 L375 390" stroke="#191919" stroke-width="4"/>
+
+  <text class="t" x="125" y="438" font-size="16" font-weight="700" fill="#191919">전력망 합산 수요와 발전소 영향</text>
+  <path d="M125 495 L200 495 L210 445 L220 495 L365 495 L375 445 L385 495 L540 495" fill="none" stroke="#191919" stroke-width="3"/>
+  <text class="t" x="125" y="540" font-size="18" fill="#191919">아일랜드 1분 하락 폭 3mHz → 12mHz (4배)</text>
+  <text class="t" x="125" y="572" font-size="18" fill="#6d6d6d">수력 터빈이 매분 감속·재가속하며 마모 누적</text>
+
+  <!-- Right panel: Randomized jitter -->
+  <rect x="620" y="160" width="490" height="450" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="655" y="205" font-size="15" font-weight="700" letter-spacing="2" fill="#e34f32">개선 방식 · 무작위 지터 및 오프셋</text>
+  <text class="t" x="655" y="248" font-size="30" font-weight="700" fill="#191919">진단 시점 분산</text>
+
+  <text class="t" x="655" y="295" font-size="16" fill="#6d6d6d">개별 UPS · IoT 기기 진단 시점 (무작위 분산)</text>
+  <path d="M655 320 L1070 320" stroke="#c9c9c9" stroke-width="2"/>
+  <path d="M705 300 L705 320 M870 300 L870 320" stroke="#e34f32" stroke-width="4"/>
+  <path d="M655 355 L1070 355" stroke="#c9c9c9" stroke-width="2"/>
+  <path d="M760 335 L760 355 M935 335 L935 355" stroke="#e34f32" stroke-width="4"/>
+  <path d="M655 390 L1070 390" stroke="#c9c9c9" stroke-width="2"/>
+  <path d="M815 370 L815 390 M995 370 L995 390" stroke="#e34f32" stroke-width="4"/>
+
+  <text class="t" x="655" y="438" font-size="16" font-weight="700" fill="#e34f32">전력망 합산 수요와 발전소 영향</text>
+  <path d="M655 485 L1070 485" fill="none" stroke="#e34f32" stroke-width="3"/>
+  <text class="t" x="655" y="540" font-size="18" fill="#191919">펌웨어 업데이트로 1분 주기 피크 즉시 소멸</text>
+  <text class="t" x="655" y="572" font-size="18" fill="#6d6d6d">예비력 소모와 수력 발전기 터빈 피로도 감소</text>
+
+  <text class="t" x="1110" y="655" text-anchor="end" font-size="17" fill="#6d6d6d">재생에너지 확대로 전력망 관성이 줄어들수록 소프트웨어 타이머의 무작위 분산이 중요해진다</text>
+</svg>

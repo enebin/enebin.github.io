@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="전력망 주파수에서 관측되는 60분·15분 전력 거래 주기와 1~수초 전기기계적 진동 사이에 정확히 60초 주기의 디지털 시계 동기화 피크가 나타나는 구조를 비교한 그림">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+
+  <text class="t" x="90" y="78" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">GRID FREQUENCY SPECTRUM</text>
+  <text class="t" x="90" y="122" font-size="30" font-weight="700" fill="#191919">전력망 주파수를 흔드는 세 가지 시간대의 주기와 60초 피크</text>
+
+  <!-- Left box: 60m / 15m -->
+  <rect x="90" y="165" width="310" height="330" fill="#fafafa" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="120" y="210" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">긴 주기 · 60분 / 15분</text>
+  <text class="t" x="120" y="252" font-size="30" font-weight="700" fill="#191919">전력 도매 시장 거래</text>
+  <path d="M120 320 L180 320 L180 285 L260 285 L260 340 L350 340" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+  <text class="t" x="120" y="395" font-size="18" fill="#191919">정각·15분 경계마다 발전소 출력을</text>
+  <text class="t" x="120" y="423" font-size="18" fill="#191919">계단식으로 조정할 때 발생</text>
+  <text class="t" x="120" y="465" font-size="17" fill="#6d6d6d">원인: 전력 거래소의 계약 구간 전환</text>
+
+  <!-- Center box: 60s -->
+  <rect x="445" y="165" width="310" height="330" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="475" y="210" font-size="15" font-weight="700" letter-spacing="2" fill="#e34f32">중간 주기 · 정확히 60초</text>
+  <text class="t" x="475" y="252" font-size="30" font-weight="700" fill="#191919">시계 동기화 제어</text>
+  <path d="M475 340 L565 340 L575 270 L585 340 L675 340 L685 270 L695 340 L725 340" fill="none" stroke="#e34f32" stroke-width="3"/>
+  <text class="t" x="475" y="395" font-size="18" fill="#191919">5개 대륙 12개 전력망에서 수년간</text>
+  <text class="t" x="475" y="423" font-size="18" fill="#191919">위상이 어긋나지 않는 좁은 피크</text>
+  <text class="t" x="475" y="465" font-size="17" fill="#e34f32">원인: 매분 0초 UPS 배터리 동시 점검</text>
+
+  <!-- Right box: 1~several sec -->
+  <rect x="800" y="165" width="310" height="330" fill="#fafafa" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="830" y="210" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">짧은 주기 · 1~수초</text>
+  <text class="t" x="830" y="252" font-size="30" font-weight="700" fill="#191919">지역 간 물리적 진동</text>
+  <path d="M830 315 L850 290 L870 340 L890 290 L910 340 L930 290 L950 340 L970 290 L990 340 L1010 315 L1070 315" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+  <text class="t" x="830" y="395" font-size="18" fill="#191919">동기발전기 집단 사이의 전기기계적</text>
+  <text class="t" x="830" y="423" font-size="18" fill="#191919">흔들림과 빠른 부하 변동</text>
+  <text class="t" x="830" y="465" font-size="17" fill="#6d6d6d">원인: 물리적 관성과 제어기 상호작용</text>
+
+  <!-- Bottom summary bar -->
+  <rect x="90" y="535" width="1020" height="95" fill="#fafafa" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="125" y="575" font-size="19" font-weight="700" fill="#191919">유럽 대륙 전력망 기준: 주파수 진폭 3mHz 흔들림 = 약 80MW 전력 수요가 동시에 변동 (26.68GW/Hz)</text>
+  <text class="t" x="125" y="607" font-size="17" fill="#6d6d6d">수력발전 공진만으로는 수년간 고정된 위상을 설명할 수 없으며 외부 시계에 맞춘 디지털 장치가 방아쇠를 당긴다</text>
+</svg>
