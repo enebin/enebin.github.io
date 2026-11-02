@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="연도 차이만 빼서 나이를 계산하는 버그에서 부등호만 바꾼 가짜 수정은 2007년생 테스트가 전후 모두 통과해 속아 넘어가지만 Kluever Maneuver는 2008년 12월 31일생 경계 사례로 진짜 원인을 잡아내는 비교 그림">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+
+  <text class="t" x="80" y="68" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">AGE CHECK BUG: today.year - birthday.year</text>
+  <text class="t" x="80" y="110" font-size="30" font-weight="700" fill="#191919">연도만 빼는 나이 계산 버그에서 갈리는 가짜 수정과 진짜 수정</text>
+
+  <!-- Left column: Faulty 1-commit fix -->
+  <rect x="80" y="150" width="500" height="460" fill="#fafafa" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="112" y="192" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">잘못된 한 커밋 수정 · 부등호만 변경</text>
+  <text class="t" x="112" y="232" font-size="26" font-weight="700" fill="#191919">18 &lt;= age 를 18 &lt; age 로 수정</text>
+
+  <rect x="112" y="260" width="436" height="105" fill="#ffffff" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="132" y="294" font-size="16" font-weight="700" fill="#6d6d6d">함께 추가한 테스트</text>
+  <text class="t" x="132" y="324" font-size="18" font-weight="700" fill="#191919">can_access(date(2007, 1, 1), date(2026, 1, 1))</text>
+  <text class="t" x="132" y="350" font-size="16" fill="#6d6d6d">연도 차이가 19년이라 수정 전에도 True, 수정 후에도 True</text>
+
+  <rect x="112" y="388" width="436" height="190" fill="#ffffff" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="132" y="424" font-size="16" font-weight="700" fill="#6d6d6d">왜 문제인가</text>
+  <text class="t" x="132" y="458" font-size="18" fill="#191919">1. 원인인 today.year - birthday.year가 그대로 남음</text>
+  <text class="t" x="132" y="492" font-size="18" fill="#191919">2. 만 18세 정각인 사용자까지 차단하는 새 버그 유발</text>
+  <text class="t" x="132" y="526" font-size="18" fill="#6d6d6d">3. 테스트가 전후 모두 통과해 오류를 걸러내지 못함</text>
+
+  <!-- Right column: Kluever Maneuver -->
+  <rect x="620" y="150" width="500" height="460" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="652" y="192" font-size="15" font-weight="700" letter-spacing="2" fill="#e34f32">KLUEVER MANEUVER · 경계 사례 박제 후 반전</text>
+  <text class="t" x="652" y="232" font-size="26" font-weight="700" fill="#191919">relativedelta(today, birthday).years</text>
+
+  <rect x="652" y="260" width="436" height="135" fill="#fafafa" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="672" y="292" font-size="15" font-weight="700" fill="#6d6d6d">COMMIT 1 · 잘못된 허용을 통과 테스트로 고정</text>
+  <text class="t" x="672" y="324" font-size="18" font-weight="700" fill="#191919">assert can_access(2008-12-31, 2026-01-01)</text>
+  <text class="t" x="672" y="354" font-size="16" fill="#6d6d6d">만 17세 하루째인데도 2026 - 2008 = 18로 통과하는 현실 기록</text>
+  <text class="t" x="672" y="378" font-size="16" fill="#6d6d6d">2007년생 같은 느슨한 입력은 애초에 버그 재현이 안 됨</text>
+
+  <path d="M870 395 L870 425" stroke="#e34f32" stroke-width="2"/>
+  <path d="M862 417 L870 425 L878 417" fill="none" stroke="#e34f32" stroke-width="2"/>
+
+  <rect x="652" y="428" width="436" height="150" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="672" y="460" font-size="15" font-weight="700" fill="#e34f32">COMMIT 2 · 나이 계산 수정 + 단언문 반전</text>
+  <text class="t" x="672" y="492" font-size="18" font-weight="700" fill="#191919">assert not can_access(2008-12-31, 2026-01-01)</text>
+  <text class="t" x="672" y="524" font-size="17" fill="#6d6d6d">18 &lt;= age 조건은 유지하고 나이 계산 함수를 교체</text>
+  <text class="t" x="672" y="552" font-size="17" fill="#6d6d6d">같은 날짜 입력의 결과가 True에서 False로 뒤집힘을 입증</text>
+
+  <text class="t" x="1120" y="650" text-anchor="end" font-size="17" fill="#6d6d6d">버그가 실제로 발생하는 입력값을 먼저 고정하면 엉뚱한 곳을 고치는 실수를 막을 수 있다</text>
+</svg>

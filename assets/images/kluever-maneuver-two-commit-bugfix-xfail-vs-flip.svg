@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="기대값 4가 아님만 알려주는 XFAIL 방식과 현재 출력이 5라는 구체적 오동작을 보여주는 Kluever Maneuver, 그리고 테스트 분리 병합을 강제하는 Aegis 방식을 비교한 그림">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+
+  <text class="t" x="80" y="68" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">COMPARING BUG REPRODUCTION STRATEGIES</text>
+  <text class="t" x="80" y="110" font-size="30" font-weight="700" fill="#191919">버그 재현 테스트를 다루는 세 가지 방식과 장단점</text>
+
+  <!-- Box 1: XFAIL -->
+  <rect x="80" y="155" width="320" height="450" fill="#fafafa" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="108" y="198" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">방식 1 · XFAIL 표시</text>
+  <text class="t" x="108" y="238" font-size="26" font-weight="700" fill="#191919">@pytest.mark.xfail</text>
+  <text class="t" x="108" y="274" font-size="18" font-weight="700" fill="#6d6d6d">assert add(2, 2) == 4</text>
+  <path d="M108 298 L372 298" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="108" y="334" font-size="17" font-weight="700" fill="#191919">알려주는 정보</text>
+  <text class="t" x="108" y="362" font-size="17" fill="#6d6d6d">결과가 4가 아니라는 사실만 확인</text>
+  <text class="t" x="108" y="388" font-size="17" fill="#6d6d6d">(실제 출력이 몇인지는 숨겨짐)</text>
+  <text class="t" x="108" y="434" font-size="17" font-weight="700" fill="#191919">유리한 상황</text>
+  <text class="t" x="108" y="462" font-size="17" fill="#6d6d6d">당장 못 고치고 오래 남겨 둘 때</text>
+  <text class="t" x="108" y="488" font-size="17" fill="#6d6d6d">strict=True로 해제 누락 방지</text>
+  <text class="t" x="108" y="534" font-size="17" font-weight="700" fill="#6d6d6d">한계: Java 등 미지원 도구 존재</text>
+
+  <!-- Box 2: Kluever Maneuver -->
+  <rect x="440" y="155" width="320" height="450" fill="#ffffff" stroke="#e34f32" stroke-width="3"/>
+  <text class="t" x="468" y="198" font-size="15" font-weight="700" letter-spacing="2" fill="#e34f32">방식 2 · KLUEVER MANEUVER</text>
+  <text class="t" x="468" y="238" font-size="26" font-weight="700" fill="#191919">오동작 단언 후 반전</text>
+  <text class="t" x="468" y="274" font-size="18" font-weight="700" fill="#e34f32">assert == 5 → assert == 4</text>
+  <path d="M468 298 L732 298" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="468" y="334" font-size="17" font-weight="700" fill="#191919">알려주는 정보</text>
+  <text class="t" x="468" y="362" font-size="17" fill="#191919">현재 출력이 정확히 5임을 기록</text>
+  <text class="t" x="468" y="388" font-size="17" fill="#6d6d6d">(+1 오차 원인을 즉각 노출)</text>
+  <text class="t" x="468" y="434" font-size="17" font-weight="700" fill="#191919">유리한 상황</text>
+  <text class="t" x="468" y="462" font-size="17" fill="#6d6d6d">한 PR 안에서 즉시 고칠 때</text>
+  <text class="t" x="468" y="488" font-size="17" fill="#6d6d6d">언어·프레임워크 제약 없이 작동</text>
+  <text class="t" x="468" y="534" font-size="17" font-weight="700" fill="#e34f32">핵심: 2번째 커밋 diff가 곧 증명</text>
+
+  <!-- Box 3: Aegis / TDD -->
+  <rect x="800" y="155" width="320" height="450" fill="#fafafa" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="828" y="198" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">방식 3 · AEGIS / 실패 우선</text>
+  <text class="t" x="828" y="238" font-size="26" font-weight="700" fill="#191919">테스트 단독 실패 강제</text>
+  <text class="t" x="828" y="274" font-size="18" font-weight="700" fill="#6d6d6d">구현 빼고 테스트만 먼저 실행</text>
+  <path d="M828 298 L1092 298" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="828" y="334" font-size="17" font-weight="700" fill="#191919">알려주는 정보</text>
+  <text class="t" x="828" y="362" font-size="17" fill="#6d6d6d">똑같은 테스트가 수정 전엔 실패,</text>
+  <text class="t" x="828" y="388" font-size="17" fill="#6d6d6d">수정 후엔 통과한다는 불변 조건</text>
+  <text class="t" x="828" y="434" font-size="17" font-weight="700" fill="#191919">유리한 상황</text>
+  <text class="t" x="828" y="462" font-size="17" fill="#6d6d6d">CI가 테스트 역적용을 자동 검사할 때</text>
+  <text class="t" x="828" y="488" font-size="17" fill="#6d6d6d">테스트 수정 실수를 원천 차단</text>
+  <text class="t" x="828" y="534" font-size="17" font-weight="700" fill="#6d6d6d">한계: 일반 Git·CI에서 별도 구축 필요</text>
+
+  <text class="t" x="1120" y="650" text-anchor="end" font-size="17" fill="#6d6d6d">별도 도구 없이 모든 커밋의 CI를 통과시키며 오동작 값까지 남기는 것이 Kluever Maneuver의 실용성이다</text>
+</svg>

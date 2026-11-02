@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="수정과 테스트를 한 커밋에 묶는 기존 방식과 달리 첫 커밋에서 버그 동작을 통과 테스트로 박제하고 두 번째 커밋에서 구현과 테스트 기대값을 함께 고치는 Kluever Maneuver의 두 커밋 흐름 비교 그림">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+
+  <text class="t" x="80" y="68" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">WHY ONE COMMIT GIVES FALSE CONFIDENCE</text>
+  <text class="t" x="80" y="110" font-size="30" font-weight="700" fill="#191919">한 커밋 수정의 맹점과 Kluever Maneuver의 두 커밋 분리</text>
+
+  <!-- Top row: Traditional 1-commit -->
+  <rect x="80" y="148" width="1040" height="175" fill="#fafafa" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="116" y="188" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">기존 방식 · 단일 커밋에 수정 코드와 테스트 동시 추가</text>
+
+  <rect x="116" y="210" width="440" height="86" fill="#ffffff" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="140" y="245" font-size="19" font-weight="700" fill="#191919">단일 Commit: 구현 수정 + 새 테스트 추가</text>
+  <text class="t" x="140" y="275" font-size="17" fill="#6d6d6d">수정 전 코드에서도 통과하던 테스트인지 구분 불가</text>
+
+  <path d="M576 253 L640 253" stroke="#6d6d6d" stroke-width="2"/>
+  <path d="M630 245 L640 253 L630 261" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+
+  <rect x="660" y="210" width="424" height="86" fill="#ffffff" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="684" y="245" font-size="19" font-weight="700" fill="#6d6d6d">결과: 가짜 확신 (False Confidence)</text>
+  <text class="t" x="684" y="275" font-size="17" fill="#6d6d6d">CI는 초록불이지만 실제 버그가 고쳐졌는지 증명 못 함</text>
+
+  <!-- Bottom row: Kluever Maneuver 2-commit -->
+  <rect x="80" y="360" width="1040" height="245" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="116" y="400" font-size="15" font-weight="700" letter-spacing="2" fill="#e34f32">KLUEVER MANEUVER · 두 커밋으로 버그 재현과 수정을 직결</text>
+
+  <rect x="116" y="424" width="440" height="150" fill="#fafafa" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="140" y="458" font-size="15" font-weight="700" letter-spacing="1" fill="#6d6d6d">COMMIT 1 · TERRIBLE TEST (CI 통과)</text>
+  <text class="t" x="140" y="492" font-size="22" font-weight="700" fill="#191919">+ assert add(2, 2) == 5</text>
+  <text class="t" x="140" y="524" font-size="17" fill="#6d6d6d">FIXME: bug #1729 주석과 함께 현재 오동작 기록</text>
+  <text class="t" x="140" y="552" font-size="17" fill="#6d6d6d">구현 코드는 건드리지 않아 현재 상태를 명확히 증명</text>
+
+  <path d="M576 499 L640 499" stroke="#e34f32" stroke-width="2"/>
+  <path d="M630 491 L640 499 L630 507" fill="none" stroke="#e34f32" stroke-width="2"/>
+
+  <rect x="660" y="424" width="424" height="150" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="684" y="458" font-size="15" font-weight="700" letter-spacing="1" fill="#e34f32">COMMIT 2 · FIX &amp; FLIP (CI 통과)</text>
+  <text class="t" x="684" y="492" font-size="22" font-weight="700" fill="#191919">- return a + b + 1  /  + return a + b</text>
+  <text class="t" x="684" y="524" font-size="18" font-weight="700" fill="#e34f32">- assert add(2, 2) == 5  →  + == 4</text>
+  <text class="t" x="684" y="552" font-size="17" fill="#6d6d6d">fixes: #1729 기록 및 출력 변화가 한 diff에 노출</text>
+
+  <text class="t" x="1120" y="650" text-anchor="end" font-size="17" fill="#6d6d6d">모든 커밋이 CI를 통과하면서도 수정 코드가 테스트 결과를 바꿨음을 증명한다</text>
+</svg>

@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="중간에 실패하는 커밋이 끼면 git bisect 자동 탐색이 멈추지만 모든 커밋이 통과하는 두 커밋 구조에서는 이진 탐색과 리뷰어의 테스트 diff 확인이 매끄럽게 이어지는 구조 그림">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+
+  <text class="t" x="80" y="68" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">GIT BISECT &amp; CODE REVIEW IN RUST / CARGO / LLVM</text>
+  <text class="t" x="80" y="110" font-size="30" font-weight="700" fill="#191919">모든 커밋에서 CI를 통과시켜야 하는 이유: 이진 탐색과 리뷰</text>
+
+  <!-- Track 1: Failing test commit breaks git bisect -->
+  <rect x="80" y="150" width="1040" height="190" fill="#fafafa" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="112" y="190" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">실패하는 테스트를 먼저 커밋할 때 · git bisect 자동 탐색 중단</text>
+
+  <rect x="112" y="214" width="210" height="96" fill="#ffffff" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="217" y="254" text-anchor="middle" font-size="18" font-weight="700" fill="#191919">이전 커밋</text>
+  <text class="t" x="217" y="284" text-anchor="middle" font-size="16" fill="#6d6d6d">CI 통과 (PASS)</text>
+
+  <path d="M322 262 L372 262" stroke="#6d6d6d" stroke-width="2"/>
+  <path d="M362 254 L372 262 L362 270" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+
+  <rect x="372" y="214" width="260" height="96" fill="#ffffff" stroke="#6d6d6d" stroke-width="2"/>
+  <text class="t" x="502" y="254" text-anchor="middle" font-size="18" font-weight="700" fill="#191919">Commit 1: 실패 테스트</text>
+  <text class="t" x="502" y="284" text-anchor="middle" font-size="16" font-weight="700" fill="#6d6d6d">CI 실패 (FAIL) → 탐색 멈춤</text>
+
+  <path d="M632 262 L682 262" stroke="#6d6d6d" stroke-width="2"/>
+  <path d="M672 254 L682 262 L672 270" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+
+  <rect x="682" y="214" width="210" height="96" fill="#ffffff" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="787" y="254" text-anchor="middle" font-size="18" font-weight="700" fill="#191919">Commit 2: 버그 수정</text>
+  <text class="t" x="787" y="284" text-anchor="middle" font-size="16" fill="#6d6d6d">CI 통과 (PASS)</text>
+
+  <text class="t" x="920" y="256" font-size="16" fill="#6d6d6d">히스토리에 깨진 커밋이</text>
+  <text class="t" x="920" y="282" font-size="16" fill="#6d6d6d">남아 자동 bisect 방해</text>
+
+  <!-- Track 2: Kluever Maneuver / Cargo C-TEST -->
+  <rect x="80" y="380" width="1040" height="225" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="112" y="420" font-size="15" font-weight="700" letter-spacing="2" fill="#e34f32">KLUEVER MANEUVER / CARGO C-TEST · 전 구간 CI 통과 + 명확한 리뷰</text>
+
+  <rect x="112" y="446" width="210" height="126" fill="#fafafa" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="217" y="488" text-anchor="middle" font-size="18" font-weight="700" fill="#191919">이전 커밋</text>
+  <text class="t" x="217" y="518" text-anchor="middle" font-size="16" fill="#6d6d6d">CI 통과 (PASS)</text>
+  <text class="t" x="217" y="546" text-anchor="middle" font-size="15" fill="#6d6d6d">bisect 정상 통과</text>
+
+  <path d="M322 509 L372 509" stroke="#e34f32" stroke-width="2"/>
+  <path d="M362 501 L372 509 L362 517" fill="none" stroke="#e34f32" stroke-width="2"/>
+
+  <rect x="372" y="446" width="260" height="126" fill="#fafafa" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="502" y="488" text-anchor="middle" font-size="18" font-weight="700" fill="#191919">Commit 1: 현상 재현</text>
+  <text class="t" x="502" y="518" text-anchor="middle" font-size="16" font-weight="700" fill="#191919">CI 통과 (PASS)</text>
+  <text class="t" x="502" y="546" text-anchor="middle" font-size="15" fill="#6d6d6d">기존 동작을 테스트로 고정</text>
+
+  <path d="M632 509 L682 509" stroke="#e34f32" stroke-width="2"/>
+  <path d="M672 501 L682 509 L672 517" fill="none" stroke="#e34f32" stroke-width="2"/>
+
+  <rect x="682" y="446" width="406" height="126" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="885" y="484" text-anchor="middle" font-size="18" font-weight="700" fill="#191919">Commit 2: 구현 수정 + 기대값 변경</text>
+  <text class="t" x="885" y="514" text-anchor="middle" font-size="16" font-weight="700" fill="#e34f32">CI 통과 (PASS) · 테스트 diff가 변화 증명</text>
+  <text class="t" x="885" y="544" text-anchor="middle" font-size="15" fill="#6d6d6d">리뷰어는 PR 설명 대신 테스트 출력 변화만 확인</text>
+
+  <text class="t" x="1120" y="650" text-anchor="end" font-size="17" fill="#6d6d6d">히스토리의 모든 커밋이 독립적으로 빌드·통과되므로 이진 탐색과 코드 리뷰가 동시에 쉬워진다</text>
+</svg>
