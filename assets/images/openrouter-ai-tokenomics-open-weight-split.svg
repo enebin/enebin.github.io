@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="OpenRouter 주간 토큰의 60%를 처리하면서 지출의 26%만 차지하는 오픈 웨이트 모델의 비중과 중국 연구소 개발 모델을 미국 본사 공급업체가 호스팅하는 분리 구조를 보여주는 그림">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+
+  <text class="t" x="72" y="64" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">OPEN-WEIGHT SHARE &amp; HOSTING SPLIT</text>
+  <text class="t" x="1128" y="64" text-anchor="end" font-size="16" fill="#6d6d6d">공급업체 엔드포인트 330개 → 1,342개</text>
+  <line x1="72" y1="84" x2="1128" y2="84" stroke="#e9e9e9" stroke-width="2"/>
+
+  <!-- Left panel: Token vs Spend -->
+  <rect x="72" y="116" width="490" height="490" fill="#fafafa" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="108" y="162" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">물량과 지출의 비대칭</text>
+  <text class="t" x="108" y="206" font-size="30" font-weight="700" fill="#191919">오픈 웨이트 모델 비중</text>
+
+  <text class="t" x="108" y="266" font-size="18" font-weight="700" fill="#191919">주간 토큰 처리량</text>
+  <rect x="108" y="284" width="252" height="54" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="234" y="318" text-anchor="middle" font-size="19" font-weight="700" fill="#e34f32">오픈 웨이트 60%</text>
+  <rect x="360" y="284" width="166" height="54" fill="#ffffff" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="443" y="318" text-anchor="middle" font-size="17" fill="#6d6d6d">독점 모델 40%</text>
+
+  <text class="t" x="108" y="394" font-size="18" font-weight="700" fill="#191919">전체 지출 금액</text>
+  <rect x="108" y="412" width="110" height="54" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="163" y="446" text-anchor="middle" font-size="18" font-weight="700" fill="#e34f32">26%</text>
+  <rect x="218" y="412" width="308" height="54" fill="#ffffff" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="372" y="446" text-anchor="middle" font-size="17" fill="#6d6d6d">독점 최첨단 모델 74%</text>
+
+  <text class="t" x="108" y="526" font-size="17" fill="#6d6d6d">분류·추출·코딩 하위 작업·에이전트 실행 단계가</text>
+  <text class="t" x="108" y="556" font-size="17" fill="#6d6d6d">고가의 최첨단 모델에서 저가 오픈 웨이트로 이동</text>
+
+  <!-- Right panel: Origin vs Hosting -->
+  <rect x="610" y="116" width="518" height="490" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="646" y="162" font-size="15" font-weight="700" letter-spacing="2" fill="#e34f32">조달 기준의 분리</text>
+  <text class="t" x="646" y="206" font-size="30" font-weight="700" fill="#191919">모델 개발지 vs 실행 호스팅</text>
+
+  <rect x="646" y="246" width="446" height="120" fill="#fafafa" stroke="#e9e9e9" stroke-width="1.5"/>
+  <text class="t" x="672" y="282" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">1단계 · 모델 선택 (가격·품질 기준)</text>
+  <text class="t" x="672" y="318" font-size="22" font-weight="700" fill="#191919">오픈 웨이트 토큰의 약 2/3가 중국 연구소 모델</text>
+  <text class="t" x="672" y="346" font-size="17" fill="#6d6d6d">Kimi K3, DeepSeek V4 Flash 등 가성비 중심 선택</text>
+
+  <path d="M869 366 L869 406" stroke="#e34f32" stroke-width="2"/>
+  <path d="M861 396 L869 408 L877 396" fill="none" stroke="#e34f32" stroke-width="2"/>
+
+  <rect x="646" y="412" width="446" height="148" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="672" y="448" font-size="15" font-weight="700" letter-spacing="2" fill="#e34f32">2단계 · 호스팅 선택 (개인정보·보안 기준)</text>
+  <text class="t" x="672" y="486" font-size="22" font-weight="700" fill="#191919">중국산 모델 토큰의 44%를 미국 업체가 처리</text>
+  <text class="t" x="672" y="518" font-size="17" fill="#6d6d6d">예: Coreweave 서버에서 DeepSeek V4 Flash 실행</text>
+  <text class="t" x="672" y="544" font-size="17" fill="#6d6d6d">모델 국적과 무관하게 데이터 미보관·관할권 충족</text>
+
+  <text class="t" x="1128" y="656" text-anchor="end" font-size="17" fill="#6d6d6d">주간 1조 토큰 이상 처리 모델: 6개월 새 3개 → 27개로 확대</text>
+</svg>

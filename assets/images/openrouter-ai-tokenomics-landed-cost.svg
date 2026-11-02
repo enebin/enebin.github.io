@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="입력 토큰 표시 가격만 비교하던 방식에서 캐시 할인 후 유효 가격과 대기 비용, 실패 재시도 비용, 자동 장애 전환을 합산한 실질 총비용으로 라우팅하는 차이를 보여주는 그림">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+
+  <text class="t" x="72" y="64" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">LANDED COST ROUTING &amp; FAILOVER</text>
+  <text class="t" x="1128" y="64" text-anchor="end" font-size="16" fill="#6d6d6d">전체 요청의 약 77%가 복수 공급업체 모델로 이동</text>
+  <line x1="72" y1="84" x2="1128" y2="84" stroke="#e9e9e9" stroke-width="2"/>
+
+  <!-- Top comparison: Old vs New routing -->
+  <rect x="72" y="114" width="460" height="230" fill="#fafafa" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="108" y="158" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">기존 구매·라우팅 기준</text>
+  <text class="t" x="108" y="200" font-size="30" font-weight="700" fill="#191919">입력 토큰 표시 가격</text>
+  <text class="t" x="108" y="244" font-size="18" fill="#6d6d6d">가격표상 단가가 가장 낮은 공급업체 선택</text>
+  <text class="t" x="108" y="278" font-size="18" fill="#6d6d6d">낮은 캐시 적중률·지연·한도 초과 실패가</text>
+  <text class="t" x="108" y="308" font-size="18" fill="#6d6d6d">누적되면 실제 지불 비용이 오히려 역전됨</text>
+
+  <path d="M546 229 L614 229" stroke="#e34f32" stroke-width="2"/>
+  <path d="M604 221 L616 229 L604 237" fill="none" stroke="#e34f32" stroke-width="2"/>
+
+  <rect x="628" y="114" width="500" height="230" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="664" y="158" font-size="15" font-weight="700" letter-spacing="2" fill="#e34f32">개선된 라우팅 기준</text>
+  <text class="t" x="664" y="200" font-size="30" font-weight="700" fill="#191919">요청별 실질 총비용 (Landed Cost)</text>
+  <text class="t" x="664" y="244" font-size="19" font-weight="700" fill="#191919">캐시 할인 후 유효 가격 + 대기 비용 + 재시도 비용</text>
+  <text class="t" x="664" y="282" font-size="18" fill="#6d6d6d">예: 요청당 $1.00 · 성공률 80% 공급업체</text>
+  <text class="t" x="664" y="312" font-size="18" font-weight="700" fill="#e34f32">→ 성공한 응답 1건당 실제 비용은 $1.25</text>
+
+  <!-- Bottom 2 boxes: ZDR and Failover -->
+  <rect x="72" y="382" width="510" height="240" fill="#fafafa" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="108" y="426" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">보안 기본 요건</text>
+  <text class="t" x="108" y="468" font-size="30" font-weight="700" fill="#191919">데이터 미보관 (ZDR)</text>
+  <text class="t" x="108" y="514" font-size="19" font-weight="700" fill="#191919">전체 토큰의 93% · 상위 20개 모델 중 18개 지원</text>
+  <text class="t" x="108" y="550" font-size="17" fill="#6d6d6d">입력 데이터를 공급업체가 저장·학습하지 않는 엔드포인트</text>
+  <text class="t" x="108" y="580" font-size="17" fill="#6d6d6d">지역 내 라우팅·부서별 한도와 함께 필수 통제 장치로 작동</text>
+
+  <rect x="618" y="382" width="510" height="240" fill="#fafafa" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="654" y="426" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">가동률과 우회 경로</text>
+  <text class="t" x="654" y="468" font-size="30" font-weight="700" fill="#191919">자동 장애 전환 (Failover)</text>
+  <text class="t" x="654" y="514" font-size="19" font-weight="700" fill="#191919">평시: 첫 공급업체 92.8% → 전환 후 96.9% 성공</text>
+  <text class="t" x="654" y="550" font-size="17" fill="#e34f32">용량 부족 사태 시: 하위 15곳 성공률 18%로 급락</text>
+  <text class="t" x="654" y="580" font-size="17" font-weight="700" fill="#191919">→ OpenRouter 자동 우회 경유 시 97.3% 완료</text>
+</svg>
