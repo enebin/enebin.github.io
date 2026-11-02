@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="12개 JavaScript 프레임워크별 AI 구현 비용 중앙값과 시간, 토큰, 비싸진 원인을 비교한 그림">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+
+  <text class="t" x="80" y="78" font-size="15" font-weight="700" letter-spacing="2" fill="#e34f32">MEDIAN OF 5 RUNS (OPUS 5.5 HIGH EFFORT)</text>
+  <text class="t" x="80" y="118" font-size="30" font-weight="700" fill="#191919">실행당 API 환산 비용과 비싸진 세 가지 이유</text>
+
+  <!-- Left column: Bar chart of 12 frameworks -->
+  <text class="t" x="80" y="162" font-size="16" font-weight="700" fill="#6d6d6d">프레임워크</text>
+  <text class="t" x="250" y="162" font-size="16" font-weight="700" fill="#6d6d6d">비용 중앙값 (5회 범위) · 시간 · 토큰</text>
+  <path d="M80 174 L740 174" stroke="#e9e9e9" stroke-width="2"/>
+
+  <!-- Row 1: Hono+htmx -->
+  <text class="t" x="80" y="206" font-size="18" font-weight="700" fill="#e34f32">Hono+htmx</text>
+  <rect x="250" y="188" width="161" height="22" fill="#e34f32"/>
+  <text class="t" x="423" y="206" font-size="17" font-weight="700" fill="#191919">$2.67 (2.23–3.19) · 8.6분 · 4.26M</text>
+
+  <!-- Row 2: Astro -->
+  <text class="t" x="80" y="244" font-size="18" font-weight="700" fill="#191919">Astro</text>
+  <rect x="250" y="226" width="166" height="22" fill="#191919"/>
+  <text class="t" x="428" y="244" font-size="17" fill="#191919">$2.76 (2.16–3.63) · 8.2분 · 4.13M</text>
+
+  <!-- Row 3: Nuxt -->
+  <text class="t" x="80" y="282" font-size="18" font-weight="700" fill="#191919">Nuxt</text>
+  <rect x="250" y="264" width="170" height="22" fill="#191919"/>
+  <text class="t" x="432" y="282" font-size="17" fill="#191919">$2.82 (2.39–4.25) · 9.0분 · 3.85M</text>
+
+  <!-- Row 4: Vanilla -->
+  <text class="t" x="80" y="320" font-size="18" fill="#191919">Vanilla (Vite)</text>
+  <rect x="250" y="302" width="180" height="22" fill="#6d6d6d"/>
+  <text class="t" x="442" y="320" font-size="17" fill="#6d6d6d">$2.98 (2.24–3.37) · 10.1분 · 5.00M</text>
+
+  <!-- Row 5: Next.js -->
+  <text class="t" x="80" y="358" font-size="18" fill="#191919">Next.js</text>
+  <rect x="250" y="340" width="189" height="22" fill="#6d6d6d"/>
+  <text class="t" x="451" y="358" font-size="17" fill="#6d6d6d">$3.14 (2.58–4.13) · 10.9분 · 4.99M</text>
+
+  <!-- Row 6: Qwik -->
+  <text class="t" x="80" y="396" font-size="18" fill="#191919">Qwik</text>
+  <rect x="250" y="378" width="197" height="22" fill="#6d6d6d"/>
+  <text class="t" x="459" y="396" font-size="17" fill="#6d6d6d">$3.27 (2.35–3.80) · 10.7분 · 5.64M</text>
+
+  <!-- Row 7: TanStack Start -->
+  <text class="t" x="80" y="434" font-size="18" fill="#191919">TanStack Start</text>
+  <rect x="250" y="416" width="213" height="22" fill="#6d6d6d"/>
+  <text class="t" x="475" y="434" font-size="17" fill="#6d6d6d">$3.54 (3.11–3.96) · 10.3분 · 7.07M</text>
+
+  <!-- Row 8: SolidStart -->
+  <text class="t" x="80" y="472" font-size="18" fill="#191919">SolidStart</text>
+  <rect x="250" y="454" width="228" height="22" fill="#6d6d6d"/>
+  <text class="t" x="490" y="472" font-size="17" fill="#6d6d6d">$3.79 (2.84–4.81) · 11.2분 · 7.13M</text>
+
+  <!-- Row 9: React Router -->
+  <text class="t" x="80" y="510" font-size="18" fill="#191919">React Router</text>
+  <rect x="250" y="492" width="230" height="22" fill="#6d6d6d"/>
+  <text class="t" x="492" y="510" font-size="17" fill="#6d6d6d">$3.81 (2.82–3.97) · 12.5분 · 7.58M</text>
+
+  <!-- Row 10: SvelteKit -->
+  <text class="t" x="80" y="548" font-size="18" font-weight="700" fill="#191919">SvelteKit</text>
+  <rect x="250" y="530" width="258" height="22" fill="#191919"/>
+  <text class="t" x="520" y="548" font-size="17" fill="#191919">$4.28 (3.59–4.65) · 10.8분 · 8.53M</text>
+
+  <!-- Row 11: Gracile+Lit -->
+  <text class="t" x="80" y="586" font-size="18" font-weight="700" fill="#191919">Gracile+Lit</text>
+  <rect x="250" y="568" width="280" height="22" fill="#191919"/>
+  <text class="t" x="542" y="586" font-size="17" fill="#191919">$4.65 (3.92–5.07) · 12.1분 · 9.04M</text>
+
+  <!-- Row 12: Angular -->
+  <text class="t" x="80" y="624" font-size="18" font-weight="700" fill="#e34f32">Angular</text>
+  <rect x="250" y="606" width="300" height="22" fill="#e34f32"/>
+  <text class="t" x="562" y="624" font-size="17" font-weight="700" fill="#191919">$4.97 (3.19–6.82) · 17.2분 · 9.76M</text>
+
+  <!-- Right column: 3 reasons for high cost -->
+  <rect x="780" y="180" width="340" height="135" fill="#fafafa" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="804" y="214" font-size="15" font-weight="700" letter-spacing="1" fill="#e34f32">원인 1 · 최신 버전 문서 읽기</text>
+  <text class="t" x="804" y="250" font-size="22" font-weight="700" fill="#191919">SvelteKit v3 가이드 탐색</text>
+  <text class="t" x="804" y="284" font-size="17" fill="#6d6d6d">학습 데이터 이후 나온 새 버전을</text>
+  <text class="t" x="804" y="306" font-size="17" fill="#6d6d6d">맞추려 5회 모두 마이그레이션 문서 열람</text>
+
+  <rect x="780" y="335" width="340" height="135" fill="#fafafa" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="804" y="369" font-size="15" font-weight="700" letter-spacing="1" fill="#e34f32">원인 2 · 낯선 내부 소스 뒤지기</text>
+  <text class="t" x="804" y="405" font-size="22" font-weight="700" fill="#191919">Gracile 저장소·모듈 열람</text>
+  <text class="t" x="804" y="439" font-size="17" fill="#6d6d6d">잘 모르는 프레임워크를 파악하느라</text>
+  <text class="t" x="804" y="461" font-size="17" fill="#6d6d6d">저장소를 복제하거나 node_modules 탐색</text>
+
+  <rect x="780" y="490" width="340" height="145" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="804" y="524" font-size="15" font-weight="700" letter-spacing="1" fill="#e34f32">원인 3 · 작성할 전체 코드 규모</text>
+  <text class="t" x="804" y="560" font-size="22" font-weight="700" fill="#191919">Angular 소스 2,009줄</text>
+  <text class="t" x="804" y="594" font-size="17" fill="#6d6d6d">Hono+htmx(1,370줄)보다 긴 코드를</text>
+  <text class="t" x="804" y="616" font-size="17" fill="#6d6d6d">읽고 쓰는 과정에서 토큰과 시간 증가</text>
+
+  <text class="t" x="1120" y="668" text-anchor="end" font-size="16" fill="#6d6d6d">실행 간 편차도 존재한다: React Router 최저치($2.82)는 Hono+htmx 최고치($3.19)보다 낮았다</text>
+</svg>

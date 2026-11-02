@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="프레임워크에 공식 MCP와 스킬을 설치해 두어도 에이전트가 실제로 사용하는 빈도는 제각각임을 보여주는 그림">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+
+  <text class="t" x="80" y="80" font-size="15" font-weight="700" letter-spacing="2" fill="#e34f32">MCP &amp; SKILLS IN 5 RUNS</text>
+  <text class="t" x="80" y="122" font-size="30" font-weight="700" fill="#191919">공식 AI 도구를 깔아줘도 에이전트는 매번 쓰지 않는다</text>
+
+  <!-- 3 columns representing usage tiers -->
+  <!-- Column 1: 5/5 used -->
+  <rect x="80" y="165" width="320" height="445" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="110" y="208" font-size="15" font-weight="700" letter-spacing="2" fill="#e34f32">5회 모두 사용 (5/5)</text>
+  <text class="t" x="110" y="248" font-size="28" font-weight="700" fill="#191919">매번 도구를 호출</text>
+  <path d="M110 270 L370 270" stroke="#e9e9e9" stroke-width="2"/>
+
+  <text class="t" x="110" y="314" font-size="22" font-weight="700" fill="#191919">Hono+htmx</text>
+  <text class="t" x="110" y="342" font-size="17" fill="#6d6d6d">Hono 스킬 도구를 5/5회 사용</text>
+
+  <text class="t" x="110" y="404" font-size="22" font-weight="700" fill="#191919">React Router</text>
+  <text class="t" x="110" y="432" font-size="17" fill="#6d6d6d">스킬 도구와 스킬 파일 모두 5/5회 사용</text>
+
+  <text class="t" x="110" y="494" font-size="22" font-weight="700" fill="#191919">SvelteKit</text>
+  <text class="t" x="110" y="522" font-size="17" fill="#6d6d6d">Claude Code 플러그인 MCP 5/5회 사용</text>
+  <text class="t" x="110" y="550" font-size="16" fill="#e34f32">※ 단, v3 가이드를 매번 읽으며 비용은 상승</text>
+
+  <!-- Column 2: Partial usage -->
+  <rect x="440" y="165" width="320" height="445" fill="#fafafa" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="470" y="208" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">일부 실행만 사용 (1~4/5)</text>
+  <text class="t" x="470" y="248" font-size="28" font-weight="700" fill="#191919">주사위 굴리듯 선택</text>
+  <path d="M470 270 L730 270" stroke="#e9e9e9" stroke-width="2"/>
+
+  <text class="t" x="470" y="314" font-size="22" font-weight="700" fill="#191919">Angular</text>
+  <text class="t" x="470" y="342" font-size="17" fill="#6d6d6d">MCP 3/5회, 스킬 도구 4/5회, 파일 2/5회</text>
+
+  <text class="t" x="470" y="404" font-size="22" font-weight="700" fill="#191919">Astro</text>
+  <text class="t" x="470" y="432" font-size="17" fill="#6d6d6d">공식 MCP 서버를 2/5회만 사용</text>
+
+  <text class="t" x="470" y="494" font-size="22" font-weight="700" fill="#191919">Next.js · TanStack Start</text>
+  <text class="t" x="470" y="522" font-size="17" fill="#6d6d6d">Next.js: 스킬 1/5회, AGENTS.md 2/5회</text>
+  <text class="t" x="470" y="548" font-size="17" fill="#6d6d6d">TanStack: node_modules 내 스킬 2/5회 발견</text>
+
+  <!-- Column 3: 0/5 or N/A -->
+  <rect x="800" y="165" width="320" height="445" fill="#fafafa" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="830" y="208" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">미사용 또는 미설치 (0/5)</text>
+  <text class="t" x="830" y="248" font-size="28" font-weight="700" fill="#191919">깔아도 안 쓰고 통과</text>
+  <path d="M830 270 L1090 270" stroke="#e9e9e9" stroke-width="2"/>
+
+  <text class="t" x="830" y="314" font-size="22" font-weight="700" fill="#e34f32">Nuxt (MCP 설치됨)</text>
+  <text class="t" x="830" y="342" font-size="17" fill="#191919">공식 MCP를 한 번도 쓰지 않음 (0/5회)</text>
+  <text class="t" x="830" y="370" font-size="17" fill="#6d6d6d">그런데도 토큰 최저(385만), 비용 3위($2.82)</text>
+
+  <text class="t" x="830" y="438" font-size="22" font-weight="700" fill="#191919">별도 AI 도구 없음</text>
+  <text class="t" x="830" y="466" font-size="17" fill="#6d6d6d">Vanilla, Qwik, SolidStart, Gracile+Lit</text>
+  <text class="t" x="830" y="522" font-size="17" fill="#6d6d6d">Vanilla는 프레임워크가 없었지만</text>
+  <text class="t" x="830" y="548" font-size="17" fill="#6d6d6d">Astro·Nuxt·Hono보다 비용이 더 들었다</text>
+
+  <text class="t" x="1120" y="655" text-anchor="end" font-size="17" fill="#6d6d6d">강제 지시 없이 에이전트 자율에 맡기면 MCP와 스킬은 보장된 지름길이 되지 못한다</text>
+</svg>

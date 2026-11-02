@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="프레임워크별 JavaScript 전송량과 최대 콘텐츠 페인트(LCP), 소스 코드 줄 수를 비교한 그림">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+
+  <text class="t" x="80" y="78" font-size="15" font-weight="700" letter-spacing="2" fill="#e34f32">BUNDLE SIZE, LCP &amp; LINES OF CODE</text>
+  <text class="t" x="80" y="118" font-size="30" font-weight="700" fill="#191919">클라이언트 JS 크기와 앞으로 먹여야 할 코드 줄 수</text>
+
+  <!-- Left Box: Performance (JS KiB & LCP) -->
+  <rect x="80" y="155" width="500" height="465" fill="#fafafa" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="110" y="198" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">모바일 LIGHTHOUSE (SLOW 4G · CPU 4배 제한)</text>
+  <text class="t" x="110" y="236" font-size="26" font-weight="700" fill="#191919">JS 전송량과 화면 표시 시간(LCP)</text>
+  <path d="M110 256 L550 256" stroke="#e9e9e9" stroke-width="2"/>
+
+  <text class="t" x="110" y="294" font-size="18" font-weight="700" fill="#e34f32">Astro</text>
+  <text class="t" x="280" y="294" font-size="18" font-weight="700" fill="#191919">JS 0 KiB · LCP 810ms · TBT 0ms</text>
+
+  <text class="t" x="110" y="336" font-size="18" font-weight="700" fill="#191919">Gracile+Lit</text>
+  <text class="t" x="280" y="336" font-size="18" fill="#191919">JS 8 KiB · LCP 956ms · TBT 0ms</text>
+
+  <text class="t" x="110" y="378" font-size="18" font-weight="700" fill="#e34f32">Hono+htmx</text>
+  <text class="t" x="280" y="378" font-size="18" font-weight="700" fill="#191919">JS 18 KiB · LCP 978ms · TBT 0ms</text>
+
+  <text class="t" x="110" y="420" font-size="18" font-weight="700" fill="#191919">Qwik (예외적 SPA)</text>
+  <text class="t" x="280" y="420" font-size="18" fill="#191919">JS 40 KiB · LCP 979ms · TBT 3ms</text>
+
+  <text class="t" x="110" y="462" font-size="18" fill="#6d6d6d">SvelteKit · Solid</text>
+  <text class="t" x="280" y="462" font-size="18" fill="#6d6d6d">JS 36 / 40 KiB · LCP 1,130 / 1,204ms</text>
+
+  <text class="t" x="110" y="504" font-size="18" fill="#6d6d6d">Nuxt · Angular</text>
+  <text class="t" x="280" y="504" font-size="18" fill="#6d6d6d">JS 84 / 93 KiB · LCP 1,727 / 1,954ms</text>
+
+  <text class="t" x="110" y="546" font-size="18" fill="#6d6d6d">React Router · TanStack</text>
+  <text class="t" x="280" y="546" font-size="18" fill="#6d6d6d">JS 115 / 118 KiB · LCP 1,729 / 2,028ms</text>
+
+  <text class="t" x="110" y="588" font-size="18" font-weight="700" fill="#191919">Next.js</text>
+  <text class="t" x="280" y="588" font-size="18" fill="#191919">JS 142 KiB · LCP 2,090ms · TBT 71ms</text>
+
+  <!-- Right Box: Maintainability (Lines of code -> future token cost) -->
+  <rect x="620" y="155" width="500" height="465" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="650" y="198" font-size="15" font-weight="700" letter-spacing="2" fill="#e34f32">유지보수성 (빈 줄 제외 소스 코드 줄 수 중앙값)</text>
+  <text class="t" x="650" y="236" font-size="26" font-weight="700" fill="#191919">코드 줄 수 = 다음 수정의 토큰 비용</text>
+  <path d="M650 256 L1090 256" stroke="#e9e9e9" stroke-width="2"/>
+
+  <text class="t" x="650" y="298" font-size="18" font-weight="700" fill="#e34f32">Hono+htmx</text>
+  <rect x="820" y="280" width="164" height="20" fill="#e34f32"/>
+  <text class="t" x="994" y="298" font-size="18" font-weight="700" fill="#191919">1,370줄 (최소)</text>
+
+  <text class="t" x="650" y="340" font-size="18" fill="#191919">Nuxt · Astro</text>
+  <rect x="820" y="322" width="175" height="20" fill="#191919"/>
+  <text class="t" x="1005" y="340" font-size="17" fill="#191919">1,415줄 / 1,461줄</text>
+
+  <text class="t" x="650" y="382" font-size="18" fill="#6d6d6d">Vanilla · Next.js</text>
+  <rect x="820" y="364" width="184" height="20" fill="#6d6d6d"/>
+  <text class="t" x="1014" y="382" font-size="17" fill="#6d6d6d">1,492줄 / 1,539줄</text>
+
+  <text class="t" x="650" y="424" font-size="18" fill="#6d6d6d">React Router · SvelteKit</text>
+  <rect x="820" y="406" width="193" height="20" fill="#6d6d6d"/>
+  <text class="t" x="1023" y="424" font-size="17" fill="#6d6d6d">1,564줄 / 1,611줄</text>
+
+  <text class="t" x="650" y="466" font-size="18" fill="#6d6d6d">Solid · TanStack</text>
+  <rect x="820" y="448" width="203" height="20" fill="#6d6d6d"/>
+  <text class="t" x="1033" y="466" font-size="17" fill="#6d6d6d">1,630줄 / 1,697줄</text>
+
+  <text class="t" x="650" y="508" font-size="18" fill="#6d6d6d">Gracile+Lit · Qwik</text>
+  <rect x="820" y="490" width="209" height="20" fill="#6d6d6d"/>
+  <text class="t" x="1039" y="508" font-size="17" fill="#6d6d6d">1,717줄 / 1,744줄</text>
+
+  <text class="t" x="650" y="550" font-size="18" font-weight="700" fill="#191919">Angular</text>
+  <rect x="820" y="532" width="241" height="20" fill="#191919"/>
+  <text class="t" x="1071" y="550" font-size="18" font-weight="700" fill="#191919">2,009줄</text>
+
+  <text class="t" x="650" y="596" font-size="17" font-weight="700" fill="#e34f32">Hono+htmx는 Angular의 약 70% 코드로 같은 앱을 구현</text>
+
+  <text class="t" x="1120" y="662" text-anchor="end" font-size="17" fill="#6d6d6d">에이전트가 코드를 고칠 때마다 기존 소스를 다시 읽으므로 코드 줄 수는 곧 유지보수 청구서가 된다</text>
+</svg>
