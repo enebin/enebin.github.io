@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="경사하강법이나 재학습 없이 GPT-6 Astra가 신경망 가중치 숫자를 직접 읽고 고치는 가중치 공간 프로그래밍 표지 그림">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+
+  <text class="t" x="90" y="100" font-size="16" font-weight="700" letter-spacing="2" fill="#e34f32">WEIGHT-SPACE PROGRAMMING</text>
+  <text class="t" x="90" y="165" font-size="46" font-weight="700" fill="#191919">GPT-6 Astra로 신경망 가중치를</text>
+  <text class="t" x="90" y="222" font-size="46" font-weight="700" fill="#191919">직접 읽고 고치는 가중치 공간 프로그래밍</text>
+
+  <rect x="90" y="320" width="440" height="200" fill="#fafafa" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="310" y="375" text-anchor="middle" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">기존 최적화 (GRADIENT DESCENT)</text>
+  <text class="t" x="310" y="432" text-anchor="middle" font-size="30" font-weight="700" fill="#6d6d6d">데이터·손실 함수로 재학습</text>
+  <text class="t" x="310" y="476" text-anchor="middle" font-size="18" fill="#6d6d6d">전체 가중치를 조금씩 밀어 업데이트</text>
+
+  <path d="M530 420 L640 420" stroke="#6d6d6d" stroke-width="2"/>
+  <path d="M630 412 L640 420 L630 428" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+
+  <rect x="640" y="320" width="470" height="200" fill="#ffffff" stroke="#e34f32" stroke-width="3"/>
+  <text class="t" x="875" y="375" text-anchor="middle" font-size="15" font-weight="700" letter-spacing="2" fill="#e34f32">가중치 공간 프로그래밍</text>
+  <text class="t" x="875" y="432" text-anchor="middle" font-size="30" font-weight="700" fill="#191919">LLM이 회로를 추론해 직접 편집</text>
+  <text class="t" x="875" y="476" text-anchor="middle" font-size="18" fill="#6d6d6d">Qwen3.5-0.8B 가중치 0.016% 수정 → MATH 6배 상승</text>
+
+  <text class="t" x="1110" y="620" text-anchor="end" font-size="17" fill="#6d6d6d">MIT CSAIL — 학습 루프 없이 가중치를 읽고 쓰는 범용 프런티어 LLM 실험</text>
+</svg>

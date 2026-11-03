@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="Qwen3.5-0.8B의 15번과 19번 층 MLP에서 반복 추론 방향을 빼내어 가중치 0.016%만 수정한 뒤 MATH-500과 GSM8K와 IFEval 점수가 크게 오르고 토큰 한도 도달률이 93.0%에서 33.1%로 줄어든 결과를 비교한 그림">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+
+  <text class="t" x="80" y="68" font-size="15" font-weight="700" letter-spacing="2" fill="#e34f32">실험 8 · QWEN3.5-0.8B 표적 수술</text>
+  <text class="t" x="80" y="108" font-size="30" font-weight="700" fill="#191919">전체 8억 가중치 중 0.016%(131,072개)만 고쳐 반복 루프 제거</text>
+
+  <!-- Top Mechanism Box -->
+  <rect x="80" y="140" width="1040" height="125" fill="#fafafa" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="115" y="182" font-size="18" font-weight="700" fill="#191919">원인 추적: 15번·19번 층 MLP가 특정 방향 값을 강하게 기록할 때 무한 반복 발생</text>
+  <text class="t" x="115" y="216" font-size="18" fill="#6d6d6d">처방: 경사하강법 없이 각 층 MLP에서 해당 방향을 강하게 쓰는 출력 열 64개씩만 골라 방향 성분 제거</text>
+  <text class="t" x="115" y="246" font-size="16" font-weight="700" fill="#e34f32">Gemma 3 270M 대조 실험: 반복이 드문 모델(한도 도달 8.5%)은 가중치 편집만으론 MATH-500 개선 불가 (6.8% → 7.0%)</text>
+
+  <!-- Comparison Cards -->
+  <!-- Card 1: MATH-500 -->
+  <rect x="80" y="295" width="245" height="310" fill="#fafafa" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="202" y="340" text-anchor="middle" font-size="16" font-weight="700" fill="#6d6d6d">MATH-500 정답률</text>
+  <text class="t" x="202" y="405" text-anchor="middle" font-size="28" font-weight="700" fill="#6d6d6d">7.9%</text>
+  <text class="t" x="202" y="435" text-anchor="middle" font-size="15" fill="#6d6d6d">기본 모델</text>
+  <path d="M202 455 L202 490" stroke="#e34f32" stroke-width="2"/>
+  <path d="M194 482 L202 490 L210 482" fill="none" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="202" y="540" text-anchor="middle" font-size="36" font-weight="700" fill="#e34f32">48.1%</text>
+  <text class="t" x="202" y="575" text-anchor="middle" font-size="15" font-weight="700" fill="#191919">순전파 50회 편집</text>
+
+  <!-- Card 2: GSM8K -->
+  <rect x="345" y="295" width="245" height="310" fill="#fafafa" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="467" y="340" text-anchor="middle" font-size="16" font-weight="700" fill="#6d6d6d">GSM8K 정답률</text>
+  <text class="t" x="467" y="405" text-anchor="middle" font-size="28" font-weight="700" fill="#6d6d6d">13.8%</text>
+  <text class="t" x="467" y="435" text-anchor="middle" font-size="15" fill="#6d6d6d">기본 모델</text>
+  <path d="M467 455 L467 490" stroke="#e34f32" stroke-width="2"/>
+  <path d="M459 482 L467 490 L475 482" fill="none" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="467" y="540" text-anchor="middle" font-size="36" font-weight="700" fill="#e34f32">67.1%</text>
+  <text class="t" x="467" y="575" text-anchor="middle" font-size="15" font-weight="700" fill="#191919">순전파 50회 편집</text>
+
+  <!-- Card 3: IFEval -->
+  <rect x="610" y="295" width="245" height="310" fill="#fafafa" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="732" y="340" text-anchor="middle" font-size="16" font-weight="700" fill="#6d6d6d">IFEval (지시 이행)</text>
+  <text class="t" x="732" y="405" text-anchor="middle" font-size="28" font-weight="700" fill="#6d6d6d">21.0%</text>
+  <text class="t" x="732" y="435" text-anchor="middle" font-size="15" fill="#6d6d6d">기본 모델</text>
+  <path d="M732 455 L732 490" stroke="#e34f32" stroke-width="2"/>
+  <path d="M724 482 L732 490 L740 482" fill="none" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="732" y="540" text-anchor="middle" font-size="36" font-weight="700" fill="#e34f32">62.3%</text>
+  <text class="t" x="732" y="575" text-anchor="middle" font-size="15" font-weight="700" fill="#191919">수학 외 영역으로 일반화</text>
+
+  <!-- Card 4: Token Limit -->
+  <rect x="875" y="295" width="245" height="310" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="997" y="340" text-anchor="middle" font-size="16" font-weight="700" fill="#e34f32">32,768토큰 한도 도달률</text>
+  <text class="t" x="997" y="405" text-anchor="middle" font-size="28" font-weight="700" fill="#6d6d6d">93.0%</text>
+  <text class="t" x="997" y="435" text-anchor="middle" font-size="15" fill="#6d6d6d">반복 루프로 미완성</text>
+  <path d="M997 455 L997 490" stroke="#191919" stroke-width="2"/>
+  <path d="M989 482 L997 490 L1005 482" fill="none" stroke="#191919" stroke-width="2"/>
+  <text class="t" x="997" y="540" text-anchor="middle" font-size="36" font-weight="700" fill="#191919">33.1%</text>
+  <text class="t" x="997" y="575" text-anchor="middle" font-size="15" font-weight="700" fill="#191919">답변을 끝까지 완성</text>
+
+  <text class="t" x="1120" y="668" text-anchor="end" font-size="16" fill="#6d6d6d">새로운 수학 지식을 주입한 것이 아니라 원래 풀 수 있던 문제를 가로막던 반복 루프를 제거했다</text>
+</svg>
