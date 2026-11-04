@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="BFCL v4 다단계 과제에서 사용자 요청마다 함수 호출과 가짜 시스템 실행을 거치고 매 단계의 시스템 상태를 정답과 대조해 채점하는 구조">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+
+  <text class="t" x="80" y="78" font-size="15" font-weight="700" letter-spacing="2" fill="#e34f32">STATE-BASED EVALUATION</text>
+  <text class="t" x="80" y="122" font-size="30" font-weight="700" fill="#191919">BFCL v4 다단계 과제의 실행과 채점 방식</text>
+
+  <!-- Step 1 -->
+  <rect x="80" y="165" width="320" height="190" fill="#fafafa" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="110" y="205" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">1단계 · 다단계 요청 (1~6턴)</text>
+  <text class="t" x="110" y="245" font-size="24" font-weight="700" fill="#191919">연속된 사용자 지시</text>
+  <text class="t" x="110" y="285" font-size="17" fill="#6d6d6d">1. 파일을 archives로 복사해 줘</text>
+  <text class="t" x="110" y="313" font-size="17" fill="#6d6d6d">2. 복사한 파일 줄을 알파벳순 정렬해</text>
+  <text class="t" x="110" y="341" font-size="17" fill="#6d6d6d">3. 정렬된 파일이 몇 줄인지 알려 줘</text>
+
+  <path d="M400 260 L440 260" stroke="#6d6d6d" stroke-width="2"/>
+  <path d="M432 252 L442 260 L432 268" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+
+  <!-- Step 2 -->
+  <rect x="444" y="165" width="320" height="190" fill="#fafafa" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="474" y="205" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">2단계 · 도구 호출 및 시스템 실행</text>
+  <text class="t" x="474" y="245" font-size="24" font-weight="700" fill="#191919">가짜 시스템 상태 변경</text>
+  <text class="t" x="474" y="285" font-size="17" fill="#6d6d6d">요청당 최대 20번 함수 호출 가능</text>
+  <text class="t" x="474" y="313" font-size="17" fill="#6d6d6d">파일·주식·게시판·차량 등 실제 동작</text>
+  <text class="t" x="474" y="341" font-size="17" fill="#6d6d6d">함수 없이 텍스트만 답하면 요청 종료</text>
+
+  <path d="M764 260 L804 260" stroke="#6d6d6d" stroke-width="2"/>
+  <path d="M796 252 L806 260 L796 268" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+
+  <!-- Step 3 -->
+  <rect x="808" y="165" width="312" height="190" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="838" y="205" font-size="15" font-weight="700" letter-spacing="2" fill="#e34f32">3단계 · 공식 채점기 (bfcl-eval)</text>
+  <text class="t" x="838" y="245" font-size="24" font-weight="700" fill="#191919">매 요청 뒤 상태·결과 대조</text>
+  <text class="t" x="838" y="285" font-size="17" fill="#191919">호출한 함수를 재실행해 정답과 비교</text>
+  <text class="t" x="838" y="313" font-size="17" fill="#191919">중간 단계 하나라도 다르면 즉시 실패</text>
+  <text class="t" x="838" y="341" font-size="17" fill="#e34f32" font-weight="700">말로만 "완료"라고 해도 상태 틀리면 탈락</text>
+
+  <!-- Bottom comparison box: Silent Failure example -->
+  <rect x="80" y="405" width="1040" height="215" fill="#fafafa" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="115" y="448" font-size="15" font-weight="700" letter-spacing="2" fill="#e34f32">조용한 실패 사례 (GPT-OSS 20B · 차량 제어 과제)</text>
+
+  <rect x="115" y="472" width="465" height="120" fill="#ffffff" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="140" y="508" font-size="16" font-weight="700" fill="#6d6d6d">모델의 텍스트 답변 (겉보기 성공)</text>
+  <text class="t" x="140" y="540" font-size="18" font-weight="700" fill="#191919">"연료량 26갤런 — 980마일 주행에 충분합니다"</text>
+  <text class="t" x="140" y="570" font-size="16" fill="#6d6d6d">문제가 없다고 답하며 태연하게 요청을 마침</text>
+
+  <path d="M580 532 L620 532" stroke="#6d6d6d" stroke-width="2"/>
+
+  <rect x="620" y="472" width="465" height="120" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="645" y="508" font-size="16" font-weight="700" fill="#e34f32">실제 시스템 상태 (채점기 판정: 실패)</text>
+  <text class="t" x="645" y="540" font-size="18" font-weight="700" fill="#191919">필요 연료 약 39갤런 계산 후 26갤런만 주유</text>
+  <text class="t" x="645" y="570" font-size="16" fill="#6d6d6d">정답 상태와 연료량이 달라 공식 채점기에서 탈락</text>
+
+  <text class="t" x="1120" y="660" text-anchor="end" font-size="16" fill="#6d6d6d">응답 문장이 그럴듯해도 시스템 상태가 정답과 일치하지 않으면 실패로 기록된다</text>
+</svg>

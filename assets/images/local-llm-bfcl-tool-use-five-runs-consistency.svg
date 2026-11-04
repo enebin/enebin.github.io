@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="6개 모델의 한 번이라도 성공한 과제 수와 5번 모두 성공한 과제 수를 비교한 표와 막대 그림">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+
+  <text class="t" x="80" y="75" font-size="15" font-weight="700" letter-spacing="2" fill="#e34f32">100 TASKS × 5 RUNS</text>
+  <text class="t" x="80" y="118" font-size="30" font-weight="700" fill="#191919">한 번이라도 푼 과제 수 vs 5번 모두 해낸 과제 수</text>
+
+  <!-- Legend -->
+  <rect x="680" y="92" width="22" height="16" fill="#e9e9e9"/>
+  <text class="t" x="710" y="106" font-size="15" fill="#6d6d6d">한 번이라도 성공 (1~4회 성공 포함)</text>
+  <rect x="960" y="92" width="22" height="16" fill="#e34f32"/>
+  <text class="t" x="990" y="106" font-size="15" fill="#191919" font-weight="700">5번 다 성공</text>
+
+  <!-- Header line -->
+  <path d="M80 145 L1120 145" stroke="#191919" stroke-width="2"/>
+  <text class="t" x="80" y="175" font-size="15" font-weight="700" fill="#6d6d6d">모델 (실행 환경)</text>
+  <text class="t" x="340" y="175" font-size="15" font-weight="700" fill="#6d6d6d">평균 성공률</text>
+  <text class="t" x="460" y="175" font-size="15" font-weight="700" fill="#6d6d6d">과제 100개 중 성공 분포 (막대: 5번 다 성공 / 전체: 한 번이라도 성공)</text>
+  <text class="t" x="1120" y="175" text-anchor="end" font-size="15" font-weight="700" fill="#6d6d6d">5번 다 / 1번+</text>
+  <path d="M80 190 L1120 190" stroke="#e9e9e9" stroke-width="1"/>
+
+  <!-- Scale: x=460 to x=960 is 0 to 100 tasks (1 task = 5px) -->
+  <!-- Row 1: gemma4 26B -->
+  <text class="t" x="80" y="238" font-size="20" font-weight="700" fill="#191919">gemma4 26B</text>
+  <text class="t" x="220" y="238" font-size="16" fill="#6d6d6d">3090</text>
+  <text class="t" x="340" y="238" font-size="19" font-weight="700" fill="#191919">71.4%</text>
+  <rect x="460" y="216" width="400" height="28" fill="#e9e9e9"/>
+  <rect x="460" y="216" width="300" height="28" fill="#e34f32"/>
+  <text class="t" x="1120" y="238" text-anchor="end" font-size="19" font-weight="700" fill="#e34f32">60개 / 80개</text>
+  <path d="M80 262 L1120 262" stroke="#e9e9e9" stroke-width="1"/>
+
+  <!-- Row 2: Claude Sonnet 5.5 -->
+  <text class="t" x="80" y="310" font-size="20" font-weight="700" fill="#191919">Claude Sonnet 5.5</text>
+  <text class="t" x="265" y="310" font-size="16" fill="#6d6d6d">API</text>
+  <text class="t" x="340" y="310" font-size="19" font-weight="700" fill="#191919">67.0%</text>
+  <rect x="460" y="288" width="380" height="28" fill="#e9e9e9"/>
+  <rect x="460" y="288" width="285" height="28" fill="#191919"/>
+  <text class="t" x="1120" y="310" text-anchor="end" font-size="19" font-weight="700" fill="#191919">57개 / 76개</text>
+  <path d="M80 334 L1120 334" stroke="#e9e9e9" stroke-width="1"/>
+
+  <!-- Row 3: LFM2.5 24B -->
+  <text class="t" x="80" y="382" font-size="20" font-weight="700" fill="#191919">LFM2.5 24B</text>
+  <text class="t" x="205" y="382" font-size="16" fill="#6d6d6d">3090 (온도 1.0)</text>
+  <text class="t" x="340" y="382" font-size="19" fill="#191919">63.8%</text>
+  <rect x="460" y="360" width="390" height="28" fill="#e9e9e9"/>
+  <rect x="460" y="360" width="225" height="28" fill="#6d6d6d"/>
+  <text class="t" x="1120" y="382" text-anchor="end" font-size="19" fill="#191919">45개 / 78개</text>
+  <path d="M80 406 L1120 406" stroke="#e9e9e9" stroke-width="1"/>
+
+  <!-- Row 4: qwen3.8 27B -->
+  <rect x="70" y="414" width="1060" height="64" fill="#fafafa" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="80" y="454" font-size="20" font-weight="700" fill="#191919">qwen3.8 27B</text>
+  <text class="t" x="220" y="454" font-size="16" fill="#6d6d6d">3090</text>
+  <text class="t" x="340" y="454" font-size="19" fill="#191919">62.8%</text>
+  <rect x="460" y="432" width="415" height="28" fill="#e9e9e9"/>
+  <rect x="460" y="432" width="210" height="28" fill="#e34f32"/>
+  <text class="t" x="720" y="452" font-size="15" font-weight="700" fill="#191919">오락가락 41개</text>
+  <text class="t" x="1120" y="454" text-anchor="end" font-size="19" font-weight="700" fill="#e34f32">42개 / 83개</text>
+
+  <!-- Row 5: gpt-oss 20B -->
+  <text class="t" x="80" y="526" font-size="20" font-weight="700" fill="#191919">gpt-oss 20B</text>
+  <text class="t" x="215" y="526" font-size="16" fill="#6d6d6d">3090</text>
+  <text class="t" x="340" y="526" font-size="19" fill="#191919">53.8%</text>
+  <rect x="460" y="504" width="380" height="28" fill="#e9e9e9"/>
+  <rect x="460" y="504" width="140" height="28" fill="#6d6d6d"/>
+  <text class="t" x="1120" y="526" text-anchor="end" font-size="19" fill="#191919">28개 / 76개</text>
+  <path d="M80 550 L1120 550" stroke="#e9e9e9" stroke-width="1"/>
+
+  <!-- Row 6: Claude Haiku 5.5 -->
+  <text class="t" x="80" y="598" font-size="20" font-weight="700" fill="#191919">Claude Haiku 5.5</text>
+  <text class="t" x="255" y="598" font-size="16" fill="#6d6d6d">API</text>
+  <text class="t" x="340" y="598" font-size="19" fill="#191919">52.0%</text>
+  <rect x="460" y="576" width="345" height="28" fill="#e9e9e9"/>
+  <rect x="460" y="576" width="180" height="28" fill="#6d6d6d"/>
+  <text class="t" x="1120" y="598" text-anchor="end" font-size="19" fill="#191919">36개 / 69개</text>
+  <path d="M80 622 L1120 622" stroke="#191919" stroke-width="2"/>
+
+  <text class="t" x="1120" y="662" text-anchor="end" font-size="16" fill="#6d6d6d">Sonnet 5.5와 qwen3.8 27B는 평균이 4.2%p 차이지만 5번 다 성공한 과제는 57개 대 42개로 갈린다</text>
+</svg>
