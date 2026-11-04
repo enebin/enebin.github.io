@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="구현 에이전트 자체 리뷰부터 별도 에이전트 리뷰, CodeRabbit과 Copilot 자동 리뷰, 12개 단위 테스트 샤드, 플랫폼별 패키징과 Git 버전 호환성까지 이어지는 6겹의 검증 구조를 보여주는 그림">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+
+  <!-- Left column: PR as Verification Report -->
+  <rect x="80" y="80" width="440" height="530" fill="#fafafa" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="120" y="130" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">INPUT · PR TEMPLATE</text>
+  <text class="t" x="120" y="172" font-size="30" font-weight="700" fill="#191919">검증 보고서로서의 PR</text>
+  <path d="M120 198 L480 198" stroke="#e9e9e9" stroke-width="2"/>
+
+  <text class="t" x="120" y="242" font-size="18" font-weight="700" fill="#191919">필수 기재 항목</text>
+  <text class="t" x="120" y="276" font-size="17" fill="#6d6d6d">· ELI5 쉬운 요약과 사용자 관점 전후 차이</text>
+  <text class="t" x="120" y="308" font-size="17" fill="#6d6d6d">· 대안 대비 선택 이유와 120초 실험·성능 기록</text>
+  <text class="t" x="120" y="340" font-size="17" fill="#6d6d6d">· UI 변경 전후 이미지와 미검증 플랫폼 명시</text>
+  <text class="t" x="120" y="372" font-size="17" fill="#6d6d6d">· 위험 수준(Risk)과 되돌리기(revert) 복구 범위</text>
+
+  <rect x="120" y="415" width="360" height="155" fill="#ffffff" stroke="#c9c9c9" stroke-width="2"/>
+  <text class="t" x="145" y="452" font-size="16" font-weight="700" fill="#e34f32">에이전트 리뷰 요약 의무화</text>
+  <text class="t" x="145" y="486" font-size="17" fill="#191919">크로스 플랫폼 · 원격 SSH · 모바일</text>
+  <text class="t" x="145" y="516" font-size="17" fill="#191919">다른 에이전트 영향 · 보안 · 성능 점검</text>
+  <text class="t" x="145" y="546" font-size="16" fill="#6d6d6d">예: PR #37692, #33971, #37663</text>
+
+  <!-- Arrow left to right -->
+  <path d="M520 345 L590 345" stroke="#6d6d6d" stroke-width="2"/>
+  <path d="M580 337 L590 345 L580 353" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+
+  <!-- Right column: 6 layers -->
+  <text class="t" x="610" y="105" font-size="15" font-weight="700" letter-spacing="2" fill="#e34f32">6-LAYER VERIFICATION PIPELINE</text>
+
+  <rect x="610" y="125" width="510" height="68" fill="#fafafa"/>
+  <text class="t" x="635" y="166" font-size="19" font-weight="700" fill="#191919">1–2층 · 구현 에이전트 자체 리뷰 + 별도 에이전트 아키텍처 리뷰</text>
+
+  <path d="M865 193 L865 215" stroke="#c9c9c9" stroke-width="2"/>
+
+  <rect x="610" y="215" width="510" height="68" fill="#fafafa"/>
+  <text class="t" x="635" y="256" font-size="19" font-weight="700" fill="#191919">3–4층 · CodeRabbit 자동 리뷰 + GitHub Copilot 코드 리뷰</text>
+
+  <path d="M865 283 L865 305" stroke="#c9c9c9" stroke-width="2"/>
+
+  <rect x="610" y="305" width="510" height="125" fill="#fafafa"/>
+  <text class="t" x="635" y="346" font-size="19" font-weight="700" fill="#191919">5층 · 12개 단위 테스트 샤드 + 정적 분석·타입 검사</text>
+  <text class="t" x="635" y="380" font-size="17" fill="#6d6d6d">코드 품질 게이트와 E2E 테스트를 병렬 조각으로 분할 실행</text>
+  <text class="t" x="635" y="408" font-size="17" fill="#6d6d6d">AI의 말솜씨가 아니라 실제 테스트 통과 여부로 검증</text>
+
+  <path d="M865 430 L865 452" stroke="#c9c9c9" stroke-width="2"/>
+
+  <rect x="610" y="452" width="510" height="158" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="635" y="492" font-size="15" font-weight="700" letter-spacing="2" fill="#e34f32">6층 · 최종 실행 판정 (PR #37663 기준 총 78개 체크)</text>
+  <text class="t" x="635" y="532" font-size="30" font-weight="700" fill="#191919">플랫폼 패키징 · 호환성 검사</text>
+  <text class="t" x="635" y="568" font-size="17" fill="#191919">Windows 패키징 · Git 2.25 / 2.38 / 2.49 · WSL · 모바일 검사</text>
+  <text class="t" x="635" y="594" font-size="16" fill="#6d6d6d">65개 성공 · 변경 영역과 무관한 13개 자동 건너뛰기</text>
+
+  <text class="t" x="1120" y="658" text-anchor="end" font-size="17" fill="#6d6d6d">AI가 빠르게 설명하고 리뷰하되 최종 승인 근거는 실행 가능한 검사 결과에 둔다</text>
+</svg>

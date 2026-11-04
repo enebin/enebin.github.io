@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="변경 영역에 따라 필요한 검사만 골라 돌리는 CI 최적화 흐름과 모의 객체만 확인하거나 실제 코드를 복제한 저가치 테스트를 걸러내는 안티슬롭 필터를 나란히 보여주는 그림">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+
+  <!-- Left panel: Selective CI -->
+  <rect x="80" y="80" width="500" height="530" fill="#fafafa" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="120" y="130" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">THROUGHPUT · PR.YML</text>
+  <text class="t" x="120" y="172" font-size="30" font-weight="700" fill="#191919">병목을 줄이는 선택적 CI</text>
+  <path d="M120 198 L540 198" stroke="#e9e9e9" stroke-width="2"/>
+
+  <rect x="120" y="222" width="420" height="72" fill="#ffffff" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="145" y="254" font-size="18" font-weight="700" fill="#191919">초안(Draft) 지연 &amp; 이전 실행 취소</text>
+  <text class="t" x="145" y="280" font-size="16" fill="#6d6d6d">Draft PR은 비싼 검사를 미루고 새 커밋 시 기존 실행 중단</text>
+
+  <rect x="120" y="312" width="420" height="72" fill="#ffffff" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="145" y="344" font-size="18" font-weight="700" fill="#191919">스파스 체크아웃 &amp; 변경 영역 선택</text>
+  <text class="t" x="145" y="370" font-size="16" fill="#6d6d6d">필요한 파일만 받고 수정 경로에 맞는 단위·E2E만 실행</text>
+
+  <rect x="120" y="402" width="420" height="72" fill="#ffffff" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="145" y="434" font-size="18" font-weight="700" fill="#191919">12개 샤드 병렬화 &amp; 성공 결과 재사용</text>
+  <text class="t" x="145" y="460" font-size="16" fill="#6d6d6d">동일 커밋의 통과 기록을 재활용해 대기 시간 단축</text>
+
+  <rect x="120" y="498" width="420" height="76" fill="#ffffff" stroke="#191919" stroke-width="2"/>
+  <text class="t" x="330" y="544" text-anchor="middle" font-size="20" font-weight="700" fill="#191919">종합 게이트: PR checks passed</text>
+
+  <!-- Right panel: Anti-slop -->
+  <rect x="620" y="80" width="500" height="530" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="660" y="130" font-size="15" font-weight="700" letter-spacing="2" fill="#e34f32">QUALITY · ANTI-SLOP &amp; TEST POLICY</text>
+  <text class="t" x="660" y="172" font-size="30" font-weight="700" fill="#191919">가짜 테스트를 쳐내는 규칙</text>
+  <path d="M660 198 L1080 198" stroke="#e9e9e9" stroke-width="2"/>
+
+  <text class="t" x="660" y="240" font-size="18" font-weight="700" fill="#191919">명시적으로 금지된 저가치 테스트</text>
+  <text class="t" x="660" y="276" font-size="17" fill="#6d6d6d">· 실제 프로덕션 로직을 그대로 다시 구현한 테스트</text>
+  <text class="t" x="660" y="310" font-size="17" fill="#6d6d6d">· 가짜 객체(mock)가 준 값만 그대로 확인하는 단언문</text>
+  <text class="t" x="660" y="344" font-size="17" fill="#6d6d6d">· 실제 거부 경로를 타지 않고 통과하는 실패 케이스</text>
+  <text class="t" x="660" y="378" font-size="17" fill="#6d6d6d">· 가짜 시계 대신 실제 시간·네트워크를 기다리는 테스트</text>
+  <text class="t" x="660" y="412" font-size="17" fill="#6d6d6d">· 테스트 통과만을 위해 프로덕션에 추가한 전용 경로</text>
+
+  <rect x="660" y="455" width="420" height="119" fill="#fafafa" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="685" y="493" font-size="16" font-weight="700" fill="#e34f32">수백 개 저가치 테스트 지속 삭제</text>
+  <text class="t" x="685" y="525" font-size="18" font-weight="700" fill="#191919">"테스트가 있는가"가 아니라</text>
+  <text class="t" x="685" y="553" font-size="18" font-weight="700" fill="#191919">"실제로 회귀를 잡는가"를 관리</text>
+
+  <text class="t" x="1120" y="658" text-anchor="end" font-size="17" fill="#6d6d6d">에이전트가 양산하는 코드 속도에 맞춰 검사 비용과 테스트 거품을 동시에 통제한다</text>
+</svg>

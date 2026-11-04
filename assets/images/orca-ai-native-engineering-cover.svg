@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="AI를 코딩 도구로만 쓰는 방식에서 개발 공정 전체를 에이전트 중심으로 재설계한 Orca의 운영 체계를 대비한 표지 그림">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+
+  <text class="t" x="90" y="100" font-size="16" font-weight="700" letter-spacing="2" fill="#e34f32">ORCA × AI-NATIVE ENGINEERING</text>
+  <text class="t" x="90" y="165" font-size="46" font-weight="700" fill="#191919">하루 77개 PR을 합치는 Orca의</text>
+  <text class="t" x="90" y="222" font-size="46" font-weight="700" fill="#191919">AI 네이티브 개발 공정</text>
+
+  <rect x="90" y="340" width="440" height="170" fill="#fafafa"/>
+  <text class="t" x="310" y="400" text-anchor="middle" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">기존의 AI 활용</text>
+  <text class="t" x="310" y="458" text-anchor="middle" font-size="30" font-weight="700" fill="#6d6d6d">사람이 코드만 빨리 짠다</text>
+  <path d="M145 450 L475 450" stroke="#6d6d6d" stroke-width="2"/>
+
+  <path d="M530 425 L640 425" stroke="#6d6d6d" stroke-width="2"/>
+  <path d="M630 417 L640 425 L630 433" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+
+  <rect x="640" y="340" width="470" height="170" fill="#ffffff" stroke="#e34f32" stroke-width="3"/>
+  <text class="t" x="875" y="400" text-anchor="middle" font-size="15" font-weight="700" letter-spacing="2" fill="#e34f32">ORCA의 공정 설계</text>
+  <text class="t" x="875" y="458" text-anchor="middle" font-size="30" font-weight="700" fill="#191919">규칙·리뷰·CI가 AI를 검증한다</text>
+
+  <text class="t" x="1110" y="620" text-anchor="end" font-size="17" fill="#6d6d6d">stablyai/orca — 17,841개 PR 병합 · 병합 중앙값 25분 · 24.5시간마다 정식 배포</text>
+</svg>
