@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="중앙 레지스트리에서 수백 노드로 0.5PB를 직접 내려받을 때의 병목과 노드 간 P2P 지수 확산 방식을 비교한 그림">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+
+  <text class="t" x="90" y="78" font-size="15" font-weight="700" letter-spacing="2" fill="#e34f32">IMAGE DISTRIBUTION AT SCALE</text>
+  <text class="t" x="90" y="122" font-size="30" font-weight="700" fill="#191919">0.5PB 전송 병목을 푸는 노드 간 P2P 지수 확산</text>
+
+  <!-- Left: Central download bottleneck -->
+  <rect x="90" y="165" width="470" height="440" fill="#fafafa" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="125" y="210" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">중앙 직접 다운로드 (실패하는 방식)</text>
+  <text class="t" x="125" y="250" font-size="28" font-weight="700" fill="#191919">초당 테라비트(Tbps) 병목</text>
+
+  <rect x="235" y="285" width="180" height="70" fill="#ffffff" stroke="#191919" stroke-width="2"/>
+  <text class="t" x="325" y="327" text-anchor="middle" font-size="20" font-weight="700" fill="#191919">중앙 레지스트리</text>
+
+  <path d="M265 355 L175 445" stroke="#6d6d6d" stroke-width="2"/>
+  <path d="M305 355 L275 445" stroke="#6d6d6d" stroke-width="2"/>
+  <path d="M345 355 L375 445" stroke="#6d6d6d" stroke-width="2"/>
+  <path d="M385 355 L475 445" stroke="#6d6d6d" stroke-width="2"/>
+
+  <rect x="130" y="450" width="85" height="55" fill="#ffffff" stroke="#c9c9c9" stroke-width="2"/>
+  <text class="t" x="172" y="484" text-anchor="middle" font-size="16" fill="#6d6d6d">노드 1</text>
+  <rect x="230" y="450" width="85" height="55" fill="#ffffff" stroke="#c9c9c9" stroke-width="2"/>
+  <text class="t" x="272" y="484" text-anchor="middle" font-size="16" fill="#6d6d6d">노드 2</text>
+  <rect x="330" y="450" width="85" height="55" fill="#ffffff" stroke="#c9c9c9" stroke-width="2"/>
+  <text class="t" x="372" y="484" text-anchor="middle" font-size="16" fill="#6d6d6d">노드 3</text>
+  <rect x="430" y="450" width="85" height="55" fill="#ffffff" stroke="#c9c9c9" stroke-width="2"/>
+  <text class="t" x="472" y="484" text-anchor="middle" font-size="16" fill="#6d6d6d">노드 N</text>
+
+  <text class="t" x="125" y="548" font-size="17" font-weight="700" fill="#191919">500GB × 수백~수천 대 = 수십 분 내 0.5PB 전송</text>
+  <text class="t" x="125" y="576" font-size="16" fill="#6d6d6d">NBD 원격 디스크도 I/O마다 IPC 왕복이 발생해 제외</text>
+
+  <!-- Right: P2P exponential flood -->
+  <rect x="610" y="165" width="500" height="440" fill="#ffffff" stroke="#e34f32" stroke-width="3"/>
+  <text class="t" x="645" y="210" font-size="15" font-weight="700" letter-spacing="2" fill="#e34f32">P2P 블록 확산 + 로컬 SSD 실행</text>
+  <text class="t" x="645" y="250" font-size="28" font-weight="700" fill="#191919">블록당 1회 수신 후 지수 확산</text>
+
+  <rect x="645" y="290" width="160" height="65" fill="#fafafa" stroke="#191919" stroke-width="2"/>
+  <text class="t" x="725" y="329" text-anchor="middle" font-size="18" font-weight="700" fill="#191919">중앙 레지스트리</text>
+
+  <path d="M805 322 L875 322" stroke="#e34f32" stroke-width="3"/>
+  <path d="M865 314 L875 322 L865 330" fill="none" stroke="#e34f32" stroke-width="3"/>
+  <text class="t" x="840" y="308" text-anchor="middle" font-size="15" font-weight="700" fill="#e34f32">1회 전송</text>
+
+  <rect x="880" y="290" width="190" height="65" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="975" y="329" text-anchor="middle" font-size="18" font-weight="700" fill="#191919">첫 수신 노드 (1개)</text>
+
+  <path d="M975 355 L750 420" stroke="#e34f32" stroke-width="2"/>
+  <path d="M975 355 L975 420" stroke="#e34f32" stroke-width="2"/>
+
+  <rect x="645" y="425" width="210" height="65" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="750" y="464" text-anchor="middle" font-size="18" font-weight="700" fill="#191919">이웃 피어 복사 (2개)</text>
+
+  <rect x="875" y="425" width="200" height="65" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="975" y="464" text-anchor="middle" font-size="18" font-weight="700" fill="#191919">다음 피어 확산 (4→8…)</text>
+
+  <text class="t" x="645" y="540" font-size="17" font-weight="700" fill="#191919">1 → 2 → 4 → 8개 노드로 로컬 SSD에 즉시 복원</text>
+  <text class="t" x="645" y="568" font-size="16" fill="#6d6d6d">신뢰할 수 있는 내부망 특성에 맞춰 BitTorrent 방식을 변형</text>
+
+  <text class="t" x="1110" y="655" text-anchor="end" font-size="17" fill="#6d6d6d">성능을 위해 로컬 SSD 실행을 고집하되 배포 병목은 P2P로 풀었다</text>
+</svg>

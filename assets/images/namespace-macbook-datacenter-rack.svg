@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="Mac Mini와 MacBook Pro를 데이터센터에 배치할 때 납기, 칩셋 도입 시기, 배선, 부팅 자동화 차이를 비교한 그림">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+
+  <text class="t" x="90" y="78" font-size="15" font-weight="700" letter-spacing="2" fill="#e34f32">HARDWARE TRADEOFFS</text>
+  <text class="t" x="90" y="122" font-size="30" font-weight="700" fill="#191919">데이터센터에 들어간 Mac Mini와 MacBook Pro</text>
+
+  <!-- Left column: Mac Mini -->
+  <rect x="90" y="160" width="480" height="450" fill="#fafafa" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="130" y="212" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">관리 친화적</text>
+  <text class="t" x="130" y="254" font-size="30" font-weight="700" fill="#191919">Mac Mini</text>
+
+  <line x1="130" y1="280" x2="530" y2="280" stroke="#e9e9e9" stroke-width="2"/>
+
+  <text class="t" x="130" y="322" font-size="16" font-weight="700" fill="#6d6d6d">네트워크와 부팅</text>
+  <text class="t" x="130" y="350" font-size="18" fill="#191919">내장 10Gb 랜카드 · 전원 복구 시 자동 부팅</text>
+
+  <text class="t" x="130" y="402" font-size="16" font-weight="700" fill="#6d6d6d">초기 설치</text>
+  <text class="t" x="130" y="430" font-size="18" fill="#191919">선반에 10대 꽂고 버튼 한 번 누르면 MDM 자동화</text>
+
+  <rect x="130" y="468" width="400" height="110" fill="#ffffff" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="154" y="502" font-size="15" font-weight="700" fill="#e34f32">도입 병목</text>
+  <text class="t" x="154" y="532" font-size="18" font-weight="700" fill="#191919">1월 주문분이 7월에 도착 (6개월 지연)</text>
+  <text class="t" x="154" y="558" font-size="17" fill="#6d6d6d">M5 코어가 10개월 동안 탑재되지 않음</text>
+
+  <!-- Right column: MacBook Pro -->
+  <rect x="630" y="160" width="480" height="450" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="670" y="212" font-size="15" font-weight="700" letter-spacing="2" fill="#e34f32">즉시 조달 가능</text>
+  <text class="t" x="670" y="254" font-size="30" font-weight="700" fill="#191919">MacBook Pro</text>
+
+  <line x1="670" y1="280" x2="1070" y2="280" stroke="#e9e9e9" stroke-width="2"/>
+
+  <text class="t" x="670" y="322" font-size="16" font-weight="700" fill="#6d6d6d">기기당 필수 연결</text>
+  <text class="t" x="670" y="350" font-size="18" fill="#191919">IP KVM + 외장 10G NIC + 전원 (노트북당 케이블 4개)</text>
+
+  <text class="t" x="670" y="402" font-size="16" font-weight="700" fill="#6d6d6d">선반 1개(12대) 배선량</text>
+  <text class="t" x="670" y="430" font-size="18" fill="#191919">기본 케이블 48개 + 이더넷 12개 + KVM 배선</text>
+
+  <rect x="670" y="468" width="400" height="110" fill="#fafafa" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="694" y="502" font-size="15" font-weight="700" fill="#e34f32">예상 밖의 현장 장애</text>
+  <text class="t" x="694" y="532" font-size="18" font-weight="700" fill="#191919">뻣뻣한 HDMI 이탈 · FileVault 5분 만료</text>
+  <text class="t" x="694" y="558" font-size="17" fill="#6d6d6d">죽은 외장 USB NIC는 네트워크 서비스 재생성으로 복구</text>
+
+  <text class="t" x="1110" y="655" text-anchor="end" font-size="17" fill="#6d6d6d">공급망 지연 때문에 화면과 배터리가 달린 노트북을 랙 서버로 개조했다</text>
+</svg>
