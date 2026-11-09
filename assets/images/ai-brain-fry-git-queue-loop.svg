@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="에이전트가 주기적으로 보드를 돌며 조사·구현·검증을 수행하고 사람의 결정이 필요한 항목만 담당자 수신함으로 모으는 흐름도">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+
+  <!-- Top box: Agent cycle -->
+  <rect x="80" y="70" width="1040" height="250" fill="#fafafa" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="120" y="118" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">주기적 자동 실행 구간</text>
+  <text class="t" x="120" y="158" font-size="30" font-weight="700" fill="#191919">에이전트가 보드를 돌며 맡는 일</text>
+
+  <rect x="120" y="185" width="290" height="105" fill="#ffffff" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="145" y="222" font-size="19" font-weight="700" fill="#191919">1. 새 티켓 조사</text>
+  <text class="t" x="145" y="252" font-size="17" fill="#6d6d6d">관련 코드와 영향을 파악해</text>
+  <text class="t" x="145" y="276" font-size="17" fill="#6d6d6d">티켓 파일에 배경 정리</text>
+
+  <path d="M410 237 L455 237" stroke="#6d6d6d" stroke-width="2"/>
+  <path d="M447 229 L457 237 L447 245" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+
+  <rect x="460" y="185" width="290" height="105" fill="#ffffff" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="485" y="222" font-size="19" font-weight="700" fill="#191919">2. 승인된 작업 구현</text>
+  <text class="t" x="485" y="252" font-size="17" fill="#6d6d6d">안전 표시된 티켓만 구현</text>
+  <text class="t" x="485" y="276" font-size="17" fill="#6d6d6d">민감 코드는 브랜치에서 질문</text>
+
+  <path d="M750 237 L795 237" stroke="#6d6d6d" stroke-width="2"/>
+  <path d="M787 229 L797 237 L787 245" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+
+  <rect x="800" y="185" width="280" height="105" fill="#ffffff" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="825" y="222" font-size="19" font-weight="700" fill="#191919">3. 테스트 및 브라우저 검증</text>
+  <text class="t" x="825" y="252" font-size="17" fill="#6d6d6d">자동 테스트와 화면 확인</text>
+  <text class="t" x="825" y="276" font-size="17" fill="#6d6d6d">기배포 항목 정상 동작 점검</text>
+
+  <!-- Arrow down -->
+  <path d="M600 320 L600 375" stroke="#e34f32" stroke-width="2"/>
+  <path d="M592 367 L600 377 L608 367" fill="none" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="620" y="355" font-size="16" font-weight="700" fill="#e34f32">스스로 결정할 수 없는 항목만 추출</text>
+
+  <!-- Bottom box: Human owner inbox -->
+  <rect x="80" y="380" width="1040" height="240" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="120" y="428" font-size="15" font-weight="700" letter-spacing="2" fill="#e34f32">사람의 판단 구간 (OWNER INBOX)</text>
+  <text class="t" x="120" y="468" font-size="30" font-weight="700" fill="#191919">담당자 수신함과 운영 배포</text>
+
+  <rect x="120" y="495" width="290" height="95" fill="#fafafa" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="145" y="532" font-size="19" font-weight="700" fill="#191919">변경 검토 및 승인</text>
+  <text class="t" x="145" y="562" font-size="17" fill="#6d6d6d">무엇을 왜 바꿨는지 읽고 판정</text>
+
+  <rect x="460" y="495" width="290" height="95" fill="#fafafa" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="485" y="532" font-size="19" font-weight="700" fill="#191919">질문 응답 · 트레이드오프 결정</text>
+  <text class="t" x="485" y="562" font-size="17" fill="#6d6d6d">상충하는 설계 선택지 중 결정</text>
+
+  <rect x="800" y="495" width="280" height="95" fill="#fafafa" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="825" y="532" font-size="19" font-weight="700" fill="#191919">프로덕션 배포</text>
+  <text class="t" x="825" y="562" font-size="17" fill="#6d6d6d">에이전트 금지 · 사람이 직접 수행</text>
+
+  <text class="t" x="1120" y="660" text-anchor="end" font-size="17" fill="#6d6d6d">에이전트는 구현과 검증을 돌리고 사람은 우선순위 수신함에서 결정만 내린다</text>
+</svg>

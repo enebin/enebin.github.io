@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="스무 개의 터미널 탭을 오가며 사람 머릿속에 맥락을 유지하는 방식과 Git 저장소의 마크다운 티켓 큐에서 하나씩 꺼내 처리하는 방식의 비교">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+
+  <!-- Left column: 20 tabs -->
+  <rect x="70" y="80" width="490" height="520" fill="#fafafa" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="110" y="130" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">휘발성 채팅창 중심</text>
+  <text class="t" x="110" y="172" font-size="30" font-weight="700" fill="#191919">터미널 탭 20개 저글링</text>
+
+  <rect x="110" y="210" width="195" height="70" fill="#ffffff" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="130" y="242" font-size="17" font-weight="700" fill="#191919">탭 1 · 질문 대기</text>
+  <text class="t" x="130" y="266" font-size="15" fill="#6d6d6d">추가 확인 요청 도착</text>
+
+  <rect x="325" y="210" width="195" height="70" fill="#ffffff" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="345" y="242" font-size="17" font-weight="700" fill="#191919">탭 2 · 후속 작업</text>
+  <text class="t" x="345" y="266" font-size="15" fill="#6d6d6d">탭 1에서 갈라진 가지</text>
+
+  <rect x="110" y="300" width="195" height="70" fill="#ffffff" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="130" y="332" font-size="17" font-weight="700" fill="#191919">탭 3 · 곁가지 수정</text>
+  <text class="t" x="130" y="356" font-size="15" fill="#6d6d6d">기다리다 새로 연 작업</text>
+
+  <rect x="325" y="300" width="195" height="70" fill="#ffffff" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="345" y="332" font-size="17" font-weight="700" fill="#191919">탭 4 … 탭 20</text>
+  <text class="t" x="345" y="356" font-size="15" fill="#6d6d6d">세션마다 흩어진 로그</text>
+
+  <path d="M315 390 L315 430" stroke="#6d6d6d" stroke-width="2"/>
+  <path d="M307 422 L315 432 L323 422" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+
+  <rect x="110" y="445" width="410" height="115" fill="#ffffff" stroke="#6d6d6d" stroke-width="2"/>
+  <text class="t" x="135" y="485" font-size="19" font-weight="700" fill="#191919">기록 위치: 대화창 스크롤 + 사람의 머릿속 RAM</text>
+  <text class="t" x="135" y="517" font-size="17" fill="#6d6d6d">세션이 종료되거나 탭을 옮기면 시작점과 목표를 상실</text>
+  <text class="t" x="135" y="543" font-size="17" fill="#6d6d6d">돌아올 때마다 터미널 로그를 역추적해 맥락 재구성</text>
+
+  <!-- Right column: Git Priority Queue -->
+  <rect x="640" y="80" width="490" height="520" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="680" y="130" font-size="15" font-weight="700" letter-spacing="2" fill="#e34f32">영속적인 저장소 중심</text>
+  <text class="t" x="680" y="172" font-size="30" font-weight="700" fill="#191919">Git 기반 우선순위 작업 큐</text>
+
+  <rect x="680" y="210" width="410" height="75" fill="#fafafa" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="705" y="242" font-size="19" font-weight="700" fill="#191919">코드 옆 마크다운 티켓 (.md)</text>
+  <text class="t" x="705" y="268" font-size="17" fill="#6d6d6d">수정할 소스 파일 바로 옆에 작업 명세와 결정 기록</text>
+
+  <rect x="680" y="305" width="410" height="75" fill="#fafafa" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="705" y="337" font-size="19" font-weight="700" fill="#191919">커밋된 보드 스냅샷</text>
+  <text class="t" x="705" y="363" font-size="17" fill="#6d6d6d">세션이 죽어도 대기열 상태가 Git 이력으로 보존됨</text>
+
+  <path d="M885 390 L885 430" stroke="#e34f32" stroke-width="2"/>
+  <path d="M877 422 L885 432 L893 422" fill="none" stroke="#e34f32" stroke-width="2"/>
+
+  <rect x="680" y="445" width="410" height="115" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="705" y="485" font-size="19" font-weight="700" fill="#191919">뷰어(Artifact)와 기록(Git)의 분리</text>
+  <text class="t" x="705" y="517" font-size="17" fill="#6d6d6d">매 주기 Git에서 단일 검토 페이지를 새로 렌더링</text>
+  <text class="t" x="705" y="543" font-size="17" fill="#6d6d6d">사람의 판정 결과는 다시 Git 티켓 파일에 커밋</text>
+
+  <text class="t" x="1130" y="650" text-anchor="end" font-size="17" fill="#6d6d6d">중요한 정보는 채팅창도 내 머릿속도 아닌 Git 저장소에 남긴다</text>
+</svg>

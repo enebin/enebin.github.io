@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="담당자 수신함에서 티켓 하나를 꺼내 맥락을 읽고 결정을 내린 뒤 다시 큐에 돌려놓아 머릿속 기억까지 함께 닫는 네 단계">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+
+  <text class="t" x="80" y="100" font-size="15" font-weight="700" letter-spacing="2" fill="#e34f32">ONE THING AT A TIME</text>
+  <text class="t" x="80" y="142" font-size="30" font-weight="700" fill="#191919">티켓을 큐에 돌려놓아 머릿속 맥락을 닫는 4단계</text>
+
+  <!-- Step 1 -->
+  <rect x="80" y="195" width="230" height="290" fill="#fafafa" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="110" y="245" font-size="16" font-weight="700" letter-spacing="2" fill="#6d6d6d">STEP 1</text>
+  <text class="t" x="110" y="290" font-size="30" font-weight="700" fill="#191919">하나만 꺼내기</text>
+  <text class="t" x="110" y="340" font-size="18" fill="#6d6d6d">담당자 수신함의</text>
+  <text class="t" x="110" y="368" font-size="18" fill="#6d6d6d">우선순위 맨 위에 있는</text>
+  <text class="t" x="110" y="396" font-size="18" fill="#6d6d6d">티켓 딱 하나만 선택</text>
+
+  <path d="M310 340 L350 340" stroke="#6d6d6d" stroke-width="2"/>
+  <path d="M342 332 L352 340 L342 348" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+
+  <!-- Step 2 -->
+  <rect x="355" y="195" width="230" height="290" fill="#fafafa" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="385" y="245" font-size="16" font-weight="700" letter-spacing="2" fill="#6d6d6d">STEP 2</text>
+  <text class="t" x="385" y="290" font-size="30" font-weight="700" fill="#191919">맥락 불러오기</text>
+  <text class="t" x="385" y="340" font-size="18" fill="#6d6d6d">터미널 역스크롤 대신</text>
+  <text class="t" x="385" y="368" font-size="18" fill="#6d6d6d">티켓별 검토 페이지에서</text>
+  <text class="t" x="385" y="396" font-size="18" fill="#6d6d6d">구현 내용과 이유 확인</text>
+
+  <path d="M585 340 L625 340" stroke="#6d6d6d" stroke-width="2"/>
+  <path d="M617 332 L627 340 L617 348" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+
+  <!-- Step 3 -->
+  <rect x="630" y="195" width="230" height="290" fill="#fafafa" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="660" y="245" font-size="16" font-weight="700" letter-spacing="2" fill="#6d6d6d">STEP 3</text>
+  <text class="t" x="660" y="290" font-size="30" font-weight="700" fill="#191919">판정 기록하기</text>
+  <text class="t" x="660" y="340" font-size="18" fill="#6d6d6d">승인·질문 답변·추가 조치</text>
+  <text class="t" x="660" y="368" font-size="18" fill="#6d6d6d">결정을 내려 Git 안의</text>
+  <text class="t" x="660" y="396" font-size="18" fill="#6d6d6d">티켓 카드에 기록</text>
+
+  <path d="M860 340 L900 340" stroke="#e34f32" stroke-width="2"/>
+  <path d="M892 332 L902 340 L892 348" fill="none" stroke="#e34f32" stroke-width="2"/>
+
+  <!-- Step 4 -->
+  <rect x="905" y="195" width="230" height="290" fill="#ffffff" stroke="#e34f32" stroke-width="3"/>
+  <text class="t" x="935" y="245" font-size="16" font-weight="700" letter-spacing="2" fill="#e34f32">STEP 4 · 핵심</text>
+  <text class="t" x="935" y="290" font-size="30" font-weight="700" fill="#191919">큐에 돌려놓기</text>
+  <text class="t" x="935" y="340" font-size="18" fill="#191919">티켓을 대기열로 반납해</text>
+  <text class="t" x="935" y="368" font-size="18" fill="#191919">머릿속에 남아 있던</text>
+  <text class="t" x="935" y="396" font-size="18" fill="#191919">기억 부담까지 함께 종료</text>
+
+  <!-- Return loop arrow -->
+  <path d="M1020 485 L1020 565 L195 565 L195 495" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+  <path d="M187 503 L195 493 L203 503" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+  <text class="t" x="607" y="550" text-anchor="middle" font-size="17" fill="#6d6d6d">이전 티켓을 잊은 상태로 다음 티켓 하나에만 온전히 집중</text>
+
+  <text class="t" x="1135" y="645" text-anchor="end" font-size="17" fill="#6d6d6d">목표: 티켓 하나를 파악하는 시간을 20분에서 1분으로 단축</text>
+</svg>
