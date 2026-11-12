@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="모델 실행 추적을 정상 토큰과 반복 토큰으로 나누고 선형 부등식과 L1 노름 최소화로 층당 8개 열만 고르는 선형계획법 구조를 나타낸 그림">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+
+  <text class="t" x="80" y="78" font-size="16" font-weight="700" letter-spacing="2" fill="#6d6d6d">LINEAR PROGRAMMING FORMULATION</text>
+  <text class="t" x="80" y="122" font-size="30" font-weight="700" fill="#191919">토큰별 밀어내는 힘 v · hₜ를 선형 부등식과 L1 최소화로 풀기</text>
+
+  <!-- Top timeline: Token trace -->
+  <rect x="80" y="160" width="1040" height="145" fill="#fafafa" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="115" y="198" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">기본 모델 실행 추적에서 추출한 토큰 활성값 hₜ</text>
+
+  <rect x="115" y="218" width="360" height="62" fill="#ffffff" stroke="#c9c9c9" stroke-width="2"/>
+  <text class="t" x="295" y="246" text-anchor="middle" font-size="18" font-weight="700" fill="#191919">정상 추론 토큰 집합 P</text>
+  <text class="t" x="295" y="269" text-anchor="middle" font-size="15" fill="#6d6d6d">반복 시작 최소 256토큰 이전 구간</text>
+
+  <path d="M475 249 L625 249" stroke="#c9c9c9" stroke-width="2" stroke-dasharray="6,6"/>
+  <text class="t" x="550" y="238" text-anchor="middle" font-size="15" fill="#6d6d6d">반복 시작점</text>
+  <text class="t" x="550" y="274" text-anchor="middle" font-size="15" fill="#6d6d6d">(이후 80% 중복)</text>
+
+  <rect x="625" y="218" width="460" height="62" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="855" y="246" text-anchor="middle" font-size="18" font-weight="700" fill="#e34f32">반복 토큰 집합 R</text>
+  <text class="t" x="855" y="269" text-anchor="middle" font-size="15" fill="#6d6d6d">반복 시작 후 64토큰 이상 지난 중복 구간</text>
+
+  <!-- Two constraint boxes -->
+  <rect x="80" y="335" width="500" height="145" fill="#fafafa" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="115" y="375" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">보존 제약 (t ∈ P)</text>
+  <text class="t" x="115" y="418" font-size="30" font-weight="700" fill="#191919">|v · hₜ| ≤ ε</text>
+  <text class="t" x="115" y="454" font-size="18" fill="#6d6d6d">정상 추론 토큰은 개입 크기를 ε 이하로 묶어 보호</text>
+
+  <rect x="620" y="335" width="500" height="145" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="655" y="375" font-size="15" font-weight="700" letter-spacing="2" fill="#e34f32">억제 제약 (t ∈ R)</text>
+  <text class="t" x="655" y="418" font-size="30" font-weight="700" fill="#191919">v · hₜ ≤ −δ</text>
+  <text class="t" x="655" y="454" font-size="18" fill="#191919">반복 토큰은 u 반대 방향으로 최소 δ 이상 밀어냄</text>
+
+  <!-- Bottom box: Objective and Solver -->
+  <rect x="80" y="510" width="1040" height="115" fill="#fafafa" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="115" y="550" font-size="15" font-weight="700" letter-spacing="2" fill="#e34f32">목적함수와 희소 해 선택</text>
+  <text class="t" x="115" y="592" font-size="30" font-weight="700" fill="#191919">min Σ |vⱼ| + C · Σ slack   →   층당 상위 8개 열만 남기고 재최적화</text>
+  <text class="t" x="775" y="550" font-size="16" font-weight="700" fill="#191919">GPU PDHG 솔버: 약 1분 소요</text>
+  <text class="t" x="775" y="582" font-size="16" fill="#6d6d6d">(범용 CPU 솔버 HiGHS는 20분 이상)</text>
+
+  <text class="t" x="1120" y="660" text-anchor="end" font-size="17" fill="#6d6d6d">L1 노름을 최소화하면 대부분의 vⱼ가 0이 되어 수정할 열과 강도가 동시에 정해진다</text>
+</svg>

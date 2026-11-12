@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="Astra가 15분 만에 반복 방향 u를 찾은 뒤 8시간 동안 열 선택과 강도 v를 시행착오로 탐색한 구조와 랭크 1 가중치 수정 수식을 나타낸 그림">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+
+  <text class="t" x="80" y="78" font-size="16" font-weight="700" letter-spacing="2" fill="#6d6d6d">RANK-1 WEIGHT EDIT (ΔW = u vᵀ)</text>
+  <text class="t" x="80" y="122" font-size="30" font-weight="700" fill="#191919">MLP 출력 행렬 W(1,024×3,584)에서 반복 방향 성분을 반대로 뒤집기</text>
+
+  <!-- Step 1 box: Finding u -->
+  <rect x="80" y="165" width="490" height="220" fill="#fafafa" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="115" y="210" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">1단계 · 15분 소요 (순전파 3회)</text>
+  <text class="t" x="115" y="252" font-size="30" font-weight="700" fill="#191919">반복 방향 u 찾기</text>
+  <text class="t" x="115" y="294" font-size="18" fill="#191919">정상 추론 문장과 반복에 빠진 문장 4쌍(8개) 실행</text>
+  <text class="t" x="115" y="326" font-size="18" fill="#6d6d6d">반복 평균 잔차 스트림 − 정상 평균 잔차 스트림</text>
+  <text class="t" x="115" y="358" font-size="17" font-weight="700" fill="#191919">결과: 1,024차원 단위 방향 벡터 u 고정</text>
+
+  <!-- Arrow -->
+  <path d="M570 275 L630 275" stroke="#c9c9c9" stroke-width="2"/>
+  <path d="M620 267 L630 275 L620 283" fill="none" stroke="#c9c9c9" stroke-width="2"/>
+
+  <!-- Step 2 box: Finding v -->
+  <rect x="630" y="165" width="490" height="220" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="665" y="210" font-size="15" font-weight="700" letter-spacing="2" fill="#e34f32">2단계 · 약 8시간 소요 (순전파 28회)</text>
+  <text class="t" x="665" y="252" font-size="30" font-weight="700" fill="#191919">열 선택과 강도 v 탐색</text>
+  <text class="t" x="665" y="294" font-size="18" fill="#191919">15·19번 층에서 바꿀 열 개수와 배수 α를 반복 시험</text>
+  <text class="t" x="665" y="326" font-size="18" fill="#6d6d6d">전체 열 α=1(33%) → α=2(43%) → α=3(48%)</text>
+  <text class="t" x="665" y="358" font-size="17" font-weight="700" fill="#e34f32">최종 선택: 상위 64개 열, α=6 (연습 문제 55%)</text>
+
+  <!-- Bottom box: Mathematical meaning -->
+  <rect x="80" y="425" width="1040" height="190" fill="#fafafa" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="115" y="468" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">토큰 t의 잔차 스트림에 더해지는 실제 변화</text>
+  <text class="t" x="115" y="514" font-size="30" font-weight="700" fill="#191919">wⱼ ← wⱼ − α(uᵀwⱼ)u   ⇒   토큰마다 (v · hₜ) u 만큼만 추가</text>
+  <text class="t" x="115" y="556" font-size="18" fill="#6d6d6d">• α=1이면 열벡터 wⱼ에서 반복 방향 성분(+a)을 완전히 제거하고 α=6이면 반대 방향(−5a)으로 강하게 밀어낸다</text>
+  <text class="t" x="115" y="588" font-size="18" fill="#6d6d6d">• 방향 u가 고정되면 남는 일은 3,584차원 벡터 v의 각 좌표 vⱼ를 정하는 수치 최적화 문제로 줄어든다</text>
+
+  <text class="t" x="1120" y="655" text-anchor="end" font-size="17" fill="#6d6d6d">진단(u)은 15분 만에 끝났고 시행착오 탐색 시간 대부분은 v를 고르는 데 쓰였다</text>
+</svg>
