@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="실제 시간을 기다리다 애니메이션 타이밍 때문에 깨지는 기존 UI 테스트와 가상 시계를 앞당겨 즉시 결과를 확인하는 Exact 에이전트 제어 방식의 비교">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+
+  <!-- Top box: Traditional UI test -->
+  <rect x="80" y="85" width="1040" height="225" fill="#fafafa"/>
+  <text class="t" x="120" y="132" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">기존 UI 자동화 테스트</text>
+  <text class="t" x="120" y="172" font-size="30" font-weight="700" fill="#191919">실제 시계에 맞춘 임의 대기 (sleep)</text>
+
+  <rect x="120" y="202" width="180" height="68" fill="#ffffff" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="210" y="243" text-anchor="middle" font-size="18" font-weight="700" fill="#191919">버튼 클릭</text>
+
+  <path d="M300 236 L360 236" stroke="#6d6d6d" stroke-width="2"/>
+  <path d="M352 228 L362 236 L352 244" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+
+  <rect x="365" y="202" width="330" height="68" fill="#ffffff" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="530" y="233" text-anchor="middle" font-size="18" font-weight="700" fill="#6d6d6d">sleep(500ms) 대기</text>
+  <text class="t" x="530" y="257" text-anchor="middle" font-size="16" fill="#6d6d6d">애니메이션 진행 중 시간 계속 흐름</text>
+
+  <path d="M695 236 L755 236" stroke="#6d6d6d" stroke-width="2"/>
+  <path d="M747 228 L757 236 L747 244" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+
+  <rect x="760" y="202" width="320" height="68" fill="#ffffff" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="920" y="233" text-anchor="middle" font-size="18" font-weight="700" fill="#6d6d6d">화면 확인</text>
+  <text class="t" x="920" y="257" text-anchor="middle" font-size="16" fill="#6d6d6d">시스템 부하 시 간헐적 실패 발생</text>
+
+  <!-- Bottom box: Exact Agent Clock -->
+  <rect x="80" y="360" width="1040" height="245" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="120" y="407" font-size="15" font-weight="700" letter-spacing="2" fill="#e34f32">EXACT 에이전트 루프 (10개 공통 명령)</text>
+  <text class="t" x="120" y="447" font-size="30" font-weight="700" fill="#191919">명령 사이 정지 + 가상 시계 즉시 이동</text>
+
+  <rect x="120" y="480" width="210" height="72" fill="#fafafa"/>
+  <text class="t" x="225" y="512" text-anchor="middle" font-size="18" font-weight="700" fill="#191919">tap · type</text>
+  <text class="t" x="225" y="536" text-anchor="middle" font-size="16" fill="#6d6d6d">명령 직후 시간 정지</text>
+
+  <path d="M330 516 L390 516" stroke="#e34f32" stroke-width="2"/>
+  <path d="M382 508 L392 516 L382 524" fill="none" stroke="#e34f32" stroke-width="2"/>
+
+  <rect x="395" y="480" width="320" height="72" fill="#fafafa" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="555" y="512" text-anchor="middle" font-size="18" font-weight="700" fill="#e34f32">clock +60000 / settle</text>
+  <text class="t" x="555" y="536" text-anchor="middle" font-size="16" fill="#191919">대기 시간 0ms로 애니메이션 완료</text>
+
+  <path d="M715 516 L775 516" stroke="#e34f32" stroke-width="2"/>
+  <path d="M767 508 L777 516 L767 524" fill="none" stroke="#e34f32" stroke-width="2"/>
+
+  <rect x="780" y="480" width="300" height="72" fill="#fafafa"/>
+  <text class="t" x="930" y="512" text-anchor="middle" font-size="18" font-weight="700" fill="#191919">tree · state · screenshot</text>
+  <text class="t" x="930" y="536" text-anchor="middle" font-size="16" fill="#6d6d6d">웹·macOS·iOS·Linux 동일 결과</text>
+
+  <text class="t" x="120" y="582" font-size="16" fill="#6d6d6d">공통 명령 10개: tree · screenshot · tap · type · state · layout · logs · clock · prefer · perf</text>
+  <text class="t" x="1120" y="655" text-anchor="end" font-size="17" fill="#6d6d6d">동일한 app.test.contract 스크립트가 네 플랫폼 모두에서 흔들림 없이 실행된다</text>
+</svg>

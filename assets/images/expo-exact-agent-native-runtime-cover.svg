@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="Expo가 공개한 AI 에이전트 중심 크로스 플랫폼 런타임 Exact의 구조를 요약한 표지 그림">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+
+  <text class="t" x="90" y="100" font-size="16" font-weight="700" letter-spacing="2" fill="#e34f32">EXPO × EXACT</text>
+  <text class="t" x="90" y="165" font-size="46" font-weight="700" fill="#191919">Expo가 공개한 AI 에이전트 중심</text>
+  <text class="t" x="90" y="222" font-size="46" font-weight="700" fill="#191919">크로스 플랫폼 런타임 Exact</text>
+
+  <rect x="90" y="340" width="440" height="170" fill="#fafafa"/>
+  <text class="t" x="310" y="395" text-anchor="middle" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">덜어낸 것</text>
+  <text class="t" x="310" y="452" text-anchor="middle" font-size="30" font-weight="700" fill="#6d6d6d">React · WebView · sleep 대기</text>
+  <path d="M140 444 L480 444" stroke="#6d6d6d" stroke-width="2"/>
+
+  <path d="M530 425 L640 425" stroke="#6d6d6d" stroke-width="2"/>
+  <path d="M630 417 L640 425 L630 433" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+
+  <rect x="640" y="340" width="470" height="170" fill="#ffffff" stroke="#e34f32" stroke-width="3"/>
+  <text class="t" x="875" y="395" text-anchor="middle" font-size="15" font-weight="700" letter-spacing="2" fill="#e34f32">핵심에 둔 것</text>
+  <text class="t" x="875" y="452" text-anchor="middle" font-size="30" font-weight="700" fill="#191919">Contract · 10개 명령 · 가상 시계</text>
+
+  <text class="t" x="1110" y="620" text-anchor="end" font-size="17" fill="#6d6d6d">웹 · macOS · iOS · Linux — 첫 픽셀 전 앱 JS 실행 0줄</text>
+</svg>
