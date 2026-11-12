@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="유료 지도 SDK와 외부 3D 모델 없이 공개 데이터와 MapLibre로 아파트 3D 지도를 만든 과정을 요약한 표지 그림">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+
+  <text class="t" x="90" y="100" font-size="16" font-weight="700" letter-spacing="2" fill="#e34f32">OPEN DATA × MAPLIBRE 3D MAP</text>
+  <text class="t" x="90" y="165" font-size="46" font-weight="700" fill="#191919">유료 SDK 없이 공개 데이터와 MapLibre로</text>
+  <text class="t" x="90" y="222" font-size="46" font-weight="700" fill="#191919">아파트 3D 지도를 만든 11일</text>
+
+  <rect x="90" y="340" width="440" height="170" fill="#fafafa"/>
+  <text class="t" x="310" y="400" text-anchor="middle" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">쓰지 않은 것</text>
+  <text class="t" x="310" y="458" text-anchor="middle" font-size="30" font-weight="700" fill="#6d6d6d">유료 지도 SDK · 외부 3D 모델</text>
+  <path d="M135 450 L485 450" stroke="#6d6d6d" stroke-width="2"/>
+
+  <path d="M530 425 L640 425" stroke="#6d6d6d" stroke-width="2"/>
+  <path d="M630 417 L640 425 L630 433" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+
+  <rect x="640" y="340" width="470" height="170" fill="#ffffff" stroke="#e34f32" stroke-width="3"/>
+  <text class="t" x="875" y="400" text-anchor="middle" font-size="15" font-weight="700" letter-spacing="2" fill="#e34f32">직접 챙긴 것</text>
+  <text class="t" x="875" y="458" text-anchor="middle" font-size="30" font-weight="700" fill="#191919">높이 근거 분리 · 실측 최적화</text>
+
+  <text class="t" x="1110" y="620" text-anchor="end" font-size="17" fill="#6d6d6d">건물 9,481동 재생성 방지 · 추정 높이 일조 계산 제외 · 커밋 577개 중 79% AI 작성</text>
+</svg>

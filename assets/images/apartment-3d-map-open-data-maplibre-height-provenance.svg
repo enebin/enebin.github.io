@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="건물 높이의 세 가지 출처 근거에 따라 3D 화면 표시에는 모두 쓰되 일조 계산에서는 직접 확인된 높이만 사용하는 기준표">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+
+  <text class="t" x="72" y="72" font-size="15" font-weight="700" letter-spacing="2" fill="#e34f32">DATA PROVENANCE IN SCHEMA</text>
+  <text class="t" x="72" y="114" font-size="30" font-weight="700" fill="#191919">건물 높이의 출처에 따라 화면 표시와 일조 계산을 가른 기준</text>
+
+  <!-- Header row -->
+  <rect x="72" y="152" width="1056" height="64" fill="#fafafa" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="108" y="191" font-size="17" font-weight="700" fill="#6d6d6d">데이터에 저장된 높이 근거</text>
+  <text class="t" x="620" y="191" text-anchor="middle" font-size="17" font-weight="700" fill="#6d6d6d">3D 화면 표시</text>
+  <text class="t" x="930" y="191" text-anchor="middle" font-size="17" font-weight="700" fill="#6d6d6d">동지·시간대별 일조 계산</text>
+
+  <!-- Row 1: Verified -->
+  <rect x="72" y="232" width="1056" height="116" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="108" y="278" font-size="24" font-weight="700" fill="#191919">건축물대장 · OSM에 적힌 직접 높이</text>
+  <text class="t" x="108" y="312" font-size="17" fill="#6d6d6d">실제 높이가 기록으로 확인된 건물</text>
+  <text class="t" x="620" y="296" text-anchor="middle" font-size="24" font-weight="700" fill="#191919">사용</text>
+  <text class="t" x="930" y="296" text-anchor="middle" font-size="24" font-weight="700" fill="#e34f32">사용 (그림자 생성)</text>
+
+  <!-- Row 2: Floor estimate -->
+  <rect x="72" y="364" width="1056" height="116" fill="#fafafa" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="108" y="410" font-size="24" font-weight="700" fill="#191919">층수 × 일반 층고로 계산한 추정 높이</text>
+  <text class="t" x="108" y="444" font-size="17" fill="#6d6d6d">눈으로 볼 때는 자연스럽지만 실제 높이와 오차가 있을 수 있음</text>
+  <text class="t" x="620" y="428" text-anchor="middle" font-size="24" font-weight="700" fill="#191919">사용</text>
+  <text class="t" x="930" y="428" text-anchor="middle" font-size="24" font-weight="700" fill="#6d6d6d">제외</text>
+
+  <!-- Row 3: Default fallback -->
+  <rect x="72" y="496" width="1056" height="116" fill="#fafafa" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="108" y="542" font-size="24" font-weight="700" fill="#191919">자료가 없어 채워 넣은 기본 높이</text>
+  <text class="t" x="108" y="576" font-size="17" fill="#6d6d6d">화면이 비어 보이지 않게 넣은 임시 값</text>
+  <text class="t" x="620" y="560" text-anchor="middle" font-size="24" font-weight="700" fill="#191919">사용</text>
+  <text class="t" x="930" y="560" text-anchor="middle" font-size="24" font-weight="700" fill="#6d6d6d">제외</text>
+
+  <text class="t" x="1128" y="654" text-anchor="end" font-size="17" fill="#6d6d6d">프롬프트 지시만으로는 다음 수정 때 깨지기 쉬워 데이터 구조 자체에 근거 필드를 심었다</text>
+</svg>

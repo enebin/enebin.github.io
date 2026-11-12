@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="브이월드, 건축물대장, OpenStreetMap, Valhalla 데이터를 서버에서 합쳐 높이 근거를 기록하고 브라우저의 MapLibre에서 3D 지도로 그리는 3단계 구조">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+
+  <text class="t" x="72" y="72" font-size="15" font-weight="700" letter-spacing="2" fill="#e34f32">OPEN DATA PIPELINE</text>
+  <text class="t" x="72" y="114" font-size="30" font-weight="700" fill="#191919">공개 원천 데이터를 합쳐 브라우저에 그리는 세 단계</text>
+
+  <!-- Stage 1 -->
+  <rect x="72" y="152" width="320" height="456" fill="#fafafa" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="104" y="196" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">1단계 · 공개 원천</text>
+  <text class="t" x="104" y="236" font-size="26" font-weight="700" fill="#191919">각기 다른 출처</text>
+
+  <line x1="104" y1="258" x2="360" y2="258" stroke="#e9e9e9" stroke-width="2"/>
+
+  <text class="t" x="104" y="294" font-size="18" font-weight="700" fill="#191919">브이월드 지오코더 · WFS</text>
+  <text class="t" x="104" y="320" font-size="16" fill="#6d6d6d">국내 리전 호출 · 도심은 영역 분할 요청</text>
+
+  <text class="t" x="104" y="366" font-size="18" font-weight="700" fill="#191919">건축HUB 건축물대장</text>
+  <text class="t" x="104" y="392" font-size="16" fill="#6d6d6d">표제부 API로 실제 건물 높이·층수 보정</text>
+
+  <text class="t" x="104" y="438" font-size="18" font-weight="700" fill="#191919">OSM 국내 추출본 (Geofabrik)</text>
+  <text class="t" x="104" y="464" font-size="16" fill="#6d6d6d">Overpass 공용 서버 대신 직접 질의</text>
+
+  <text class="t" x="104" y="510" font-size="18" font-weight="700" fill="#191919">Valhalla · NOAA 계산식</text>
+  <text class="t" x="104" y="536" font-size="16" fill="#6d6d6d">보행 경로 타일과 시각별 태양 방위·고도</text>
+
+  <!-- Arrow 1 -> 2 -->
+  <path d="M392 380 L436 380" stroke="#6d6d6d" stroke-width="2"/>
+  <path d="M428 372 L438 380 L428 388" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+
+  <!-- Stage 2 -->
+  <rect x="440" y="152" width="320" height="456" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="472" y="196" font-size="15" font-weight="700" letter-spacing="2" fill="#e34f32">2단계 · 서버 병합</text>
+  <text class="t" x="472" y="236" font-size="26" font-weight="700" fill="#191919">단지 1개 = 자료 1개</text>
+
+  <line x1="472" y1="258" x2="728" y2="258" stroke="#e9e9e9" stroke-width="2"/>
+
+  <text class="t" x="472" y="294" font-size="18" font-weight="700" fill="#191919">외곽선 + 높이 + 시설 결합</text>
+  <text class="t" x="472" y="320" font-size="16" fill="#6d6d6d">이름 색인과 격자 색인으로 탐색 후보 축소</text>
+
+  <rect x="472" y="352" width="256" height="148" fill="#fafafa" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="492" y="384" font-size="15" font-weight="700" fill="#e34f32">핵심 규칙</text>
+  <text class="t" x="492" y="414" font-size="18" font-weight="700" fill="#191919">높이마다 출처 근거를 함께 저장</text>
+  <text class="t" x="492" y="444" font-size="16" fill="#6d6d6d">· 직접 기록된 높이</text>
+  <text class="t" x="492" y="468" font-size="16" fill="#6d6d6d">· 층수 × 일반 층고 추정치</text>
+  <text class="t" x="492" y="492" font-size="16" fill="#6d6d6d">· 자료 없을 때 넣은 기본값</text>
+
+  <text class="t" x="472" y="544" font-size="17" font-weight="700" fill="#191919">변경 전후 47개 지도 바이트 비교</text>
+  <text class="t" x="472" y="570" font-size="16" fill="#6d6d6d">색인 최적화 후에도 모형 결과 동일성 검증</text>
+
+  <!-- Arrow 2 -> 3 -->
+  <path d="M760 380 L804 380" stroke="#6d6d6d" stroke-width="2"/>
+  <path d="M796 372 L806 380 L796 388" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+
+  <!-- Stage 3 -->
+  <rect x="808" y="152" width="320" height="456" fill="#fafafa" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="840" y="196" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">3단계 · 브라우저</text>
+  <text class="t" x="840" y="236" font-size="26" font-weight="700" fill="#191919">겹쳐 그리기</text>
+
+  <line x1="840" y1="258" x2="1096" y2="258" stroke="#e9e9e9" stroke-width="2"/>
+
+  <text class="t" x="840" y="294" font-size="18" font-weight="700" fill="#191919">OpenFreeMap 배경 타일</text>
+  <text class="t" x="840" y="320" font-size="16" fill="#6d6d6d">API 키 없는 무료 벡터 타일 + 출처 표기</text>
+
+  <text class="t" x="840" y="366" font-size="18" font-weight="700" fill="#191919">MapLibre GL JS 레이어</text>
+  <text class="t" x="840" y="392" font-size="16" fill="#6d6d6d">fill-extrusion으로 입체 건물과 시설 생성</text>
+
+  <text class="t" x="840" y="438" font-size="18" font-weight="700" fill="#191919">도보 경로 별도 레이어 갱신</text>
+  <text class="t" x="840" y="464" font-size="16" fill="#6d6d6d">뒤늦게 도착한 경로는 setData로만 반영</text>
+
+  <text class="t" x="840" y="510" font-size="18" font-weight="700" fill="#191919">일조량 그림자 계산</text>
+  <text class="t" x="840" y="536" font-size="16" fill="#6d6d6d">직접 확인된 높이만 읽어 시간대별 판정</text>
+
+  <text class="t" x="1128" y="654" text-anchor="end" font-size="17" fill="#6d6d6d">고정 라이선스 비용 없이 공개 데이터와 오픈소스 렌더러만으로 3D 지도를 완성했다</text>
+</svg>

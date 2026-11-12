@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="도보 경로 데이터를 지도 본체 상태에 합쳐 건물 9,481동 지도가 두 번 만들어지던 수정 전 구조와 경로 상태를 분리한 수정 후 구조 비교">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+
+  <text class="t" x="72" y="72" font-size="15" font-weight="700" letter-spacing="2" fill="#e34f32">REACT STATE &amp; MAPLIBRE LIFECYCLE</text>
+  <text class="t" x="72" y="114" font-size="30" font-weight="700" fill="#191919">도보 경로 한 줄 때문에 건물 9,481동 지도가 두 번 만들어진 까닭</text>
+
+  <!-- Before -->
+  <rect x="72" y="152" width="1056" height="214" fill="#fafafa" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="104" y="194" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">수정 전 · 의존성 [data] 공유</text>
+  <text class="t" x="104" y="232" font-size="26" font-weight="700" fill="#191919">지도 본체와 늦게 오는 도보 경로를 같은 상태에 합침</text>
+
+  <rect x="104" y="256" width="290" height="82" fill="#ffffff" stroke="#c9c9c9" stroke-width="2"/>
+  <text class="t" x="124" y="290" font-size="17" font-weight="700" fill="#191919">1. 본체 도착 → 지도 1차 생성</text>
+  <text class="t" x="124" y="318" font-size="16" fill="#6d6d6d">건물 9,481동 렌더링 + 4.8MB 저장</text>
+
+  <path d="M394 297 L442 297" stroke="#6d6d6d" stroke-width="2"/>
+  <path d="M434 289 L444 297 L434 305" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+
+  <rect x="446" y="256" width="290" height="82" fill="#ffffff" stroke="#c9c9c9" stroke-width="2"/>
+  <text class="t" x="466" y="290" font-size="17" font-weight="700" fill="#191919">2. 도보 경로 도착 → data 변경</text>
+  <text class="t" x="466" y="318" font-size="16" fill="#6d6d6d">경로 저장 시 ETag가 누락됨</text>
+
+  <path d="M736 297 L784 297" stroke="#6d6d6d" stroke-width="2"/>
+  <path d="M776 289 L786 297 L776 305" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+
+  <rect x="788" y="256" width="308" height="82" fill="#ffffff" stroke="#6d6d6d" stroke-width="2"/>
+  <text class="t" x="808" y="290" font-size="17" font-weight="700" fill="#191919">3. effect 재실행 → 지도 2차 생성</text>
+  <text class="t" x="808" y="318" font-size="16" fill="#6d6d6d">9,481동 재생성 + 4.8MB 중복 저장</text>
+
+  <!-- After -->
+  <rect x="72" y="396" width="1056" height="214" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="104" y="438" font-size="15" font-weight="700" letter-spacing="2" fill="#e34f32">수정 후 · 상태 분리와 레이어 갱신</text>
+  <text class="t" x="104" y="476" font-size="26" font-weight="700" fill="#191919">경로를 별도 상태로 빼고 해당 레이어만 setData 호출</text>
+
+  <rect x="104" y="500" width="290" height="82" fill="#fafafa" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="124" y="534" font-size="17" font-weight="700" fill="#191919">1. 본체 도착 → 지도 1회 생성</text>
+  <text class="t" x="124" y="562" font-size="16" fill="#6d6d6d">본체가 같으면 재생성 건너뜀</text>
+
+  <path d="M394 541 L442 541" stroke="#e34f32" stroke-width="2"/>
+  <path d="M434 533 L444 541 L434 549" fill="none" stroke="#e34f32" stroke-width="2"/>
+
+  <rect x="446" y="500" width="290" height="82" fill="#fafafa" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="466" y="534" font-size="17" font-weight="700" fill="#191919">2. 경로 도착 → 레이어만 갱신</text>
+  <text class="t" x="466" y="562" font-size="16" fill="#6d6d6d">경로 레이어에만 setData 적용</text>
+
+  <path d="M736 541 L784 541" stroke="#e34f32" stroke-width="2"/>
+  <path d="M776 533 L786 541 L776 549" fill="none" stroke="#e34f32" stroke-width="2"/>
+
+  <rect x="788" y="500" width="308" height="82" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="808" y="534" font-size="17" font-weight="700" fill="#191919">3. ETag|routes 키로 1회 저장</text>
+  <text class="t" x="808" y="562" font-size="16" fill="#6d6d6d">재진입 시 캐시 적중 정상 동작</text>
+
+  <text class="t" x="1128" y="654" text-anchor="end" font-size="17" fill="#6d6d6d">탐색·애니메이션 개선까지 더해 CPU 4배 감속 기준 장면 준비 시간이 12.1초에서 5.2초로 줄었다</text>
+</svg>
