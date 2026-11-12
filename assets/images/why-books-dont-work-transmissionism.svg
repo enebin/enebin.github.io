@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="강사와 저자의 말을 그대로 옮겨 적듯 이해가 일어난다고 믿는 전달주의 모델과 능동적 개입을 거쳐 이해에 이르는 실제 인지 모델을 비교한 그림">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+
+  <!-- Top track: Transmissionism -->
+  <rect x="80" y="70" width="1040" height="230" fill="#fafafa" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="120" y="118" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">암묵적 전제 — 전달주의 (TRANSMISSIONISM)</text>
+  <text class="t" x="120" y="158" font-size="30" font-weight="700" fill="#191919">종이에 적힌 글자를 다른 종이에 베끼듯 지식이 복사된다는 착각</text>
+
+  <rect x="120" y="186" width="260" height="84" fill="#ffffff" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="250" y="222" text-anchor="middle" font-size="18" font-weight="700" fill="#191919">저자·강사의 설명</text>
+  <text class="t" x="250" y="248" text-anchor="middle" font-size="16" fill="#6d6d6d">문장 나열 · 90분 실시간 발화</text>
+
+  <path d="M380 228 L460 228" stroke="#6d6d6d" stroke-width="2"/>
+  <path d="M450 220 L460 228 L450 236" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+
+  <rect x="460" y="186" width="260" height="84" fill="#ffffff" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="590" y="222" text-anchor="middle" font-size="18" font-weight="700" fill="#191919">수동적 수용</text>
+  <text class="t" x="590" y="248" text-anchor="middle" font-size="16" fill="#6d6d6d">눈으로 읽기 · 받아 적기</text>
+
+  <path d="M720 228 L800 228" stroke="#6d6d6d" stroke-width="2"/>
+  <path d="M790 220 L800 228 L790 236" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+
+  <rect x="800" y="186" width="280" height="84" fill="#ffffff" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="940" y="222" text-anchor="middle" font-size="18" font-weight="700" fill="#6d6d6d">이해 완료라는 착각</text>
+  <text class="t" x="940" y="248" text-anchor="middle" font-size="16" fill="#e34f32">질문 하나에 무너지는 지식</text>
+
+  <!-- Bottom track: Active engagement -->
+  <rect x="80" y="350" width="1040" height="260" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="120" y="398" font-size="15" font-weight="700" letter-spacing="2" fill="#e34f32">실제 학습이 일어나는 조건 — 능동적 개입 모델</text>
+  <text class="t" x="120" y="438" font-size="30" font-weight="700" fill="#191919">원재료를 스스로 인출하고 부딪쳐야 비로소 내 지식이 된다</text>
+
+  <rect x="120" y="468" width="220" height="106" fill="#fafafa" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="230" y="510" text-anchor="middle" font-size="18" font-weight="700" fill="#191919">설명과 텍스트</text>
+  <text class="t" x="230" y="538" text-anchor="middle" font-size="16" fill="#6d6d6d">사고를 위한 원재료 공급</text>
+
+  <path d="M340 521 L400 521" stroke="#e34f32" stroke-width="2"/>
+  <path d="M390 513 L400 521 L390 529" fill="none" stroke="#e34f32" stroke-width="2"/>
+
+  <rect x="400" y="468" width="380" height="106" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="590" y="506" text-anchor="middle" font-size="18" font-weight="700" fill="#191919">능동적 인지 활동</text>
+  <text class="t" x="590" y="534" text-anchor="middle" font-size="16" fill="#6d6d6d">문제 풀이 · 요약과 종합 · 기존 지식과 연결</text>
+  <text class="t" x="590" y="558" text-anchor="middle" font-size="15" fill="#e34f32">책과 강의 형식 자체에는 이 단계가 빠져 있다</text>
+
+  <path d="M780 521 L840 521" stroke="#e34f32" stroke-width="2"/>
+  <path d="M830 513 L840 521 L830 529" fill="none" stroke="#e34f32" stroke-width="2"/>
+
+  <rect x="840" y="468" width="240" height="106" fill="#fafafa" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="960" y="510" text-anchor="middle" font-size="18" font-weight="700" fill="#191919">안정적인 지식 습득</text>
+  <text class="t" x="960" y="538" text-anchor="middle" font-size="16" fill="#6d6d6d">새 문제에 꺼내 쓸 수 있음</text>
+
+  <text class="t" x="1120" y="655" text-anchor="end" font-size="17" fill="#6d6d6d">6~9시간을 들여 읽어도 능동적 개입이 없으면 남는 것은 몇 문장뿐이다</text>
+</svg>

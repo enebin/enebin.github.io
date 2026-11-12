@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="문장을 눈으로 읽으면 지식이 전해진다는 전달주의 매체에서 읽는 행동이 곧 이해하는 활동이 되는 인지 매체로 전환한다는 표지 그림">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+
+  <text class="t" x="90" y="100" font-size="16" font-weight="700" letter-spacing="2" fill="#e34f32">COGNITIVE MEDIUM × LEARNING</text>
+  <text class="t" x="90" y="165" font-size="46" font-weight="700" fill="#191919">앤디 마투샤크가 책이 제 역할을</text>
+  <text class="t" x="90" y="222" font-size="46" font-weight="700" fill="#191919">하지 못한다고 말한 이유</text>
+
+  <rect x="90" y="340" width="440" height="170" fill="#fafafa"/>
+  <text class="t" x="310" y="400" text-anchor="middle" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">전달주의가 가정하는 독서</text>
+  <text class="t" x="310" y="458" text-anchor="middle" font-size="30" font-weight="700" fill="#6d6d6d">"문장을 읽으면 이해한다"</text>
+  <path d="M155 448 L465 448" stroke="#6d6d6d" stroke-width="2"/>
+
+  <path d="M530 425 L640 425" stroke="#6d6d6d" stroke-width="2"/>
+  <path d="M630 417 L640 425 L630 433" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+
+  <rect x="640" y="340" width="470" height="170" fill="#ffffff" stroke="#e34f32" stroke-width="3"/>
+  <text class="t" x="875" y="400" text-anchor="middle" font-size="15" font-weight="700" letter-spacing="2" fill="#e34f32">새로 설계하는 매체의 결</text>
+  <text class="t" x="875" y="458" text-anchor="middle" font-size="30" font-weight="700" fill="#191919">"읽는 행동이 곧 이해다"</text>
+
+  <text class="t" x="1110" y="620" text-anchor="end" font-size="17" fill="#6d6d6d">Why books don't work (2019) — Quantum Country 실험</text>
+</svg>
