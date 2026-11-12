@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="사이트 동작에 무관한 차이는 표준화하고 필수 정보는 유지해 웹사이트 호환성과 개인정보 보호를 동시에 달성하는 구조">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+
+  <text class="t" x="90" y="78" font-size="15" font-weight="700" letter-spacing="2" fill="#e34f32">표준화와 호환성의 경계선</text>
+  <text class="t" x="90" y="122" font-size="30" font-weight="700" fill="#191919">불필요한 기기별 차이는 합치고 사이트 작동에 필요한 정보는 남긴다</text>
+
+  <!-- Row 1: Standardized -->
+  <rect x="90" y="166" width="1020" height="150" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="130" y="210" font-size="15" font-weight="700" letter-spacing="2" fill="#e34f32">1. 값 뭉개기 (표준화)</text>
+  <text class="t" x="130" y="250" font-size="30" font-weight="700" fill="#191919">작업 표시줄·독 크기 숨김, 프로세서 코어 수를 4 또는 8로 통일</text>
+  <text class="t" x="130" y="286" font-size="19" fill="#6d6d6d">바탕화면 배치나 정확한 CPU 코어 수가 개인 식별표가 되지 않도록 같은 값으로 묶는다</text>
+
+  <!-- Row 2: Root-cause fix -->
+  <rect x="90" y="340" width="1020" height="150" fill="#fafafa" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="130" y="384" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">2. 근본 원인 교정</text>
+  <text class="t" x="130" y="424" font-size="30" font-weight="700" fill="#191919">이미지 렌더링, Web Audio, 안드로이드 수학 연산 일관성 확보</text>
+  <text class="t" x="130" y="460" font-size="19" fill="#6d6d6d">하드웨어마다 미세하게 달라지던 연산·렌더링 차이를 고쳐 소수 기기 사용자가 튀지 않게 한다</text>
+
+  <!-- Row 3: Preserved for web compatibility -->
+  <rect x="90" y="514" width="1020" height="130" fill="#fafafa" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="130" y="556" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">3. 정상 동작을 위해 유지하는 값</text>
+  <text class="t" x="130" y="594" font-size="30" font-weight="700" fill="#191919">운영체제 종류, 언어 설정, 시간대(Timezone)</text>
+  <text class="t" x="130" y="626" font-size="19" fill="#6d6d6d">단축키·설치 파일 제공과 캘린더·화상회의 도구 작동에 필수적인 정보는 그대로 둔다</text>
+</svg>

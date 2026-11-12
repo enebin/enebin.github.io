@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="상용 핑거프린팅 스크립트 세 가지에서 상위 소수 지표가 고유 식별의 80%를 차지하고 방어 적용 후 고유 식별 비율이 떨어지는 비교 그림">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+
+  <text class="t" x="90" y="78" font-size="15" font-weight="700" letter-spacing="2" fill="#e34f32">80/20 집중 현상과 방어 효과</text>
+  <text class="t" x="90" y="122" font-size="30" font-weight="700" fill="#191919">수십 개를 긁어모아도 개인을 가려내는 건 상위 여덟아홉 개다</text>
+
+  <!-- Left box: 80/20 concentration -->
+  <rect x="90" y="164" width="480" height="440" fill="#fafafa" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="130" y="214" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">원인 분석</text>
+  <text class="t" x="130" y="254" font-size="30" font-weight="700" fill="#191919">소수 지표에 쏠린 식별력</text>
+
+  <rect x="130" y="290" width="400" height="120" fill="#ffffff" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="156" y="330" font-size="19" font-weight="700" fill="#191919">Fingerprint Pro (전체 50개 이상 수집)</text>
+  <text class="t" x="156" y="364" font-size="18" fill="#6d6d6d">고유 식별 사용자의 80%가</text>
+  <text class="t" x="156" y="392" font-size="18" font-weight="700" fill="#e34f32">상위 8개 지표만으로 구별됨</text>
+
+  <rect x="130" y="436" width="400" height="120" fill="#ffffff" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="156" y="476" font-size="19" font-weight="700" fill="#191919">Signifyd (전체 80개 이상 수집)</text>
+  <text class="t" x="156" y="510" font-size="18" fill="#6d6d6d">고유 식별 사용자의 80%가</text>
+  <text class="t" x="156" y="538" font-size="18" font-weight="700" fill="#e34f32">상위 9개 지표만으로 구별됨</text>
+
+  <!-- Arrow -->
+  <path d="M582 384 L622 384" stroke="#6d6d6d" stroke-width="2"/>
+  <path d="M614 376 L624 384 L614 392" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+
+  <!-- Right box: 3 fingerprinters drop -->
+  <rect x="636" y="164" width="474" height="440" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="676" y="214" font-size="15" font-weight="700" letter-spacing="2" fill="#e34f32">방어 적용 결과</text>
+  <text class="t" x="676" y="254" font-size="30" font-weight="700" fill="#191919">고유 식별 사용자 비율 감소</text>
+
+  <text class="t" x="676" y="314" font-size="19" font-weight="700" fill="#191919">Fingerprint Pro</text>
+  <rect x="676" y="328" width="320" height="18" fill="#e9e9e9"/>
+  <rect x="676" y="352" width="198" height="18" fill="#e34f32"/>
+  <text class="t" x="1010" y="344" font-size="17" fill="#6d6d6d">75.7%</text>
+  <text class="t" x="1010" y="368" font-size="17" font-weight="700" fill="#e34f32">46.8%</text>
+
+  <text class="t" x="676" y="420" font-size="19" font-weight="700" fill="#191919">Signifyd</text>
+  <rect x="676" y="434" width="258" height="18" fill="#e9e9e9"/>
+  <rect x="676" y="458" width="163" height="18" fill="#e34f32"/>
+  <text class="t" x="1010" y="450" font-size="17" fill="#6d6d6d">60.9%</text>
+  <text class="t" x="1010" y="474" font-size="17" font-weight="700" fill="#e34f32">38.5%</text>
+
+  <text class="t" x="676" y="526" font-size="19" font-weight="700" fill="#191919">Akamai</text>
+  <rect x="676" y="540" width="77" height="18" fill="#e9e9e9"/>
+  <rect x="676" y="564" width="38" height="18" fill="#e34f32"/>
+  <text class="t" x="1010" y="556" font-size="17" fill="#6d6d6d">18.2%</text>
+  <text class="t" x="1010" y="580" font-size="17" font-weight="700" fill="#e34f32">9.0%</text>
+
+  <text class="t" x="1110" y="652" text-anchor="end" font-size="17" fill="#6d6d6d">핵심 지표 몇 개만 보호해도 상용 추적 스크립트의 식별 정밀도가 크게 떨어진다</text>
+</svg>

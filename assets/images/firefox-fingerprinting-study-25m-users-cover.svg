@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="고유한 브라우저 지문으로 개인을 식별하던 상태에서 불필요한 차이를 줄여 같은 지문 집단으로 묶는 표지 그림">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+
+  <text class="t" x="90" y="100" font-size="16" font-weight="700" letter-spacing="2" fill="#e34f32">FIREFOX × FINGERPRINTING</text>
+  <text class="t" x="90" y="165" font-size="46" font-weight="700" fill="#191919">파이어폭스 사용자 2,500만 명으로</text>
+  <text class="t" x="90" y="222" font-size="46" font-weight="700" fill="#191919">브라우저 핑거프린팅을 줄인 방법</text>
+
+  <rect x="90" y="330" width="440" height="190" fill="#fafafa"/>
+  <text class="t" x="310" y="388" text-anchor="middle" font-size="15" font-weight="700" letter-spacing="2" fill="#6d6d6d">보호 적용 전</text>
+  <text class="t" x="310" y="446" text-anchor="middle" font-size="32" font-weight="700" fill="#6d6d6d">고유 식별 75%</text>
+  <text class="t" x="310" y="486" text-anchor="middle" font-size="18" fill="#6d6d6d">상위 8~9개 지표 조합으로 개인 특정</text>
+
+  <path d="M530 425 L640 425" stroke="#6d6d6d" stroke-width="2"/>
+  <path d="M630 417 L640 425 L630 433" fill="none" stroke="#6d6d6d" stroke-width="2"/>
+
+  <rect x="640" y="330" width="470" height="190" fill="#ffffff" stroke="#e34f32" stroke-width="3"/>
+  <text class="t" x="875" y="388" text-anchor="middle" font-size="15" font-weight="700" letter-spacing="2" fill="#e34f32">보호 적용 후</text>
+  <text class="t" x="875" y="446" text-anchor="middle" font-size="32" font-weight="700" fill="#191919">고유 식별 46%</text>
+  <text class="t" x="875" y="486" text-anchor="middle" font-size="18" fill="#6d6d6d">불필요한 차이를 줄여 같은 집단으로 통합</text>
+
+  <text class="t" x="1110" y="620" text-anchor="end" font-size="17" fill="#6d6d6d">CCS 2026 — OHTTP로 수집한 2,500만 브라우저 측정값 분석</text>
+</svg>

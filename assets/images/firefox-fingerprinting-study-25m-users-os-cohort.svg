@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="운영체제별 방어 효과 차이와 심슨 지수로 측정한 집단 응집도 차이를 비교한 그림">
+  <style>
+    .t { font-family: 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',Helvetica,Arial,sans-serif; }
+  </style>
+  <rect width="1200" height="700" fill="#ffffff"/>
+
+  <!-- Top panel: OS segmentation -->
+  <rect x="90" y="70" width="1020" height="250" fill="#fafafa" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="130" y="116" font-size="15" font-weight="700" letter-spacing="2" fill="#e34f32">착시 1 — 전체 평균의 함정</text>
+  <text class="t" x="130" y="156" font-size="30" font-weight="700" fill="#191919">화면 해상도(독·작업 표시줄) 보호의 실제 감소 폭</text>
+
+  <rect x="130" y="186" width="280" height="104" fill="#ffffff" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="156" y="222" font-size="16" font-weight="700" fill="#6d6d6d">전체 사용자 평균</text>
+  <text class="t" x="156" y="266" font-size="30" font-weight="700" fill="#6d6d6d">-3.5%p</text>
+
+  <rect x="440" y="186" width="320" height="104" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="466" y="222" font-size="16" font-weight="700" fill="#e34f32">macOS 사용자</text>
+  <text class="t" x="466" y="266" font-size="30" font-weight="700" fill="#191919">-25.3%p</text>
+
+  <rect x="790" y="186" width="280" height="104" fill="#ffffff" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="816" y="222" font-size="16" font-weight="700" fill="#6d6d6d">나머지 3개 운영체제</text>
+  <text class="t" x="816" y="266" font-size="30" font-weight="700" fill="#6d6d6d">0 ~ -3%p</text>
+
+  <!-- Bottom panel: Cohort size vs Uniqueness -->
+  <rect x="90" y="360" width="1020" height="250" fill="#fafafa" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="130" y="406" font-size="15" font-weight="700" letter-spacing="2" fill="#e34f32">착시 2 — 단순 고유 비율의 함정</text>
+  <text class="t" x="130" y="446" font-size="30" font-weight="700" fill="#191919">고유 비율을 똑같이 2.1%p 낮춘 두 방어의 집단 크기 차이</text>
+
+  <rect x="130" y="476" width="440" height="104" fill="#ffffff" stroke="#e9e9e9" stroke-width="2"/>
+  <text class="t" x="156" y="512" font-size="16" font-weight="700" fill="#6d6d6d">방어 기법 A (고유 비율 -2.1%p)</text>
+  <text class="t" x="156" y="556" font-size="26" font-weight="700" fill="#6d6d6d">심슨 지수(집단 응집도) +13%</text>
+
+  <rect x="610" y="476" width="460" height="104" fill="#ffffff" stroke="#e34f32" stroke-width="2"/>
+  <text class="t" x="636" y="512" font-size="16" font-weight="700" fill="#e34f32">방어 기법 B (고유 비율 -2.1%p)</text>
+  <text class="t" x="636" y="556" font-size="26" font-weight="700" fill="#191919">심슨 지수(집단 응집도) +56%</text>
+
+  <text class="t" x="1110" y="656" text-anchor="end" font-size="17" fill="#6d6d6d">운영체제별로 쪼개 보고 같은 지문을 공유하는 집단의 크기를 재야 진짜 효과가 드러난다</text>
+</svg>
